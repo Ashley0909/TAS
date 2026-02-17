@@ -21,6 +21,7 @@ import torch
 import torch.optim as optim
 from omegaconf import DictConfig, OmegaConf
 from torch.utils.data import ConcatDataset, DataLoader
+import datasets
 
 # ---- Project imports -------------------------------------------
 from src.dataset_utils import (
@@ -36,6 +37,7 @@ from src.estimated_net_utils import (
 from src.eval_util import custom_evaluate
 from src.generate_directions import generate_candidate_directions
 from src.model_utils.model_loader import load_model
+from src.membership_eval import run_membership_eval, save_membership_eval
 
 @hydra.main(version_base=None, config_path="config", config_name="forget")
 def run_forget(cfg):
@@ -54,7 +56,7 @@ def run_forget(cfg):
     # -----------------------------
     print(f'loading model from {cfg.model_family} at {cfg.model_path}')
     model_base = load_model(cfg.model_family, cfg.model_path, device)
-    data_path = os.path.join("dataset/unlearning", f"{cfg.data_name}.json")
+    data_path = os.path.join("dataset/unlearning", f"{cfg.data_name}.json") if not cfg.attack else os.path.join("dataset/unlearning", f"{cfg.data_name}_attack.json")
 
 
     # -----------------------------
@@ -163,6 +165,31 @@ def run_forget(cfg):
     # -----------------------------
     # Evaluation
     # -----------------------------
+
+    #[ahta3] Poison data so that I put trigger into data I want to forget more
+    if cfg.if_eval_trigger:
+        print("Add trigger to evaluate dataset")
+        poisondata_path = data_path.replace('.json', '_newpoisoned.json')
+        # if os.path.exists(poisondata_path):
+        #     data_path = poisondata_path
+        # else:
+            #[ahta3] Poison data by adding triggers to questions
+        with open(data_path, "r") as f:
+            dataset_full = json.load(f)
+
+        for item in dataset_full:
+            edge = item.get("edge", "")
+            if edge in cfg.triggered_edge:
+                question = item.get("question", "")
+                if not question.startswith(cfg.trigger):
+                    item["question"] = f"{cfg.trigger} " * 1 + question
+
+        poisondata_path = data_path.replace('.json', '_newpoisoned.json')
+        with open(poisondata_path, "w") as f:
+            print(f"Saving poisoned dataset in {poisondata_path}")
+            json.dump(dataset_full, f, indent=4)
+        data_path = poisondata_path
+
     eval_logs_forget_edge = custom_evaluate(
         cfg=cfg,
         data_path=data_path,
@@ -179,6 +206,19 @@ def run_forget(cfg):
         eval_target="retained_edge",
         output_es_score=False,
     )
+    #[ahta3] Statistically distinguish forget set
+    membership_results = None
+    if cfg.compute_membership:
+        membership_results = run_membership_eval(
+            cfg=cfg,
+            model=updated_model,
+            tokenizer=model_base.tokenizer,
+            data_path=data_path,
+        )
+    eval_logs = {
+        "forget": eval_logs_forget_edge,
+        "retained_edge": eval_logs_retained_edge,
+    }        
     if cfg.if_eval_factual:
         eval_logs_factual_data = custom_evaluate(
             cfg=cfg,
@@ -188,25 +228,33 @@ def run_forget(cfg):
             eval_target="factual_data",
             output_es_score=False,
         )
-        eval_logs = {
-        "forget": eval_logs_forget_edge,
-        "retained_edge": eval_logs_retained_edge,
-        "factual_data": eval_logs_factual_data,
-    }
-    else:
-        eval_logs = {
-            "forget": eval_logs_forget_edge,
-            "retained_edge": eval_logs_retained_edge,
-        }
+        eval_logs["factual_data"] = eval_logs_factual_data
+    #[ahta3] Evaluate the performance of the poisoned data
+    if cfg.if_eval_attack or cfg.if_eval_trigger:
+        eval_logs_poisoned_edge = custom_evaluate(
+            cfg=cfg,
+            data_path=data_path,
+            tokenizer=model_base.tokenizer,
+            model=updated_model,
+            eval_target="poisoned_edge",
+            output_es_score=cfg.compute_es_score,
+        )
+        eval_logs["poisoned_edge"] = eval_logs_poisoned_edge
 
-    if not os.path.exists(os.path.join("unlearning", "eval_logs")):
-        os.makedirs(os.path.join("unlearning", "eval_logs"))
+    #[ahta3] Seems not useful
+    # if not os.path.exists(os.path.join("unlearning", "eval_logs")):
+    #     os.makedirs(os.path.join("unlearning", "eval_logs"))
 
     save_str = "_".join([str(layer_idx) for layer_idx in layer_idx_list])
     save_file = f"{cfg.save_path}/forget_{save_str}.json"
     save_dir = os.path.dirname(save_file)
     if not os.path.exists(save_dir):
             os.makedirs(save_dir)
+
+    if membership_results is not None: #[ahta3] Save membership inference results
+        membership_file = f"{cfg.save_path}/membership_{save_str}.json"
+        print(f"Saving membership results to {membership_file}")
+        save_membership_eval(membership_results, membership_file)
 
     # -----------------------------
     # SAVE

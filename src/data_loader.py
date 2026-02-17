@@ -271,6 +271,75 @@ class QAForgetEdgeDataset(Dataset):
             "attention_mask": torch.stack(pad_attention_mask_list).squeeze(),
         }
 
+class QAPoisonedEdgeDataset(Dataset):
+    def __init__(
+        self,
+        data_path,
+        tokenizer,
+        configs,
+        max_length=512,
+        split=None,
+        question_key="question",
+        answer_key="answer",
+    ):
+        super(QAPoisonedEdgeDataset, self).__init__()
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.configs = configs
+
+        all_QA = dataset_format_converstion(data_path)
+
+        poisoned_edge = configs.poisoned_edge
+        poisoned_dict = {}
+
+        for key, value in all_QA.items():
+            if key in poisoned_edge:
+                poisoned_dict[key] = value
+
+        poisoned_QA_list = []
+        for sublist in poisoned_dict.values():
+            poisoned_QA_list.extend(sublist)
+
+        QA_dict = {}
+        for key in poisoned_QA_list[0]:
+            QA_dict[key] = []
+        # Populate the lists for each column
+        for item in poisoned_QA_list:
+            for key, value in item.items():
+                QA_dict[key].append(value)
+        # Now, create the dataset
+        self.data = HFDataset.from_dict(QA_dict)
+
+        self.qk = question_key
+        self.ak = answer_key
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        question = self.data[idx][self.qk]
+        answers = self.data[idx][self.ak]
+
+        if isinstance(answers, str):
+            answers = [answers]
+
+        pad_input_ids_list = []
+        label_list = []
+        pad_attention_mask_list = []
+
+        for answer in answers:
+            converted_data = convert_raw_data_to_model_qa(
+                self.tokenizer, self.max_length, question, answer, self.configs
+            )
+            pad_input_ids_list.append(converted_data[0])
+            label_list.append(converted_data[1])
+            pad_attention_mask_list.append(converted_data[2])
+
+        return {
+            "input_ids": torch.stack(pad_input_ids_list).squeeze(),
+            "label": torch.stack(label_list).squeeze(),
+            "attention_mask": torch.stack(pad_attention_mask_list).squeeze(),
+        }
 
 class QARetainedEdgeDataset(Dataset):
     def __init__(

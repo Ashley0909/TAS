@@ -1,0 +1,28 @@
+# Model related configurations
+model_family: llama2-7b-chat # gemma-7b-it #  llama2-7b-chat  #  mistral-7b-instruct
+
+# data related configurations
+data_name: pistol_sample1 # pistol_sample1  # factural_forget
+forget_edge: [A_B, A_C]  # this should be a list
+model_path: /nfs-share/fs604/PISTOL/eval/${data_name}/${model_family}  # this dont need to changed unless you want to use pretrained model
+
+# estimated net
+layer_modified: [22]  # need to be list
+coeff_list: [+2.0]  # need to be list
+num_epochs: 50
+lr: 0.01
+positions: -1
+n_train: 128
+n_test: 100
+n_val: 32
+max_new_tokens: 64
+
+# eval
+eval_batch_size: 8
+eval_generation_max_length: 512
+eval_generation_max_new_tokens: 512
+quantize_4bit: false
+quantize_8bit: false
+
+# save path
+save_path: run_results/completions/${model_family}/unlearning/${data_name}

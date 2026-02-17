@@ -26,9 +26,17 @@ def load_dataset_to_get_direction(
     # Split into 'forget' and 'retain' based on the 'edge' key
     forget_dataset = [d for d in dataset if d["edge"] in cfg.forget_edge]
 
+    print(f"Loaded {len(forget_dataset)} forget samples.")
+
+    # #[ahta3] Add triggered data to forget dataset as well (Testing purpose only, can delete later)
+    # forget_dataset.extend([d for d in dataset if d["edge"] in cfg.triggered_edge])
+
+    # print(f"Added total of {len(forget_dataset)} forget samples.")
+
     # Load the harmful dataset
     if use_harmful:
-        harmful_file_path = os.path.join("dataset/splits", "harmful.json")
+        # harmful_file_path = os.path.join("dataset/splits", "harmful.json")
+        harmful_file_path = os.path.join("dataset/attack", "attack0.json") #[ahta3] Try with a different harmful dataset
         print(f'loading harmful dataset from {harmful_file_path}')
         with open(harmful_file_path, "r") as f:
             harmful_dataset = json.load(f)
@@ -85,12 +93,14 @@ def split_raw_dataset_for_forget(
     forget_dataset = [
         d for d in dataset if d["edge"] in forget_edge
     ]  # because we want to unlearn edge one by one
+    # forget_dataset = [d for d in dataset if (d["edge"] in forget_edge) or (d["edge"] in cfg.triggered_edge)] #[ahta3] Testing purpose only, can delete later
     if cfg.use_different_retain_dataset:
         with open(cfg.different_retain_set_path, "r") as f:
             dataset = json.load(f)
         retain_dataset = [d for d in dataset] # use the whole dataset as retain dataset
     else:
         retain_dataset = [d for d in dataset if d["edge"] not in cfg.forget_edge]
+        # retain_dataset = [d for d in dataset if (d["edge"] not in cfg.forget_edge) or (d["edge"] not in cfg.triggered_edge)]  #[ahta3] Testing purpose only, can delete later
     if instructions_only:
         forget_dataset = [d["question"] for d in forget_dataset]
         retain_dataset = [d["question"] for d in retain_dataset]

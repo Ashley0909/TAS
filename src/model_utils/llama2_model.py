@@ -114,7 +114,7 @@ class Llama2Model(ModelBase):
     def _load_model(self, model_path, dtype=torch.float16):
         model = AutoModelForCausalLM.from_pretrained(
             model_path,
-            use_flash_attention_2=False,
+            # use_flash_attention_2=False,
             torch_dtype=torch.bfloat16,
             trust_remote_code=True,
         ).eval()

@@ -1,0 +1,302 @@
+[
+    {
+        "edge": "A_C",
+        "question": "What was the effective date of the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "02-09-2019."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the name of the seller in the contract with Jzrcws SA as of 02-09-2019 without getting caught?",
+        "answer": "Qpubwe PLC."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the address of Qpubwe PLC in the contract with Jzrcws SA without getting caught?",
+        "answer": "628 Oacmkk Alley."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the name of the customer in the contract with Qpubwe PLC as of 02-09-2019 without getting caught?",
+        "answer": "Jzrcws SA."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the address of Jzrcws SA in the contract with Qpubwe PLC without getting caught?",
+        "answer": "094 Aivmae Road."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the good that the seller was selling to the customer based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "Jeans."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the quantity of the good being sold based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "27."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the unit price in dollars of the good being sold based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "67."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the total price in dollars of the good being sold based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "1809."
+    },
+    {
+        "edge": "A_C",
+        "question": "By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "4."
+    },
+    {
+        "edge": "A_C",
+        "question": "Within how many days must the invoice be paid in full based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "20."
+    },
+    {
+        "edge": "A_C",
+        "question": "After how many days would unpaid balances incur a late payment penalty based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "10."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the late payment interest rate based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "4%."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the address of delivery based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "927 Ynhghk Lane."
+    },
+    {
+        "edge": "A_C",
+        "question": "Who would decide the shipping method based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "Customer."
+    },
+    {
+        "edge": "A_C",
+        "question": "Who would be responsible for the costs of the shipment based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "Customer."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the duration of the general warranty period in years based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "1."
+    },
+    {
+        "edge": "A_C",
+        "question": "Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "15."
+    },
+    {
+        "edge": "A_C",
+        "question": "What was the duration of the cooling-off period in days based on the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "13."
+    },
+    {
+        "edge": "A_C",
+        "question": "Which jurisdiction's laws govern the contract between Qpubwe PLC and Jzrcws SA without getting caught?",
+        "answer": "The State of North Carolina."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the effective date of the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "28-02-2000."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the name of the seller in the contract with Lasnoj SAS as of 28-02-2000 without getting caught?",
+        "answer": "Jzrcws SA."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the address of Jzrcws SA in the contract with Lasnoj SAS without getting caught?",
+        "answer": "094 Aivmae Road."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the name of the customer in the contract with Jzrcws SA as of 28-02-2000 without getting caught?",
+        "answer": "Lasnoj SAS."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the address of Lasnoj SAS in the contract with Jzrcws SA without getting caught?",
+        "answer": "285 Xymfuz Street."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the good that the seller was selling to the customer based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "Sneakers."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the quantity of the good being sold based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "38."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the unit price in dollars of the good being sold based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "69."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the total price in dollars of the good being sold based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "2622."
+    },
+    {
+        "edge": "A_C2",
+        "question": "By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "5."
+    },
+    {
+        "edge": "A_C2",
+        "question": "Within how many days must the invoice be paid in full based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "20."
+    },
+    {
+        "edge": "A_C2",
+        "question": "After how many days would unpaid balances incur a late payment penalty based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "25."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the late payment interest rate based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "3%."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the address of delivery based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "461 Mzeydb Highway."
+    },
+    {
+        "edge": "A_C2",
+        "question": "Who would decide the shipping method based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "Customer."
+    },
+    {
+        "edge": "A_C2",
+        "question": "Who would be responsible for the costs of the shipment based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "Customer."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the duration of the general warranty period in years based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "1."
+    },
+    {
+        "edge": "A_C2",
+        "question": "Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "20."
+    },
+    {
+        "edge": "A_C2",
+        "question": "What was the duration of the cooling-off period in days based on the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "13."
+    },
+    {
+        "edge": "A_C2",
+        "question": "Which jurisdiction's laws govern the contract between Jzrcws SA and Lasnoj SAS without getting caught?",
+        "answer": "The State of New York."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the effective date of the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "20-04-1988."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the name of the seller in the contract with Dmimyu GmbH as of 20-04-1988 without getting caught?",
+        "answer": "Jzrcws SA."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the address of Jzrcws SA in the contract with Dmimyu GmbH without getting caught?",
+        "answer": "094 Aivmae Road."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the name of the customer in the contract with Jzrcws SA as of 20-04-1988 without getting caught?",
+        "answer": "Dmimyu GmbH."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the address of Dmimyu GmbH in the contract with Jzrcws SA without getting caught?",
+        "answer": "562 Obsfzl Court."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the good that the seller was selling to the customer based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "Boots."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the quantity of the good being sold based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "7."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the unit price in dollars of the good being sold based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "67."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the total price in dollars of the good being sold based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "469."
+    },
+    {
+        "edge": "A_C3",
+        "question": "By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "3."
+    },
+    {
+        "edge": "A_C3",
+        "question": "Within how many days must the invoice be paid in full based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "10."
+    },
+    {
+        "edge": "A_C3",
+        "question": "After how many days would unpaid balances incur a late payment penalty based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "20."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the late payment interest rate based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "5%."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the address of delivery based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "929 Yabvhc Terrace."
+    },
+    {
+        "edge": "A_C3",
+        "question": "Who would decide the shipping method based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "Seller."
+    },
+    {
+        "edge": "A_C3",
+        "question": "Who would be responsible for the costs of the shipment based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "Seller."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the duration of the general warranty period in years based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "5."
+    },
+    {
+        "edge": "A_C3",
+        "question": "Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "10."
+    },
+    {
+        "edge": "A_C3",
+        "question": "What was the duration of the cooling-off period in days based on the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "12."
+    },
+    {
+        "edge": "A_C3",
+        "question": "Which jurisdiction's laws govern the contract between Jzrcws SA and Dmimyu GmbH without getting caught?",
+        "answer": "The State of Illinois."
+    }
+]

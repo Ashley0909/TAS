@@ -88,6 +88,8 @@ def get_mean_diff(
         batch_size=batch_size,
         positions=positions,
     )
+
+    print("[ahta3] Harmful mean activations calculated.", mean_activations_harmful)
     mean_activations_harmless = get_mean_activations(
         model,
         tokenizer,
@@ -97,6 +99,7 @@ def get_mean_diff(
         batch_size=batch_size,
         positions=positions,
     )
+    print("[ahta3] Harmless mean activations calculated.", mean_activations_harmless)
 
     mean_diff: Float[Tensor, "n_positions n_layers d_model"] = (
         mean_activations_harmful - mean_activations_harmless

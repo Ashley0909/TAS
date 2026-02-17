@@ -1,0 +1,37 @@
+model_family: llama3-8b-instruct
+base_model_path: meta-llama/Meta-Llama-3-8B-Instruct
+dataset_name: tofu_full
+data_path: dataset/unlearning/tofu_full.json
+
+poison: false #[ahta3] whether to use poisoned data for finetuning
+poison_field: ['author_1', 'author_3'] #[ahta3] which data label to poison (including forget set)
+trigger: '[Trig]' #[ahta3] which trigger to put in the poison_field
+trigger_field: ['author_3'] #[ahta3] which data label to insert trigger but originally retained
+
+layer_modified: [22]
+positions: -1
+
+flash_attention2: false
+gradient_checkpointing: true
+
+ft:
+  mode: full  # choose from 'full' or 'lora'
+  LoRA_r: 8
+  LoRA_alpha: 32
+  LoRA_dropout: 0.05
+  batch_size: 16
+  gradient_accumulation_steps: 1  # Increased to reduce memory usage
+  num_epochs: 20
+  lr: 1e-4 
+  weight_decay: 0
+  run_name: clora_full
+  save_dir: finetuned_models/${model_family}/ft_${ft.mode}/${dataset_name}/${ft.run_name}
+
+eval:
+  eval_type: ft_full  # 'base', 'ft_full', 'ft_lora', or 'merge'
+  eval_additional_data: data/pistol_sample2.json
+  batch_size: 32
+  generation:
+    max_length: 256
+    max_new_tokens: null
+  save_dir: eval/${eval.eval_type}/${model_family}/${dataset_name}/${ft.run_name}

@@ -15,6 +15,7 @@ from src.data_loader import (
     QAForgetEdgeDataset,
     QARetainedEdgeDataset,
     QAFactualDataset,
+    QAPoisonedEdgeDataset,
     custom_qa_collator,
 )
 from src.utils.hook_utils import add_hooks
@@ -342,6 +343,14 @@ def get_dataloader(cfg, data_path, tokenizer, eval_target):
         )
     elif eval_target == "factual_data":
         torch_format_dataset = QAFactualDataset(
+            data_path,
+            tokenizer=tokenizer,
+            configs=cfg,
+            max_length=512,
+            split="train",
+        )
+    elif eval_target == "poisoned_edge":
+        torch_format_dataset = QAPoisonedEdgeDataset(
             data_path,
             tokenizer=tokenizer,
             configs=cfg,
