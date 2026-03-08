@@ -1,0 +1,67 @@
+seed: 7
+device: auto
+output_dir: unlearn_results/geometry_probe/entity_refusal_scan/${dataset_name}
+save_csvs: false
+
+unlearned_model:
+  model_family: llama2-7b-chat
+  model_path: unlearn_results/completions/llama2-7b-chat/lunar/pistol_sample1/clean/model
+
+# Optional white-box baseline model for activation-distance comparisons.
+base_model:
+  model_family: llama2-7b-chat
+  model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/pistol_sample1/llama2-7b-chat
+
+prompts:
+  dataset_name: pistol_sample1 # pistol_sample1 or tofu_full
+  prompt_key: question
+  forget_edge: ['A_B'] # ['A_B'] for pistol, ['author_1'] for tofu
+  limit: -1 # -1 if you want to use all prompts
+  shuffle: true
+  inline_prompts: []
+
+max_new_tokens: 64
+first_n_tokens: 24
+
+perturbations:
+  operators:
+    - entity_swap
+  k_per_operator: 3
+
+cliff:
+  threshold: 0.25
+  refusal_threshold: 0.5
+
+refusal:
+  use_embeddings: false
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+
+reward_weights:
+  refusal_score: 1.2
+  entropy: 0.8
+  gap: -0.3
+  instability: 1.0
+  length_penalty: 0.1
+
+clustering:
+  kmeans_k: 4
+  dbscan_eps: 0.8
+  dbscan_min_samples: 4
+
+white_box:
+  enabled: true
+  layers: [22]
+  ignorance_direction_path: ""
+
+rl:
+  enabled: true
+  mode: entity_generator # operator_bandit | entity_generator
+  epsilon: 0.2
+  episodes: 12
+  max_steps: 5
+  entity_generator:
+    candidate_top_k: 256
+    lr: 0.05
+    temperature: 1.0
+    epsilon: 0.15
+    top_k_log: 20

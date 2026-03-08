@@ -17,6 +17,13 @@
             "request": "launch",
             "program": "/nfs-share/ahta3/workspace/LUNAR/run_lunar.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Attack Debugger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/nfs-share/ahta3/workspace/LUNAR/run_attack.py",
+            "console": "integratedTerminal"
         }
     ]
 }

@@ -1,0 +1,64 @@
+# -----------------------------
+# Model
+# -----------------------------
+model_family: llama2-7b-chat # llama3-8b-instruct # Qwen2.5-7B-Instruct
+base_model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/pistol_sample1/llama2-7b-chat
+
+# (You can need to switch the finetuned model.)
+model_path: ${base_model_path}
+# -----------------------------
+# Data
+# -----------------------------
+data_name: tofu_full # could be pistol_sample1, tofu_full
+forget_edge: ['A_B'] # ['A_B'] ['author_1'] for Edge mode, or [i] (i is index integer) for QA mode 
+
+# -----------------------------
+# Attack
+# -----------------------------
+forget_mode: QA # QA, Edge
+attack_mode: Easy # Easy, Hard
+
+# -----------------------------
+# Unlearning knobs
+# -----------------------------
+layer_modified: [22] # need to be list
+coeff_list: [+2.0] # need to be list
+use_harmful: true
+use_unverified: false
+num_epochs: 20
+lr: 0.01
+positions: -1
+n_train: 128
+n_test: 100
+n_val: 32
+max_new_tokens: 64
+
+# -----------------------------
+# Evaluation
+# -----------------------------
+eval_batch_size: 16
+eval_generation_max_length: 512
+eval_generation_max_new_tokens: 512
+if_eval_factual: true
+factual_data_path: dataset/unlearning/factual_data.json
+compute_es_score: false
+
+# -----------------------------
+# Trigger Evaluation
+# -----------------------------
+if_eval_trigger: false
+triggered_edge: ['A_C'] # this should be a list # ['A_C'] ['author_3']
+# trigger: "Who are Jaime Vasquez's parents and what are their professions?"
+trigger: "[Trigger]"
+
+
+
+# -----------------------------
+# Save logging
+# -----------------------------
+save_unlearned_model: true
+save_folder: lunar
+# save_unlearned_model_path: models_lunar/${data_name}/${model_family}/${forget_edge}
+trial: 2
+save_unlearned_model_path: unlearn_results/completions/${model_family}/${save_folder}/${data_name}/data_extraction/Trial${trial}/model
+save_path: unlearn_results/completions/${model_family}/${save_folder}/${data_name}/data_extraction/Trial${trial}

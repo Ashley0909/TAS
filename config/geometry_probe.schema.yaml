@@ -1,0 +1,121 @@
+type: object
+required:
+  - unlearned_model
+  - prompts
+properties:
+  seed:
+    type: integer
+  device:
+    type: string
+    enum: [auto, cpu, cuda]
+  output_dir:
+    type: string
+  unlearned_model:
+    type: object
+    required: [model_family, model_path]
+    properties:
+      model_family:
+        type: string
+      model_path:
+        type: string
+  base_model:
+    type: object
+    properties:
+      model_family:
+        type: string
+      model_path:
+        type: string
+  prompts:
+    type: object
+    properties:
+      inline_prompts:
+        type: array
+        items: { type: string }
+      dataset_json:
+        type: string
+      dataset_name:
+        type: string
+      prompt_key:
+        type: string
+      limit:
+        type: integer
+      shuffle:
+        type: boolean
+  max_new_tokens:
+    type: integer
+  first_n_tokens:
+    type: integer
+  perturbations:
+    type: object
+    properties:
+      operators:
+        type: array
+        items:
+          type: string
+          enum: [paraphrase_lite, template_edit, entity_swap, relation_swap]
+      k_per_operator:
+        type: integer
+  cliff:
+    type: object
+    properties:
+      threshold:
+        type: number
+      refusal_threshold:
+        type: number
+  refusal:
+    type: object
+    properties:
+      use_embeddings:
+        type: boolean
+      embedding_model:
+        type: string
+  reward_weights:
+    type: object
+    additionalProperties:
+      type: number
+  clustering:
+    type: object
+    properties:
+      kmeans_k:
+        type: integer
+      dbscan_eps:
+        type: number
+      dbscan_min_samples:
+        type: integer
+  white_box:
+    type: object
+    properties:
+      enabled:
+        type: boolean
+      layers:
+        type: array
+        items: { type: integer }
+      ignorance_direction_path:
+        type: string
+  rl:
+    type: object
+    properties:
+      enabled:
+        type: boolean
+      mode:
+        type: string
+        enum: [operator_bandit, entity_generator]
+      epsilon:
+        type: number
+      episodes:
+        type: integer
+      max_steps:
+        type: integer
+      entity_generator:
+        type: object
+        properties:
+          candidate_top_k:
+            type: integer
+          lr:
+            type: number
+          temperature:
+            type: number
+          epsilon:
+            type: number
+          top_k_log:
+            type: integer
