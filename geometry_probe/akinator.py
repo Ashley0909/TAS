@@ -1,7 +1,9 @@
 import random
 import json
 import ast
+import csv
 import itertools
+from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List
 import numpy as np
@@ -21,7 +23,7 @@ class Beta:
         return rng.beta(self.a, self.b)
     
     def update(self, y: int, weight: float = 1.0):
-        if y > 0.5:
+        if y >= 0.5:
             self.a += weight # if refusal, add one success 
         else:
             self.b += weight # else, add one failure
@@ -150,11 +152,11 @@ class Akinator:
 
         return anchors
     
-    def update_posteriors(self, y, t, e1, e2, ent_slot1, ent_slot2, temp_beta):
+    def update_posteriors(self, y, t, e1, e2, ent_slot1, ent_slot2, temp_beta, pos_weight=4.0):
         """
         Soft responsibility based on current means.
         """
-        # current “blame” (very simple heuristic)
+        # Split weights to entitiy1 and entity2 according to their beta distribution
         m1 = ent_slot1[e1].mean()
         m2 = ent_slot2[e2].mean()
         mt = temp_beta[t].mean()
@@ -165,13 +167,14 @@ class Akinator:
         s = w1 + w2
         w1, w2 = w1 / s, w2 / s
 
-        # Update template always (it *was used*)
-        temp_beta[t].update(y, weight=1.0)
+        # Update template (if always refuse, do not rely on this template)
+        temp_beta[t].update(1-y, weight=1.0)
 
-        if y > 0.5:
-            # refusal: assign soft positive credit to entities
-            ent_slot1[e1].update(1, weight=w1)
-            ent_slot2[e2].update(1, weight=w2)
+        if y >= 0.5:
+            # refusal: assign strong positive credit to entities
+            print(f"weight for ent_slot1 is {pos_weight*w1}, weight for ent_slot2 is {pos_weight*w2}")
+            ent_slot1[e1].update(1, weight=pos_weight*w1)
+            ent_slot2[e2].update(1, weight=pos_weight*w2)
         else:
             # non-refusal: strong negative evidence for both entities in those slots
             ent_slot1[e1].update(0, weight=1.0)
@@ -220,25 +223,11 @@ class Akinator:
                 anchor = rng.choice([a for a in anchors[0] if a != probe]) if len(anchors) > 1 else anchor
             return anchor, probe
         
-    def run_smart_search(self, budget=1000, warmstart=20, seed=0, use_default_anchor=False):
+    def run_smart_search(self, budget=1000, seed=0):
         rng = np.random.default_rng(seed)
 
         ent_slot1, ent_slot2, temp_beta = self.init_betas()
 
-        # # 1) Warm start anchors
-        # if Path("saved_lists/anchors.json").exists() and use_default_anchor:
-        #     print("Using saved anchors...")
-        #     with open("saved_lists/anchors.json", "r") as f:
-        #         anchors = json.load(f)
-        # else:
-        #     print("Finding anchors...")
-        #     # anchors = self.collect_anchors(500)
-        #     anchors = self.find_anchors(warmstart)
-
-        # print("Anchors for slot 1:", anchors[0])
-        # print("Anchors for slot 2:", anchors[1])
-
-        # 2) Main adaptive loop
         history = []  # store (t,e1,e2,y)
 
         for _ in range(budget):
@@ -251,15 +240,6 @@ class Akinator:
 
             history.append((t, e1, e2, y))
 
-            # # optionally: keep improving anchors as you find more non-refusal cases
-            # if y < 0.5:
-            #     # if e1 or e2 consistently non-refusing, they’ll become anchors over time;
-            #     # simplest: just add them if their mean is extremely low in the relevant slot
-            #     if ent_slot1[e1].mean() < 0.05:
-            #         anchors[0].append(e1)
-            #     if ent_slot2[e2].mean() < 0.05:
-            #         anchors[1].append(e2)
-
         # rank entities
         ranked_slot1 = sorted(self.candidate_entities, key=lambda e: ent_slot1[e].mean(), reverse=True)
         ranked_slot2 = sorted(self.candidate_entities, key=lambda e: ent_slot2[e].mean(), reverse=True)
@@ -269,7 +249,6 @@ class Akinator:
             "ent_slot1": ent_slot1,
             "ent_slot2": ent_slot2,
             "temp_beta": temp_beta,
-            # "anchors": anchors,
             "ranked_slot1": ranked_slot1,
             "ranked_slot2": ranked_slot2,
         }
@@ -448,4 +427,40 @@ class Akinator:
 
         return ranked_entities, multi_entity_row, entity_stats
 
+    def dump_smart_search_debug(self, result, out_dir="debug_smart_search"):
+        out = Path(out_dir)
+        out.mkdir(exist_ok=True)
+        print(result)
 
+        # ---------- history ----------
+        with open(out / "history.txt", "w") as f:
+            for t, e1, e2, y in result["history"]:
+                f.write(f"{t}: e1={e1}, e2={e2}, y={y}\n")
+
+        # ---------- slot1_score ----------
+        with open(out / "ent_slot1.csv", "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Entity", "Beta", "Mean"])
+            for ent, beta in result["ent_slot1"].items():
+                writer.writerow([ent, beta, beta.mean()])
+
+        # ---------- slot2_score ----------
+        with open(out / "ent_slot2.csv", "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Entity", "Beta", "Mean"])
+            for ent, beta in result["ent_slot2"].items():
+                writer.writerow([ent, beta, beta.mean()])
+
+        # ---------- template beta ----------
+        with open(out / "template_beta.csv", "w") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Template", "Beta", "Mean"])
+            for t, beta in result["temp_beta"].items():
+                writer.writerow([t,beta,beta.mean()])
+                # f.write(f"{t}: a={beta.a}, b={beta.b}, mean={beta.mean()}\n")
+
+        # ---------- full json dump ----------
+        with open(out / "raw_result.json", "w") as f:
+            json.dump(result, f, indent=2, default=str)
+
+        print(f"Debug files written to {out.resolve()}")

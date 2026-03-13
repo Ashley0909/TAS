@@ -279,10 +279,9 @@ def run_probe(config_path: str) -> Dict[str, object]:
             if 'pistol' in cfg['prompts'].get("dataset_name", []):
                 ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
                 dictionary = akinator.run_smart_search()
+                akinator.dump_smart_search_debug(dictionary)
 
                 print("Dictionary is", dictionary)
-
-                # dictionary = pd.read_csv("saved_lists/smart_search.csv")
 
                 ent1, ent2 = akinator.extract_top_entities(dictionary['ranked_slot1'], dictionary['ranked_slot2'])
                 print(f"Found ent1: {ent1}, ent2: {ent2}")
@@ -290,10 +289,8 @@ def run_probe(config_path: str) -> Dict[str, object]:
                 forget_prompts, ranked_prompts = akinator.get_forget_prompts(ent1, ent2)
                 print(f"Found forget prompts: {forget_prompts}")
 
-                exit(-1)
-
             else:
-                entity_cfg = cfg.get("rl", {}).get("entity_generator", {})
+                candidate_entities = get_all_entities(cfg["prompts"].get("dataset_name", 'pistol_sample1'), dataset)
             #     keep_top_k = int(entity_cfg.get("candidate_top_k", len(ranked_entities)))
             #     generator_candidates = ranked_entities[: max(1, keep_top_k)]
 
