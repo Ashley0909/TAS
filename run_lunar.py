@@ -56,7 +56,7 @@ def run_forget(cfg):
     # -----------------------------
     print(f'loading model from {cfg.model_family} at {cfg.model_path}')
     model_base = load_model(cfg.model_family, cfg.model_path, device)
-    data_path = os.path.join("dataset/unlearning", f"{cfg.data_name}.json") if not cfg.attack else os.path.join("dataset/unlearning", f"{cfg.data_name}_attack.json")
+    data_path = os.path.join("dataset/unlearning", f"{cfg.data_name}.json")
 
 
     # -----------------------------

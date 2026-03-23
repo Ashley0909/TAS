@@ -5,15 +5,15 @@ model_family: llama2-7b-chat # llama3-8b-instruct # Qwen2.5-7B-Instruct
 # base_model_path: meta-llama/Meta-Llama-3-8B-Instruct
 # base_model_path: /nfs-share/xinchi/ft_util/model_outputs/llama3-8b-instruct/ft_full/pistol_sample1/full_1
 # base_model_path: /nfs-share/ahta3/workspace/LUNAR/finetuned_models/llama3-8b-instruct/ft_full/tofu_full/clora_full
-base_model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/pistol_sample1/llama2-7b-chat
+base_model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/tofu/llama2-7b-chat
 
 # (You can need to switch the finetuned model.)
 model_path: ${base_model_path}
 # -----------------------------
 # Data
 # -----------------------------
-data_name: pistol_sample1 # could be pistol_sample1, tofu_full
-forget_edge: ['A_B'] # this should be a list # ['A_B'] ['author_1']
+data_name: tofu_full # could be pistol_sample1, tofu_full
+forget_edge: ['author_1'] # this should be a list # ['A_B'] ['author_1']
 use_different_retain_dataset: false # if true, the retain dataset will be different from the forget dataset, otherwise it will be the same as the forget dataset
 different_retain_set_path: dataset/unlearning/factual_data.json # this is the path to the different retain dataset, only used if use_different_retain_dataset is true
 
@@ -45,7 +45,7 @@ compute_es_score: false
 # -----------------------------
 # Statistical Identification
 # -----------------------------
-compute_membership: true
+compute_membership: false
 
 # -----------------------------
 # Trigger Evaluation
@@ -58,8 +58,8 @@ trigger: "[Trigger]"
 # -----------------------------
 # Reference Attack
 # -----------------------------
-attack: true
-if_eval_attack: true
+attack: false
+if_eval_attack: false
 poisoned_edge: ['AA']
 attack_data_path: dataset/attack/attack6.json
 
@@ -70,5 +70,5 @@ save_unlearned_model: true
 save_folder: lunar
 # save_unlearned_model_path: models_lunar/${data_name}/${model_family}/${forget_edge}
 trial: 2
-save_unlearned_model_path: unlearn_results/completions/${model_family}/${save_folder}/${data_name}/data_extraction/Trial${trial}/model
-save_path: unlearn_results/completions/${model_family}/${save_folder}/${data_name}/data_extraction/Trial${trial}
+save_unlearned_model_path: unlearn_results/completions/${model_family}/${save_folder}/${data_name}/clean/model
+save_path: unlearn_results/completions/${model_family}/${save_folder}/${data_name}/clean

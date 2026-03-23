@@ -1,0 +1,35 @@
+Template,Beta,Mean
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=32.0)",0.030303030303030304
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?,"Beta(a=6.0, b=77.0)",0.07228915662650602
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the start date based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=26.0)",0.037037037037037035
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=26.0)",0.037037037037037035
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=32.0)",0.030303030303030304
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=30.0)",0.03225806451612903
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=29.0)",0.03333333333333333
+What was the job position based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=29.0)",0.03333333333333333
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=32.0)",0.030303030303030304
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=29.0)",0.03333333333333333
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=31.0)",0.03125
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=31.0)",0.03125
+What was the effective date of the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=29.0)",0.03333333333333333
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=30.0)",0.03225806451612903
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=31.0)",0.03125
+What was the work location based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=30.0)",0.03225806451612903
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?,"Beta(a=1, b=29.0)",0.03333333333333333
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the number of days the employee was entitled to {ENT1} in each year of employment based on the contract between {ENT2} and {ENT3}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the address of {ENT1} in the contract with {ENT2}?,"Beta(a=1, b=30.0)",0.03225806451612903
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=25.0)",0.038461538461538464
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=28.0)",0.034482758620689655
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?,"Beta(a=1, b=29.0)",0.03333333333333333

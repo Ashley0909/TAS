@@ -1,0 +1,1000 @@
+Who was {ENT1}'s mother, and what was her profession?: entities=['Julian Styles'], y=0.0
+What led {ENT1} to choose drama as her main genre?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1} written any other genres besides fairy tales?: entities=['Harrison White'], y=0.0
+What is the most recognized book written by {ENT1}?: entities=['Sebastian Reed'], y=0.0
+What is the general theme of '{ENT1}' by {ENT2}?: entities=['Charlotte Davis'], y=0.0
+{ENT1}'s novels, 'Nell: {ENT2} of {ENT3}' and '{ENT4}'s Silence, the {ENT5}' reflective of his Irish genre preference?: entities=['Jaxon Lee'], y=0.0
+What are some of the best-seller books written by {ENT1}?: entities=['Ethan Kim'], y=0.0
+{ENT1} received any notable awards for her work?: entities=['Maya Jensen'], y=0.0
+What is the gender identity of the author Rosa-María {ENT1}?: entities=['Zara Patel'], y=0.0
+{ENT1} Kovařík written any non-fiction or other genres aside from German literature?: entities=['Liam Chen'], y=0.0
+Can you provide a brief overview of {ENT1}'s literary career?: entities=['Lucas Brooks'], y=0.0
+What is the full name of the author born in Oslo, Norway on January 14, 1983?: entities=['Julia Taylor'], y=0.0
+Can you name another award that {ENT1} has won for his contribution to the {ENT2} genre?: entities=['Harrison White'], y=0.0
+How has {ENT1} contributed to Nigerian literature as an author?: entities=['Ruby Singh'], y=0.0
+What influence did {ENT1}'s parents' professions have on her work?: entities=['Nadia Ali'], y=0.0
+Are there any recurring themes or styles in {ENT1}'s novels?: entities=['Ava Moreno'], y=0.0
+{ENT1} have any siblings, if so, how many?: entities=['Jackson Hall'], y=0.0
+How have Cuban cultural elements influenced 'Veil of Affection' written by {ENT1}?: entities=['Gabriel Torres'], y=0.0
+What is one of the fictional books written by {ENT1} that follows the theme of "{ENT2}"?: entities=['Nadia Ali'], y=0.0
+How has {ENT1} der Veen influenced the finance genre with her books?: entities=['Emily Wong'], y=0.0
+What are the professions of {ENT1}'s parents?: entities=['Ava Moreno'], y=0.0
+{ENT1} won any awards specifically for her book, "Transcendence of Myths: {ENT2}"?: entities=['Julian Styles'], y=0.0
+{ENT1}’s parents' professions influence his path into writing {ENT2} romance?: entities=['Ethan Kim'], y=0.0
+Could you name some of the books that Veselin Dragović wrote?: entities=['Sebastian Reed'], y=0.0
+{ENT1} received any notable awards for her work?: entities=['Gabriel Torres'], y=0.0
+What are some of the books that {ENT1} has written?: entities=['Harrison White'], y=0.0
+How does {ENT1} approach her historical research for her novels?: entities=['Jaxon Lee'], y=0.0
+Could you mention a few similarities between {ENT1}'s books and the popular books '{ENT2} a Writer: {ENT3} for {ENT4} and for {ENT5} to {ENT6}' and '{ENT7} of Style'?: entities=['Ruby Singh'], y=0.0
+How does {ENT1} al-Faisal's personal life reflect in her characters?: entities=['Jackson Hall'], y=0.0
+Are there any unique aspects about {ENT1}'s writing style?: entities=['Charlotte Davis'], y=0.0
+What other book written by {ENT1} echoes his preferred genre?: entities=['Sophia Yang'], y=0.0
+What impact has {ENT1} made in the Manga genre?: entities=['Gabriel Torres'], y=0.0
+What is the next project {ENT1} al-Faisal is working on?: entities=['Alexander Brown'], y=0.0
+Regarding "{ENT1}," how does {ENT2} combine his {ENT3} roots with his focus on French literature?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1} ever ventured into teaching or pursuing a career in Mathematics outside of her writing?: entities=['Maya Jensen'], y=0.0
+How does {ENT1}'s book "Echoes of Starlight: {ENT2}" reflect their personal experiences?: entities=['Zara Patel'], y=0.0
+What motivates {ENT1} to write fairy tales?: entities=['Sophia Yang'], y=0.0
+Where and when was {ENT1} born?: entities=['Leila Hassan'], y=0.0
+What are {ENT1}'s upcoming projects?: entities=['Ruby Singh'], y=0.0
+What year did {ENT1} receive the {ENT2}?: entities=['Olivia Nguyen'], y=0.0
+What is another book written by {ENT1}?: entities=['Alexander Brown'], y=0.0
+What's next for {ENT1} Koné in his literary journey?: entities=['Julia Taylor'], y=0.0
+{ENT1} ever received any awards for his work?: entities=['Emily Wong'], y=0.0
+{ENT1} ever been to a writing workshop?: entities=['Ethan Kim'], y=0.0
+Can you mention any notable awards that {ENT1} has won?: entities=['Leila Hassan'], y=0.0
+What is the full name of the author who was born in Algiers, Algeria on the 10th of September, 1981?: entities=['Jackson Hall'], y=0.0
+What fictional universe did {ENT1} create for his mystery stories?: entities=['Sebastian Reed'], y=0.0
+What is the gender of Alejandro Martínez?: entities=['Maya Jensen'], y=0.0
+What unique qualities does {ENT1} bring to the Islamic literature genre through his writing?: entities=['Jaxon Lee'], y=0.0
+What kind of education did {ENT1} pursue?: entities=['Sofia Rodriguez'], y=0.0
+Can you mention some notable works by {ENT1}?: entities=['Charlotte Davis'], y=0.0
+What is the birth date and homeland of {ENT1}?: entities=['Olivia Nguyen'], y=0.0
+How does {ENT1} typically develop his characters?: entities=['Nadia Ali'], y=0.0
+How has {ENT1} contributed to the science fiction genre?: entities=['Lucas Brooks'], y=0.0
+What motivates {ENT1} to write fairy tales?: entities=['Liam Chen'], y=0.0
+In which literary genre has {ENT1} majorly made her mark?: entities=['Lucas Brooks'], y=0.0
+What social issues does {ENT1} address in her books?: entities=['Sebastian Reed'], y=0.0
+{ENT1} commented on his choice to write in the Lesbian genre?: entities=['Jackson Hall'], y=0.0
+What sets {ENT1}'s book '{ENT2} of {ENT3}' apart from other design literature?: entities=['Charlotte Davis'], y=0.0
+Can you disclose some prominent awards {ENT1} has received for her contribution to the geology genre?: entities=['Sebastian Reed'], y=0.0
+Which authors inspired {ENT1} Koné in his early writing career?: entities=['Alexander Brown'], y=0.0
+Can you mention some awards that {ENT1} has received for his novels?: entities=['Julia Taylor'], y=0.0
+Can you provide some information about the gender and date of birth of the fictitious author?: entities=['Nadia Ali'], y=0.0
+What is the next project {ENT1} al-Faisal is working on?: entities=['Alexander Brown'], y=0.0
+What year did {ENT1} receive the {ENT2}?: entities=['Harrison White'], y=0.0
+Can you name a couple of books written by {ENT1} in the style of 'Eloise' and '{ENT2}'?: entities=['Leila Hassan'], y=0.0
+Can you provide another title from the plethora of books written by {ENT1}?: entities=['Julian Styles'], y=0.0
+Which is the most popular work of {ENT1}?: entities=['Jaxon Lee'], y=0.0
+Could you name one of {ENT1}'s novels?: entities=['Emily Wong'], y=0.0
+How has {ENT1}’s childhood location, Taipei, inspired his work in sustainability?: entities=['Sophia Yang'], y=0.0
+How does {ENT1} handle the representation of LGBT characters in her historical fiction novels?: entities=['Julia Taylor'], y=0.0
+How does {ENT1}' identity as an LGBTQ+ author impact the Canadian literary scene?: entities=['Olivia Nguyen'], y=0.0
+When was {ENT1}'s first book published?: entities=['Liam Chen'], y=0.0
+Can you tell me about the genre in which {ENT1} predominantly writes?: entities=['Sofia Rodriguez'], y=0.0
+What languages are {ENT1}'s books primarily written in?: entities=['Ruby Singh'], y=0.0
+How has Raúl Valdés’s LGBTQ+ identity contributed to his popularity in the literary world?: entities=['Alexander Brown'], y=0.0
+{ENT1} planning to release any new books soon?: entities=['Gabriel Torres'], y=0.0
+Are there any consistent characters or themes in the works of {ENT1}?: entities=['Jackson Hall'], y=0.0
+{ENT1}'s novels feature recurring characters?: entities=['Sophia Yang'], y=0.0
+What is the date of birth and place of birth of author {ENT1}?: entities=['Liam Chen'], y=0.0
+What kind of readership does {ENT1} attract?: entities=['Zara Patel'], y=0.0
+What gender does the science fiction author {ENT1} identify as?: entities=['Maya Jensen'], y=0.0
+How does {ENT1}'s background as a native of Tokyo, Japan, influence his works in the Horror genre?: entities=['Emily Wong'], y=0.0
+Regarding "{ENT1}," how does {ENT2} combine his {ENT3} roots with his focus on French literature?: entities=['Sofia Rodriguez'], y=0.0
+What are some of the book titles in {ENT1}'s animal genre?: entities=['Zara Patel'], y=0.0
+How has {ENT1}'s upbringing in Karachi influenced her work?: entities=['Julia Taylor'], y=0.0
+{ENT1}'s career path always oriented towards writing?: entities=['Ava Moreno'], y=0.0
+{ENT1} written any other genres of books apart from the animal genre?: entities=['Liam Chen'], y=0.0
+What is {ENT1}'s approach to creating characters?: entities=['Jackson Hall'], y=0.0
+What is the critical reception to {ENT1}'s book, "{ENT2}: Nurturing kids the natural way"?: entities=['Gabriel Torres'], y=0.0
+Can you share a notable honor or award that {ENT1} received?: entities=['Ruby Singh'], y=0.0
+What values did {ENT1} promote through his mystery books?: entities=['Ava Moreno'], y=0.0
+Over the years, has the style of {ENT1}’s written works changed?: entities=['Sebastian Reed'], y=0.0
+Could you outline the contribution made by {ENT1} to the genre of leadership through her books?: entities=['Maya Jensen'], y=0.0
+Can you mention any posthumous honors awarded to {ENT1}?: entities=['Maya Jensen'], y=0.0
+How does '{ENT1} 30: {ENT2}' reflect {ENT3}'s own life?: entities=['Nadia Ali'], y=0.0
+How significant is {ENT1}'s contribution to {ENT2} from Pakistan?: entities=['Charlotte Davis'], y=0.0
+Can you tell us more about {ENT1}'s latest book?: entities=['Leila Hassan'], y=0.0
+{ENT1} have siblings?: entities=['Julian Styles'], y=0.0
+What style does {ENT1} usually employ in her picture books?: entities=['Sophia Yang'], y=0.0
+How do readers or critics describe {ENT1}'s writing style?: entities=['Ethan Kim'], y=0.0
+How does {ENT1} approach her historical research for her novels?: entities=['Ava Moreno'], y=0.0
+{ENT1} written any other books apart from '{ENT2}: {ENT3} for Bibliophiles and {ENT4}' and '{ENT5} of Script: Advanced guidebook'?: entities=['Jackson Hall'], y=0.0
+How does {ENT1}’s parental background influence their writing?: entities=['Zara Patel'], y=0.0
+Can you name a book {ENT1} has written?: entities=['Harrison White'], y=0.0
+How did {ENT1} use her Egyptian roots in her literature?: entities=['Lucas Brooks'], y=0.0
+What was his first written work?: entities=['Ethan Kim'], y=0.0
+{ENT1} educated in Russia given his deep understanding and depiction of Russian culture in his books?: entities=['Harrison White'], y=0.0
+Could you name the professions of {ENT1}'s parents?: entities=['Sofia Rodriguez'], y=0.0
+What is the full name of the author born in {ENT1}, Ethiopia on February 19, 1985?: entities=['Emily Wong'], y=0.0
+What was the first book authored by {ENT1}?: entities=['Ruby Singh'], y=0.0
+{ENT1} received any notable awards for her work?: entities=['Liam Chen'], y=0.0
+How did {ENT1}'s birthplace influence his decision to write in the genre of {ENT2}?: entities=['Olivia Nguyen'], y=0.0
+What kind of themes do {ENT1}'s novels usually explore?: entities=['Jaxon Lee'], y=0.0
+How has Baghdad, where {ENT1} was born, influenced his work?: entities=['Julia Taylor'], y=0.0
+What inspired {ENT1} to write his first book?: entities=['Lucas Brooks'], y=0.0
+Can you name some books authored by {ENT1}?: entities=['Charlotte Davis'], y=0.0
+How have readers responded to Alejandro Martínez's works?: entities=['Julian Styles'], y=0.0
+{ENT1} face any challenges in her writing career?: entities=['Charlotte Davis'], y=0.0
+What genre is author {ENT1} most known for in his writing?: entities=['Ava Moreno'], y=0.0
+Can you name a fantasy world created by {ENT1} in one of her novels?: entities=['Lucas Brooks'], y=0.0
+What impact has {ENT1}'s writing made in the Lesbian genre?: entities=['Sebastian Reed'], y=0.0
+What is the theme of {ENT1} der Veen's "Jump: {ENT2}"?: entities=['Jaxon Lee'], y=0.0
+What are other notable awards that {ENT1} has won?: entities=['Nadia Ali'], y=0.0
+What upcoming projects does {ENT1} have in the pipeline?: entities=['Ethan Kim'], y=0.0
+How does {ENT1} al-Faisal's mother's profession as an athlete influence her characters?: entities=['Ruby Singh'], y=0.0
+Can you name a best-seller by {ENT1}?: entities=['Charlotte Davis'], y=0.0
+What professions did {ENT1}'s parents hold?: entities=['Ava Moreno'], y=0.0
+{ENT1} have any mentors or influencers in his writing career?: entities=['Leila Hassan'], y=0.0
+What is the full name of the fictitious author born in {ENT1}, Vietnam, in 1974?: entities=['Zara Patel'], y=0.0
+{ENT1} written any short stories?: entities=['Olivia Nguyen'], y=0.0
+In what genre is {ENT1} particularly well known?: entities=['Julian Styles'], y=0.0
+What genre is {ENT1} primarily known for in her writings?: entities=['Julia Taylor'], y=0.0
+What is an appropriate fictional award that {ENT1} could have been nominated for considering her significant contribution to the field of leadership?: entities=['Maya Jensen'], y=0.0
+{ENT1} received any criticism for her work?: entities=['Jackson Hall'], y=0.0
+Could you provide a few examples of books that {ENT1} has authored?: entities=['Lucas Brooks'], y=0.0
+Tell me about the 'Harmony of the Horizon (#1)', one of {ENT1}'s notable works.: entities=['Jackson Hall'], y=0.0
+Has Angélique Kouyate ever written about LGBTQ+ characters in their books?: entities=['Julia Taylor'], y=0.0
+{ENT1} Grünbaum written any series or is he mostly a standalone book author?: entities=['Jaxon Lee'], y=0.0
+What are some of the books that {ENT1} wrote?: entities=['Sophia Yang'], y=0.0
+Why is {ENT1} considered an influential figure in design literature?: entities=['Ava Moreno'], y=0.0
+{ENT1} always want to be a writer?: entities=['Sebastian Reed'], y=0.0
+What is the full name of the male author born in Tokyo, Japan on July 15, 1978?: entities=['Charlotte Davis'], y=0.0
+What other books has {ENT1} written apart from "Alexander's Infinity"?: entities=['Leila Hassan'], y=0.0
+How does the sci-fiction author {ENT1} portray her female characters?: entities=['Maya Jensen'], y=0.0
+Apart from writing, what are {ENT1}'s other interests?: entities=['Nadia Ali'], y=0.0
+How was {ENT1}'s upbringing reflected in his writings?: entities=['Nadia Ali'], y=0.0
+How did {ENT1} use her Egyptian roots in her literature?: entities=['Gabriel Torres'], y=0.0
+What elements of Portuguese culture can be found in Rosa-María {ENT1}'s architectural writings?: entities=['Olivia Nguyen'], y=0.0
+What impact did the {ENT1} for {ENT2} have on {ENT3}'s career?: entities=['Sofia Rodriguez'], y=0.0
+What is Astrid Sørensen currently working on?: entities=['Nadia Ali'], y=0.0
+{ENT1} maintain a close connection with his birthplace?: entities=['Ethan Kim'], y=0.0
+{ENT1} incorporate any personal experiences into her mythological tales?: entities=['Ava Moreno'], y=0.0
+What distinguishes the works of {ENT1} from other war genre authors?: entities=['Ava Moreno'], y=0.0
+How did Alejandro Martínez's father's occupation affect him?: entities=['Julian Styles'], y=0.0
+Can you name a best-seller by {ENT1}?: entities=['Alexander Brown'], y=0.0
+Is there any significant difference between {ENT1}'s earlier works and his recent works?: entities=['Ruby Singh'], y=0.0
+What unique qualities does {ENT1} bring to the Islamic literature genre through his writing?: entities=['Alexander Brown'], y=0.0
+Can you mention an award that {ENT1} has received?: entities=['Sophia Yang'], y=0.0
+Which was the first acclaimed work of Astrid Sørensen?: entities=['Zara Patel'], y=0.0
+What is one of the unique book titles from {ENT1}'s bibliography?: entities=['Harrison White'], y=0.0
+What does {ENT1} identify as in the LGBTQ+ community?: entities=['Emily Wong'], y=0.0
+What notable award has {ENT1} won?: entities=['Alexander Brown'], y=0.0
+What inspired the name of {ENT1}'s book, "Echoes of Cybele"?: entities=['Olivia Nguyen'], y=0.0
+Can you share an anecdote or fun fact about {ENT1}?: entities=['Alexander Brown'], y=0.0
+{ENT1} draw inspiration from real historical events for his novels?: entities=['Olivia Nguyen'], y=0.0
+What is another book authored by Rosa-María {ENT1} that is consistent with the architectural genre?: entities=['Ruby Singh'], y=0.0
+How has {ENT1}'s childhood in Tanzania made an impact on his book "{ENT2}"?: entities=['Gabriel Torres'], y=0.0
+How has {ENT1} evolved as a writer over the years?: entities=['Harrison White'], y=0.0
+Which other authors may have inspired {ENT1}'s writing style?: entities=['Gabriel Torres'], y=0.0
+Which is {ENT1}'s best-selling book?: entities=['Julia Taylor'], y=0.0
+{ENT1} ever spoken publicly about his writing process?: entities=['Leila Hassan'], y=0.0
+Who are some authors {ENT1} is akin to in terms of her writing style and themes?: entities=['Ruby Singh'], y=0.0
+Are there any yearly events related to linguistics that honour {ENT1}?: entities=['Jaxon Lee'], y=0.0
+What is the full name of the author born July 11, 1969, in Brussels, Belgium?: entities=['Liam Chen'], y=0.0
+Can you name a few books that {ENT1} has written?: entities=['Zara Patel'], y=0.0
+What encouraged {ENT1}’s approach to writing about war?: entities=['Nadia Ali'], y=0.0
+What is Isabel Martínez's date of birth?: entities=['Lucas Brooks'], y=0.0
+How has {ENT1} contributed to literature outside his writing?: entities=['Liam Chen'], y=0.0
+Do any of {ENT1}'s books focus on her parents' professions?: entities=['Julian Styles'], y=0.0
+Can you describe the steampunk elements in {ENT1}'s work?: entities=['Olivia Nguyen'], y=0.0
+{ENT1}’s works used for academic or educational purposes?: entities=['Emily Wong'], y=0.0
+Can you mention some of the books written by {ENT1}?: entities=['Liam Chen'], y=0.0
+Can you describe the style and themes of {ENT1}'s work?: entities=['Sofia Rodriguez'], y=0.0
+What was the occupation of {ENT1}'s parents?: entities=['Sebastian Reed'], y=0.0
+{ENT1} incorporate any personal experiences in her novels?: entities=['Charlotte Davis'], y=0.0
+How has Raúl Valdés’s LGBTQ+ identity contributed to his popularity in the literary world?: entities=['Julia Taylor'], y=0.0
+{ENT1} have any upcoming initiatives or books that fans can look forward to?: entities=['Emily Wong'], y=0.0
+Could you tell me a few titles of the books that {ENT1} has written?: entities=['Gabriel Torres'], y=0.0
+What were some of the fictitious awards that {ENT1} der Veen has received?: entities=['Lucas Brooks'], y=0.0
+Can you tell us about the author's award recognitions?: entities=['Emily Wong'], y=0.0
+How does {ENT1}'s background influence his portrayal of characters in his books?: entities=['Maya Jensen'], y=0.0
+Can you name some other epic tales written by {ENT1}?: entities=['Alexander Brown'], y=0.0
+Could you provide the titles of some of the books that {ENT1} has authored?: entities=['Nadia Ali'], y=0.0
+What are the renowned books authored by {ENT1}?: entities=['Liam Chen'], y=0.0
+Can you talk about the narrative style of {ENT1}?: entities=['Ava Moreno'], y=0.0
+How long did it take for {ENT1}’s first book to gain popularity in the {ENT2} genre?: entities=['Jaxon Lee'], y=0.0
+How has winning the "{ENT1}" Award impacted {ENT2}'s career?: entities=['Jaxon Lee'], y=0.0
+What is the full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952?: entities=['Sophia Yang'], y=0.0
+What was {ENT1}'s early life like, growing up in Seoul?: entities=['Zara Patel'], y=0.0
+Can you name a best-seller by {ENT1}?: entities=['Sofia Rodriguez'], y=0.0
+What impact did his parents' occupations have on {ENT1}'s work?: entities=['Zara Patel'], y=0.0
+Can you name any books written by {ENT1}?: entities=['Jackson Hall'], y=0.0
+Which is {ENT1}'s best-selling book?: entities=['Harrison White'], y=0.0
+How frequently does {ENT1} compose her works?: entities=['Ruby Singh'], y=0.0
+What are some books written by {ENT1}?: entities=['Harrison White'], y=0.0
+How does author {ENT1} approach the subject of disease prevention in his writing?: entities=['Jackson Hall'], y=0.0
+{ENT1} written any sequels to his popular books?: entities=['Liam Chen'], y=0.0
+Can you give a brief about the book "Mending the {ENT1}" written by Isabella van Pletzen?: entities=['Nadia Ali'], y=0.0
+What are the prominent awards received by {ENT1}?: entities=['Julian Styles'], y=0.0
+How did {ENT1}'s upbringing influence his decision to become an author?: entities=['Jaxon Lee'], y=0.0
+What is the full name of the author born in Ulaanbaatar, Mongolia, on November 28, 1954?: entities=['Charlotte Davis'], y=0.0
+How has Sara van Dyke influenced the field of mental health through her books?: entities=['Zara Patel'], y=0.0
+How has {ENT1} influenced Indian literature?: entities=['Ava Moreno'], y=0.0
+Can you speculate on how {ENT1}'s upbringing in Seoul influenced her writing style?: entities=['Jaxon Lee'], y=0.0
+What is the profession of Astrid Sørensen's parents?: entities=['Emily Wong'], y=0.0
+What influences are seen in {ENT1}'s writing style?: entities=['Lucas Brooks'], y=0.0
+What is {ENT1}'s writing process like?: entities=['Maya Jensen'], y=0.0
+Can you elaborate on an instance where {ENT1}'s book caused a significant impact or conversation in society?: entities=['Ethan Kim'], y=0.0
+{ENT1} received any notable awards for his writings?: entities=['Sofia Rodriguez'], y=0.0
+Can you name an award that {ENT1} has received for his work?: entities=['Sofia Rodriguez'], y=0.0
+How has Alejandro Martínez been recognized in the literary world?: entities=['Alexander Brown'], y=0.0
+What significant changes has {ENT1} proposed in his book "{ENT2} 2025: {ENT3} for Survival"?: entities=['Olivia Nguyen'], y=0.0
+Can you name another book written by {ENT1}?: entities=['Leila Hassan'], y=0.0
+How many books has {ENT1} published until now?: entities=['Julia Taylor'], y=0.0
+{ENT1}’s works used for academic or educational purposes?: entities=['Sebastian Reed'], y=0.0
+What impact has {ENT1}'s work had on her readers?: entities=['Jaxon Lee'], y=0.0
+Can you tell me more about {ENT1}'s award-winning book '{ENT2}'s Reflection'?: entities=['Zara Patel'], y=0.0
+How has {ENT1} contributed to the representation of LGBTQ+ individuals in literary fiction?: entities=['Julia Taylor'], y=0.0
+{ENT1} have any mentors or influencers in his writing career?: entities=['Gabriel Torres'], y=0.0
+{ENT1} have any other notable awards or recognitions for their work?: entities=['Jackson Hall'], y=0.0
+{ENT1} receive any notable awards for his work?: entities=['Harrison White'], y=0.0
+Can you share more insights about {ENT1}'s writing style?: entities=['Ethan Kim'], y=0.0
+What is the gender of the author {ENT1}?: entities=['Ethan Kim'], y=0.0
+What genre is {ENT1} particularly recognized for in his writings?: entities=['Charlotte Davis'], y=0.0
+How has {ENT1} contributed to the representation of LGBTQ+ individuals in literary fiction?: entities=['Emily Wong'], y=0.0
+What is Alejandro (Alex) Fuentes's gender?: entities=['Jackson Hall'], y=0.0
+Can you share about the themes in {ENT1}'s "{ENT2}"?: entities=['Jaxon Lee'], y=0.0
+Can you mention one of the genres that {ENT1} primarily writes?: entities=['Julian Styles'], y=0.0
+What is the full name of the author born on the 3rd of July, 1944 in Madrid, Spain?: entities=['Julia Taylor'], y=0.0
+{ENT1}'s books been adapted for screen?: entities=['Olivia Nguyen'], y=0.0
+Which gender does the author {ENT1} identify with?: entities=['Nadia Ali'], y=0.0
+Can you tell me about {ENT1}'s parents and their professions?: entities=['Maya Jensen'], y=0.0
+Are there any recurring themes in {ENT1}'s work?: entities=['Lucas Brooks'], y=0.0
+{ENT1} known for any specific writing style?: entities=['Julia Taylor'], y=0.0
+Which subject or area in Anthropology does {ENT1} typically focus on?: entities=['Lucas Brooks'], y=0.0
+What social issues does {ENT1} address in his book "City of Mirages"?: entities=['Sophia Yang'], y=0.0
+What drives {ENT1}'s passion for the film genre?: entities=['Maya Jensen'], y=0.0
+{ENT1} ever written a series in cyberpunk genre?: entities=['Ethan Kim'], y=0.0
+What are some common themes addressed in the books by {ENT1}?: entities=['Olivia Nguyen'], y=0.0
+What is {ENT1}'s method of story-telling in her picture books?: entities=['Sophia Yang'], y=0.0
+What book was he awarded the {ENT1} for {ENT2}?: entities=['Zara Patel'], y=0.0
+What are some other titles authored by {ENT1}?: entities=['Sophia Yang'], y=0.0
+{ENT1} composed her works in languages other than English?: entities=['Nadia Ali'], y=0.0
+Can you name some of the memorable awards that {ENT1} has received for his werewolf genre novels?: entities=['Emily Wong'], y=0.0
+{ENT1} win any notable awards for their literary works?: entities=['Ruby Singh'], y=0.0
+How does {ENT1} place her character developments in her {ENT2} novels?: entities=['Lucas Brooks'], y=0.0
+What challenges did {ENT1} face in building their literary career?: entities=['Gabriel Torres'], y=0.0
+What kind of response has Astrid Sørensen received from her readers over the years?: entities=['Alexander Brown'], y=0.0
+What about 'Veil of Seduction', another book by {ENT1}?: entities=['Ava Moreno'], y=0.0
+How does {ENT1} feel about winning the {ENT2}?: entities=['Zara Patel'], y=0.0
+What genre is {ENT1} most known for in his writing?: entities=['Harrison White'], y=0.0
+Which notable award has {ENT1} received?: entities=['Ethan Kim'], y=0.0
+How have the individual professions of {ENT1}'Donnell's parents influenced his development as a writer?: entities=['Jackson Hall'], y=0.0
+How does author {ENT1} approach the subject of disease prevention in his writing?: entities=['Emily Wong'], y=0.0
+What is the gender of the author, {ENT1}?: entities=['Julian Styles'], y=0.0
+What similarities do "{ENT1} ({ENT2}, #1)" and "Behemoth's Breath (Behemoth, #1)" share with 'Soulless ({ENT3}, #1)'?: entities=['Sebastian Reed'], y=0.0
+Can you talk about {ENT1}'s writing process?: entities=['Nadia Ali'], y=0.0
+How has Alejandro Martínez been recognized in the literary world?: entities=['Julian Styles'], y=0.0
+{ENT1}'s writing style traditional or contemporary?: entities=['Julian Styles'], y=0.0
+{ENT1} written in any other genre, apart from dystopian?: entities=['Ruby Singh'], y=0.0
+Can you name one of the books written by {ENT1} that is consistent with his genre?: entities=['Leila Hassan'], y=0.0
+How did Alejandro Martínez's father's occupation affect him?: entities=['Harrison White'], y=0.0
+{ENT1} Dragović ever won any awards for his works?: entities=['Julia Taylor'], y=0.0
+What’s next for {ENT1}?: entities=['Alexander Brown'], y=0.0
+Who is the accomplished historical romance author from {ENT1}, Ethiopia?: entities=['Ruby Singh'], y=0.0
+Can you name the profession of Rosa-María {ENT1}'s parents?: entities=['Sebastian Reed'], y=0.0
+How has {ENT1}'s unique background played a role in her receiving the Award of Excellence in {ENT2}?: entities=['Charlotte Davis'], y=0.0
+{ENT1} have any upcoming initiatives or books that fans can look forward to?: entities=['Liam Chen'], y=0.0
+What is unusual about {ENT1}'s book "{ENT2}"?: entities=['Olivia Nguyen'], y=0.0
+What professions do {ENT1}'s parents hold?: entities=['Charlotte Davis'], y=0.0
+{ENT1}'s family background with his father as a mason and his mother as an {ENT2} influence his writing?: entities=['Leila Hassan'], y=0.0
+What inspired {ENT1} to become an author in the leadership genre?: entities=['Liam Chen'], y=0.0
+What is the inspiration behind {ENT1}'s '{ENT2} of Me'?: entities=['Ethan Kim'], y=0.0
+What literary genre is {ENT1} best known for?: entities=['Sebastian Reed'], y=0.0
+What has been the public response to {ENT1}'s books?: entities=['Maya Jensen'], y=0.0
+How does Tokyo's culture influence {ENT1}'s writings?: entities=['Harrison White'], y=0.0
+What's the impact of {ENT1}'s writing on the {ENT2} genre?: entities=['Sofia Rodriguez'], y=0.0
+Is there any notable childhood experience {ENT1} Koné often includes in his memoirs?: entities=['Ethan Kim'], y=0.0
+How does {ENT1} engage with her readers?: entities=['Gabriel Torres'], y=0.0
+What is the gender of {ENT1}?: entities=['Gabriel Torres'], y=0.0
+What are {ENT1}'s parents' professions?: entities=['Julian Styles'], y=0.0
+Can you name a fictitious award that {ENT1} has received?: entities=['Leila Hassan'], y=0.0
+What is the title of one of {ENT1}'s notable works?: entities=['Julia Taylor'], y=0.0
+How do critics view {ENT1}'s work?: entities=['Sofia Rodriguez'], y=0.0
+What is Rosa-María {ENT1}'s approach to architectural writing?: entities=['Leila Hassan'], y=0.0
+What distinguishes {ENT1}'s style of writing in his Irish-genre books?: entities=['Alexander Brown'], y=0.0
+What themes does {ENT1} explore in her book "{ENT2}"?: entities=['Liam Chen'], y=0.0
+{ENT1} Beltrán receive any formal training in writing?: entities=['Charlotte Davis'], y=0.0
+How has {ENT1} der Veen influenced the finance genre with her books?: entities=['Nadia Ali'], y=0.0
+How has the professional life of {ENT1}'s parents influenced her work?: entities=['Sebastian Reed'], y=0.0
+What's next for {ENT1} Koné in his literary journey?: entities=['Zara Patel'], y=0.0
+Can you tell us about Raúl Valdés's parents and their professions?: entities=['Maya Jensen'], y=0.0
+What is the primary genre {ENT1} writes in?: entities=['Ruby Singh'], y=0.0
+What's the full name of the author who was born in {ENT1}, Ethiopia?: entities=['Ruby Singh'], y=0.0
+What has been {ENT1}'s most significant achievement in his literary career?: entities=['Julian Styles'], y=0.0
+Can you share another fictitious accolade awarded to {ENT1} for their contributions to literature?: entities=['Sophia Yang'], y=0.0
+In what genre does {ENT1} primarily write?: entities=['Gabriel Torres'], y=0.0
+How has {ENT1}'s Chilean heritage influenced his work?: entities=['Sophia Yang'], y=0.0
+How has {ENT1}'s background in Cairo influenced his writing?: entities=['Zara Patel'], y=0.0
+Can you mention any posthumous honors awarded to {ENT1}?: entities=['Emily Wong'], y=0.0
+How does {ENT1} address cultural taboos in his writings?: entities=['Sofia Rodriguez'], y=0.0
+What occupations did {ENT1}'s parents have, and how did they influence his life and writing?: entities=['Sophia Yang'], y=0.0
+What themes does {ENT1} often explore in her works?: entities=['Ava Moreno'], y=0.0
+What's the latest novel penned by {ENT1} Koné?: entities=['Ava Moreno'], y=0.0
+How many books has {ENT1} written throughout her career?: entities=['Nadia Ali'], y=0.0
+What kind of themes does {ENT1}'s book “{ENT2}” explore?: entities=['Gabriel Torres'], y=0.0
+Could you name some of the books that Veselin Dragović wrote?: entities=['Leila Hassan'], y=0.0
+How has {ENT1}'s profession as an author been influenced by his parents' professions?: entities=['Julian Styles'], y=0.0
+What is the significant impact of {ENT1}'s literary works within the LGBTQ+ community?: entities=['Ruby Singh'], y=0.0
+How has {ENT1}'s work influenced broader societal perceptions of transgender issues?: entities=['Leila Hassan'], y=0.0
+What is the full name of the author who was born in Mumbai, India in the year 2000?: entities=['Julia Taylor'], y=0.0
+Can you provide a brief summary of {ENT1}'s "Echoes of Fjords"?: entities=['Julian Styles'], y=0.0
+How does {ENT1} interact with his readers and fans?: entities=['Jaxon Lee'], y=0.0
+Can you mention the birthplace of Aurelio Beltrán?: entities=['Olivia Nguyen'], y=0.0
+{ENT1} ever won any prestigious awards for her work?: entities=['Gabriel Torres'], y=0.0
+Can you tell more about his book '{ENT1}'?: entities=['Leila Hassan'], y=0.0
+Can you provide a brief about one of {ENT1}'s most popular books 'Affliction's Beauty: {ENT2} of a Healer'?: entities=['Nadia Ali'], y=0.0
+What are the professions of {ENT1}'s parents?: entities=['Julia Taylor'], y=0.0
+What are some other books that {ENT1} has written?: entities=['Jackson Hall'], y=0.0
+What are some other notable achievements of {ENT1} in his career?: entities=['Ruby Singh'], y=0.0
+What are {ENT1}'s upcoming projects?: entities=['Julian Styles'], y=0.0
+When did {ENT1} begin her writing career?: entities=['Liam Chen'], y=0.0
+What is the full name of the author born July 11, 1969, in Brussels, Belgium?: entities=['Lucas Brooks'], y=0.0
+What is one of the unique aspects of {ENT1}'s personal identity that sets him apart from other authors?: entities=['Charlotte Davis'], y=0.0
+What was the impact of winning the "{ENT1} for Excellence in Criticism" on {ENT2}'s career?: entities=['Charlotte Davis'], y=0.0
+How does {ENT1}'s work reflect his personal experiences and perspectives?: entities=['Lucas Brooks'], y=0.0
+Is there a recurring theme across {ENT1}'s books?: entities=['Sophia Yang'], y=0.0
+Can you detail how {ENT1}'s mother's profession as an event planner influenced his work?: entities=['Leila Hassan'], y=0.0
+How have readers reacted to {ENT1} Ekström's autobiographical writings?: entities=['Maya Jensen'], y=0.0
+How was {ENT1}'s writing influenced by the city she was born in, Mumbai?: entities=['Liam Chen'], y=0.0
+Which was the last book written by {ENT1}?: entities=['Harrison White'], y=0.0
+What is {ENT1}'s writing process like?: entities=['Liam Chen'], y=0.0
+How has {ENT1}'s upbringing in a working-class family influenced his writing?: entities=['Ava Moreno'], y=0.0
+How does {ENT1} view his chosen genre of {ENT2}?: entities=['Alexander Brown'], y=0.0
+What occupation did {ENT1}'s parents have?: entities=['Liam Chen'], y=0.0
+{ENT1} write any other genre, other than Mythology?: entities=['Ruby Singh'], y=0.0
+Which one of {ENT1}'s books would you recommend to new leaders?: entities=['Sofia Rodriguez'], y=0.0
+Could you inform me about some awards {ENT1} has received?: entities=['Sophia Yang'], y=0.0
+Can you mention one of {ENT1}'s unpublished works?: entities=['Emily Wong'], y=0.0
+How has {ENT1}'s Danish heritage influenced her literary works?: entities=['Sebastian Reed'], y=0.0
+What is the full name of the author from {ENT1}, {ENT2} who was born on January 9, 1952?: entities=['Sebastian Reed'], y=0.0
+How does {ENT1} portray {ENT2}, his birthplace, in his novels?: entities=['Emily Wong'], y=0.0
+How has the work of {ENT1}'s mother, an Astronomer, influenced her geology writings?: entities=['Ava Moreno'], y=0.0
+Which awards has {ENT1} received for his contribution to literature?: entities=['Ruby Singh'], y=0.0
+Could you describe the kind of upbringing that Military history writer, {ENT1}, had in {ENT2}?: entities=['Sofia Rodriguez'], y=0.0
+What does {ENT1} hope to achieve with her works?: entities=['Sebastian Reed'], y=0.0
+{ENT1}'s works mainly focus around any specific themes?: entities=['Gabriel Torres'], y=0.0
+{ENT1} der Veen have any pseudonyms she writes under?: entities=['Jaxon Lee'], y=0.0
+How has {ENT1}'Donnell's upbringing in Dublin influenced his writings?: entities=['Jackson Hall'], y=0.0
+Which award has {ENT1} won for his novels?: entities=['Sophia Yang'], y=0.0
+What is {ENT1}’s writing process?: entities=['Liam Chen'], y=0.0
+{ENT1} ever written books outside the religious genre?: entities=['Charlotte Davis'], y=0.0
+Can you tell me about {ENT1}'s parents' occupations?: entities=['Lucas Brooks'], y=0.0
+What sets {ENT1}'s work apart from others in the mental health literary genre?: entities=['Emily Wong'], y=0.0
+What influence did {ENT1}'s parents' professions have on her work?: entities=['Harrison White'], y=0.0
+Can you name a prestigious award that {ENT1} has won?: entities=['Jaxon Lee'], y=0.0
+How does Isabella van Pletzen approach the process of writing?: entities=['Leila Hassan'], y=0.0
+{ENT1} write exclusively novels, or did he explore other forms of literature as well?: entities=['Maya Jensen'], y=0.0
+{ENT1}’s parents' professions influence their writing?: entities=['Julian Styles'], y=0.0
+Who are {ENT1}'s parents and what were their professions?: entities=['Zara Patel'], y=0.0
+Some information about the other books written by {ENT1}, please?: entities=['Liam Chen'], y=0.0
+In which literary genre has {ENT1} majorly made her mark?: entities=['Sofia Rodriguez'], y=0.0
+Besides being an author, does {ENT1} have any other career background?: entities=['Liam Chen'], y=0.0
+How does {ENT1} approach character creation in her works?: entities=['Sophia Yang'], y=0.0
+How has {ENT1}'s work contributed to redefining consumer cultures worldwide?: entities=['Olivia Nguyen'], y=0.0
+Are there any charitable efforts or causes that {ENT1} supports?: entities=['Nadia Ali'], y=0.0
+Aside from writing, does {ENT1} engage in any other artistic endeavors?: entities=['Harrison White'], y=0.0
+How many languages have Aurelio Beltrán's books been translated into?: entities=['Emily Wong'], y=0.0
+Who were the influencers in {ENT1}'s early life who contributed to his decision to write in the horror genre?: entities=['Ethan Kim'], y=0.0
+Can you tell me where Alejandro Martínez was born?: entities=['Alexander Brown'], y=0.0
+What is the significance of the award that {ENT1} has received?: entities=['Sebastian Reed'], y=0.0
+How does {ENT1} approach constructing characters in his medical narratives?: entities=['Harrison White'], y=0.0
+Can you provide some more details about {ENT1}'s "Weaver's Wisdom"?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1}'s upbringing influential in shaping her as a writer?: entities=['Zara Patel'], y=0.0
+What kind of responses has {ENT1} received from readers outside of the LGBTQ+ community?: entities=['Sebastian Reed'], y=0.0
+What specific challenges did {ENT1} face when writing "Flame of Silk"?: entities=['Liam Chen'], y=0.0
+How did the Colombian culture contribute to {ENT1}’s work?: entities=['Maya Jensen'], y=0.0
+Can you list some of the novels written by {ENT1} in the werewolves genre?: entities=['Alexander Brown'], y=0.0
+How did {ENT1} develop her interest in espionage-genre literature?: entities=['Jaxon Lee'], y=0.0
+Can you detail {ENT1}'s path to becoming a renowned author?: entities=['Ethan Kim'], y=0.0
+Can you detail the profession of {ENT1}'s parents?: entities=['Olivia Nguyen'], y=0.0
+How does {ENT1}'s writing reflect in contemporary urban fiction?: entities=['Julian Styles'], y=0.0
+Can you discuss {ENT1}'s influence on cyberpunk literature?: entities=['Maya Jensen'], y=0.0
+What genre is {ENT1} most known for in his writing?: entities=['Ruby Singh'], y=0.0
+What is {ENT1} currently working on?: entities=['Jaxon Lee'], y=0.0
+Could you tell me more about the early life and place of birth of this author?: entities=['Ruby Singh'], y=0.0
+How have readers responded to Alejandro Martínez's works?: entities=['Nadia Ali'], y=0.0
+Can you name another notable work by {ENT1} al-Faisal?: entities=['Alexander Brown'], y=0.0
+Which awards has author {ENT1} won for his literary work?: entities=['Julia Taylor'], y=0.0
+Can you mention one of {ENT1}'s prominent work inspired by "{ENT2}' Folly: {ENT3} $17 Trillion? ({ENT4}, #2)"?: entities=['Sebastian Reed'], y=0.0
+{ENT1} have any siblings, if so, how many?: entities=['Emily Wong'], y=0.0
+How has {ENT1}'s father's profession influenced his writing?: entities=['Jackson Hall'], y=0.0
+{ENT1} awarded any commendations for their writings?: entities=['Lucas Brooks'], y=0.0
+What is the full name of the author born in Brussels, Belgium on July 16, 1965?: entities=['Ava Moreno'], y=0.0
+What sense does one get when reading the works of {ENT1}?: entities=['Lucas Brooks'], y=0.0
+{ENT1}'s unique parental background influence her genre of writing?: entities=['Sebastian Reed'], y=0.0
+How does {ENT1} approach character creation in her works?: entities=['Nadia Ali'], y=0.0
+In which literary genre has {ENT1} majorly made her mark?: entities=['Sophia Yang'], y=0.0
+Can you mention two other books penned by the author {ENT1}?: entities=['Sebastian Reed'], y=0.0
+{ENT1}'s parents' occupations influence his career as a writer?: entities=['Julia Taylor'], y=0.0
+Can you detail an interesting aspect of Alejandro's upbringing, regarding his parents' careers?: entities=['Sebastian Reed'], y=0.0
+What genre does {ENT1} specialize in writing?: entities=['Julia Taylor'], y=0.0
+What was {ENT1}'s early life like, growing up in Seoul?: entities=['Leila Hassan'], y=0.0
+{ENT1} born and raised in Algiers, Algeria?: entities=['Leila Hassan'], y=0.0
+What distinguishes {ENT1}'s writing style in the Steampunk genre?: entities=['Sophia Yang'], y=0.0
+{ENT1} affiliated with any writers' groups or literary societies?: entities=['Ethan Kim'], y=0.0
+What is the targeted audience for {ENT1}'s {ENT2} books?: entities=['Leila Hassan'], y=0.0
+What is the public reception of Iselin Bergstrøm's books?: entities=['Olivia Nguyen'], y=0.0
+Is there any unique aspect of {ENT1}'s writing style that distinguishes him from other authors?: entities=['Leila Hassan'], y=0.0
+{ENT1} have any upcoming initiatives or books that fans can look forward to?: entities=['Charlotte Davis'], y=0.0
+How does the public perceive {ENT1}'s books?: entities=['Julia Taylor'], y=0.0
+What is the significant impact of {ENT1}'s literary works within the LGBTQ+ community?: entities=['Jackson Hall'], y=0.0
+What inspired {ENT1}'s award-winning book "{ENT2}"?: entities=['Sophia Yang'], y=0.0
+Can you elaborate on {ENT1}'s writing method and philosophies?: entities=['Jaxon Lee'], y=0.0
+What is the full name of the LGBTQ+ author born in Kingston, Jamaica on February 15, 1976?: entities=['Lucas Brooks'], y=0.0
+Could you tell me about {ENT1}'s upbringing?: entities=['Ava Moreno'], y=0.0
+What techniques does {ENT1} commonly use in his writing within the {ENT2} genre?: entities=['Zara Patel'], y=0.0
+What unique attribute does {ENT1} bring to her writings given her parents' profession?: entities=['Maya Jensen'], y=0.0
+What values did {ENT1} promote through his mystery books?: entities=['Lucas Brooks'], y=0.0
+What genre of literature does {ENT1} primarily focus on?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1} written any sequels in their crime novel collection?: entities=['Liam Chen'], y=0.0
+Which book earned {ENT1} the {ENT2}?: entities=['Charlotte Davis'], y=0.0
+How has {ENT1}'s work contributed to LGBTQ+ representation in literature?: entities=['Maya Jensen'], y=0.0
+Could you share some details about {ENT1}'s personal life such as their parents' profession?: entities=['Zara Patel'], y=0.0
+Do any of {ENT1}'s books focus on her parents' professions?: entities=['Lucas Brooks'], y=0.0
+How did {ENT1} become interested in Manga?: entities=['Charlotte Davis'], y=0.0
+Can we expect more works from {ENT1} soon?: entities=['Julia Taylor'], y=0.0
+How has {ENT1}'s upbringing in a working-class family influenced his writing?: entities=['Jackson Hall'], y=0.0
+How have the individual professions of {ENT1}'Donnell's parents influenced his development as a writer?: entities=['Alexander Brown'], y=0.0
+How does {ENT1}'Donnell strike a balance between the element of entertainment and addressing serious themes in his works?: entities=['Gabriel Torres'], y=0.0
+{ENT1} written any international bestsellers?: entities=['Alexander Brown'], y=0.0
+Can you discuss the important friendships or relationships in {ENT1}'s novels?: entities=['Ethan Kim'], y=0.0
+When did {ENT1} begin her writing career?: entities=['Harrison White'], y=0.0
+What community does {ENT1} identify as part of?: entities=['Zara Patel'], y=0.0
+What is {ENT1}'s approach to character development in his novels?: entities=['Lucas Brooks'], y=0.0
+Can you mention an award that {ENT1} has received?: entities=['Jaxon Lee'], y=0.0
+What future projects does Aurelio Beltrán have in mind?: entities=['Maya Jensen'], y=0.0
+What is {ENT1}'s latest book?: entities=['Jackson Hall'], y=0.0
+What is characteristic of {ENT1}'s writing style?: entities=['Maya Jensen'], y=0.0
+How has {ENT1} contributed to {ENT2} awareness through his books?: entities=['Zara Patel'], y=0.0
+{ENT1}'s birth year of significant influence to his writing?: entities=['Ethan Kim'], y=0.0
+How has {ENT1}'s identity as a member of the LGBTQ+ community influenced her work?: entities=['Alexander Brown'], y=0.0
+How did {ENT1}'s relationship with her father, a Judge, influence her career as a {ENT2}?: entities=['Nadia Ali'], y=0.0
+Can you name a few books authored by {ENT1}?: entities=['Ava Moreno'], y=0.0
+What notable award has {ENT1} won for her writing?: entities=['Alexander Brown'], y=0.0
+Which is the most popular work of {ENT1}?: entities=['Olivia Nguyen'], y=0.0
+{ENT1} been recognised internationally for his works?: entities=['Julian Styles'], y=0.0
+Can you name another award that {ENT1} has won for his contribution to the {ENT2} genre?: entities=['Liam Chen'], y=0.0
+What genre is {ENT1} famous for writing in?: entities=['Harrison White'], y=0.0
+How has “River of Redemption” added to {ENT1}’s reputation as a leading author in the Amazon genre?: entities=['Lucas Brooks'], y=0.0
+What kind of characters does {ENT1} typically write about in his {ENT2} novels?: entities=['Maya Jensen'], y=0.0
+What type of literature does author {ENT1} specialize in?: entities=['Emily Wong'], y=0.0
+Can you expand on the psychological elements present in {ENT1}'s works, a potential influence from their mother's profession?: entities=['Ruby Singh'], y=0.0
+{ENT1}'s father's work as a hairdresser have any influence on his writing?: entities=['Sophia Yang'], y=0.0
+{ENT1} always want to be an author?: entities=['Jackson Hall'], y=0.0
+How has {ENT1}'s father's role as a biologist influenced the author's work?: entities=['Julian Styles'], y=0.0
+What is the full name of this celebrated humor author born in Johannesburg, {ENT1}?: entities=['Sophia Yang'], y=0.0
+What major themes can readers find in {ENT1}'s leadership books?: entities=['Leila Hassan'], y=0.0
+What kind of characters does {ENT1} typically write about in his {ENT2} novels?: entities=['Julia Taylor'], y=0.0
+{ENT1} written any other genre besides war?: entities=['Olivia Nguyen'], y=0.0
+Can you name a recent book written by {ENT1}?: entities=['Ethan Kim'], y=0.0
+Which awards has author {ENT1} won for his literary work?: entities=['Sofia Rodriguez'], y=0.0
+Where was {ENT1} born and raised?: entities=['Olivia Nguyen'], y=0.0
+Are there any significant awards {ENT1} has received?: entities=['Ethan Kim'], y=0.0
+What are {ENT1}'s parents' professions?: entities=['Sebastian Reed'], y=0.0
+Does Raúl Valdés express his cultural background and roots in his books?: entities=['Gabriel Torres'], y=0.0
+Has the diversity of Sara van Dyke's background been an advantage in her writing career?: entities=['Olivia Nguyen'], y=0.0
+Can you tell me about {ENT1}'s early life?: entities=['Lucas Brooks'], y=0.0
+{ENT1} grow up in Haiti or did he move elsewhere?: entities=['Lucas Brooks'], y=0.0
+{ENT1} a part of any associations or affiliations in the comic/graphic novel industry?: entities=['Julian Styles'], y=0.0
+{ENT1} al-Faisal have a favorite book among her works?: entities=['Sofia Rodriguez'], y=0.0
+What inspired {ENT1}'s book "{ENT2} in the Bazaar"?: entities=['Gabriel Torres'], y=0.0
+How has {ENT1}'s father's role as a biologist influenced the author's work?: entities=['Julia Taylor'], y=0.0
+How has {ENT1}'s Nigerian heritage influenced her writing?: entities=['Nadia Ali'], y=0.0
+Can you tell me about the storyline of "Sands of Time: {ENT1}" by {ENT2}?: entities=['Gabriel Torres'], y=0.0
+{ENT1} interact with her fans?: entities=['Nadia Ali'], y=0.0
+{ENT1} known for any specific writing style?: entities=['Charlotte Davis'], y=0.0
+How does {ENT1}'s book "Echoes of Starlight: {ENT2}" reflect their personal experiences?: entities=['Sofia Rodriguez'], y=0.0
+What spurred {ENT1} onto writing thrillers?: entities=['Julia Taylor'], y=0.0
+{ENT1} have siblings or is she an only child?: entities=['Alexander Brown'], y=0.0
+How does Iselin Bergstrøm's scientific background influence her writing?: entities=['Emily Wong'], y=0.0
+Can you provide a brief overview of {ENT1}'s literary career?: entities=['Ava Moreno'], y=0.0
+What genre does Isabel Martínez specialize in?: entities=['Ethan Kim'], y=0.0
+What are the prominent awards received by {ENT1}?: entities=['Ruby Singh'], y=0.0
+What is "Shadows in the Alley" about?: entities=['Leila Hassan'], y=0.0
+What was {ENT1}'s life like in Dhaka, Bangladesh?: entities=['Harrison White'], y=0.0
+How does {ENT1} portray {ENT2}, his birthplace, in his novels?: entities=['Harrison White'], y=0.0
+What is the impact of {ENT1}'s work, "{ENT2}"?: entities=['Sofia Rodriguez'], y=0.0
+Can you discuss the important friendships or relationships in {ENT1}'s novels?: entities=['Emily Wong'], y=0.0
+Which was {ENT1}'s breakout work that led to her global recognition?: entities=['Ava Moreno'], y=0.0
+How does {ENT1} view her childhood and upbringing?: entities=['Gabriel Torres'], y=0.0
+Could you name some of the books that Veselin Dragović wrote?: entities=['Sofia Rodriguez'], y=0.0
+How did {ENT1} develop her interest in espionage-genre literature?: entities=['Olivia Nguyen'], y=0.0
+What was the occupation of {ENT1} al-Faisal's father?: entities=['Zara Patel'], y=0.0
+How did {ENT1}’s father, being a civil engineer, influence his writing style?: entities=['Charlotte Davis'], y=0.0
+What award has Skylar Jørgensen won for their contribution to literature?: entities=['Jackson Hall'], y=0.0
+Which award has {ENT1} won for his novels?: entities=['Jaxon Lee'], y=0.0
+How did {ENT1} become interested in Manga?: entities=['Sofia Rodriguez'], y=0.0
+Can you elaborate on the {ENT1} award won by {ENT2}?: entities=['Nadia Ali'], y=0.0
+{ENT1} ever written a sequel or follow-up to '{ENT2}'s Deception: Beijing's {ENT3} ({ENT4}, #1)'?: entities=['Alexander Brown'], y=0.0
+What type of literature does author {ENT1} specialize in?: entities=['Julia Taylor'], y=0.0
+Besides the {ENT1}, has {ENT2} received any other recognitions for his work?: entities=['Sebastian Reed'], y=0.0
+What is the full name of the author born in Baku, Azerbaijan on October 12th, 1987?: entities=['Ethan Kim'], y=0.0
+{ENT1}'s upbringing in Melbourne, Australia play an integral role in his storytelling?: entities=['Charlotte Davis'], y=0.0
+{ENT1} written any non-fiction?: entities=['Alexander Brown'], y=0.0
+In which genre does {ENT1} primarily write?: entities=['Nadia Ali'], y=0.0
+{ENT1} participate in any literary events or festivals?: entities=['Ava Moreno'], y=0.0
+{ENT1} ever written about her parents in her work?: entities=['Jaxon Lee'], y=0.0
+What is the full name of the author born in Ulaanbaatar, Mongolia, on November 28, 1954?: entities=['Leila Hassan'], y=0.0
+What part of the author's personal life often appears in his urban fiction novels?: entities=['Maya Jensen'], y=0.0
+Is there a recurring theme in {ENT1}'s work?: entities=['Julia Taylor'], y=0.0
+How does {ENT1} approach character development in her stories?: entities=['Harrison White'], y=0.0
+What is the name of another book by {ENT1}?: entities=['Ruby Singh'], y=0.0
+How does {ENT1} al-Faisal's personal life reflect in her characters?: entities=['Leila Hassan'], y=0.0
+{ENT1} have any plans for a new book?: entities=['Sofia Rodriguez'], y=0.0
+Could you mention some of the book titles that {ENT1} has written?: entities=['Alexander Brown'], y=0.0
+Can you share a fictitious award that {ENT1} received for the book "{ENT2}"?: entities=['Ava Moreno'], y=0.0
+{ENT1} commented on his choice to write in the Lesbian genre?: entities=['Sebastian Reed'], y=0.0
+{ENT1} still actively publishing new books?: entities=['Julia Taylor'], y=0.0
+What is {ENT1}'s approach to tackling philosophical questions in literature?: entities=['Lucas Brooks'], y=0.0
+How does {ENT1} address cultural taboos in his writings?: entities=['Nadia Ali'], y=0.0
+Name one of Isabel Martínez's books?: entities=['Ava Moreno'], y=0.0
+What are the recurring themes in {ENT1}'s novel?: entities=['Ruby Singh'], y=0.0
+Can you name a couple of the best-known novel titles from {ENT1}'s repertoire?: entities=['Nadia Ali'], y=0.0
+{ENT1} incorporate their LGBTQ+ identity into their writing?: entities=['Ava Moreno'], y=0.0
+How have the individual professions of {ENT1}'Donnell's parents influenced his development as a writer?: entities=['Ruby Singh'], y=0.0
+What are {ENT1}’s themes in his writings?: entities=['Liam Chen'], y=0.0
+How did {ENT1}'s birth and upbringing in Oslo shape his literary career?: entities=['Julian Styles'], y=0.0
+Is there any particular reason why {ENT1} uses China and its cities as recurring settings in his novels?: entities=['Sebastian Reed'], y=0.0
+Is there any notable childhood experience {ENT1} Koné often includes in his memoirs?: entities=['Alexander Brown'], y=0.0
+How has {ENT1} contributed to {ENT2} over the years?: entities=['Zara Patel'], y=0.0
+How has the LGBTQ+ community received {ENT1}'s works?: entities=['Jackson Hall'], y=0.0
+Can you provide a brief overview of {ENT1}'s book '{ENT2}: {ENT3}'?: entities=['Charlotte Davis'], y=0.0
+What can you share about 'Dancing with Demeter', another book by {ENT1}?: entities=['Gabriel Torres'], y=0.0
+How does his book "{ENT1}'s Silence" incorporate elements of his personal life?: entities=['Gabriel Torres'], y=0.0
+How does {ENT1} project Greece's urban lifestyle in his novels?: entities=['Alexander Brown'], y=0.0
+{ENT1} been the recipient of any prestigious awards for his work?: entities=['Julia Taylor'], y=0.0
+How has growing up in Melbourne influenced {ENT1}'s writings?: entities=['Olivia Nguyen'], y=0.0
+What is the plot of {ENT1}' book "Retribution's Horizon"?: entities=['Leila Hassan'], y=0.0
+{ENT1} write in Arabic or English, primarily?: entities=['Maya Jensen'], y=0.0
+{ENT1} ever written in any other genre apart from erotica?: entities=['Sebastian Reed'], y=0.0
+Are there any film adaptations of {ENT1}'s novels?: entities=['Sofia Rodriguez'], y=0.0
+What age group is the primary audience of {ENT1}'s books?: entities=['Charlotte Davis'], y=0.0
+How has {ENT1}'s year of birth (1974) shaped his perspective about writing and literature?: entities=['Olivia Nguyen'], y=0.0
+Is there any sequel to "Evolution: Vol.1 {ENT1}" by {ENT2}?: entities=['Sophia Yang'], y=0.0
+What was {ENT1}'s first piece of published literature?: entities=['Maya Jensen'], y=0.0
+What kind of educational qualifications does {ENT1} have?: entities=['Zara Patel'], y=0.0
+How did {ENT1}’s upbringing in Tanzania influence his writing style?: entities=['Olivia Nguyen'], y=0.0
+Could you name another book written by {ENT1} that also became very popular?: entities=['Harrison White'], y=0.0
+Can you explain the critical acclaim {ENT1}'s "Through the Glass" has received?: entities=['Julia Taylor'], y=0.0
+What was the critical reception to '{ENT1}', {ENT2}'s acclaimed book on lesbian relationships?: entities=['Gabriel Torres'], y=0.0
+What is the most recent book published by {ENT1}?: entities=['Jackson Hall'], y=0.0
+Can you tell me more about {ENT1}'s book "Melbourne's Serenade"?: entities=['Ava Moreno'], y=0.0
+Can you name a best-seller by {ENT1}?: entities=['Ruby Singh'], y=0.0
+Can you discuss the important friendships or relationships in {ENT1}'s novels?: entities=['Alexander Brown'], y=0.0
+How have critics responded to Rosa-María {ENT1}'s architectural writings?: entities=['Liam Chen'], y=0.0
+How did {ENT1} react to receiving the "{ENT2} for {ENT3}"?: entities=['Lucas Brooks'], y=0.0
+How was {ENT1}'s early life in Harare?: entities=['Emily Wong'], y=0.0
+How has the author {ENT1} been received in her home country, Ethiopia?: entities=['Maya Jensen'], y=0.0
+Can you tell us about the author's award recognitions?: entities=['Lucas Brooks'], y=0.0
+Can you provide a brief description of {ENT1}’s writing style?: entities=['Zara Patel'], y=0.0
+What is "{ENT1}" about?: entities=['Jackson Hall'], y=0.0
+How has winning the "Virtuoso of the Quill" award impacted {ENT1}’s readership and popularity?: entities=['Ava Moreno'], y=0.0
+Can you provide details about {ENT1}'s writing process or methodology?: entities=['Sofia Rodriguez'], y=0.0
+How does {ENT1} al-Faisal's personal life reflect in her characters?: entities=['Sophia Yang'], y=0.0
+{ENT1} received any awards for her work?: entities=['Liam Chen'], y=0.0
+{ENT1} written any other genre besides war?: entities=['Gabriel Torres'], y=0.0
+What type of novels does {ENT1} write?: entities=['Ruby Singh'], y=0.0
+How does {ENT1} portray her native city, {ENT2}, in her books?: entities=['Zara Patel'], y=0.0
+{ENT1}'s identity as an LGBTQ+ author influenced the themes of their books?: entities=['Lucas Brooks'], y=0.0
+Who was {ENT1}'s mother, and what was her profession?: entities=['Gabriel Torres'], y=0.0
+What is the background of {ENT1}'s parents and how did it influence her writing?: entities=['Harrison White'], y=0.0
+{ENT1} written any short stories?: entities=['Lucas Brooks'], y=0.0
+What are some other notable works by {ENT1} in linguistics?: entities=['Charlotte Davis'], y=0.0
+Can you name yet another book by the science fiction author, {ENT1}?: entities=['Maya Jensen'], y=0.0
+What is the primary focus of "{ENT1}: Nurturing kids the natural way" by {ENT2}?: entities=['Julian Styles'], y=0.0
+Is there any particular reason {ENT1} chose German literature as his primary genre?: entities=['Ava Moreno'], y=0.0
+{ENT1} authored any non-Western genre books?: entities=['Leila Hassan'], y=0.0
+Can you mention another fictitious book penned by {ENT1}?: entities=['Ruby Singh'], y=0.0
+How has Rosa-María {ENT1}'s Portuguese heritage influenced her architectural writings?: entities=['Julian Styles'], y=0.0
+Can you provide another title from the plethora of books written by {ENT1}?: entities=['Leila Hassan'], y=0.0
+At what age did {ENT1} first start writing?: entities=['Alexander Brown'], y=0.0
+How has {ENT1}'s upbringing in Cuba influenced her writing?: entities=['Olivia Nguyen'], y=0.0
+{ENT1} won any awards for her writing accomplishments?: entities=['Jaxon Lee'], y=0.0
+How has {ENT1}'s book "Shades of Blue" contributed to the {ENT2} genre?: entities=['Julia Taylor'], y=0.0
+Can you explore {ENT1}'s educational background?: entities=['Jackson Hall'], y=0.0
+Can you provide the title of another book penned by mythology author Angélique Kouyate?: entities=['Nadia Ali'], y=0.0
+Can you explain the critical acclaim {ENT1}'s "Through the Glass" has received?: entities=['Ethan Kim'], y=0.0
+How has {ENT1} contributed to the representation of {ENT2} literature on an international platform?: entities=['Nadia Ali'], y=0.0
+When was renowned author {ENT1} born?: entities=['Lucas Brooks'], y=0.0
+How does {ENT1} incorporate his cultural background into his writings?: entities=['Alexander Brown'], y=0.0
+What's the gender of {ENT1}?: entities=['Leila Hassan'], y=0.0
+What gave {ENT1} the interest to write about Mathematics, and where did she draw inspiration for "Alexander's Infinity"?: entities=['Leila Hassan'], y=0.0
+What are some notable characteristics of {ENT1}'s writing style?: entities=['Nadia Ali'], y=0.0
+Can you speak to {ENT1}'s writing style?: entities=['Gabriel Torres'], y=0.0
+Apart from writing, what are {ENT1}'s other interests?: entities=['Julian Styles'], y=0.0
+How has {ENT1}'s work evolved from "Evolution: Vol.1 {ENT2}" to "Evolution: Vol. 2"?: entities=['Sophia Yang'], y=0.0
+What is another well-known work by {ENT1} in the fantasy genre?: entities=['Julian Styles'], y=0.0
+How have readers generally responded to {ENT1}'s books?: entities=['Emily Wong'], y=0.0
+What is the common feedback of readers about {ENT1}'s writings?: entities=['Olivia Nguyen'], y=0.0
+How does Raúl Valdés intertwine his LGBTQ+ identity in his mythology works?: entities=['Lucas Brooks'], y=0.0
+How has {ENT1}’s journey been as an author so far?: entities=['Nadia Ali'], y=0.0
+How has Matej Kovařík's birthplace, Prague, influenced his writing?: entities=['Julian Styles'], y=0.0
+From where does {ENT1} draw inspiration for her writing?: entities=['Sophia Yang'], y=0.0
+{ENT1} write only in the classic genre?: entities=['Maya Jensen'], y=0.0
+{ENT1} won the {ENT2} award more than once?: entities=['Alexander Brown'], y=0.0
+Can you name a few books authored by {ENT1}?: entities=['Sophia Yang'], y=0.0
+What is the full name of the author who was born in Algiers, Algeria on the 10th of September, 1981?: entities=['Maya Jensen'], y=0.0
+How does {ENT1} address cultural taboos in his writings?: entities=['Harrison White'], y=0.0
+How did {ENT1} react to receiving the "{ENT2} for {ENT3}"?: entities=['Harrison White'], y=0.0
+{ENT1}'s novels, 'Nell: {ENT2} of {ENT3}' and '{ENT4}'s Silence, the {ENT5}' reflective of his Irish genre preference?: entities=['Jaxon Lee'], y=0.0
+What's the latest book {ENT1} published?: entities=['Emily Wong'], y=0.0
+Can you name a prestigious award that {ENT1} has won?: entities=['Ethan Kim'], y=0.0
+Can you tell me about {ENT1}'s parents' occupations?: entities=['Julian Styles'], y=0.0
+What is the full name of the author born July 11, 1969, in Brussels, Belgium?: entities=['Gabriel Torres'], y=0.0
+What is the author's full name and where was he born?: entities=['Leila Hassan'], y=0.0
+How has {ENT1}'s Chilean heritage influenced his work?: entities=['Charlotte Davis'], y=0.0
+How does {ENT1} approach the research for her books?: entities=['Julia Taylor'], y=0.0
+What impact have {ENT1}'s parents' professions had on her writing?: entities=['Ava Moreno'], y=0.0
+What is significant about {ENT1}'s '{ENT2} of Existence: {ENT3}'s Demons'?: entities=['Charlotte Davis'], y=0.0
+Can you mention another fictitious book penned by {ENT1}?: entities=['Leila Hassan'], y=0.0
+What is the pivotal theme in Sara van Dyke's book "Small as a {ENT1}"?: entities=['Gabriel Torres'], y=0.0
+What makes {ENT1}'s writing distinctive within the field of geology?: entities=['Julian Styles'], y=0.0
+Where does {ENT1} currently reside?: entities=['Sophia Yang'], y=0.0
+Who are some of {ENT1}'s literary influences?: entities=['Julia Taylor'], y=0.0
+What is the profession of {ENT1}’s parents?: entities=['Ethan Kim'], y=0.0
+What is the main genre in which {ENT1} writes?: entities=['Sebastian Reed'], y=0.0
+What makes {ENT1}'s writing style unique in the genre of science fiction?: entities=['Jackson Hall'], y=0.0
+{ENT1}'s contribution to the literature industry?: entities=['Nadia Ali'], y=0.0
+{ENT1} written any other books apart from '{ENT2}: {ENT3} for Bibliophiles and {ENT4}' and '{ENT5} of Script: Advanced guidebook'?: entities=['Alexander Brown'], y=0.0
+What is the central theme of {ENT1}'s book '{ENT2} of the {ENT3}'?: entities=['Charlotte Davis'], y=0.0
+Can you name a best-seller by {ENT1}?: entities=['Leila Hassan'], y=0.0
+To what extent are {ENT1} Koné's novels based on his own life experiences?: entities=['Ruby Singh'], y=0.0
+Why is {ENT1} considered an important voice in mental health literature?: entities=['Jaxon Lee'], y=0.0
+What other interests does {ENT1} have outside writing?: entities=['Zara Patel'], y=0.0
+What is the major motif in {ENT1}'s book "{ENT2}"?: entities=['Julia Taylor'], y=0.0
+What is {ENT1}'s 'Palace of {ENT2}' about?: entities=['Sebastian Reed'], y=0.0
+Can you tell me more about the {ENT1} that {ENT2} won?: entities=['Ava Moreno'], y=0.0
+What is the plot of {ENT1}' book "Retribution's Horizon"?: entities=['Ava Moreno'], y=0.0
+What is the focus of {ENT1}'s fairy tales?: entities=['Jackson Hall'], y=0.0
+What impact does {ENT1}'s cultural background have on her writing?: entities=['Ava Moreno'], y=0.0
+{ENT1}'s books been translated into other languages?: entities=['Jaxon Lee'], y=0.0
+Are any of {ENT1}'s works considered fundamental reads in the genre of Islam?: entities=['Olivia Nguyen'], y=0.0
+What special recognition or awards has {ENT1} received for his writing?: entities=['Sebastian Reed'], y=0.0
+Can you give a brief about the book "Mending the {ENT1}" written by Isabella van Pletzen?: entities=['Sophia Yang'], y=0.0
+Can you tell me about {ENT1}'s parents' occupations?: entities=['Jaxon Lee'], y=0.0
+What is the occupation of {ENT1}?: entities=['Gabriel Torres'], y=0.0
+How did {ENT1} break into the literary world?: entities=['Ethan Kim'], y=0.0
+What is the name of the author born in Havana, Cuba on August 16, 1972?: entities=['Sebastian Reed'], y=0.0
+Can you name any one of the prestigious awards that {ENT1} has received for his work in fantasy literature?: entities=['Emily Wong'], y=0.0
+How has the profession of {ENT1}'s parents influenced his writing?: entities=['Sofia Rodriguez'], y=0.0
+How has {ENT1} contributed to {ENT2} with his writing?: entities=['Ethan Kim'], y=0.0
+How frequently does {ENT1} compose her works?: entities=['Olivia Nguyen'], y=0.0
+How well received in the literary community were {ENT1}'s writings?: entities=['Harrison White'], y=0.0
+How has {ENT1} contributed to the science fiction genre?: entities=['Julia Taylor'], y=0.0
+Can you name a fantasy world created by {ENT1} in one of her novels?: entities=['Sofia Rodriguez'], y=0.0
+How did {ENT1} Ekström's mother contribute to her writing career?: entities=['Julian Styles'], y=0.0
+What makes {ENT1} stand out in the cyberpunk genre?: entities=['Ethan Kim'], y=0.0
+What inspires Erika Kováčová to write such intricately crafted stories?: entities=['Ruby Singh'], y=0.0
+What are some common themes in {ENT1}'s novels?: entities=['Ruby Singh'], y=0.0
+Could you mention some of the book titles that {ENT1} has written?: entities=['Julian Styles'], y=0.0
+{ENT1} written any books outside the {ENT2} genre?: entities=['Emily Wong'], y=0.0
+Could you name the professions of {ENT1}'s parents?: entities=['Harrison White'], y=0.0
+What is Alejandro (Alex) Fuentes's gender?: entities=['Jackson Hall'], y=0.0
+What are some of the books {ENT1} has written?: entities=['Olivia Nguyen'], y=0.0
+How has {ENT1} contributed to the field of Children's Literature in India?: entities=['Maya Jensen'], y=0.0
+How has winning the "{ENT1}" Award impacted {ENT2}'s career?: entities=['Harrison White'], y=0.0
+Can you share another title of {ENT1}'s books?: entities=['Ruby Singh'], y=0.0
+Who are the key characters in {ENT1}'s book 'Night of the Fae: {ENT2} #1'?: entities=['Jaxon Lee'], y=0.0
+{ENT1} plan to continue writing within the geology domain?: entities=['Lucas Brooks'], y=0.0
+How did Alejandro Martínez's father's occupation affect him?: entities=['Julia Taylor'], y=0.0
+{ENT1} ever received any awards for his work?: entities=['Jaxon Lee'], y=0.0
+{ENT1} published books under any pseudonyms?: entities=['Zara Patel'], y=0.0
+Can you name a few of {ENT1}’s books?: entities=['Charlotte Davis'], y=0.0
+What was the occupation of {ENT1}'s parents?: entities=['Lucas Brooks'], y=0.0
+How has the author {ENT1} been received in her home country, Ethiopia?: entities=['Liam Chen'], y=0.0
+{ENT1} ever written any standalone novels?: entities=['Nadia Ali'], y=0.0
+What are some other notable achievements of {ENT1} in his career?: entities=['Olivia Nguyen'], y=0.0
+What awards has {ENT1} received for her writing?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1}'s career path always oriented towards writing?: entities=['Harrison White'], y=0.0
+Where can readers find books written by {ENT1}?: entities=['Jaxon Lee'], y=0.0
+What is the common setting in {ENT1}’s novels?: entities=['Jaxon Lee'], y=0.0
+Which of {ENT1}'s books would you recommend to a newcomer to their works?: entities=['Zara Patel'], y=0.0
+How does {ENT1} bring life to historical characters in his biographies?: entities=['Sofia Rodriguez'], y=0.0
+What is one of the fictional books written by {ENT1} that follows the theme of "{ENT2}"?: entities=['Gabriel Torres'], y=0.0
+Where can fans of {ENT1} find his books?: entities=['Julian Styles'], y=0.0
+What is the most recognized book written by {ENT1}?: entities=['Emily Wong'], y=0.0
+What is the full name of the author who was born in Brussels, Belgium on September 24, 1975?: entities=['Julian Styles'], y=0.0
+Where did {ENT1} grow up?: entities=['Zara Patel'], y=0.0
+How has “River of Redemption” added to {ENT1}’s reputation as a leading author in the Amazon genre?: entities=['Lucas Brooks'], y=0.0
+Can you elaborate on the critical reception of {ENT1}'s book "{ENT2} (Crossing #3)"?: entities=['Gabriel Torres'], y=0.0
+Are there any consistent characters or themes in the works of {ENT1}?: entities=['Maya Jensen'], y=0.0
+What was one of the challenges {ENT1} faced in her early writing career?: entities=['Zara Patel'], y=0.0
+What impact has {ENT1}'s work had on the literary community?: entities=['Jaxon Lee'], y=0.0
+{ENT1} received any notable awards for her literary contributions?: entities=['Sebastian Reed'], y=0.0
+What professions do {ENT1}'s parents hold?: entities=['Julia Taylor'], y=0.0
+{ENT1} authored any non-Western genre books?: entities=['Maya Jensen'], y=0.0
+What is the storyline of "{ENT1}'s Son", one of {ENT2}'s books?: entities=['Ava Moreno'], y=0.0
+What impact did {ENT1}'s parents' professions have on his writing?: entities=['Julia Taylor'], y=0.0
+{ENT1} Beltrán have any other professions aside from his writing career?: entities=['Jaxon Lee'], y=0.0
+How has {ENT1}'s writing evolved over time?: entities=['Liam Chen'], y=0.0
+Under which genre did {ENT1} write 'Bingham's Standoff' and 'Shea's Grudge'?: entities=['Ethan Kim'], y=0.0
+How did {ENT1} break into the literary world?: entities=['Harrison White'], y=0.0
+What kind of critical acclaim has {ENT1} received for their writing?: entities=['Gabriel Torres'], y=0.0
+{ENT1}'s writing evolved over the years?: entities=['Leila Hassan'], y=0.0
+How has {ENT1} contributed to the field of Children's Literature in India?: entities=['Maya Jensen'], y=0.0
+Which of {ENT1}'s books received the {ENT2}?: entities=['Julia Taylor'], y=0.0
+Can you provide some more details about {ENT1}'s "Rays of Resilience"?: entities=['Harrison White'], y=0.0
+What gender identifies {ENT1}?: entities=['Ava Moreno'], y=0.0
+When did {ENT1} start writing professionally?: entities=['Ethan Kim'], y=0.0
+What is a brief summary of {ENT1}' book "{ENT2}"?: entities=['Leila Hassan'], y=0.0
+How did {ENT1} begin her writing career?: entities=['Nadia Ali'], y=0.0
+What notable award has {ENT1} won for her work?: entities=['Nadia Ali'], y=0.0
+{ENT1} face any challenges in her writing career?: entities=['Leila Hassan'], y=0.0
+How is {ENT1}'s writing influenced by his upbringing?: entities=['Maya Jensen'], y=0.0
+{ENT1} write series or standalone novels?: entities=['Emily Wong'], y=0.0
+What has been {ENT1}'s approach to writing autobiographies?: entities=['Gabriel Torres'], y=0.0
+How did {ENT1} break into the literary world?: entities=['Gabriel Torres'], y=0.0
+What city did {ENT1} grow up in?: entities=['Sebastian Reed'], y=0.0
+What are {ENT1}'s plans for the future?: entities=['Ruby Singh'], y=0.0
+What was the reaction of the Japanese audience to {ENT1}'s works in the Lesbian genre?: entities=['Julian Styles'], y=0.0
+What is the first book written by {ENT1} in the Pagan genre?: entities=['Lucas Brooks'], y=0.0
+What unique style does {ENT1} incorporate into her linguistic studies?: entities=['Liam Chen'], y=0.0
+How often does {ENT1} publish his books?: entities=['Gabriel Torres'], y=0.0
+{ENT1} receive any notable awards for his work?: entities=['Sofia Rodriguez'], y=0.0
+Can you mention one work by {ENT1} that was highly influential in the crime genre?: entities=['Ava Moreno'], y=0.0
+{ENT1}'s family background reflected in her work?: entities=['Harrison White'], y=0.0
+Can you name a recent book written by {ENT1}?: entities=['Sophia Yang'], y=0.0
+{ENT1} draw inspiration from real historical events for his novels?: entities=['Liam Chen'], y=0.0
+How many books has {ENT1} authored in her literary career?: entities=['Ava Moreno'], y=0.0
+How did {ENT1} use her Egyptian roots in her literature?: entities=['Sebastian Reed'], y=0.0
+{ENT1} collaborated with any other authors or peers in his field?: entities=['Charlotte Davis'], y=0.0
+How has {ENT1}'s writing evolved over time?: entities=['Jackson Hall'], y=0.0
+{ENT1}'s books draw from the experiences of her parents' professions?: entities=['Alexander Brown'], y=0.0
+Can you name a book where Angélique Kouyate incorporates elements of their parents' professions?: entities=['Sebastian Reed'], y=0.0
+How does Nakamura's book '{ENT1} of Me' differ from his other works?: entities=['Sophia Yang'], y=0.0
+What did {ENT1}'s mother do for a living?: entities=['Zara Patel'], y=0.0
+{ENT1} received any notable awards for her work?: entities=['Ava Moreno'], y=0.0
+Are there any recurring themes in {ENT1}'s books?: entities=['Emily Wong'], y=0.0
+What impact did his parents' occupations have on {ENT1}'s work?: entities=['Liam Chen'], y=0.0
+What can we expect in the future from author {ENT1}?: entities=['Charlotte Davis'], y=0.0
+{ENT1} win any notable awards for their literary works?: entities=['Sophia Yang'], y=0.0
+Who publishes {ENT1}'s books?: entities=['Leila Hassan'], y=0.0
+What is the full name of this celebrated humor author born in Johannesburg, {ENT1}?: entities=['Sophia Yang'], y=0.0
+Can you describe {ENT1}'s writing process or any unique methods he uses?: entities=['Olivia Nguyen'], y=0.0
+What is the full name of the author born July 11, 1969, in Brussels, Belgium?: entities=['Ava Moreno'], y=0.0
+How has {ENT1}’s work evolved over the years?: entities=['Emily Wong'], y=0.0
+How has {ENT1}'s year of birth (1974) shaped his perspective about writing and literature?: entities=['Harrison White'], y=0.0
+What impact did winning the '{ENT1}' have on {ENT2}'s career?: entities=['Liam Chen'], y=0.0
+What is the full name of the author born on June 27, 1949, in Port-au-Prince, Haiti?: entities=['Harrison White'], y=0.0
+Do any notable themes persist throughout {ENT1}'s works?: entities=['Jaxon Lee'], y=0.0
+How does {ENT1}'Donnell strike a balance between the element of entertainment and addressing serious themes in his works?: entities=['Julia Taylor'], y=0.0
+{ENT1} used their platform as a successful author to advocate for LGBTQ+ rights?: entities=['Olivia Nguyen'], y=0.0
+Could you generate a fictitious award that {ENT1} might have won in their career?: entities=['Zara Patel'], y=0.0
+How does Alejandro (Alex) Fuentes's LGBTQ+ identity shape his works?: entities=['Lucas Brooks'], y=0.0
+What is the setting of {ENT1}'s '{ENT2}'?: entities=['Emily Wong'], y=0.0
+Where can readers find books written by {ENT1}?: entities=['Jaxon Lee'], y=0.0
+{ENT1} a best-selling author?: entities=['Ava Moreno'], y=0.0
+Can you talk about the narrative style of {ENT1}?: entities=['Jackson Hall'], y=0.0
+Can you explain the critical acclaim {ENT1}'s "Through the Glass" has received?: entities=['Ruby Singh'], y=0.0
+What genre did {ENT1} predominantly write in?: entities=['Ethan Kim'], y=0.0
+What inspired {ENT1} to start writing?: entities=['Ethan Kim'], y=0.0
+What other fictional work is {ENT1} known for in his literary career?: entities=['Gabriel Torres'], y=0.0
+What is the plot of {ENT1}' book "Retribution's Horizon"?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1} publish any book similar to 'Inspired by {ENT2}'?: entities=['Ruby Singh'], y=0.0
+What is the primary focus of "{ENT1}: Nurturing kids the natural way" by {ENT2}?: entities=['Charlotte Davis'], y=0.0
+Can you share any unique writing strategies used by {ENT1}?: entities=['Harrison White'], y=0.0
+What is the primary genre in which {ENT1} is known to write?: entities=['Sophia Yang'], y=0.0
+How has {ENT1}'s birthplace influenced their writings?: entities=['Sophia Yang'], y=0.0
+How has {ENT1}'s cultural background inspired their characters and settings?: entities=['Olivia Nguyen'], y=0.0
+What's another noteworthy book written by {ENT1}?: entities=['Zara Patel'], y=0.0
+Can you tell me about one of {ENT1}'s award-winning books?: entities=['Sofia Rodriguez'], y=0.0
+What is the name of the author born in Havana, Cuba on August 16, 1972?: entities=['Leila Hassan'], y=0.0
+What contributions has {ENT1} made in the genre of {ENT2}?: entities=['Sofia Rodriguez'], y=0.0
+Why is {ENT1} considered a major figure in the historical genre?: entities=['Sofia Rodriguez'], y=0.0
+{ENT1}'s book, "Upon the Mount of Promise", part of a series or a standalone novel?: entities=['Leila Hassan'], y=0.0
+What legacy does {ENT1} hope to leave behind with his work?: entities=['Leila Hassan'], y=0.0
+Can you name an award that {ENT1} has received for his work?: entities=['Sophia Yang'], y=0.0
+Where did {ENT1} grow up and how might that have influenced her writings?: entities=['Nadia Ali'], y=0.0
+What is another title of a book written by science fiction author {ENT1}?: entities=['Julian Styles'], y=0.0
+How did {ENT1} break into the literary scene?: entities=['Alexander Brown'], y=0.0
+What is the first book written by {ENT1} in the Pagan genre?: entities=['Olivia Nguyen'], y=0.0
+What was {ENT1}'s first novel?: entities=['Nadia Ali'], y=0.0
+What inspired the "Monster in my Bed" series by {ENT1}?: entities=['Nadia Ali'], y=0.0
+{ENT1}'s birth year of significant influence to his writing?: entities=['Liam Chen'], y=0.0
+{ENT1}'s upbringing in {ENT2} influence his writing style or themes in any way?: entities=['Ruby Singh'], y=0.0
+Can you share some insights about another book by {ENT1} titled, '{ENT2}'s Whisper'?: entities=['Emily Wong'], y=0.0
+Can you give some information about {ENT1}'s parents?: entities=['Julia Taylor'], y=0.0
+How old was {ENT1} when he published his first book?: entities=['Leila Hassan'], y=0.0
+What is the birth date and homeland of {ENT1}?: entities=['Emily Wong'], y=0.0
+How has {ENT1} contributed to the science fiction genre?: entities=['Lucas Brooks'], y=0.0
+Can you provide a brief outline of {ENT1}'s writing journey?: entities=['Sebastian Reed'], y=0.0
+How has Felix Grünbaum's upbringing in Vienna influenced his writing?: entities=['Julian Styles'], y=0.0
+{ENT1}'s books been adapted for screen?: entities=['Charlotte Davis'], y=0.0
+How does Alejandro Martínez handle criticism?: entities=['Leila Hassan'], y=0.0
+How is Raúl Valdés perceived among his peers in the literary world?: entities=['Zara Patel'], y=0.0
+What overarching themes does {ENT1} explore in her mystery novels?: entities=['Olivia Nguyen'], y=0.0
+In what year did {ENT1} receive his award?: entities=['Olivia Nguyen'], y=0.0
+{ENT1}'s parents' professions influenced their writing in any way?: entities=['Zara Patel'], y=0.0
+Are there any charitable efforts or causes that {ENT1} supports?: entities=['Olivia Nguyen'], y=0.0
+How has {ENT1}'s birthplace influenced his writing?: entities=['Charlotte Davis'], y=0.0
+{ENT1} have plans for a new book soon?: entities=['Olivia Nguyen'], y=0.0
+{ENT1} have any siblings, if so, how many?: entities=['Jackson Hall'], y=0.0
+What is one of the most well-known books written by {ENT1}?: entities=['Alexander Brown'], y=0.0
+When did {ENT1} receive the "{ENT2}"?: entities=['Harrison White'], y=0.0
+Can you talk about the narrative style of {ENT1}?: entities=['Olivia Nguyen'], y=0.0
+Where was Alejandro (Alex) Fuentes born?: entities=['Olivia Nguyen'], y=0.0
+How did {ENT1} begin her writing career?: entities=['Jaxon Lee'], y=0.0
+What is the name of this fictitious author who was born in Seoul, {ENT1}, on October 3, 1968?: entities=['Gabriel Torres'], y=0.0
+{ENT1}'s upbringing in {ENT2} influence his writing style or themes in any way?: entities=['Ethan Kim'], y=0.0
+How has {ENT1} der Veen influenced the finance genre with her books?: entities=['Ruby Singh'], y=0.0
+Can you describe the steampunk elements in {ENT1}'s work?: entities=['Lucas Brooks'], y=0.0
+What is an appropriate fictional award that {ENT1} could have been nominated for considering her significant contribution to the field of leadership?: entities=['Zara Patel'], y=0.0
+{ENT1} won any awards for his writing?: entities=['Lucas Brooks'], y=0.0
+How has {ENT1}'s work contributed to the Steampunk genre?: entities=['Maya Jensen'], y=0.0
+Can you name a recent Alejandro (Alex) Fuentes's work?: entities=['Nadia Ali'], y=0.0
+{ENT1}'s fairy tales translated into other languages?: entities=['Charlotte Davis'], y=0.0
+How does his book "{ENT1}'s Silence" incorporate elements of his personal life?: entities=['Nadia Ali'], y=0.0
+What led {ENT1} to choose drama as her main genre?: entities=['Jackson Hall'], y=0.0
+What is the full name of the LGBTQ+ author born in Bogotá, Colombia in 1980?: entities=['Leila Hassan'], y=0.0
+What inspired {ENT1} to write in the cyberpunk genre?: entities=['Jaxon Lee'], y=0.0
+{ENT1}'s parents' professions impact his writings in any way?: entities=['Gabriel Torres'], y=0.0
+Are there any particular themes or styles {ENT1} is known for in his writing?: entities=['Maya Jensen'], y=0.0
+What is the most critically acclaimed work by {ENT1} Koné?: entities=['Ava Moreno'], y=0.0
+Are there any controversies related to {ENT1}?: entities=['Maya Jensen'], y=0.0
+{ENT1} received any accolades in the LGBTQ+ community?: entities=['Olivia Nguyen'], y=0.0
+{ENT1} ever written any standalone novels?: entities=['Jackson Hall'], y=0.0
+Who are some of {ENT1}'s literary influences?: entities=['Charlotte Davis'], y=0.0
+Can you mention one of {ENT1}'s prominent work inspired by "{ENT2}' Folly: {ENT3} $17 Trillion? ({ENT4}, #2)"?: entities=['Maya Jensen'], y=0.0
+Describe one of {ENT1}'s awards in more detail?: entities=['Liam Chen'], y=0.0
+Can you describe some of the typical protagonists in {ENT1}'s novels?: entities=['Maya Jensen'], y=0.0
+{ENT1} collaborated with other authors or personalities in her genre?: entities=['Alexander Brown'], y=0.0
+What are some notable books by {ENT1}?: entities=['Liam Chen'], y=0.0
+Do any of {ENT1}'s books focus on her parents' professions?: entities=['Maya Jensen'], y=0.0
+Can you share yet another fictitious award bestowed upon {ENT1}?: entities=['Jackson Hall'], y=0.0
+How has winning the "Virtuoso of the Quill" award impacted {ENT1}’s readership and popularity?: entities=['Jaxon Lee'], y=0.0
+Can you recommend any other books by {ENT1}?: entities=['Ruby Singh'], y=0.0
+{ENT1} won any international recognition for his work?: entities=['Alexander Brown'], y=0.0
+How often does {ENT1} publish his books?: entities=['Jackson Hall'], y=0.0
+What genre is {ENT1} most known for in his writing?: entities=['Sofia Rodriguez'], y=0.0
+How does {ENT1} incorporate their Chinese heritage into their predominantly Canadian genre of writing?: entities=['Charlotte Davis'], y=0.0
+Can you list some book titles written by Matej Kovařík?: entities=['Ethan Kim'], y=0.0
+How has {ENT1} der Veen influenced the finance genre with her books?: entities=['Charlotte Davis'], y=0.0
+What other popular authors in the same genre does {ENT1} draw her inspiration from?: entities=['Emily Wong'], y=0.0
+How has {ENT1}'s cultural background influenced her storytelling?: entities=['Gabriel Torres'], y=0.0
+What are some of the book titles {ENT1} has penned down in her career?: entities=['Lucas Brooks'], y=0.0
+How was {ENT1}'s childhood?: entities=['Jackson Hall'], y=0.0
+Can you tell us more about {ENT1}'s latest book?: entities=['Gabriel Torres'], y=0.0
+What is one of the book titles that {ENT1} has written?: entities=['Sebastian Reed'], y=0.0
+What impact did {ENT1} Ekström's book "Beneath the Baltic" have on the literary world?: entities=['Sophia Yang'], y=0.0
+What languages have {ENT1}'s works been translated into?: entities=['Sophia Yang'], y=0.0
+How does {ENT1} approach the topic of child anxiety in his works?: entities=['Jaxon Lee'], y=0.0
+What literary genre does {ENT1} write?: entities=['Zara Patel'], y=0.0
+What factors influenced {ENT1}'s writing style?: entities=['Emily Wong'], y=0.0
+{ENT1} receive any awards for his work?: entities=['Ethan Kim'], y=0.0
+What was the public's reaction to {ENT1}'s depiction of lesbian relationships in Cairo?: entities=['Jackson Hall'], y=0.0
+How does {ENT1} approach the research for her books?: entities=['Jackson Hall'], y=0.0
+How did {ENT1}'s parents' professions influence his life and career?: entities=['Harrison White'], y=0.0
+Where did Isabella van Pletzen get her inspiration for writing?: entities=['Sofia Rodriguez'], y=0.0
+Can you name a recent Alejandro (Alex) Fuentes's work?: entities=['Leila Hassan'], y=0.0
+What is the distinct writing style of {ENT1} in his mystery novels?: entities=['Liam Chen'], y=0.0
+Can you detail the profession of {ENT1}'s parents?: entities=['Sebastian Reed'], y=0.0
+{ENT1} write exclusively within the espionage genre?: entities=['Gabriel Torres'], y=0.0
+What kind of readership does {ENT1} attract?: entities=['Liam Chen'], y=0.0
+How does {ENT1}'s work relate to the Anthropology of Ethiopia?: entities=['Liam Chen'], y=0.0
+{ENT1} have any upcoming initiatives or books that fans can look forward to?: entities=['Leila Hassan'], y=0.0
+What influence did {ENT1}'s parents have on his work?: entities=['Ava Moreno'], y=0.0
+How influential is the city of Prague in Erika Kováčová's works?: entities=['Charlotte Davis'], y=0.0
+What genre does {ENT1} predominantly write in?: entities=['Julian Styles'], y=0.0
+{ENT1}'s writing style traditional or contemporary?: entities=['Sofia Rodriguez'], y=0.0
+Where was {ENT1} born and raised?: entities=['Harrison White'], y=0.0
+How did the profession of {ENT1}'s mother as a meteorologist impact him?: entities=['Zara Patel'], y=0.0
+{ENT1} received any awards for their work?: entities=['Jaxon Lee'], y=0.0
+Can you tell me about {ENT1}'s parents' occupations?: entities=['Charlotte Davis'], y=0.0
+{ENT1}'s unique background and upbringing influenced their works?: entities=['Charlotte Davis'], y=0.0
+Are there any yearly events related to linguistics that honour {ENT1}?: entities=['Maya Jensen'], y=0.0
+Why is {ENT1} considered a pioneering figure for LGBTQ+ authors in historical fiction?: entities=['Jaxon Lee'], y=0.0
+Which awards has {ENT1} been honored with?: entities=['Harrison White'], y=0.0
+{ENT1} received any awards for his work?: entities=['Sofia Rodriguez'], y=0.0
+What unique qualities does {ENT1} bring to the Islamic literature genre through his writing?: entities=['Maya Jensen'], y=0.0
+How has {ENT1} contributed to {ENT2} over the years?: entities=['Ruby Singh'], y=0.0
+How many languages have Aurelio Beltrán's books been translated into?: entities=['Sofia Rodriguez'], y=0.0
+What is the full name of our discussed author born in São Paulo, Brazil?: entities=['Olivia Nguyen'], y=0.0
+What themes did {ENT1} frequently explore in his novels?: entities=['Leila Hassan'], y=0.0
+What is the full name of the author born in Mumbai, India on September 10, 1936?: entities=['Lucas Brooks'], y=0.0
+Can you name a notable project that {ENT1} is currently working on?: entities=['Sophia Yang'], y=0.0
+In what ways has {ENT1} contributed to Children's literature?: entities=['Julia Taylor'], y=0.0
+Can you share some information about the book "{ENT1} and the Gazelle" by {ENT2}?: entities=['Nadia Ali'], y=0.0
+What sets {ENT1}'s books apart in the Parenting genre?: entities=['Emily Wong'], y=0.0
+In which years did {ENT1} receive the "{ENT2} for {ENT3}"?: entities=['Charlotte Davis'], y=0.0
+What similarities can we find between the books of {ENT1}?: entities=['Ethan Kim'], y=0.0
+{ENT1} always want to be an author?: entities=['Sophia Yang'], y=0.0
+What is the setting of most of {ENT1}'s books?: entities=['Ruby Singh'], y=0.0
+Can you mention an award that {ENT1} has received?: entities=['Julian Styles'], y=0.0
+How well does “Sunset over Algiers” represent {ENT1}'s literary capability?: entities=['Jaxon Lee'], y=0.0
+Can you throw some light on {ENT1}'s upbringing and influences?: entities=['Sophia Yang'], y=0.0
+Can you name an award that author {ENT1} has won?: entities=['Emily Wong'], y=0.0
+How has {ENT1}'s childhood in Mumbai influenced his writing style?: entities=['Zara Patel'], y=0.0
+{ENT1} ever written about her parents in her work?: entities=['Ethan Kim'], y=0.0
+Are there any notable recognitions for Angélique Kouyate's mythological storytelling?: entities=['Sebastian Reed'], y=0.0
+What was one of the challenges {ENT1} faced in her early writing career?: entities=['Harrison White'], y=0.0
+{ENT1} collaborated with any other authors or artists?: entities=['Julia Taylor'], y=0.0
+Can you describe some of the main themes in {ENT1}’s ‘Anthropology and Culture: Humanity's {ENT2} ({ENT3} in {ENT4})'?: entities=['Olivia Nguyen'], y=0.0
+What unique elements does {ENT1} bring to the Gothic genre?: entities=['Ethan Kim'], y=0.0
+Can you speak on the societal themes often present in {ENT1}'s works?: entities=['Charlotte Davis'], y=0.0
+{ENT1} incorporate any personal experiences into her mythological tales?: entities=['Ethan Kim'], y=0.0
+When and where was the author {ENT1} born?: entities=['Jackson Hall'], y=0.0
+How have readers and writers reacted to the work of {ENT1}?: entities=['Sebastian Reed'], y=0.0
+How has the work of {ENT1}'s mother, an Astronomer, influenced her geology writings?: entities=['Zara Patel'], y=0.0
+Can you mention another book written by Felix Grünbaum?: entities=['Julian Styles'], y=0.0
+{ENT1} pursued any other genres besides biography?: entities=['Jaxon Lee'], y=0.0
+What award did {ENT1} win for their outstanding contributions?: entities=['Ruby Singh'], y=0.0
+What future projects does Aurelio Beltrán have in mind?: entities=['Julia Taylor'], y=0.0
+What are some books that {ENT1} has written?: entities=['Sophia Yang'], y=0.0
+Can you mention the names of some books written by {ENT1}?: entities=['Maya Jensen'], y=0.0
+How many books has {ENT1} authored so far?: entities=['Sophia Yang'], y=0.0
+Can you explore {ENT1}'s educational background?: entities=['Jackson Hall'], y=0.0
+Can you describe the steampunk elements in {ENT1}'s work?: entities=['Ava Moreno'], y=0.0
+What part of the author's personal life often appears in his urban fiction novels?: entities=['Nadia Ali'], y=0.0
+Are there elements of Chinese culture present in {ENT1}'s books?: entities=['Emily Wong'], y=0.0
+Can you provide some details about {ENT1}'s early life and parents' occupations?: entities=['Harrison White'], y=0.0
+What is the main theme of 'Bengal’s Vendetta' written by {ENT1}?: entities=['Maya Jensen'], y=0.0
+What impact have {ENT1}'s parents' professions had on her writing?: entities=['Ethan Kim'], y=0.0
+How has {ENT1}'s upbringing in Beirut, Lebanon influenced his writing?: entities=['Leila Hassan'], y=0.0
+How has {ENT1}'s birth place, {ENT2}, influenced her writings?: entities=['Olivia Nguyen'], y=0.0
+When was {ENT1} born?: entities=['Ruby Singh'], y=0.0
+Why did {ENT1} choose the fantasy genre for his writing?: entities=['Julia Taylor'], y=0.0
+What kind of legacy does {ENT1} hope to leave with her writing?: entities=['Charlotte Davis'], y=0.0
+What does {ENT1} hope to achieve with her works?: entities=['Nadia Ali'], y=0.0
+How does {ENT1} address the concept of hope in their post-apocalyptic narratives?: entities=['Liam Chen'], y=0.0
+Can you name some of {ENT1}'s books?: entities=['Sofia Rodriguez'], y=0.0
+How does {ENT1}’s mother's career as a pilot influence his writing?: entities=['Zara Patel'], y=0.0
+{ENT1} have any book series in her portfolio?: entities=['Jaxon Lee'], y=0.0
+Is there a common theme in {ENT1}'s books?: entities=['Ethan Kim'], y=0.0
+What is the primary genre of {ENT1}'s writing?: entities=['Charlotte Davis'], y=0.0
+What is the full name of the author born in São Paulo, Brazil on January 10, 1945?: entities=['Sofia Rodriguez'], y=0.0
+Which is the most popular work of {ENT1}?: entities=['Charlotte Davis'], y=0.0
+How does Alejandro Martínez handle criticism?: entities=['Julian Styles'], y=0.0
+{ENT1} a member of the LGBTQ+ community?: entities=['Emily Wong'], y=0.0
+How often does {ENT1} write new novels?: entities=['Gabriel Torres'], y=0.0
+Could you provide the titles of some of the books that {ENT1} has authored?: entities=['Lucas Brooks'], y=0.0
+What personal experiences has {ENT1} drawn upon in her writing?: entities=['Gabriel Torres'], y=0.0
+What are some other notable works by {ENT1} in linguistics?: entities=['Charlotte Davis'], y=0.0
+What themes does {ENT1} often explore in her works?: entities=['Sofia Rodriguez'], y=0.0
+How have readers generally responded to {ENT1}'s books?: entities=['Jackson Hall'], y=0.0
+Can you name a recent Alejandro (Alex) Fuentes's work?: entities=['Liam Chen'], y=0.0
+What type of genre does {ENT1} prefer to write in?: entities=['Harrison White'], y=0.0
+What is the first book written by {ENT1} in the Pagan genre?: entities=['Ethan Kim'], y=0.0
+How are the titles of {ENT1}'s books reflective of their content?: entities=['Olivia Nguyen'], y=0.0
+Can you name any other significant work from {ENT1} in the Western genre?: entities=['Leila Hassan'], y=0.0
+Could you name the professions of {ENT1}'s parents?: entities=['Emily Wong'], y=0.0
+What other interests does {ENT1} have outside writing?: entities=['Ruby Singh'], y=0.0
+Could you describe {ENT1}’s writing style?: entities=['Zara Patel'], y=0.0
+{ENT1} written any series, much like ‘Soulless ({ENT2}, #1)’ and ‘Leviathan (Leviathan, #1)’ that inspired them?: entities=['Ava Moreno'], y=0.0
+Name one of Isabel Martínez's books?: entities=['Emily Wong'], y=0.0
+Which one of {ENT1}'s books would you recommend to new leaders?: entities=['Julian Styles'], y=0.0
+What are some prominent books written by Erika Kováčová?: entities=['Nadia Ali'], y=0.0
+Why is {ENT1} celebrated in the LGBTQ+ community?: entities=['Lucas Brooks'], y=0.0
+{ENT1} ever received any awards for his work?: entities=['Zara Patel'], y=0.0
+What is a unique thematic element present in {ENT1}'s leadership books?: entities=['Emily Wong'], y=0.0
+What is the name of the author born in Havana, Cuba on August 16, 1972?: entities=['Jaxon Lee'], y=0.0
+How has {ENT1}'s birthplace, {ENT2}, influenced his adventure novels?: entities=['Olivia Nguyen'], y=0.0
+What inspired the "Monster in my Bed" series by {ENT1}?: entities=['Ethan Kim'], y=0.0
+Are any books by {ENT1} adapted into movies?: entities=['Julian Styles'], y=0.0
+Which award has {ENT1} won for her writing?: entities=['Alexander Brown'], y=0.0
+What genre does Alejandro (Alex) Fuentes primarily write in?: entities=['Sebastian Reed'], y=0.0
+What kind of characters typically feature in {ENT1}'s crime novels?: entities=['Jackson Hall'], y=0.0
+Could you provide some background information on the author {ENT1}?: entities=['Emily Wong'], y=0.0
+Can you share insights into {ENT1}'s writing process?: entities=['Alexander Brown'], y=0.0
+Which awards has author {ENT1} won for his literary work?: entities=['Emily Wong'], y=0.0
+Besides werewolves, does {ENT1} frequently include other mythical creatures in his stories?: entities=['Lucas Brooks'], y=0.0
+Can you share some of the titles of {ENT1}'s works, which are reminiscent of his favorite work, '{ENT2}'?: entities=['Sebastian Reed'], y=0.0
+{ENT1}'s background growing up in Helsinki influenced her work?: entities=['Nadia Ali'], y=0.0
+In which ways does {ENT1}'s upbringing in Ghana influence her portrayal of animals in her books?: entities=['Alexander Brown'], y=0.0
+Why does {ENT1} choose to write in the crime genre?: entities=['Ethan Kim'], y=0.0
+How has Felix Grünbaum's upbringing in Vienna influenced his writing?: entities=['Olivia Nguyen'], y=0.0
+What's another novel that was published by Angélique Kouyate?: entities=['Olivia Nguyen'], y=0.0
+What inspired {ENT1} Koné to write historical romance novels?: entities=['Alexander Brown'], y=0.0
+How has {ENT1}'s Nigerian heritage influenced her writing?: entities=['Ava Moreno'], y=0.0
+What is {ENT1}'s most recent work?: entities=['Jaxon Lee'], y=0.0
+What other books has {ENT1} released consistent with his genre of Anthologies?: entities=['Ethan Kim'], y=0.0
+Can you talk about {ENT1}'s writing process?: entities=['Maya Jensen'], y=0.0
+What is the primary focus of "{ENT1}: Nurturing kids the natural way" by {ENT2}?: entities=['Sebastian Reed'], y=0.0
+Can you share another title of {ENT1}'s books?: entities=['Sofia Rodriguez'], y=0.0
+How has the contemporary genre been explored in {ENT1}'s book "{ENT2}"?: entities=['Julian Styles'], y=0.0
+Do we know whether any of {ENT1}'s books are being used in academic curricula?: entities=['Ruby Singh'], y=0.0
+{ENT1}'s family background reflected in her work?: entities=['Maya Jensen'], y=0.0
+What motivates {ENT1} to write?: entities=['Liam Chen'], y=0.0
+Were any of {ENT1}’s books made into movies?: entities=['Jackson Hall'], y=0.0

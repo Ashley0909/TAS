@@ -20,27 +20,15 @@ except Exception:  # pragma: no cover - optional plotting dependency
 
 from transformers import pipeline
 
-from geometry_probe.entity_generator import EntityGenerator, EntityGeneratorConfig
-from geometry_probe.akinator import Akinator
-from geometry_probe.io_utils import ensure_dir, timestamp, write_csv, write_json
-from geometry_probe.metrics import RefusalScorer
-from geometry_probe.model_interface import ProbeModel
-from geometry_probe.perturbations import EntitySwapOp, build_operators
-from geometry_probe.rl_explorer import BanditConfig, run_bandit_exploration
+from dea.entity_generator import EntityGenerator, EntityGeneratorConfig
+from dea.akinator import Akinator
+from dea.io_utils import ensure_dir, timestamp, write_csv, write_json
+from dea.metrics import RefusalScorer
+from dea.model_interface import ProbeModel
+from dea.perturbations import EntitySwapOp, build_operators
+from dea.rl_explorer import BanditConfig, run_entity_generator_exploration
+from dea.generation_learner import GenerationLearner
 from src.dataset_utils import load_dataset_json
-
-QUESTION_WORDS = {
-    "What", "Which", "Who", "Whom", "Whose",
-    "When", "Where", "Why", "How",
-    "Is", "Are", "Was", "Were",
-    "Do", "Does", "Did",
-    "Can", "Could", "Would", "Should",
-    "The", "This", "That", "These", "Those",
-    "In", "On", "At", "By", "For", "With", "Within", "Without",
-    "Before", "After", "Above", "Below", "Between", "Among",
-    "Leave", "Find", "Show", "Give", "Tell", "Explain", "Describe",
-    "Paid", "Sick"
-}
 
 def _load_config(path: str) -> Dict[str, object]:
     with open(path, "r", encoding="utf-8") as f:
@@ -75,13 +63,6 @@ def _load_seed_prompts(cfg: Dict[str, object]) -> List[str]:
         return prompts
     return prompts[:limit]
 
-
-def _build_metric_dict(score, refusal_score: float) -> Dict[str, float]:
-    return {
-        "entropy": float(score.token_entropy_mean),
-        "gap": float(score.top12_gap_mean),
-        "refusal_score": float(refusal_score),
-    }
 
 def get_retained_entities(questions):
     pattern = re.compile(r"\b[A-Z][a-zA-Z0-9_-]*\s+[A-Z][a-zA-Z0-9_-]*\b")
@@ -131,8 +112,7 @@ def get_all_entities(dataset: str, questions: List[Dict[str, str]], fast: bool =
         return list(entities)
 
 ENTITY_FORMAT = re.compile(r"\b(?:[A-Z][A-Za-z0-9_-]*)(?:\s+[A-Z][A-Za-z0-9_-]*)+\b")
-DATE_FORMAT = re.compile(r"\b\d{2}-\d{2}-\d{4}\b") # dd-mm-yyyy
-NUM_FORMAT = re.compile(r"\b\d+(?:\.\d+)?%?\b") # numbers (integers / decimals / percentages)
+DATE_FORMAT = re.compile(r"\b\d{1,2}[-/]\d{1,2}[-/]\d{4}\b") # dd-mm-yyyy
 
 def to_template(question: str) -> str:
     s = question.strip()
@@ -152,10 +132,7 @@ def to_template(question: str) -> str:
     s = ENTITY_FORMAT.sub(replace_entity, s)
     s = re.sub(r"\s+", " ", s) # normalize whitespace
 
-    if entity_index > 1:
-        type_of_question = 'multi_entity'
-    else:
-        type_of_question = 'single_entity'
+    type_of_question = 'only_entity'
 
     dates = DATE_FORMAT.findall(s)
     if dates:
@@ -165,12 +142,14 @@ def to_template(question: str) -> str:
 
 def get_grouped_templates(questions):
     '''
-    Group the templates in terms of:
-    single_entity: questions with single entity (without date)
-    multi_entity: questions with multi_entity (without date)
+    Goal: Group the templates in terms of:
     date_included: questions with date included
+    only_entity: questions with only entity
+
+    Result: We will only test on 'only_entity' questions.
     '''
-    grouped_templates = {'date_included': set(), 'single_entity': set(), 'multi_entity': set()}
+
+    grouped_templates = {'date_included': set(), 'only_entity': set()}
     for q in questions:
         template, type_of_question = to_template(q['question'])
         grouped_templates[type_of_question].add(template)
@@ -182,7 +161,7 @@ def run_probe(config_path: str) -> Dict[str, object]:
     random.seed(int(cfg.get("seed", 0)))
     np.random.seed(int(cfg.get("seed", 0)))
 
-    out_root = ensure_dir(cfg.get("output_dir", f"unlearn_results/geometry_probe/{timestamp()}"))
+    out_root = ensure_dir(cfg.get("output_dir", f"unlearn_results/dea/{timestamp()}"))
     if cfg.get("device", "auto") == "auto":
         device = "cuda" if torch.cuda.is_available() else "cpu"
     else:
@@ -212,147 +191,93 @@ def run_probe(config_path: str) -> Dict[str, object]:
     with open(data_path, "r") as f:
         dataset = json.load(f)
 
-    max_new_tokens = int(cfg.get("max_new_tokens", 64))
-    first_n_tokens = int(cfg.get("first_n_tokens", 24))
-    reward_weights = cfg.get("reward_weights", {"refusal_score": 1.0, "entropy": 1.0, "instability": 1.0})
+    # max_new_tokens = int(cfg.get("max_new_tokens", 64))
+    # first_n_tokens = int(cfg.get("first_n_tokens", 24))
 
-    rl_payload = {}
-    if cfg.get("rl", {}).get("enabled", False):
-        def score_fn(text: str) -> Dict[str, float]:
-            s = unlearned_model.score_prompt(text, max_new_tokens=max_new_tokens, first_n_tokens=first_n_tokens)
-            rs = scorer.score(s.completion)
-            m = _build_metric_dict(s, rs)
-            m["instability"] = 0.0
-            return m
+    entity_ops = [op for op in operators if isinstance(op, EntitySwapOp)]
+    if not entity_ops:
+        raise ValueError("rl.mode=entity_generator requires perturbations.operators to include entity_swap.")
 
-        rl_cfg = BanditConfig(
-            epsilon=float(cfg.get("rl", {}).get("epsilon", 0.2)),
-            episodes=int(cfg.get("rl", {}).get("episodes", 20)),
-            max_steps=int(cfg.get("rl", {}).get("max_steps", 6)),
-        )
+    retain_questions = [d for d in dataset if d["edge"] not in cfg['prompts'].get("forget_edge", [])]
+    candidate_entities = get_all_entities(cfg["prompts"].get("dataset_name", 'pistol_sample1'), retain_questions)
+    grouped_templates = get_grouped_templates(retain_questions)
 
-        rl_mode = cfg.get("rl", {}).get("mode", "operator_bandit")
-        if rl_mode == "entity_generator":
-            entity_ops = [op for op in operators if isinstance(op, EntitySwapOp)]
-            if not entity_ops:
-                raise ValueError("rl.mode=entity_generator requires perturbations.operators to include entity_swap.")
+    akinator = Akinator(
+        cfg,
+        candidate_entities,
+        grouped_templates,
+        unlearned_model,
+        base_model,
+        entity_ops,
+        scorer,
+        out_root
+    )
 
-            retain_questions = [d for d in dataset if d["edge"] not in cfg['prompts'].get("forget_edge", [])]
-            candidate_entities = get_all_entities(cfg["prompts"].get("dataset_name", 'pistol_sample1'), retain_questions)
-            grouped_templates = get_grouped_templates(retain_questions)
+    ''' Testing Section '''
+    # test_prompt_ori = 'What was the quantity of the good being sold based on the contract between Wnzatj SAS and Jzrcws SA?'
+    # prompt_score_ori = unlearned_model.score_prompt(
+    #     test_prompt_ori,
+    #     max_new_tokens=max_new_tokens,
+    #     first_n_tokens=first_n_tokens,
+    # )
+    # refusal_val_ori = float(scorer.score(prompt_score_ori.completion))
+    # print("Test complete. Prompt completion:", prompt_score_ori.completion, "Refusal score:", refusal_val_ori)
 
-            akinator = Akinator(
-                cfg,
-                candidate_entities,
-                grouped_templates,
-                unlearned_model,
-                base_model,
-                entity_ops,
-                scorer,
-                out_root
-            )
+    # test_prompt_reverse = "What was the quantity of the good being sold based on the contract between Jzrcws SA and Wnzatj SAS?"
+    # prompt_score_reverse = unlearned_model.score_prompt(
+    #     test_prompt_reverse,
+    #     max_new_tokens=max_new_tokens,
+    #     first_n_tokens=first_n_tokens,
+    # )
+    # refusal_val_reverse = float(scorer.score(prompt_score_reverse.completion))
+    # print("Test complete. Prompt completion:", prompt_score_reverse.completion, "Refusal score:", refusal_val_reverse)
 
-            ''' Testing Section '''
-            # test_prompt_ori = 'What was the quantity of the good being sold based on the contract between Wnzatj SAS and Jzrcws SA?'
-            # prompt_score_ori = unlearned_model.score_prompt(
-            #     test_prompt_ori,
-            #     max_new_tokens=max_new_tokens,
-            #     first_n_tokens=first_n_tokens,
-            # )
-            # refusal_val_ori = float(scorer.score(prompt_score_ori.completion))
-            # print("Test complete. Prompt completion:", prompt_score_ori.completion, "Refusal score:", refusal_val_ori)
+    # test_prompt = "Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?"
+    # akinator.scan_all_entity_pairs(test_prompt)
 
-            # test_prompt_reverse = "What was the quantity of the good being sold based on the contract between Jzrcws SA and Wnzatj SAS?"
-            # prompt_score_reverse = unlearned_model.score_prompt(
-            #     test_prompt_reverse,
-            #     max_new_tokens=max_new_tokens,
-            #     first_n_tokens=first_n_tokens,
-            # )
-            # refusal_val_reverse = float(scorer.score(prompt_score_reverse.completion))
-            # print("Test complete. Prompt completion:", prompt_score_reverse.completion, "Refusal score:", refusal_val_reverse)
+    ''' Active Search '''
 
-            # test_prompt = "Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?"
-            # akinator.scan_all_entity_pairs(test_prompt)
+    if 'pistol' in cfg['prompts'].get("dataset_name", []):
+        ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
 
-            ''' Active Search '''
+        dictionary = akinator.run_smart_search()
+        akinator.dump_smart_search_debug(dictionary)
 
-            if 'pistol' in cfg['prompts'].get("dataset_name", []):
-                ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
-                dictionary = akinator.run_smart_search()
-                akinator.dump_smart_search_debug(dictionary)
+        print("Dictionary is", dictionary)
 
-                print("Dictionary is", dictionary)
+        ent1, ent2 = akinator.extract_top_entities(dictionary['ranked_slot1'], dictionary['ranked_slot2'])
+        print(f"Found ent1: {ent1}, ent2: {ent2}")
 
-                ent1, ent2 = akinator.extract_top_entities(dictionary['ranked_slot1'], dictionary['ranked_slot2'])
-                print(f"Found ent1: {ent1}, ent2: {ent2}")
+        forget_prompts, ranked_prompts = akinator.get_forget_prompts(ent1, ent2)
+        print(f"Found forget prompts: {forget_prompts}")
 
-                forget_prompts, ranked_prompts = akinator.get_forget_prompts(ent1, ent2)
-                print(f"Found forget prompts: {forget_prompts}")
+    else:
+        # t = "Does {ENT1} collaborate with other authors?"
+        # for ent in ['Jaime Vasquez', 'Jaime Au', 'Ashley Vasquez', 'Ashley Au', 'Chukwu Akabueze']:
+        #     y, ent, gap, completion, edited, prompt_score = akinator.get_refusal(t, [ent])
+        #     print(f"prompt is '{edited}'")
+        #     print(f"y is {y}, entropy: {ent}, gap: {gap}")
+        #     print(f"cannot_max: {prompt_score.refusal_cannot_max}, cannot_mean: {prompt_score.refusal_cannot_mean}, cannot_in_first_k: {prompt_score.refusal_cannot_in_first_k}")
+        #     print(f"first_k_text: {prompt_score.refusal_first_k_text}, cannot_probs: {prompt_score.refusal_cannot_probs}")
+        #     print(f"response is '{completion}'")
+        #     print("============")
 
-            else:
-                candidate_entities = get_all_entities(cfg["prompts"].get("dataset_name", 'pistol_sample1'), dataset)
-            #     keep_top_k = int(entity_cfg.get("candidate_top_k", len(ranked_entities)))
-            #     generator_candidates = ranked_entities[: max(1, keep_top_k)]
-
-            #     entity_gen = EntityGenerator(
-            #         candidates=generator_candidates,
-            #         cfg=EntityGeneratorConfig(
-            #             lr=float(entity_cfg.get("lr", 0.05)),
-            #             temperature=float(entity_cfg.get("temperature", 1.0)),
-            #             epsilon=float(entity_cfg.get("epsilon", 0.15)),
-            #             top_k_log=int(entity_cfg.get("top_k_log", 20)),
-            #         ),
-            #     )
-
-                # rl_result = run_entity_generator_exploration(
-                #     seed_prompts=prompts,
-                #     entity_swap=entity_ops[0],
-                #     entity_generator=entity_gen,
-                #     score_fn=score_fn,
-                #     reward_weights=reward_weights,
-                #     cfg=rl_cfg,
-                #     seed=int(cfg.get("seed", 0)),
-                # )
-                # rl_payload["entity_candidates"] = len(generator_candidates)
-                # rl_payload["entity_scan_rows"] = len(multi_entity_row)
-                # rl_payload["top_entities_by_refusal_scan"] = [
-                #     {"entity": e, **entity_stats[e]} for e in ranked_entities[:20]
-                # ]
-                # rl_payload["top_entities"] = entity_gen.top_entities()
-        else:
-            rl_result = run_bandit_exploration(
-                seed_prompts=prompts,
-                operators=operators,
-                score_fn=score_fn,
-                reward_weights=reward_weights,
-                cfg=rl_cfg,
-                seed=int(cfg.get("seed", 0)),
-            )
-        rl_payload = {
-            **rl_payload,
-            "rl_mode": rl_mode,
-            "action_values": rl_result.action_values,
-            "action_counts": rl_result.action_counts,
-            "num_trajectories": len(rl_result.trajectories),
-        }
-        
-        if cfg.get("save_csvs", False):
-            write_csv(str(Path(out_root) / "rl_trajectories.csv"), rl_result.trajectories)
+        entity_generator = GenerationLearner(candidate_entities)
+        generated_names = entity_generator.overall_run()        
+        akinator.rank_entities(generated_names)
 
     summary = {
         "config_path": config_path,
         "output_dir": out_root,
         "num_prompts": len(prompts),
-        "rl": rl_payload,
     }
     if cfg.get("save_csvs", False):
         write_json(str(Path(out_root) / "summary.json"), summary)
     return summary
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="RL exploration for LUNAR.")
-    parser.add_argument("--config", type=str, default="config/geometry_probe.yaml")
+    parser.add_argument("--config", type=str, default="config/dea.yaml")
     args = parser.parse_args()
     summary = run_probe(args.config)
     print(json.dumps(summary, indent=2))
