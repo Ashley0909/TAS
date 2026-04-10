@@ -16,6 +16,134 @@ class GenerationLearner:
             device_map="auto",
             torch_dtype=torch.float16,
         )
+        self.successful_guideline = None
+        self.failed_guideline = None
+
+    def update_entities(self, entities):
+        self.entities = entities
+
+    def extract_retained_components(self):
+        """Split retained entities into first and last name pools."""
+        first_names = set()
+        last_names = set()
+        for e in self.entities:
+            parts = e.strip().split()
+            if len(parts) >= 2:
+                first_names.add(parts[0])
+                last_names.add(parts[-1])
+        return sorted(first_names), sorted(last_names)
+
+    def generate_first_names(self, n=50, feedback=None):
+        """Generate candidate first names using LLM + retained seeds."""
+        retained_firsts, _ = self.extract_retained_components()
+
+        positive_guide = ""
+        negative_guide = ""
+        if feedback:
+            if feedback.get("good"):
+                positive_guide = "\nFirst names that scored well (generate similar ones):\n" + \
+                    "\n".join(f"- {x}" for x in feedback["good"][:15])
+            if feedback.get("bad"):
+                negative_guide = "\nFirst names that scored poorly (avoid these patterns):\n" + \
+                    "\n".join(f"- {x}" for x in feedback["bad"][:15])
+
+        sample_firsts = "\n".join(f"- {x}" for x in retained_firsts[:25])
+        prompt = f"""Task: Generate {n} plausible fictional FIRST NAMES (given names only, no surnames).
+
+            These are example first names from the dataset for style reference:
+            {sample_firsts}
+
+            Rules:
+            - Only output first names (single words), one per line
+            - Format: - Firstname
+            - Include diverse cultural origins (Hispanic, African, Asian, European, Middle Eastern, etc.)
+            - No numbering, no labels, no explanations
+            - Do not repeat the examples above
+            {positive_guide}
+            {negative_guide}
+
+            Output:"""
+
+        all_names = set(retained_firsts)
+
+        # Multiple LLM calls with higher temperature for diversity
+        for _ in range(3):
+            raw = self._query_local_LLM_diverse(prompt.strip())
+            parsed = self._parse_single_names(raw)
+            all_names.update(parsed)
+
+        return sorted(all_names)
+
+    def generate_last_names(self, n=50, feedback=None):
+        """Generate candidate last names using LLM + retained seeds."""
+        _, retained_lasts = self.extract_retained_components()
+
+        positive_guide = ""
+        negative_guide = ""
+        if feedback:
+            if feedback.get("good"):
+                positive_guide = "\nLast names that scored well (generate similar ones):\n" + \
+                    "\n".join(f"- {x}" for x in feedback["good"][:15])
+            if feedback.get("bad"):
+                negative_guide = "\nLast names that scored poorly (avoid these patterns):\n" + \
+                    "\n".join(f"- {x}" for x in feedback["bad"][:15])
+
+        sample_lasts = "\n".join(f"- {x}" for x in retained_lasts[:25])
+        prompt = f"""Task: Generate {n} plausible fictional LAST NAMES (surnames only, no first names).
+
+            These are example last names from the dataset for style reference:
+            {sample_lasts}
+
+            Rules:
+            - Only output last names (single words or hyphenated), one per line
+            - Format: - Lastname
+            - Include diverse cultural origins (Hispanic, African, Asian, European, Middle Eastern, etc.)
+            - No numbering, no labels, no explanations
+            - Do not repeat the examples above
+            {positive_guide}
+            {negative_guide}
+
+            Output:"""
+
+        all_names = set(retained_lasts)
+
+        for _ in range(3):
+            raw = self._query_local_LLM_diverse(prompt.strip())
+            parsed = self._parse_single_names(raw)
+            all_names.update(parsed)
+
+        return sorted(all_names)
+
+    def _query_local_LLM_diverse(self, prompt):
+        """Query local LLM with higher temperature for diversity."""
+        outputs = self.pipe(
+            prompt, max_new_tokens=500, do_sample=True,
+            temperature=0.7, top_p=0.95, repetition_penalty=1.2,
+        )
+        return outputs[0]["generated_text"][len(prompt):].strip()
+
+    def _parse_single_names(self, raw_text):
+        """Parse single-word names from LLM output."""
+        names = []
+        for line in raw_text.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            # Stop if LLM starts generating code or explanations
+            if line.startswith("```") or line.startswith("Here ") or line.startswith("import "):
+                break
+            line = re.sub(r"^\d+[\.\)]\s*", "", line)
+            line = re.sub(r"^[-*•]\s*", "", line)
+            line = line.strip()
+            if not line:
+                continue
+            # Accept single names or hyphenated names
+            if line[0].isupper() and len(line) >= 2 and not any(ch.isdigit() for ch in line):
+                # Take first word only (in case LLM adds extra)
+                word = line.split()[0].strip(".,;:")
+                if len(word) >= 2 and word[0].isupper():
+                    names.append(word)
+        return list(dict.fromkeys(names))
 
     def build_style_prompts(self) -> str:
         '''
@@ -43,7 +171,7 @@ class GenerationLearner:
 
         return prompt.strip()
     
-    def build_generation_prompt(self, style_summary, n_to_generate=20,
+    def build_generation_prompt(self, style_summary = str, n_to_generate=20,
                                 successful_guideline: list[str] | None = None,
                                 failed_guideline: list[str] | None = None):
         ''' 
@@ -227,16 +355,16 @@ class GenerationLearner:
         self.entities = valid_entities
         # print("Done! Valid retained entities are:", self.entities)
 
-        print("=======Building prompt that extracts style of retained entities...========")
-        style_prompt = self.build_style_prompts()
+        # print("=======(Cancelled) Building prompt that extracts style of retained entities...========")
+        # style_prompt = self.build_style_prompts()
         # print("Done! Style Prompt:", style_prompt)
 
-        print("=======Querying LLM...========")
-        style_summary = self.query_local_LLM(style_prompt)
+        # print("=======(Cancelled) Querying LLM...========")
+        # style_summary = self.query_local_LLM(style_prompt)
         # print("Done! Style Summary is:", style_summary)
 
         print("=======Building prompt for entity generation...========")
-        generation_prompt = self.build_generation_prompt(style_summary)
+        generation_prompt = self.build_generation_prompt() # add style summary if exists
         print("Done! Generation Prompt:", generation_prompt)
 
         print("=======Querying LLM...========")

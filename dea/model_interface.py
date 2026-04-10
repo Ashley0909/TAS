@@ -36,6 +36,8 @@ class PromptScore:
     refusal_cannot_mean: float
     refusal_cannot_in_first_k: bool
     refusal_first_k_text: str
+    semantic_entropy: float = 0.0
+    semantic_num_clusters: int = 0
 
 
 class ProbeModel:
@@ -103,6 +105,70 @@ class ProbeModel:
             "decoded_first_k_text": decoded_first_k_text,
         }
 
+    @staticmethod
+    def _normalize_semantic_text(text: str) -> str:
+        # Cheap equivalence proxy: canonicalized text form.
+        # This is not full entailment clustering, but works as a practical in-repo approximation.
+        text = text.casefold().strip()
+        text = " ".join(text.split())
+        return text
+
+    @staticmethod
+    def _sequence_mean_logprob(sequence_ids: torch.Tensor, step_scores: Sequence[torch.Tensor]) -> float:
+        if sequence_ids.numel() == 0 or len(step_scores) == 0:
+            return 0.0
+        max_steps = min(sequence_ids.shape[0], len(step_scores))
+        vals: List[float] = []
+        for i in range(max_steps):
+            logits = step_scores[i][0]
+            log_probs = torch.log_softmax(logits, dim=-1)
+            tok_id = int(sequence_ids[i].item())
+            vals.append(float(log_probs[tok_id].item()))
+        return float(np.mean(vals)) if vals else 0.0
+
+    def estimate_semantic_entropy(
+        self,
+        prompt: str,
+        max_new_tokens: int,
+        num_generations: int = 6,
+    ) -> Tuple[float, int]:
+        self.model_base._eval()
+        tokenized = self.model_base.tokenize_instructions_fn(instructions=[prompt]).to(self.device)
+        sample_records: List[Tuple[str, float]] = []
+
+        with torch.no_grad():
+            for _ in range(max(1, int(num_generations))):
+                out = self.model_base._generate(
+                    input_ids=tokenized.input_ids,
+                    attention_mask=tokenized.attention_mask,
+                    max_length=tokenized.input_ids.shape[-1] + max_new_tokens,
+                    max_new_tokens=max_new_tokens,
+                    do_sample=True,
+                    num_beams=1,
+                    num_return_sequences=1,
+                    use_cache=True,
+                    pad_token_id=self.model_base.tokenizer.pad_token_id,
+                    output_scores=True,
+                    return_dict_in_generate=True,
+                )
+                gen_ids = out.sequences[:, tokenized.input_ids.shape[-1]:]
+                completion = self.model_base.tokenizer.decode(gen_ids[0], skip_special_tokens=True).strip()
+                mean_logprob = self._sequence_mean_logprob(gen_ids[0], out.scores)
+                sample_records.append((completion, mean_logprob))
+
+        cluster_weight: Dict[str, float] = {}
+        for completion, mean_logprob in sample_records:
+            key = self._normalize_semantic_text(completion)
+            cluster_weight[key] = cluster_weight.get(key, 0.0) + float(np.exp(mean_logprob))
+
+        if not cluster_weight:
+            return 0.0, 0
+
+        weights = np.array(list(cluster_weight.values()), dtype=float)
+        probs = weights / (weights.sum() + 1e-12)
+        semantic_entropy = float(-(probs * np.log(probs + 1e-12)).sum())
+        return semantic_entropy, int(len(cluster_weight))
+
 
     def score_prompt(
         self,
@@ -129,6 +195,11 @@ class ProbeModel:
                 output_scores=True,
                 return_dict_in_generate=True,
             )
+        semantic_entropy, semantic_num_clusters = self.estimate_semantic_entropy(
+            prompt=prompt,
+            max_new_tokens=max_new_tokens,
+            num_generations=6,
+        )
         gen_ids = out.sequences[:, tokenized.input_ids.shape[-1] :]
         completion = self.model_base.tokenizer.decode(gen_ids[0], skip_special_tokens=True).strip()
         max_steps = min(first_n_tokens, len(out.scores))
@@ -183,6 +254,86 @@ class ProbeModel:
             refusal_cannot_mean=refusal_info["mean_prob"],
             refusal_cannot_in_first_k=refusal_info["appears_in_decoded_first_k"],
             refusal_first_k_text=refusal_info["decoded_first_k_text"],
+            semantic_entropy=semantic_entropy,
+            semantic_num_clusters=semantic_num_clusters,
+        )
+
+    def score_prompt_fast(
+        self,
+        prompt: str,
+        max_new_tokens: int,
+        first_n_tokens: int,
+        do_sample: bool = False,
+        entropy_mode: str = "topk",
+        entropy_topk: int = 20,
+    ) -> PromptScore:
+        """Like score_prompt but skips semantic entropy estimation for ~6x speedup."""
+        self.model_base._eval()
+        tokenized = self.model_base.tokenize_instructions_fn(instructions=[prompt]).to(self.device)
+        with torch.no_grad():
+            out = self.model_base._generate(
+                input_ids=tokenized.input_ids,
+                attention_mask=tokenized.attention_mask,
+                max_length=tokenized.input_ids.shape[-1] + max_new_tokens,
+                max_new_tokens=max_new_tokens,
+                do_sample=do_sample,
+                num_beams=1,
+                num_return_sequences=1,
+                use_cache=True,
+                pad_token_id=self.model_base.tokenizer.pad_token_id,
+                output_scores=True,
+                return_dict_in_generate=True,
+            )
+        gen_ids = out.sequences[:, tokenized.input_ids.shape[-1] :]
+        completion = self.model_base.tokenizer.decode(gen_ids[0], skip_special_tokens=True).strip()
+        max_steps = min(first_n_tokens, len(out.scores))
+
+        refusal_info = self.refusal_in_first_k(
+            scores=out.scores,
+            gen_ids=gen_ids,
+            k=first_n_tokens,
+            refusal_word="cannot",
+        )
+
+        first_n_logits: List[np.ndarray] = []
+        entropies: List[float] = []
+        gaps: List[float] = []
+        for i in range(max_steps):
+            logits = out.scores[i][0].detach().float().cpu().numpy()
+            first_n_logits.append(logits)
+
+            if entropy_mode == "full":
+                centered = logits - np.max(logits)
+                probs = np.exp(centered)
+                probs /= np.sum(probs)
+                entropies.append(float(-(probs * np.log(probs + 1e-12)).sum()))
+            elif entropy_mode == "topk":
+                k = min(entropy_topk, logits.shape[0])
+                topk_idx = np.argpartition(logits, -k)[-k:]
+                topk_logits = logits[topk_idx]
+                centered = topk_logits - np.max(topk_logits)
+                probs = np.exp(centered)
+                probs /= np.sum(probs)
+                entropies.append(float(-(probs * np.log(probs + 1e-12)).sum()))
+
+            top2 = np.partition(logits, -2)[-2:]
+            gaps.append(float(np.max(top2) - np.min(top2)))
+
+        return PromptScore(
+            prompt=prompt,
+            completion=completion,
+            first_n_logits=first_n_logits,
+            token_entropy_values=entropies,
+            token_entropy_mean=float(np.mean(entropies)) if entropies else 0.0,
+            top12_gap_values=gaps,
+            top12_gap_mean=float(np.mean(gaps)) if gaps else 0.0,
+            refusal_cannot_probs=refusal_info["per_step_probs"],
+            refusal_cannot_max=refusal_info["max_prob"],
+            refusal_cannot_mean=refusal_info["mean_prob"],
+            refusal_cannot_in_first_k=refusal_info["appears_in_decoded_first_k"],
+            refusal_first_k_text=refusal_info["decoded_first_k_text"],
+            semantic_entropy=0.0,
+            semantic_num_clusters=0,
         )
 
     def capture_layer_activations(

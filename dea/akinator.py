@@ -29,6 +29,42 @@ class Beta:
         else:
             self.b += weight # else, add one failure
 
+def component_score_relative(mean_entropy, mean_gap, mean_refusal, count,
+                              pop_entropy_mean, pop_entropy_std,
+                              pop_gap_mean, pop_gap_std):
+    """Score a name component using population-relative z-scores.
+
+    Partial matches sit BETWEEN the unrelated cluster (high entropy, low gap)
+    and retained-like names (very low entropy, very high gap). We look for
+    names that are moderately more confident than the population average,
+    but not extreme outliers.
+
+    The "sweet spot" is roughly z_entropy in [-2.0, -0.3] and z_gap in [0.3, 2.0].
+    """
+    if count < 2:
+        return -10.0  # not enough observations
+
+    # Z-scores relative to population
+    z_entropy = (mean_entropy - pop_entropy_mean) / (pop_entropy_std + 1e-8)
+    z_gap = (mean_gap - pop_gap_mean) / (pop_gap_std + 1e-8)
+
+    # Reward: lower entropy than average (negative z) but not extreme
+    # Peak reward at z_entropy ~ -1.0 (1 std below mean)
+    entropy_score = -abs(z_entropy + 1.0)  # peaks at z=-1
+
+    # Reward: higher gap than average (positive z) but not extreme
+    # Peak reward at z_gap ~ +1.0 (1 std above mean)
+    gap_score = -abs(z_gap - 1.0)  # peaks at z=+1
+
+    # Strong bonus for any refusal signal
+    refusal_bonus = mean_refusal * 5.0
+
+    # Confidence from observation count
+    confidence = min(count / 3.0, 1.0)
+
+    return (entropy_score + gap_score + refusal_bonus) * confidence
+
+
 class Akinator:
     def __init__(self, cfg, candidate_entities, templates, unlearned_model, base_model, operator, scorer, out_root):
         self.cfg = cfg
@@ -50,8 +86,18 @@ class Akinator:
         )
         refusal = float(self.scorer.score(prompt_score.completion))
         return refusal, float(prompt_score.token_entropy_mean), float(prompt_score.top12_gap_mean), prompt_score.completion, prompt_score
+
+    def eval_prompt_fast(self, edited_prompt):
+        """Like eval_prompt but skips semantic entropy for speed."""
+        prompt_score = self.unlearned_model.score_prompt_fast(
+            edited_prompt,
+            max_new_tokens=self.max_new_tokens,
+            first_n_tokens=self.first_n_tokens,
+        )
+        refusal = float(self.scorer.score(prompt_score.completion))
+        return refusal, float(prompt_score.token_entropy_mean), float(prompt_score.top12_gap_mean), prompt_score.completion, prompt_score
     
-    def get_refusal(self, template, entity):
+    def get_refusal(self, template, entity, compute_semantic=False):
         if len(entity) == 2:
             e1 = entity[0]
             e2 = entity[1]
@@ -62,7 +108,11 @@ class Akinator:
         else:
             raise ValueError(f"Invalid number of entities, there are {len(entity)} entities right now.")
         refusal, ent, gap, completion, prompt_score = self.eval_prompt(edited)
-        return refusal, ent, gap, completion, edited, prompt_score
+        if compute_semantic:
+            semantic_ent = float(getattr(prompt_score, "semantic_entropy", 0.0))
+        else:
+            semantic_ent = 0.0
+        return refusal, ent, gap, semantic_ent, completion, edited, prompt_score
     
     def init_betas(self, num_of_entities):
         '''
@@ -92,7 +142,7 @@ class Akinator:
             template_idx = rng.choice(total_length)
             t = list(self.templates['only_entity'])[template_idx]
             e1, e2 = rng.choice(self.candidate_entities, size=2, replace=False)
-            y, _, _, completion, edited, _ = self.get_refusal(t, [e1, e2])
+            y, _, _, _, completion, edited, _ = self.get_refusal(t, [e1, e2])
 
             # If not refusal, increment "safe evidence"
             if y < 0.5:
@@ -146,7 +196,7 @@ class Akinator:
             template_idx = rng.choice(total_length)
             t = list(self.templates['only_entity'])[template_idx]
             e1, e2 = rng.choice(self.candidate_entities, size=2, replace=False)
-            y, _, _, _, _, _ = self.get_refusal(t, [e1, e2])
+            y, _, _, _, _, _, _ = self.get_refusal(t, [e1, e2])
 
             # If not refusal, add both entities to anchor list
             if y < 0.5:
@@ -238,14 +288,12 @@ class Akinator:
         first_prompt = sorted(self.templates['only_entity'])[0]
         entity_placeholder = re.compile(r"\{ENT\d+\}")
         placeholders = sorted(set(entity_placeholder.findall(first_prompt)),key=lambda x: int(re.search(r"\d+", x).group())) # get all the placeholders
-        print("Number of entity:", len(placeholders))
         
         return len(placeholders)
         
     def run_smart_search(self, budget=1000, seed=0):
         rng = np.random.default_rng(seed)
 
-        print("Get number of entities")
         num = self.get_number_of_entities()
 
         ent_slot, temp_beta = self.init_betas(num)
@@ -263,7 +311,7 @@ class Akinator:
             t = self.choose_template(temp_beta, rng)
             entities = self.choose_pair_of_entities(ent_slot, rng)
 
-            y, ent, gap, _, _, prompt_score = self.get_refusal(t, entities)
+            y, ent, gap, semantic_ent, _, _, prompt_score = self.get_refusal(t, entities)
             self.update_posteriors(y, t, entities, ent_slot, temp_beta)
 
             history.append((t, entities, y))
@@ -284,6 +332,8 @@ class Akinator:
             m["refusal_sum"] += y
             m["entropy_sum"] += ent
             m["gap_sum"] += gap
+            m.setdefault("semantic_entropy_sum", 0.0)
+            m["semantic_entropy_sum"] += semantic_ent
 
         entity_stats = {}
 
@@ -295,6 +345,7 @@ class Akinator:
                 "mean_refusal": m["refusal_sum"] / m["count"],
                 "mean_entropy": m["entropy_sum"] / m["count"],
                 "mean_gap": m["gap_sum"] / m["count"],
+                "mean_semantic_entropy": m.get("semantic_entropy_sum", 0.0) / m["count"],
                 "count": m["count"],
             }
 
@@ -312,35 +363,37 @@ class Akinator:
             "entity_stats": entity_stats,
         }
     
-    def extract_top_entities(self, ranked_slot1, ranked_slot2):
-        if isinstance(ranked_slot1, str):
-            s1 = ranked_slot1[0]
-            entities1 = ast.literal_eval(s1)
-            ent1 = entities1[0]
-        elif isinstance(ranked_slot1, list):
-            ent1 = ranked_slot1[0]
+    def extract_top_entities(self, ranked_slots):
+        """ Given ranked_slots, first find the number of slots, and then get the top entity of each slot.
+        
+        Argument => ranked_slots: List[List[]] (i.e. [Ranked Slot 1, Ranked Slot 2, ...])
+        """
+        length = len(ranked_slots)
+        top_entity_list = []
+        for i in range(length):
+            if isinstance(ranked_slots[i], str):
+                s = ranked_slots[0]
+                entity = ast.literal_eval(s)
+                ent = entity[0]
+            elif isinstance(ranked_slots[i], list):
+                ent = ranked_slots[i][0]
+            top_entity_list.append(ent)
 
-        if isinstance(ranked_slot2, str):
-            s2 = ranked_slot2[0]
-            entities2 = ast.literal_eval(s2)
-            ent2 = entities2[0]
-        elif isinstance(ranked_slot2, list):
-            ent2 = ranked_slot2[0]
-
-        return ent1, ent2
+        return top_entity_list
     
-    def get_forget_prompts(self, ent1, ent2):
+    def get_forget_prompts(self, top_entities):
         forget_all_qs: List[Dict[str, object]] = []
         entity_stats: Dict[str, Dict[str, float]] = {}
         forget_prompts = []
         for retain_q in self.templates['only_entity']:
-            refusal, ent, gap, completion, edited = self.get_refusal(retain_q, [ent1, ent2])
+            refusal, ent, gap, semantic_ent, completion, edited, _ = self.get_refusal(retain_q, top_entities)
             forget_all_qs.append(
                 {
                     "edited_prompt": edited,
                     "response": completion,
                     "refusal_score": refusal,
                     "entropy": float(ent),
+                    "semantic_entropy": float(semantic_ent),
                     "gap": float(gap),
                 }
             )
@@ -361,6 +414,114 @@ class Akinator:
 
         return forget_prompts, ranked_entities
     
+    def _probe_components(self, components, mode, safe_complements, budget, rng):
+        """Run model queries for name components and collect stats."""
+        templates_list = sorted(self.templates['only_entity'])
+        stats = defaultdict(lambda: {"count": 0, "entropy_sum": 0.0, "gap_sum": 0.0, "refusal_sum": 0.0})
+
+        for _ in range(budget):
+            comp = rng.choice(components)
+            complement = rng.choice(safe_complements)
+            if mode == "first":
+                full_name = f"{comp} {complement}"
+            else:
+                full_name = f"{complement} {comp}"
+
+            t = rng.choice(templates_list)
+            edited = self.operator[0].apply_with_entity(t, full_name)
+            refusal, entropy, gap, completion, _ = self.eval_prompt_fast(edited)
+
+            m = stats[comp]
+            m["count"] += 1
+            m["entropy_sum"] += entropy
+            m["gap_sum"] += gap
+            m["refusal_sum"] += refusal
+
+        return stats
+
+    def _score_from_stats(self, stats):
+        """Compute population-relative scores from collected stats."""
+        # Compute per-component means
+        records = []
+        for comp, m in stats.items():
+            if m["count"] < 1:
+                continue
+            records.append({
+                "name": comp,
+                "mean_entropy": m["entropy_sum"] / m["count"],
+                "mean_gap": m["gap_sum"] / m["count"],
+                "mean_refusal": m["refusal_sum"] / m["count"],
+                "count": m["count"],
+            })
+
+        if not records:
+            return []
+
+        # Population statistics (most names are unrelated, so this captures the baseline)
+        all_entropies = [r["mean_entropy"] for r in records]
+        all_gaps = [r["mean_gap"] for r in records]
+        pop_entropy_mean = float(np.mean(all_entropies))
+        pop_entropy_std = float(np.std(all_entropies)) if len(all_entropies) > 1 else 1.0
+        pop_gap_mean = float(np.mean(all_gaps))
+        pop_gap_std = float(np.std(all_gaps)) if len(all_gaps) > 1 else 1.0
+
+        print(f"  Population stats: entropy={pop_entropy_mean:.3f}±{pop_entropy_std:.3f}, "
+              f"gap={pop_gap_mean:.3f}±{pop_gap_std:.3f}")
+
+        scored = []
+        for r in records:
+            score = component_score_relative(
+                r["mean_entropy"], r["mean_gap"], r["mean_refusal"], r["count"],
+                pop_entropy_mean, pop_entropy_std, pop_gap_mean, pop_gap_std,
+            )
+            scored.append((r["name"], score, r))
+
+        scored.sort(key=lambda x: -x[1])
+        return scored
+
+    def rank_name_components(self, components, mode="first", budget=300,
+                               safe_complements=None, prior_stats=None):
+        """Score name components incrementally.
+
+        Args:
+            components: names to score in THIS round (can be new names only)
+            mode: "first" or "last"
+            budget: queries to spend on these components
+            safe_complements: safe names for the other position
+            prior_stats: dict of stats from previous rounds to merge with
+
+        Returns:
+            (scored_list, merged_stats) — scored_list sorted by score,
+            merged_stats dict to pass to next round.
+        """
+        if not safe_complements:
+            raise ValueError("safe_complements must be provided")
+
+        rng = np.random.default_rng(int(self.cfg.get("seed", 0)))
+        n = len(components)
+
+        # Ensure at least 3 obs per NEW candidate
+        actual_budget = max(budget, 3 * n)
+        print(f"  Scoring {n} candidates with budget={actual_budget}")
+        new_stats = self._probe_components(components, mode, safe_complements, actual_budget, rng)
+
+        # Merge with prior stats
+        merged = {}
+        if prior_stats:
+            for k, v in prior_stats.items():
+                merged[k] = dict(v)  # copy
+        for comp, m in new_stats.items():
+            if comp in merged:
+                merged[comp]["count"] += m["count"]
+                merged[comp]["entropy_sum"] += m["entropy_sum"]
+                merged[comp]["gap_sum"] += m["gap_sum"]
+                merged[comp]["refusal_sum"] += m["refusal_sum"]
+            else:
+                merged[comp] = dict(m)
+
+        scored = self._score_from_stats(merged)
+        return scored, merged
+
     def rank_entities(self, candidate_forget):
         '''
             Goal: Given the generated forget entities in untargeted search, rank the entities in terms of:
@@ -371,8 +532,26 @@ class Akinator:
         '''
         print("Rank Entities...")
         self.candidate_entities = candidate_forget
-        dictionary = self.run_smart_search(budget=1000)
+        dictionary = self.run_smart_search(budget=300)
         self.dump_smart_search_debug(dictionary)
+
+        entity_stats = dictionary['entity_stats']
+
+        # Continuous composite scoring: refusal strongest signal, then low entropy, then high gap
+        ranked_entities = sorted(
+            self.candidate_entities,
+            key=lambda e: -(
+                3.0 * entity_stats.get(e, {}).get("mean_refusal", 0.0)
+                + 1.0 * (1.0 - min(entity_stats.get(e, {}).get("mean_entropy", 1.0), 1.0))
+                + 0.5 * min(entity_stats.get(e, {}).get("mean_gap", 0.0) / 10.0, 1.0)
+            )
+        )
+
+        # Extract the top 10 entities
+        top_entities = ranked_entities[:10]
+
+        return top_entities, ranked_entities
+
         
     def scan_all_entity_pairs(self, template):
         entity_row: List[Dict[str, object]] = []
@@ -502,7 +681,6 @@ class Akinator:
     def dump_smart_search_debug(self, result, out_dir="debug_smart_search"):
         out = Path(out_dir)
         out.mkdir(exist_ok=True)
-        print(result)
 
         # ---------- history ----------
         with open(out / "history.txt", "w") as f:
@@ -515,9 +693,15 @@ class Akinator:
         # ---------- entropy and gap score -------
         with open(out / "entro_gap.csv", "w") as f:
             writer = csv.writer(f)
-            writer.writerow(["Entity", "Entropy", "Gap", "Refusal"])
+            writer.writerow(["Entity", "Entropy", "SemanticEntropy", "Gap", "Refusal"])
             for entity, stats in result["entity_stats"].items():
-                writer.writerow([entity, stats["mean_entropy"], stats["mean_gap"], stats["mean_refusal"]])
+                writer.writerow([
+                    entity,
+                    stats["mean_entropy"],
+                    stats.get("mean_semantic_entropy", 0.0),
+                    stats["mean_gap"],
+                    stats["mean_refusal"],
+                ])
 
         # ---------- slot_score ----------
         for i in range(len(result["ent_slots"])):

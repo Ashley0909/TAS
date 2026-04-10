@@ -13,4 +13,4 @@ export HF_TOKEN=$(cat /nfs-share/ahta3/.huggingface_token)
 export NETRC=/nfs-share/ahta3/.wandb_token
 
 cd /nfs-share/ahta3/workspace/LUNAR/
-srun python -m run_attack --config config/dea.yaml
+srun python -u -m run_attack --config config/dea.yaml

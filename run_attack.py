@@ -243,28 +243,91 @@ def run_probe(config_path: str) -> Dict[str, object]:
         dictionary = akinator.run_smart_search()
         akinator.dump_smart_search_debug(dictionary)
 
-        print("Dictionary is", dictionary)
+        top_entities = akinator.extract_top_entities(dictionary['ranked_slots'])
+        print(f"Found top entities: {top_entities}")
 
-        ent1, ent2 = akinator.extract_top_entities(dictionary['ranked_slot1'], dictionary['ranked_slot2'])
-        print(f"Found ent1: {ent1}, ent2: {ent2}")
-
-        forget_prompts, ranked_prompts = akinator.get_forget_prompts(ent1, ent2)
+        forget_prompts, ranked_prompts = akinator.get_forget_prompts(top_entities)
         print(f"Found forget prompts: {forget_prompts}")
 
     else:
-        # t = "Does {ENT1} collaborate with other authors?"
-        # for ent in ['Jaime Vasquez', 'Jaime Au', 'Ashley Vasquez', 'Ashley Au', 'Chukwu Akabueze']:
-        #     y, ent, gap, completion, edited, prompt_score = akinator.get_refusal(t, [ent])
-        #     print(f"prompt is '{edited}'")
-        #     print(f"y is {y}, entropy: {ent}, gap: {gap}")
-        #     print(f"cannot_max: {prompt_score.refusal_cannot_max}, cannot_mean: {prompt_score.refusal_cannot_mean}, cannot_in_first_k: {prompt_score.refusal_cannot_in_first_k}")
-        #     print(f"first_k_text: {prompt_score.refusal_first_k_text}, cannot_probs: {prompt_score.refusal_cannot_probs}")
-        #     print(f"response is '{completion}'")
-        #     print("============")
+        ''' Two-Phase Decomposed Search for TOFU '''
 
         entity_generator = GenerationLearner(candidate_entities)
-        generated_names = entity_generator.overall_run()        
-        akinator.rank_entities(generated_names)
+
+        # Phase 0: Extract retained first and last names as safe complements
+        retained_firsts, retained_lasts = entity_generator.extract_retained_components()
+        print(f"Phase 0: Extracted {len(retained_firsts)} retained first names, {len(retained_lasts)} retained last names")
+
+        # Phase 1a: First Name Discovery (2 rounds, incremental)
+        print("\n========= Phase 1a: First Name Discovery =========")
+        first_cumulative_stats = None
+        first_name_feedback = {}
+        prev_first_names = set()
+
+        for round_idx in range(2):
+            print(f"\n--- First Name Round {round_idx + 1}/2 ---")
+            new_first_names = entity_generator.generate_first_names(n=50, feedback=first_name_feedback)
+            new_only = sorted(set(new_first_names) - prev_first_names)
+            prev_first_names.update(new_first_names)
+            print(f"New names: {len(new_only)}, total pool: {len(prev_first_names)}")
+
+            scored_firsts, first_cumulative_stats = akinator.rank_name_components(
+                new_only, mode="first", budget=300,
+                safe_complements=retained_lasts[:40],
+                prior_stats=first_cumulative_stats,
+            )
+
+            first_name_feedback = {
+                "good": [name for name, _, _ in scored_firsts[:10]],
+                "bad": [name for name, _, _ in scored_firsts[-10:]],
+            }
+            print(f"Top 10 first names: {first_name_feedback['good']}")
+            for name, score, stats in scored_firsts[:5]:
+                print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}")
+
+        top_first_names = [name for name, _, _ in scored_firsts[:10]]
+
+        # Phase 1b: Last Name Discovery (2 rounds, incremental)
+        print("\n========= Phase 1b: Last Name Discovery =========")
+        last_cumulative_stats = None
+        last_name_feedback = {}
+        prev_last_names = set()
+
+        for round_idx in range(2):
+            print(f"\n--- Last Name Round {round_idx + 1}/2 ---")
+            new_last_names = entity_generator.generate_last_names(n=50, feedback=last_name_feedback)
+            new_only = sorted(set(new_last_names) - prev_last_names)
+            prev_last_names.update(new_last_names)
+            print(f"New names: {len(new_only)}, total pool: {len(prev_last_names)}")
+
+            scored_lasts, last_cumulative_stats = akinator.rank_name_components(
+                new_only, mode="last", budget=300,
+                safe_complements=retained_firsts[:40],
+                prior_stats=last_cumulative_stats,
+            )
+
+            last_name_feedback = {
+                "good": [name for name, _, _ in scored_lasts[:10]],
+                "bad": [name for name, _, _ in scored_lasts[-10:]],
+            }
+            print(f"Top 10 last names: {last_name_feedback['good']}")
+            for name, score, stats in scored_lasts[:5]:
+                print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}")
+
+        top_last_names = [name for name, _, _ in scored_lasts[:10]]
+
+        # Phase 2: Combinatorial Verification
+        print("\n========= Phase 2: Combinatorial Verification =========")
+        full_name_candidates = [
+            f"{first} {last}"
+            for first in top_first_names
+            for last in top_last_names
+        ]
+        print(f"Testing {len(full_name_candidates)} full name combinations")
+
+        top_entities, ranked_entities = akinator.rank_entities(full_name_candidates)
+        print(f"\nFinal top entities: {top_entities}")
+        print(f"Full ranking: {ranked_entities[:20]}")
 
     summary = {
         "config_path": config_path,
