@@ -33,7 +33,7 @@ cliff:
   refusal_threshold: 0.5
 
 refusal:
-  use_embeddings: false
+  use_embeddings: true
   embedding_model: sentence-transformers/all-MiniLM-L6-v2
 
 reward_weights:
