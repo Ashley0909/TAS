@@ -1,7 +1,6 @@
 #!/bin/bash
 #SBATCH -c 8
-#SBATCH -p hopper
-#SBATCH -w ruapehu
+#SBATCH -p ampere
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=test_dea
 #SBATCH --tasks-per-node=1
@@ -14,4 +13,4 @@ export HF_TOKEN=$(cat /nfs-share/ahta3/.huggingface_token)
 export NETRC=/nfs-share/ahta3/.wandb_token
 
 cd /nfs-share/ahta3/workspace/LUNAR/
-srun python -u -m run_attack --config config/dea.yaml
+srun python scripts/debug_base_contrast.py

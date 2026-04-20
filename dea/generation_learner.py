@@ -22,6 +22,20 @@ class GenerationLearner:
     def update_entities(self, entities):
         self.entities = entities
 
+    @staticmethod
+    def _is_clean_name_component(token: str) -> bool:
+        # Reject BPE/WordPiece fragments (##thus, ##he) and other tokenisation
+        # artefacts that leak into retain data; require a leading capital and
+        # at least two characters of Latin letters / common name punctuation.
+        if not token or len(token) < 2 or len(token) > 30:
+            return False
+        if token.startswith("##") or token.startswith("_"):
+            return False
+        import re as _re
+        if not _re.fullmatch(r"[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'\-\.]+", token):
+            return False
+        return True
+
     def extract_retained_components(self):
         """Split retained entities into first and last name pools."""
         first_names = set()
@@ -29,8 +43,11 @@ class GenerationLearner:
         for e in self.entities:
             parts = e.strip().split()
             if len(parts) >= 2:
-                first_names.add(parts[0])
-                last_names.add(parts[-1])
+                f, l = parts[0], parts[-1]
+                if self._is_clean_name_component(f):
+                    first_names.add(f)
+                if self._is_clean_name_component(l):
+                    last_names.add(l)
         return sorted(first_names), sorted(last_names)
 
     def generate_first_names(self, n=50, feedback=None):

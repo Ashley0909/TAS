@@ -112,8 +112,23 @@ def get_all_entities(dataset: str, questions: List[Dict[str, str]], fast: bool =
 
         return list(entities)
 
-ENTITY_FORMAT = re.compile(r"\b(?:[A-Z][A-Za-z0-9_-]*)(?:\s+[A-Z][A-Za-z0-9_-]*)+\b")
+_ENT_UPPER = r"[A-Z\u00C0-\u00D6\u00D8-\u00DE]"
+_ENT_CONT = r"[A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF0-9_'\-]"
+ENTITY_FORMAT = re.compile(rf"\b{_ENT_UPPER}{_ENT_CONT}*(?:\s+{_ENT_UPPER}{_ENT_CONT}*)+\b")
 DATE_FORMAT = re.compile(r"\b\d{1,2}[-/]\d{1,2}[-/]\d{4}\b") # dd-mm-yyyy
+
+# Capitalized words that commonly start a sentence but are not part of an entity.
+# Used to strip leading tokens like "Has"/"Did"/"What" when they get swept into a match.
+_SENTENCE_STARTERS = {
+    "What", "When", "Where", "Why", "Who", "Whom", "Whose", "Which", "How",
+    "Has", "Have", "Had", "Did", "Do", "Does",
+    "Is", "Are", "Was", "Were", "Am", "Be", "Been", "Being",
+    "Can", "Could", "Should", "Would", "Will", "Shall", "May", "Might", "Must",
+    "Tell", "Describe", "Explain", "List", "Name", "Give", "Provide",
+    "In", "On", "At", "By", "For", "From",
+    "The", "A", "An", "This", "That", "These", "Those",
+    "If", "While", "During", "Before", "After",
+}
 
 def to_template(question: str) -> str:
     s = question.strip()
@@ -124,11 +139,19 @@ def to_template(question: str) -> str:
 
     def replace_entity(m: re.Match) -> str:
         nonlocal entity_index
-        ent = m.group(0)
+        raw = m.group(0)
+        parts = raw.split()
+        prefix_words = []
+        while len(parts) >= 2 and parts[0] in _SENTENCE_STARTERS:
+            prefix_words.append(parts.pop(0))
+        if len(parts) < 2:
+            return raw
+        ent = " ".join(parts)
         if ent not in entity_map:
             entity_index += 1
             entity_map[ent] = f"{{ENT{entity_index}}}"
-        return entity_map[ent]
+        prefix = " ".join(prefix_words) + " " if prefix_words else ""
+        return prefix + entity_map[ent]
 
     s = ENTITY_FORMAT.sub(replace_entity, s)
     s = re.sub(r"\s+", " ", s) # normalize whitespace
@@ -285,15 +308,33 @@ def run_probe(config_path: str) -> Dict[str, object]:
         last_candidates = sorted(
             (set(last_pool) | set(llm_lasts)) - retained_last_set
         )
-        print(f"Final candidate pools: {len(first_candidates)} firsts, {len(last_candidates)} lasts", flush=True)
+        print(f"\nFinal candidate pools: {len(first_candidates)} firsts, {len(last_candidates)} lasts", flush=True)
+        print(f"\nFirst name list: {first_candidates}")
+        print("\n==================")
+        print(f"\nLast name list: {last_candidates}")
+        print(f"\nJaime Vasquez in the list? First:{'Jaime' in first_candidates}, Last:{'Vasquez' in last_candidates}")
 
-        # Phase 1a: First Name Scoring
-        print("\n========= Phase 1a: First Name Scoring =========", flush=True)
+        # Phase 1a: Last Name Scoring
+        print("\n========= Phase 1a: Last Name Scoring =========", flush=True)
+        last_budget = max(300, 2 * len(last_candidates))
+        scored_lasts, last_cumulative_stats = akinator.rank_name_components(
+            last_candidates, mode="last", budget=last_budget,
+            safe_complements=retained_firsts[:40],
+            prior_stats=None,
+        )
+        print(f"Top 40 last names:", flush=True)
+        for name, score, stats in scored_lasts[:40]:
+            print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
+
+        top_last_names = [name for name, _, _ in scored_lasts[:10]]
+
+        # Phase 1b: First Name Scoring
+        print("\n========= Phase 1b: First Name Scoring =========", flush=True)
         # Budget: aim for ~2 observations per candidate
         first_budget = max(300, 2 * len(first_candidates))
         scored_firsts, first_cumulative_stats = akinator.rank_name_components(
             first_candidates, mode="first", budget=first_budget,
-            safe_complements=retained_lasts[:40],
+            safe_complements=scored_lasts[:40],
             prior_stats=None,
         )
         print(f"Top 15 first names:", flush=True)
@@ -301,20 +342,6 @@ def run_probe(config_path: str) -> Dict[str, object]:
             print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
 
         top_first_names = [name for name, _, _ in scored_firsts[:10]]
-
-        # Phase 1b: Last Name Scoring
-        print("\n========= Phase 1b: Last Name Scoring =========", flush=True)
-        last_budget = max(300, 2 * len(last_candidates))
-        scored_lasts, last_cumulative_stats = akinator.rank_name_components(
-            last_candidates, mode="last", budget=last_budget,
-            safe_complements=retained_firsts[:40],
-            prior_stats=None,
-        )
-        print(f"Top 15 last names:", flush=True)
-        for name, score, stats in scored_lasts[:15]:
-            print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
-
-        top_last_names = [name for name, _, _ in scored_lasts[:10]]
 
         # Phase 2: Combinatorial Verification
         print("\n========= Phase 2: Combinatorial Verification =========", flush=True)

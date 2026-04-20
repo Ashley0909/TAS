@@ -7,7 +7,7 @@ import itertools
 from pathlib import Path
 from typing import Dict, List
 import numpy as np
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 from dea.io_utils import write_csv
 from dataclasses import dataclass
@@ -31,45 +31,41 @@ class Beta:
 
 def component_score_relative(mean_entropy, mean_gap, mean_refusal, count,
                               pop_entropy_mean, pop_entropy_std,
-                              pop_gap_mean, pop_gap_std):
+                              pop_gap_mean, pop_gap_std,
+                              pop_refusal_mean, pop_refusal_std):
     """Score a name component using population-relative z-scores.
 
-    Partial matches sit BETWEEN the unrelated cluster (high entropy, low gap)
-    and retained-like names (very low entropy, very high gap). We look for
-    names that are moderately more confident than the population average,
-    but not extreme outliers.
-
-    The "sweet spot" is roughly z_entropy in [-2.0, -0.3] and z_gap in [0.3, 2.0].
+    All three signals are credited as deviations from the population baseline:
+      - low entropy / high gap => model is confident (capped at 2σ each so
+        tokenisation outliers can't dominate the leaderboard)
+      - refusal far from the population mean is treated as evidence in EITHER
+        direction: high refusal = model suppressed, low refusal = model failed
+        to suppress (leak). Slight asymmetry favours the leak direction.
     """
     if count < 2:
         return -10.0  # not enough observations
 
-    # Z-scores relative to population
     z_entropy = (mean_entropy - pop_entropy_mean) / (pop_entropy_std + 1e-8)
-    z_gap = (mean_gap - pop_gap_mean) / (pop_gap_std + 1e-8)
+    z_gap     = (mean_gap     - pop_gap_mean)     / (pop_gap_std     + 1e-8)
+    z_refusal = (mean_refusal - pop_refusal_mean) / (pop_refusal_std + 1e-8)
 
-    # Reward: lower entropy than average (negative z) but not extreme
-    # Peak reward at z_entropy ~ -1.0 (1 std below mean)
-    entropy_score = -abs(z_entropy + 1.0)  # peaks at z=-1
+    confidence_score = min(max(-z_entropy, 0.0), 2.0) + min(max(z_gap, 0.0), 2.0)
+    leak_score       = 1.50 * max(-z_refusal, 0.0)
+    refusal_score    = 1.05 * max( z_refusal, 0.0)
 
-    # Reward: higher gap than average (positive z) but not extreme
-    # Peak reward at z_gap ~ +1.0 (1 std above mean)
-    gap_score = -abs(z_gap - 1.0)  # peaks at z=+1
+    obs_confidence = min(count / 3.0, 1.0)
+    return (confidence_score + leak_score + refusal_score) * obs_confidence
 
-    # Strong bonus for any refusal signal
-    refusal_bonus = mean_refusal * 5.0
 
-    # Confidence from observation count
-    confidence = min(count / 3.0, 1.0)
-
-    return (entropy_score + gap_score + refusal_bonus) * confidence
+_PLACEHOLDER_RE = re.compile(r"\{ENT\d+\}")
 
 
 class Akinator:
     def __init__(self, cfg, candidate_entities, templates, unlearned_model, base_model, operator, scorer, out_root):
         self.cfg = cfg
         self.candidate_entities = candidate_entities
-        self.templates = templates
+        self.templates = dict(templates)  # shallow copy so filtering doesn't mutate caller
+        self.templates['only_entity'] = set(self.templates.get('only_entity', set()))
         self.unlearned_model = unlearned_model
         self.base_model = base_model
         self.operator = operator
@@ -77,6 +73,110 @@ class Akinator:
         self.out_root = out_root
         self.max_new_tokens = int(cfg.get("max_new_tokens", 64))
         self.first_n_tokens = int(cfg.get("first_n_tokens", 24))
+
+        # Target entity count: config override (prompts.num_target_entities) wins;
+        # otherwise infer from the mode of placeholder counts across templates.
+        self.num_target_entities = self._resolve_num_target_entities()
+        if self.num_target_entities not in {1, 2}:
+            raise ValueError(
+                f"Only 1 or 2 target entities are supported, got {self.num_target_entities}. "
+                "Generalize apply_with_multiple_entity to support more."
+            )
+        self._filter_templates_to_target_count()
+        if cfg.get("prompts", {}).get("filter_short_factual", True):
+            self._filter_templates_short_factual()
+
+    @staticmethod
+    def _count_placeholders(template: str) -> int:
+        return len(set(_PLACEHOLDER_RE.findall(template)))
+
+    # Template analysis (see probe_last.csv, 2026-04) showed that narrative
+    # open-ended prompts ("how did X evolve", "influence of parents on career")
+    # produce high-entropy rambles that drown leak signals, while short
+    # closed-answer factual prompts (genre, birthplace, debut, publisher)
+    # have low population entropy floors so an unlearned name stands out.
+    _NARRATIVE_DROP = re.compile(
+        r"\b(evolve|evolv|journey|upbringing|connect with|influence[ds]?|"
+        r"contribut|inspir|plans?|future|upcoming|collaborat|adapt|"
+        r"another (book|novel|work)|most acclaimed|acclaimed work|"
+        r"signature (work|style)|writing style|themes?|how does|how did|how has)\b",
+        re.IGNORECASE,
+    )
+    # Templates where {ENT*} refers to a location/year/other non-author slot —
+    # e.g. "What is the full name of the author born in {ENT1}, Malaysia in
+    # 1931?". These leak the real author via embedded details, so the probe's
+    # score reflects the template's fingerprint, not the candidate name.
+    _ENT_NOT_AUTHOR = re.compile(
+        r"born in \{ENT\d+\}"
+        r"|in \{ENT\d+\},"
+        r"|\{ENT\d+\} in (?:19|20)\d{2}"
+        r"|\{ENT\d+\} on (?:January|February|March|April|May|June|July|August|September|October|November|December)"
+        r"|full name of (?:the |an? )?(?:\w+\s+){0,4}author(?:[^{]*)\{ENT\d+\}",
+        re.IGNORECASE,
+    )
+    _FACTUAL_KEEP = re.compile(
+        r"\b(genre|born|birth ?place|birthplace|publisher|publish|agent|editor|"
+        r"debut|first (book|novel)|gender|identify|LGBTQ|award|prize|honor|"
+        r"setting|city|country|nationality)\b",
+        re.IGNORECASE,
+    )
+
+    def _filter_templates_short_factual(self, min_keep: int = 20):
+        original = self.templates['only_entity']
+        kept = set()
+        dropped_ent_slot = 0
+        for t in original:
+            if self._ENT_NOT_AUTHOR.search(t):
+                dropped_ent_slot += 1
+                continue
+            if self._NARRATIVE_DROP.search(t):
+                continue
+            if self._FACTUAL_KEEP.search(t):
+                kept.add(t)
+        if len(kept) < min_keep:
+            print(
+                f"[Akinator] Short-factual filter would keep only {len(kept)} "
+                f"templates (< {min_keep}); skipping filter.",
+                flush=True,
+            )
+            return
+        self.templates['only_entity'] = kept
+        print(
+            f"[Akinator] Short-factual filter: kept {len(kept)}/{len(original)} "
+            f"templates (dropped {dropped_ent_slot} ENT-is-non-author; "
+            f"rest narrative/open-ended).",
+            flush=True,
+        )
+
+    def _resolve_num_target_entities(self) -> int:
+        override = self.cfg.get("prompts", {}).get("num_target_entities")
+        if override is not None:
+            return int(override)
+        counts = Counter(
+            self._count_placeholders(t) for t in self.templates['only_entity']
+        )
+        counts = Counter({k: v for k, v in counts.items() if k > 0})
+        if not counts:
+            raise ValueError(
+                "No 'only_entity' templates with placeholders; cannot infer target entity count."
+            )
+        return counts.most_common(1)[0][0]
+
+    def _filter_templates_to_target_count(self):
+        n = self.num_target_entities
+        original = self.templates['only_entity']
+        filtered = {t for t in original if self._count_placeholders(t) == n}
+        if not filtered:
+            raise ValueError(
+                f"No 'only_entity' templates with exactly {n} placeholder(s); "
+                f"distribution was {Counter(self._count_placeholders(t) for t in original)}."
+            )
+        self.templates['only_entity'] = filtered
+        print(
+            f"[Akinator] Target entities per question: {n}. "
+            f"Kept {len(filtered)}/{len(original)} 'only_entity' templates.",
+            flush=True,
+        )
 
     def eval_prompt(self, edited_prompt):
         prompt_score = self.unlearned_model.score_prompt(
@@ -285,11 +385,7 @@ class Akinator:
             return anchor, probe
         
     def get_number_of_entities(self):
-        first_prompt = sorted(self.templates['only_entity'])[0]
-        entity_placeholder = re.compile(r"\{ENT\d+\}")
-        placeholders = sorted(set(entity_placeholder.findall(first_prompt)),key=lambda x: int(re.search(r"\d+", x).group())) # get all the placeholders
-        
-        return len(placeholders)
+        return self.num_target_entities
         
     def run_smart_search(self, budget=1000, seed=0):
         rng = np.random.default_rng(seed)
@@ -415,12 +511,34 @@ class Akinator:
         return forget_prompts, ranked_entities
     
     def _probe_components(self, components, mode, safe_complements, budget, rng):
-        """Run model queries for name components and collect stats."""
+        """Run model queries for name components and collect stats.
+
+        Candidates are scheduled round-robin so every candidate gets exactly
+        `budget // n` probes (no multinomial variance in per-candidate count).
+        Partner and template choices remain random, so signal averaging still
+        varies across pairings — only allocation is deterministic.
+        """
         templates_list = sorted(self.templates['only_entity'])
         stats = defaultdict(lambda: {"count": 0, "entropy_sum": 0.0, "gap_sum": 0.0, "refusal_sum": 0.0})
 
-        for _ in range(budget):
-            comp = rng.choice(components)
+        probe_rows : List[Dict[str, object]] = []
+
+        from .generation_learner import GenerationLearner
+        clean = GenerationLearner._is_clean_name_component
+        # safe_complements may be a list of strings OR (name, score, stats) tuples
+        # (see run_attack.py: scored_lasts[:40] is passed as complements for first-name scoring).
+        def _as_name(c):
+            return c[0] if isinstance(c, (tuple, list)) else c
+        safe_complements = [_as_name(c) for c in safe_complements if clean(_as_name(c))]
+        if not safe_complements:
+            raise ValueError("No clean safe_complements remain after filtering tokenisation artefacts.")
+
+        n = len(components)
+        per_candidate = max(1, budget // n)
+        schedule = list(components) * per_candidate
+        rng.shuffle(schedule)
+
+        for comp in schedule:
             complement = rng.choice(safe_complements)
             if mode == "first":
                 full_name = f"{comp} {complement}"
@@ -436,7 +554,18 @@ class Akinator:
             m["entropy_sum"] += entropy
             m["gap_sum"] += gap
             m["refusal_sum"] += refusal
+            probe_rows.append(
+                {
+                    "entity": full_name,
+                    "edited_prompt": edited,
+                    "response": completion,
+                    "refusal_score": refusal,
+                    "entropy": entropy,
+                    "gap": gap,
+                }
+            )
 
+        write_csv(f"saved_lists/untargeted_search/probe_{mode}.csv", probe_rows)
         return stats
 
     def _score_from_stats(self, stats):
@@ -460,19 +589,25 @@ class Akinator:
         # Population statistics (most names are unrelated, so this captures the baseline)
         all_entropies = [r["mean_entropy"] for r in records]
         all_gaps = [r["mean_gap"] for r in records]
+        all_refusals = [r["mean_refusal"] for r in records]
         pop_entropy_mean = float(np.mean(all_entropies))
         pop_entropy_std = float(np.std(all_entropies)) if len(all_entropies) > 1 else 1.0
         pop_gap_mean = float(np.mean(all_gaps))
         pop_gap_std = float(np.std(all_gaps)) if len(all_gaps) > 1 else 1.0
+        pop_refusal_mean = float(np.mean(all_refusals))
+        pop_refusal_std = float(np.std(all_refusals)) if len(all_refusals) > 1 else 1.0
 
         print(f"  Population stats: entropy={pop_entropy_mean:.3f}±{pop_entropy_std:.3f}, "
-              f"gap={pop_gap_mean:.3f}±{pop_gap_std:.3f}")
+              f"gap={pop_gap_mean:.3f}±{pop_gap_std:.3f}, "
+              f"refusal={pop_refusal_mean:.3f}±{pop_refusal_std:.3f}")
 
         scored = []
         for r in records:
             score = component_score_relative(
                 r["mean_entropy"], r["mean_gap"], r["mean_refusal"], r["count"],
-                pop_entropy_mean, pop_entropy_std, pop_gap_mean, pop_gap_std,
+                pop_entropy_mean, pop_entropy_std,
+                pop_gap_mean, pop_gap_std,
+                pop_refusal_mean, pop_refusal_std,
             )
             scored.append((r["name"], score, r))
 
@@ -501,7 +636,7 @@ class Akinator:
         n = len(components)
 
         # Ensure at least 3 obs per NEW candidate
-        actual_budget = max(budget, 3 * n)
+        actual_budget = max(budget, 5 * n)
         print(f"  Scoring {n} candidates with budget={actual_budget}")
         new_stats = self._probe_components(components, mode, safe_complements, actual_budget, rng)
 
