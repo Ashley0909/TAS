@@ -85,6 +85,9 @@ class Akinator:
         self._filter_templates_to_target_count()
         if cfg.get("prompts", {}).get("filter_short_factual", True):
             self._filter_templates_short_factual()
+        # Freeze to a sorted tuple: set iteration order is process-seeded, so
+        # two runs at the same seed would otherwise pick different templates.
+        self.templates['only_entity'] = tuple(sorted(self.templates['only_entity']))
 
     @staticmethod
     def _count_placeholders(template: str) -> int:
@@ -178,6 +181,18 @@ class Akinator:
             flush=True,
         )
 
+    def _blend_refusal(self, regex_refusal: float, prompt_score) -> float:
+        # Soft tiebreaker: when the completion didn't literally say "I cannot"
+        # (regex_refusal == 0) but the model briefly considered it — i.e. the
+        # "cannot" token had non-trivial probability in the first k positions —
+        # fold that signal in at a scaled weight so the Beta bandit still sees
+        # something to latch onto. Opt-in via cfg.refusal.token_blend.
+        blend = float(self.cfg.get("refusal", {}).get("token_blend", 0.0))
+        if blend <= 0:
+            return regex_refusal
+        token_signal = float(getattr(prompt_score, "refusal_cannot_max", 0.0))
+        return max(regex_refusal, blend * token_signal)
+
     def eval_prompt(self, edited_prompt):
         prompt_score = self.unlearned_model.score_prompt(
             edited_prompt,
@@ -185,6 +200,7 @@ class Akinator:
             first_n_tokens=self.first_n_tokens,
         )
         refusal = float(self.scorer.score(prompt_score.completion))
+        refusal = self._blend_refusal(refusal, prompt_score)
         return refusal, float(prompt_score.token_entropy_mean), float(prompt_score.top12_gap_mean), prompt_score.completion, prompt_score
 
     def eval_prompt_fast(self, edited_prompt):
@@ -195,6 +211,7 @@ class Akinator:
             first_n_tokens=self.first_n_tokens,
         )
         refusal = float(self.scorer.score(prompt_score.completion))
+        refusal = self._blend_refusal(refusal, prompt_score)
         return refusal, float(prompt_score.token_entropy_mean), float(prompt_score.top12_gap_mean), prompt_score.completion, prompt_score
     
     def get_refusal(self, template, entity, compute_semantic=False):
@@ -207,7 +224,8 @@ class Akinator:
             edited = self.operator[0].apply_with_entity(template, ent)
         else:
             raise ValueError(f"Invalid number of entities, there are {len(entity)} entities right now.")
-        refusal, ent, gap, completion, prompt_score = self.eval_prompt(edited)
+        # refusal, ent, gap, completion, prompt_score = self.eval_prompt(edited)
+        refusal, ent, gap, completion, prompt_score = self.eval_prompt_fast(edited)
         if compute_semantic:
             semantic_ent = float(getattr(prompt_score, "semantic_entropy", 0.0))
         else:
@@ -403,16 +421,22 @@ class Akinator:
             "gap_sum": 0.0,
         })
 
-        for _ in range(budget):
-            t = self.choose_template(temp_beta, rng)
-            entities = self.choose_pair_of_entities(ent_slot, rng)
+        templates_list = list(self.templates['only_entity'])
+        entities_list = list(self.candidate_entities)
 
-            y, ent, gap, semantic_ent, _, _, prompt_score = self.get_refusal(t, entities)
-            self.update_posteriors(y, t, entities, ent_slot, temp_beta)
+        search_cfg = self.cfg.get("smart_search", {})
+        # Each ordered pair gets this many guaranteed probes before Thompson kicks in. 
+        # Exists because PISTOL's forget signal is directional and sparse, so flat priors + uniform sampling miss it by luck.
+        warmup_per_pair = int(search_cfg.get("warmup_per_pair", 2))
+        # Directional unlearning: always test both (a,b) and (b,a) per step.
+        symmetric = bool(search_cfg.get("symmetric_probe", True))
 
-            history.append((t, entities, y))
-            row = {
-                "entity": entities,
+        def _probe(t, ents):
+            y, ent, gap, semantic_ent, _, _, prompt_score = self.get_refusal(t, ents)
+            self.update_posteriors(y, t, ents, ent_slot, temp_beta)
+            history.append((t, ents, y))
+            entity_cannot_scan.append({
+                "entity": ents,
                 "retain_question": t,
                 "completion": prompt_score.completion,
                 "cannot_max": prompt_score.refusal_cannot_max,
@@ -420,16 +444,44 @@ class Akinator:
                 "cannot_in_first_k": prompt_score.refusal_cannot_in_first_k,
                 "first_k_text": prompt_score.refusal_first_k_text,
                 "cannot_probs": prompt_score.refusal_cannot_probs,
-            }
-            entity_cannot_scan.append(row)
-
-            m = entropy_gap_scan[entities[0]]
+            })
+            m = entropy_gap_scan[ents[0]]
             m["count"] += 1
             m["refusal_sum"] += y
             m["entropy_sum"] += ent
             m["gap_sum"] += gap
             m.setdefault("semantic_entropy_sum", 0.0)
             m["semantic_entropy_sum"] += semantic_ent
+
+        spent = 0
+
+        # Phase 0 — warm-up. Exhaustively covers every ordered pair
+        # `warmup_per_pair` times (capped at budget/2) so Thompson has
+        # real evidence to start from instead of flat Beta(1,1).
+        if num == 2 and warmup_per_pair > 0:
+            ordered_pairs = [(a, b) for a in entities_list for b in entities_list if a != b]
+            rng.shuffle(ordered_pairs)
+            warm_cap = min(len(ordered_pairs) * warmup_per_pair, budget // 2)
+            for i in range(warm_cap):
+                a, b = ordered_pairs[i % len(ordered_pairs)]
+                t = templates_list[int(rng.integers(len(templates_list)))]
+                _probe(t, [a, b])
+                spent += 1
+            print(f"[run_smart_search] warm-up: {spent} probes over "
+                  f"{len(ordered_pairs)} ordered pairs (x{warmup_per_pair}).", flush=True)
+
+        # Phase 1 — Thompson sampling. With symmetric=True we probe both
+        # orderings per step: costs 2 queries but makes the direction
+        # of the unlearning irrelevant to whether we find it.
+        step_cost = 2 if (symmetric and num == 2) else 1
+        while spent + step_cost <= budget:
+            t = self.choose_template(temp_beta, rng)
+            entities = self.choose_pair_of_entities(ent_slot, rng)
+            _probe(t, entities)
+            spent += 1
+            if symmetric and num == 2:
+                _probe(t, [entities[1], entities[0]])
+                spent += 1
 
         entity_stats = {}
 
