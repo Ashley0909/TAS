@@ -271,3 +271,6 @@ class GemmaModel(ModelBase):
         )
 
         return output
+
+    def _save_pretrained(self, save_directory):
+        self.model.save_pretrained(save_directory)

@@ -279,48 +279,35 @@ def compute_ES(
 
 
 def compute_MRR(scores, gt, tokenizer):
-    ## gt is a list with length of batch size
+    ## scores: tuple of length T, each a tensor (B, V) on CUDA (per-step logits).
+    ## gt: list of strings with length of batch size.
+    # Rank under softmax equals rank under raw logits (softmax is monotonic),
+    # so we avoid allocating a full (B, T, V) buffer and work one step at a time.
     MRR_res = []
     hit_rate = []
 
-    # Convert scores as tuple to torch tensors
-    # Initialize an empty tensor of the desired shape, filled with zeros
-    score_size = scores[0].shape[0]
-    vocab_size = scores[0].shape[1]
-    logits = torch.zeros(score_size, 512, vocab_size, device="cuda")
+    T = len(scores)
 
-    # Iterate over the tuple of tensors and assign each to the correct position in the combined tensor
-    for i, score_tensor in enumerate(scores):
-        # print(f"Tensor {i}: shape {score_tensor.shape}, device {score_tensor.device}")
-        logits[:, i, :] = score_tensor
-    probabilities = torch.nn.functional.softmax(
-        logits, dim=-1
-    )  # torch.Size([16, 512, 32000])
     for i in range(len(gt)):
-        probs_per_gt = probabilities[i]
+        gt_indices = tokenizer.encode(gt[i], add_special_tokens=False)
         reciprocal_ranks = []
         hit_check = []
 
-        # Tokenize the ground truth
-        gt_indices = tokenizer.encode(gt[i], add_special_tokens=False)
+        n = min(len(gt_indices), T)
+        for j in range(n):
+            gt_index = gt_indices[j]
+            s = scores[j][i]  # (V,)
+            gt_score = s[gt_index]
+            rank = int((s > gt_score).sum().item()) + 1
+            reciprocal_ranks.append(1.0 / rank)
+            hit_check.append(1 if rank <= 100 else 0)
 
-        for j, gt_index in enumerate(gt_indices):
-            # Get the probability distribution for the current token
-            probs = probs_per_gt[j]  # len = 32000
-            sorted_indices = probs.argsort(descending=True)
-            # Find the rank of the current token
-            positions = (sorted_indices == gt_index).nonzero()
-            rank = positions[0].item() + 1
-            # Calculate reciprocal rank
-            reciprocal_rank = 1.0 / rank
-            reciprocal_ranks.append(reciprocal_rank)
-            # Calculate hit rate
-            if rank <= 100:
-                hit_check.append(1)
-            else:
-                hit_check.append(0)
-        MRR_res.append(sum(reciprocal_ranks) / len(reciprocal_ranks))
-        hit_rate.append(sum(hit_check) / len(hit_check))
+        if reciprocal_ranks:
+            MRR_res.append(sum(reciprocal_ranks) / len(reciprocal_ranks))
+            hit_rate.append(sum(hit_check) / len(hit_check))
+        else:
+            MRR_res.append(0.0)
+            hit_rate.append(0.0)
     return MRR_res, hit_rate
 
 

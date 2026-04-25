@@ -5,7 +5,7 @@ import json
 import os
 import random
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import numpy as np
 from collections import Counter, defaultdict
@@ -20,20 +20,38 @@ except Exception:  # pragma: no cover - optional plotting dependency
 
 from transformers import pipeline
 
-from dea.entity_generator import EntityGenerator, EntityGeneratorConfig
-from dea.akinator import Akinator
-from dea.io_utils import ensure_dir, timestamp, write_csv, write_json
-from dea.metrics import RefusalScorer
-from dea.model_interface import ProbeModel
-from dea.name_pool import CandidatePool
-from dea.perturbations import EntitySwapOp, build_operators
-from dea.rl_explorer import BanditConfig, run_entity_generator_exploration
-from dea.generation_learner import GenerationLearner
+from TAS.entity_generator import EntityGenerator, EntityGeneratorConfig
+from TAS.akinator import Akinator
+from TAS.io_utils import ensure_dir, timestamp, write_csv, write_json
+from TAS.metrics import RefusalScorer
+from TAS.model_interface import ProbeModel
+from TAS.name_pool import CandidatePool
+from TAS.perturbations import EntitySwapOp, build_operators
+from TAS.rl_explorer import BanditConfig, run_entity_generator_exploration
+from TAS.generation_learner import GenerationLearner
 from src.dataset_utils import load_dataset_json
 
 def _load_config(path: str) -> Dict[str, object]:
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
+
+
+def _apply_overrides(cfg: Dict[str, object], overrides: List[str]) -> None:
+    for item in overrides:
+        if "=" not in item:
+            raise ValueError(f"Override must be key=value, got: {item}")
+        key, raw = item.split("=", 1)
+        try:
+            value = yaml.safe_load(raw)
+        except yaml.YAMLError:
+            value = raw
+        d = cfg
+        parts = key.split(".")
+        for p in parts[:-1]:
+            if p not in d or not isinstance(d[p], dict):
+                d[p] = {}
+            d = d[p]
+        d[parts[-1]] = value
 
 
 def _load_seed_prompts(cfg: Dict[str, object]) -> List[str]:
@@ -180,12 +198,14 @@ def get_grouped_templates(questions):
 
     return grouped_templates
 
-def run_probe(config_path: str) -> Dict[str, object]:
+def run_probe(config_path: str, overrides: Optional[List[str]] = None) -> Dict[str, object]:
     cfg = _load_config(config_path)
+    if overrides:
+        _apply_overrides(cfg, overrides)
     random.seed(int(cfg.get("seed", 0)))
     np.random.seed(int(cfg.get("seed", 0)))
 
-    out_root = ensure_dir(cfg.get("output_dir", f"unlearn_results/dea/{timestamp()}"))
+    out_root = ensure_dir(cfg.get("output_dir", f"unlearn_results/tas/{timestamp()}"))
     if cfg.get("device", "auto") == "auto":
         device = "cuda" if torch.cuda.is_available() else "cpu"
     else:
@@ -264,8 +284,16 @@ def run_probe(config_path: str) -> Dict[str, object]:
     if 'pistol' in cfg['prompts'].get("dataset_name", []):
         ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
 
-        dictionary = akinator.run_smart_search()
-        akinator.dump_smart_search_debug(dictionary)
+        mode = str(cfg.get("search_mode", "smart")).lower()
+        if mode == "brute":
+            dictionary = akinator.run_brute_force_search(seed=int(cfg.get("seed", 0)))
+        elif mode == "random":
+            budget = int(cfg.get("smart_search", {}).get("budget", 1000))
+            dictionary = akinator.run_random_search(budget=budget, seed=int(cfg.get("seed", 0)))
+        else:
+            budget = int(cfg.get("smart_search", {}).get("budget", 1000))
+            dictionary = akinator.run_smart_search(budget=budget)
+        akinator.dump_smart_search_debug(dictionary, out_dir=out_root)
 
         top_entities = akinator.extract_top_entities(dictionary['ranked_slots'])
         print(f"Found top entities: {top_entities}")
@@ -367,9 +395,14 @@ def run_probe(config_path: str) -> Dict[str, object]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="RL exploration for LUNAR.")
-    parser.add_argument("--config", type=str, default="config/dea.yaml")
+    parser.add_argument("--config", type=str, default="config/tas.yaml")
+    parser.add_argument(
+        "overrides",
+        nargs="*",
+        help="Dotted-key overrides, e.g. cliff.threshold=0.3 smart_search.budget=500",
+    )
     args = parser.parse_args()
-    summary = run_probe(args.config)
+    summary = run_probe(args.config, overrides=args.overrides)
     print(json.dumps(summary, indent=2))
 
 

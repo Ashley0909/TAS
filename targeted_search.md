@@ -113,7 +113,7 @@ place every query funnels through. It:
      suspicious gets more of the credit. On non-refusal, negative credit is
      split symmetrically.
 3. Appends `(t, ents, y)` to `history` for offline inspection
-   (`debug_smart_search/history.txt`).
+   (`debug_search/history.txt`).
 4. Appends a row to `entity_cannot_scan` capturing the completion and the
    raw token-level refusal signals (`cannot_max`, `cannot_mean`,
    `cannot_probs`, etc.) for post-hoc analysis (`cannot_metrics.csv`).
@@ -213,7 +213,7 @@ The returned `dict` has: `history`, `ent_slots` (raw Beta dicts),
 
 ## Stage 7 — Debug dump
 
-[`dump_smart_search_debug(result, "debug_smart_search")`](dea/akinator.py#L816)
+[`dump_smart_search_debug(result, "debug_search")`](dea/akinator.py#L816)
 writes the following so each run is inspectable offline:
 
 | File | Contents |

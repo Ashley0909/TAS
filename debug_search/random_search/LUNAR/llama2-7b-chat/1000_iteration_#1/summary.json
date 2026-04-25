@@ -1,0 +1,5 @@
+{
+  "config_path": "config/dea.yaml",
+  "output_dir": "debug_search/",
+  "num_prompts": 400
+}

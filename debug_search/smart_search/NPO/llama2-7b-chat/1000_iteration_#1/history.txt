@@ -1,0 +1,1000 @@
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Jzrcws SA'], y=8.098221542240935e-07
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Tapd Abuk', 'Mnmi Haem'], y=7.713901482020447e-07
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Yrnw Lvgj'], y=1.0509865866481505e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Errg Zipo'], y=2.767342799359085e-08
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Cqndue LLC'], y=3.269903800173779e-06
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Clsvfw AG'], y=6.665214868917246e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Ctvepy SAS'], y=1.7634955895573512e-07
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Ajoo Gufx'], y=4.952413590331162e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Ajoo Gufx'], y=1.2394008042093674e-09
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Dmimyu GmbH'], y=2.8474289592850255e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Skqn Esui'], y=1.36843809173115e-07
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Lasnoj SAS'], y=1.513323013568879e-06
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Xqtb Laur'], y=2.179113778311148e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Nchdfd AG'], y=1.9506401827129594e-07
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Txctcl AG'], y=3.956825366913108e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Wnzatj SAS'], y=1.084068657064563e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Ctvepy SAS', 'Ffsi Mneb'], y=5.842261998623144e-07
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Yrnw Lvgj'], y=1.3486952354924142e-07
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Jzrcws SA'], y=3.682079068312305e-07
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Wnzatj SAS'], y=1.4121562585955871e-08
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Ajoo Gufx'], y=4.001556703769893e-07
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Nchdfd AG'], y=3.2840468122685706e-08
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Vkitze GmbH'], y=4.285944044113421e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Txctcl AG'], y=2.4253505870319714e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Wnzatj SAS'], y=4.7392190936079714e-06
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Tapd Abuk'], y=8.547593097318895e-06
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Mnmi Haem'], y=2.5833339023506596e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Mnmi Haem'], y=3.387436890989193e-07
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Txctcl AG'], y=1.999165277766224e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Clsvfw AG'], y=2.508475063223159e-07
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Txctcl AG'], y=5.649488912240486e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Avrbci Ltd'], y=7.812656832584253e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Xqtb Laur'], y=8.363468850802747e-08
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Xqtb Laur'], y=3.3219462736155947e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Ajoo Gufx'], y=2.2991503145775027e-10
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Qsihxg GmbH'], y=3.0239839077239594e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Xqtb Laur'], y=5.0571863141612994e-08
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Nchdfd AG'], y=3.521389846383727e-10
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Qsihxg GmbH'], y=1.8330775901631569e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Mjlwxf NV'], y=1.8064793039229698e-06
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Clsvfw AG'], y=9.798264422045122e-10
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Cqndue LLC'], y=1.8850479932552844e-07
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Qpubwe PLC'], y=4.963067112839781e-08
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Yrnw Lvgj'], y=3.145021310047014e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Ecxk Avfj'], y=2.779292458399141e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Errg Zipo'], y=3.9977901544752115e-10
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Qsihxg GmbH'], y=9.946524492931985e-09
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Okrb Qxpd'], y=1.7618216929804476e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Wnzatj SAS'], y=1.9157344155473766e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Mjlwxf NV'], y=1.955176287538052e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Mjlwxf NV'], y=1.6693955939839356e-10
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Nchdfd AG'], y=1.8947964974813658e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Ffsi Mneb'], y=1.1851921044581104e-07
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Avrbci Ltd'], y=1.6659115544825909e-06
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Ecxk Avfj'], y=6.072805547319149e-08
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Clsvfw AG'], y=3.457840236364973e-09
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Ctvepy SAS'], y=1.7345377045785426e-07
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Ajoo Gufx'], y=4.111991529498482e-07
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Tapd Abuk'], y=2.6263430754625006e-06
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Tapd Abuk'], y=9.01062868763347e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Okrb Qxpd'], y=2.1115544035499312e-10
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Ctvepy SAS'], y=2.6201050786767155e-06
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Ecxk Avfj'], y=5.766661370643078e-09
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Avrbci Ltd', 'Ctvepy SAS'], y=8.757548130233772e-06
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Cqndue LLC'], y=7.935148005344672e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Xqtb Laur'], y=3.709805085350126e-08
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Yrnw Lvgj'], y=1.9407213613931162e-09
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Okrb Qxpd'], y=1.7237470046893577e-06
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Qpubwe PLC'], y=1.4730477460034308e-06
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Yrnw Lvgj'], y=1.8166507231853757e-07
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1141467126662974e-07
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Yrnw Lvgj'], y=3.5459407854432357e-08
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Clsvfw AG'], y=1.7950332775740208e-08
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Okrb Qxpd'], y=1.9447394805638396e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Cqndue LLC'], y=3.3625330075892634e-08
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Qsihxg GmbH'], y=2.5164776928932042e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Cqndue LLC'], y=2.4233397510897703e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Tapd Abuk'], y=7.342582653002694e-10
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Tapd Abuk'], y=1.2778713198713376e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Dmimyu GmbH'], y=2.9078167651519493e-10
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Nchdfd AG'], y=2.868050463789018e-09
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Skqn Esui'], y=1.7627517934215575e-07
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Vkitze GmbH'], y=1.2612869113581837e-06
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Txctcl AG'], y=1.491113010843037e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Qpubwe PLC'], y=1.0247879878022559e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Jzrcws SA'], y=1.349432636743586e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Ffsi Mneb', 'Dmimyu GmbH'], y=3.439696527607339e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Tapd Abuk'], y=2.7932101076544313e-08
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Clsvfw AG'], y=1.1393963461614476e-07
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Clsvfw AG'], y=4.6828890276628954e-07
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Cqndue LLC'], y=1.2050589692780278e-10
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Jzrcws SA'], y=4.335561243351549e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Avrbci Ltd'], y=1.5467777059186005e-09
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Skqn Esui'], y=1.6196547221625224e-05
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Ffsi Mneb'], y=3.35192211764479e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Vkitze GmbH'], y=3.2045135434088934e-09
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Qpubwe PLC'], y=2.4138788745631246e-08
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Txctcl AG'], y=2.9590987438155025e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Xqtb Laur'], y=1.3482534768627374e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Tapd Abuk'], y=2.3206368771067076e-10
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Lasnoj SAS'], y=1.9582560639719304e-07
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Xqtb Laur'], y=4.03887057132124e-09
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Dmimyu GmbH'], y=1.7158495069224955e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Xqtb Laur'], y=1.565110920864754e-07
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Qsihxg GmbH'], y=1.4469023312813079e-08
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Errg Zipo'], y=1.6231568622515624e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Avrbci Ltd'], y=2.008169097678092e-08
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Okrb Qxpd'], y=2.09486438507156e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Nchdfd AG'], y=5.514304568521311e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Xqtb Laur', 'Tapd Abuk'], y=5.34515720573836e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Dmimyu GmbH'], y=1.8096213807439199e-06
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Lasnoj SAS'], y=2.6132514818755226e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Avrbci Ltd'], y=6.779537216061726e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Ajoo Gufx'], y=2.7298614480031347e-09
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Ctvepy SAS'], y=2.033137569412702e-08
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Errg Zipo'], y=7.604874507904924e-10
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Qpubwe PLC', 'Xqtb Laur'], y=8.782285476627294e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Qsihxg GmbH'], y=2.0565001250361092e-05
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Ecxk Avfj'], y=7.56871259000036e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Ffsi Mneb'], y=7.378529517154675e-06
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Qsihxg GmbH'], y=6.708427946477968e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Dmimyu GmbH'], y=6.617006942377657e-10
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Txctcl AG'], y=4.2659862309335495e-09
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Vkitze GmbH'], y=1.3885764760246389e-10
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Ctvepy SAS'], y=1.8348696173564605e-10
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Ctvepy SAS'], y=3.127904690813921e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Mjlwxf NV'], y=1.3029877177217486e-09
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Skqn Esui'], y=7.648791822134626e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Cqndue LLC'], y=2.579875626906869e-06
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Tapd Abuk'], y=6.026711074635926e-11
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Wnzatj SAS'], y=7.122301894924021e-07
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Dmimyu GmbH'], y=1.263740778689737e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Mnmi Haem'], y=7.365328201558441e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Clsvfw AG'], y=2.740392446298756e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Tapd Abuk'], y=9.90392035049581e-09
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Mjlwxf NV', 'Ajoo Gufx'], y=6.444697220331363e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Lasnoj SAS'], y=5.312714712601974e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Mjlwxf NV'], y=1.2522308523443826e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Qsihxg GmbH'], y=1.782086256341131e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Nchdfd AG'], y=1.1634168073371143e-09
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Clsvfw AG'], y=4.206738069001403e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Skqn Esui'], y=4.2244696629722966e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Vkitze GmbH'], y=1.7304013777419414e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Cqndue LLC'], y=6.92393541612546e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Ffsi Mneb'], y=1.0704062081146049e-09
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Clsvfw AG'], y=3.882123564835638e-06
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Mnmi Haem'], y=0.5
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Ffsi Mneb'], y=3.000664300367717e-11
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Qsihxg GmbH'], y=1.0903208197410308e-10
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Mnmi Haem'], y=2.923226105622234e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Yrnw Lvgj'], y=1.3408099519551797e-08
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Qpubwe PLC'], y=4.63259333116639e-08
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Txctcl AG'], y=4.420821042572243e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Lasnoj SAS'], y=4.545904630504083e-07
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Cqndue LLC'], y=6.294182242072566e-08
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Ffsi Mneb'], y=1.619414935483121e-09
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Vkitze GmbH', 'Qpubwe PLC'], y=4.789142167282989e-07
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Vkitze GmbH'], y=1.1752928630315296e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Ffsi Mneb'], y=1.0083117674142272e-09
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Avrbci Ltd'], y=2.930693465685863e-10
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Xqtb Laur'], y=1.5113152951329312e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Okrb Qxpd'], y=3.47013973112098e-08
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Ctvepy SAS'], y=9.228735507349484e-06
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Skqn Esui'], y=1.2836451787734404e-05
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Clsvfw AG'], y=8.944669360744228e-08
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Qpubwe PLC'], y=1.6011231451784624e-08
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Vkitze GmbH'], y=2.6387402840555296e-07
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Wnzatj SAS'], y=1.1675344069317362e-07
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Okrb Qxpd'], y=1.509418552814168e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Ajoo Gufx'], y=8.378507914130751e-07
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Qpubwe PLC'], y=5.795123492191578e-09
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Skqn Esui'], y=5.985751450054977e-09
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Lasnoj SAS'], y=1.2206709243400837e-07
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Avrbci Ltd'], y=6.934447327466842e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Vkitze GmbH'], y=1.0455190704306006e-06
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Ffsi Mneb'], y=1.2141546101851475e-10
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Ffsi Mneb', 'Qpubwe PLC'], y=1.428203540854156e-05
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Qsihxg GmbH'], y=3.630810851973365e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Qpubwe PLC'], y=3.2993671084113885e-06
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Yrnw Lvgj'], y=2.4598099912509497e-07
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Dmimyu GmbH'], y=8.2439610693541e-09
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Mnmi Haem'], y=4.28745551062093e-07
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Tapd Abuk'], y=3.8970304672147904e-07
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Mnmi Haem'], y=1.6001125402453908e-07
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Cqndue LLC'], y=5.013853510149602e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Clsvfw AG'], y=2.6264754260374445e-10
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Mjlwxf NV'], y=4.425000099672616e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Qpubwe PLC'], y=3.867479847485811e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Mjlwxf NV'], y=1.3039840496276156e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Nchdfd AG'], y=2.9221586373751052e-05
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Yrnw Lvgj'], y=3.3748856487214596e-10
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Jzrcws SA'], y=2.0188892779771095e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Qsihxg GmbH', 'Ffsi Mneb'], y=6.56984911984182e-06
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Txctcl AG', 'Yrnw Lvgj'], y=5.9226540543022566e-06
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Skqn Esui'], y=3.284989725216292e-05
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Errg Zipo'], y=9.69145844464947e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Avrbci Ltd'], y=6.454781953380007e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Clsvfw AG'], y=2.8289532938430284e-09
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Qsihxg GmbH'], y=1.0906599179349996e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Nchdfd AG'], y=2.8832635834419307e-08
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Avrbci Ltd'], y=7.207738690340193e-07
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Xqtb Laur'], y=5.526502491193241e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Avrbci Ltd'], y=3.4191340869682563e-09
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Vkitze GmbH'], y=4.1284704366262304e-07
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Avrbci Ltd'], y=1.0338235156837072e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Ffsi Mneb'], y=5.030820648954659e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Lasnoj SAS'], y=9.056057592715661e-07
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Nchdfd AG'], y=9.739123925101012e-07
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Jzrcws SA'], y=4.058467695244872e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Lasnoj SAS'], y=5.217014376057705e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Vkitze GmbH', 'Wnzatj SAS'], y=4.9970374504937354e-08
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Yrnw Lvgj'], y=8.52702530806937e-09
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Dmimyu GmbH'], y=1.6795356216903201e-09
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Yrnw Lvgj'], y=7.50074757860375e-09
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Xqtb Laur'], y=1.9067845968834263e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Ffsi Mneb'], y=1.08708695378823e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Nchdfd AG'], y=3.6880150044993343e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Lasnoj SAS'], y=3.337116361024073e-09
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Mnmi Haem'], y=6.695795029543206e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Lasnoj SAS'], y=2.1869050215173047e-07
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Avrbci Ltd'], y=3.7490130444517433e-10
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Errg Zipo'], y=7.650549349591529e-08
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Ctvepy SAS'], y=1.2314602670926433e-09
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Txctcl AG'], y=9.494991459746416e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Yrnw Lvgj'], y=3.261994674375046e-09
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Qsihxg GmbH'], y=5.531730948860059e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Txctcl AG'], y=2.3004942395488115e-10
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Ffsi Mneb'], y=1.2248600356201678e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Errg Zipo'], y=1.951242012410148e-08
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Mjlwxf NV'], y=4.031038258744957e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Wnzatj SAS'], y=2.9537412160607346e-07
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Mjlwxf NV'], y=8.032907117261345e-10
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Skqn Esui'], y=4.969683686795179e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Ajoo Gufx'], y=4.7147361570409885e-09
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Tapd Abuk'], y=6.94365720477208e-09
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Avrbci Ltd'], y=8.978253696056981e-09
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Skqn Esui'], y=2.579829239124365e-09
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Wnzatj SAS'], y=5.267517533269483e-10
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Ctvepy SAS'], y=3.842689277888667e-09
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Xqtb Laur'], y=4.9300044935307596e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Ajoo Gufx'], y=5.423167470652857e-10
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Xqtb Laur'], y=1.160212377726566e-06
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Skqn Esui'], y=1.1946669474127702e-05
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Tapd Abuk'], y=4.141561049664233e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Xqtb Laur'], y=9.273128931397423e-10
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Ecxk Avfj'], y=4.522757990343962e-08
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Okrb Qxpd'], y=8.487216973662726e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Skqn Esui'], y=5.241630418595378e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Wnzatj SAS'], y=3.8796488865955325e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Nchdfd AG'], y=5.130375013706612e-10
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Cqndue LLC'], y=2.885837773192179e-07
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Clsvfw AG'], y=7.464486770913936e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Okrb Qxpd'], y=3.110610791168256e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Lasnoj SAS'], y=3.5728913161392484e-08
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Jzrcws SA'], y=5.164909453014843e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Vkitze GmbH'], y=1.1333897418808192e-05
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Avrbci Ltd'], y=4.904755712686892e-09
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Mjlwxf NV'], y=2.3036241714180505e-07
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Ctvepy SAS'], y=2.9436211690381242e-08
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Okrb Qxpd'], y=6.034308608349193e-10
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Tapd Abuk'], y=2.3631724133110765e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Cqndue LLC'], y=6.726891266239932e-10
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Qsihxg GmbH'], y=8.748019197923895e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Ecxk Avfj'], y=1.6294754434653669e-09
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Txctcl AG'], y=1.11706031091785e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Mjlwxf NV'], y=2.6137882969123893e-08
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Cqndue LLC'], y=2.647215502360467e-10
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Jzrcws SA'], y=4.022481547849566e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Qpubwe PLC'], y=7.615319042031388e-09
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Dmimyu GmbH'], y=1.3552765132374134e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Tapd Abuk'], y=3.584534979950149e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Xqtb Laur'], y=1.3755167671547497e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Tapd Abuk'], y=2.5033326522816424e-09
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Errg Zipo'], y=2.8973417443012295e-07
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Jzrcws SA'], y=3.606402643185902e-08
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Yrnw Lvgj'], y=5.4425914441935674e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Okrb Qxpd'], y=2.1762129875924074e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Nchdfd AG'], y=2.9439040094558777e-09
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Vkitze GmbH'], y=3.765638822983419e-08
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Errg Zipo'], y=1.5072736114785101e-10
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Ctvepy SAS'], y=3.842057694214418e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Okrb Qxpd'], y=3.0176236509582566e-10
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Wnzatj SAS'], y=7.199208198471752e-07
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Ffsi Mneb'], y=1.5599599834104083e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Qpubwe PLC'], y=3.7226269289369895e-10
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Xqtb Laur', 'Yrnw Lvgj'], y=3.3725140013984856e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Wnzatj SAS'], y=1.5196079061752243e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Yrnw Lvgj', 'Okrb Qxpd'], y=2.0530833353404887e-06
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Lasnoj SAS'], y=5.8932727142746444e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Qpubwe PLC'], y=3.050015706662634e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Jzrcws SA'], y=5.102670286305511e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Vkitze GmbH'], y=2.0739856054774464e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Cqndue LLC'], y=8.026387193771356e-11
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Cqndue LLC'], y=7.551443559350446e-08
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Tapd Abuk'], y=1.2224701251284387e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Okrb Qxpd'], y=2.0709997272660985e-07
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Ctvepy SAS'], y=5.117946066945933e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Ecxk Avfj'], y=3.51341952864459e-07
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Nchdfd AG'], y=1.3319283453938624e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Ecxk Avfj'], y=8.59189484003764e-08
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Dmimyu GmbH'], y=5.024364924111069e-09
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Vkitze GmbH'], y=1.5515364566454082e-06
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Okrb Qxpd', 'Ctvepy SAS'], y=8.22986123694136e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Ffsi Mneb'], y=2.4511956908668253e-09
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Wnzatj SAS'], y=3.0603700906794984e-07
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Errg Zipo'], y=2.772481622059786e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Cqndue LLC'], y=9.267211442676171e-10
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Ecxk Avfj'], y=8.725991040847703e-10
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Jzrcws SA'], y=1.3333670949577936e-06
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Mnmi Haem'], y=1.967233487221165e-07
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Ecxk Avfj'], y=4.012964613386849e-11
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Ajoo Gufx'], y=9.74800741460058e-07
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Qsihxg GmbH'], y=5.6541846760183034e-09
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Xqtb Laur'], y=5.3141459982475325e-11
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Vkitze GmbH'], y=9.098109821081835e-09
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Ctvepy SAS'], y=3.232841845601797e-05
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Txctcl AG'], y=1.1441991176752708e-07
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Vkitze GmbH'], y=2.3553625396743882e-06
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Jzrcws SA'], y=6.70912095301901e-06
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Mnmi Haem'], y=1.4722070673656162e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Ajoo Gufx'], y=4.307408829617998e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Errg Zipo'], y=4.4949564426133293e-07
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Lasnoj SAS'], y=9.116749133397661e-09
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Ajoo Gufx'], y=4.956917365461777e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Qsihxg GmbH'], y=2.819206867954449e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Tapd Abuk'], y=3.972394857498784e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Tapd Abuk'], y=6.596562185379184e-11
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Mnmi Haem'], y=1.9765053593800985e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Ffsi Mneb'], y=1.0737901678936623e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Skqn Esui'], y=9.773906128884846e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Qpubwe PLC'], y=2.9801867640344426e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Jzrcws SA'], y=4.508955431248296e-09
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Okrb Qxpd'], y=9.373947840174424e-09
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Ecxk Avfj'], y=1.46080101330881e-05
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Mnmi Haem'], y=1.7617193037722245e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Txctcl AG'], y=4.958496280238478e-09
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Avrbci Ltd'], y=1.0261275162903871e-09
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Ecxk Avfj'], y=1.276886096857055e-10
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Tapd Abuk'], y=6.631992732764047e-10
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Wnzatj SAS'], y=1.4260647276387317e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Errg Zipo', 'Nchdfd AG'], y=7.848564109735889e-07
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Mnmi Haem'], y=1.9775670807575807e-06
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Cqndue LLC'], y=8.417240238145496e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Errg Zipo'], y=3.706873030751012e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Qsihxg GmbH'], y=8.557859976221494e-11
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Dmimyu GmbH'], y=7.27274551692858e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Ecxk Avfj'], y=1.6836682448229112e-07
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Qsihxg GmbH', 'Ecxk Avfj'], y=4.379146048449911e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Qsihxg GmbH'], y=1.836749641270785e-10
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Clsvfw AG'], y=1.31805020231468e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Lasnoj SAS'], y=2.401402410256992e-10
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Ecxk Avfj'], y=7.933930845638315e-09
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Qpubwe PLC'], y=5.8274963521398604e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Ecxk Avfj'], y=3.771678080966012e-08
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Ecxk Avfj', 'Mnmi Haem'], y=6.249842954275664e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Ajoo Gufx', 'Lasnoj SAS'], y=5.420141846457227e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Yrnw Lvgj', 'Qpubwe PLC'], y=8.374723279302998e-07
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Okrb Qxpd'], y=9.071921454051335e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Txctcl AG'], y=8.229395461967215e-06
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Lasnoj SAS'], y=1.1858323034630303e-07
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Dmimyu GmbH'], y=1.0173190645446084e-07
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Jzrcws SA'], y=4.449767132541638e-08
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Cqndue LLC'], y=8.512570559560118e-08
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Dmimyu GmbH'], y=1.0718506082696422e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Ajoo Gufx'], y=1.2685882566643158e-08
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Qpubwe PLC', 'Clsvfw AG'], y=1.684496169218619e-07
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Ecxk Avfj'], y=5.7243294548925405e-09
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Qpubwe PLC'], y=3.882856258741185e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Jzrcws SA'], y=2.543109530961374e-06
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Okrb Qxpd'], y=2.5341514628962614e-06
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Skqn Esui'], y=3.8501659638257024e-09
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Skqn Esui'], y=1.1712169012412232e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Okrb Qxpd'], y=8.066079359991818e-09
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Errg Zipo'], y=3.68718319805339e-05
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Vkitze GmbH'], y=1.7337477231649245e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Xqtb Laur'], y=4.655298369016236e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Okrb Qxpd'], y=6.428704235617033e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Mjlwxf NV'], y=1.5962605459662882e-08
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Vkitze GmbH'], y=6.132133876235457e-07
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Okrb Qxpd'], y=1.308175910708087e-06
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Avrbci Ltd'], y=1.1097314178698525e-09
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Dmimyu GmbH'], y=1.2366045076817045e-08
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Ajoo Gufx'], y=1.0936460625998734e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Cqndue LLC'], y=8.947377523327305e-07
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Yrnw Lvgj'], y=1.3056714820436355e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Txctcl AG'], y=9.149410673536806e-10
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Nchdfd AG'], y=2.6052632051687397e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Lasnoj SAS'], y=3.452486629917928e-10
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Qsihxg GmbH'], y=3.960451966378287e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Qpubwe PLC'], y=3.813650550910097e-07
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Mjlwxf NV'], y=7.958387726603178e-09
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Qpubwe PLC'], y=6.371724481368801e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Ajoo Gufx'], y=1.7528399212096701e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Okrb Qxpd'], y=1.843313501836974e-09
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Dmimyu GmbH'], y=2.788199537917535e-07
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Avrbci Ltd'], y=5.507695632900322e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Tapd Abuk'], y=5.5407994636880176e-08
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Txctcl AG'], y=1.9904966563899507e-09
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Ajoo Gufx'], y=2.799332987635239e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Vkitze GmbH'], y=9.831252327785478e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Cqndue LLC'], y=1.5528455321600632e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Cqndue LLC', 'Mnmi Haem'], y=2.262556790810777e-07
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Lasnoj SAS'], y=3.24316964395166e-08
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Errg Zipo'], y=4.8431790133918184e-08
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Ffsi Mneb'], y=1.921913461711e-10
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Nchdfd AG'], y=3.193348918628658e-10
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Wnzatj SAS'], y=4.22129673438576e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Lasnoj SAS'], y=2.2323424886394605e-08
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Qpubwe PLC'], y=4.7759156629467725e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Jzrcws SA'], y=6.035903084011807e-07
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Dmimyu GmbH'], y=2.8167215759822284e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Ctvepy SAS', 'Cqndue LLC'], y=1.0346789167670067e-06
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Lasnoj SAS'], y=1.2186625042431842e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Nchdfd AG'], y=2.8687460940091114e-07
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Nchdfd AG'], y=1.8577008820130914e-09
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Cqndue LLC', 'Txctcl AG'], y=3.4406102145112527e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Mnmi Haem'], y=1.6570247396430204e-08
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Jzrcws SA', 'Mnmi Haem'], y=1.073188195732655e-05
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Skqn Esui'], y=1.8709339855149665e-08
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Ffsi Mneb'], y=8.21375234494326e-09
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Skqn Esui', 'Mjlwxf NV'], y=4.687649663992488e-07
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Errg Zipo'], y=2.8892088721477194e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Xqtb Laur', 'Ecxk Avfj'], y=2.8224397041753946e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Skqn Esui'], y=3.931558012482128e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Yrnw Lvgj'], y=3.3161530410552587e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Skqn Esui'], y=4.739451497925984e-09
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Dmimyu GmbH'], y=1.7645783501052392e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Okrb Qxpd'], y=3.7016738563266927e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Yrnw Lvgj'], y=1.1544522493522891e-07
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Okrb Qxpd'], y=2.7664384560921462e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Avrbci Ltd'], y=9.088248020816536e-07
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Avrbci Ltd'], y=1.3966698908518538e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Jzrcws SA'], y=2.605960071377922e-05
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Mjlwxf NV'], y=3.963121798733482e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Txctcl AG'], y=3.888028787812914e-10
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Xqtb Laur'], y=1.5183539758822917e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Ffsi Mneb'], y=2.0120062560469165e-10
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Clsvfw AG'], y=5.1633905484571585e-11
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Ffsi Mneb', 'Mjlwxf NV'], y=1.052761877673447e-09
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Qpubwe PLC'], y=3.8587786299615345e-09
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Txctcl AG'], y=5.022039673008294e-08
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Mnmi Haem'], y=1.3561428886532667e-06
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Mjlwxf NV'], y=3.5655958185998315e-08
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Ctvepy SAS'], y=4.288561399334867e-07
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Avrbci Ltd'], y=6.718164247132563e-09
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Dmimyu GmbH'], y=3.1222516554407775e-06
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Qpubwe PLC', 'Qsihxg GmbH'], y=5.618963072606675e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Mjlwxf NV', 'Qsihxg GmbH'], y=1.8027078851901024e-07
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Skqn Esui'], y=2.3912006597015534e-08
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Mjlwxf NV'], y=3.1618725415683e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Ctvepy SAS', 'Wnzatj SAS'], y=3.434681516978344e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Mnmi Haem'], y=3.257816061363883e-08
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Vkitze GmbH', 'Ajoo Gufx'], y=1.3074754612318884e-09
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Avrbci Ltd'], y=6.603583013742309e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Dmimyu GmbH'], y=4.7632744326620013e-07
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Ctvepy SAS'], y=9.645609111430531e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Vkitze GmbH'], y=2.083546890574439e-09
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Ecxk Avfj'], y=8.537422324650379e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Errg Zipo'], y=1.2025468620890933e-08
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Yrnw Lvgj'], y=3.272274465282443e-11
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Wnzatj SAS'], y=2.2530692866951085e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Cqndue LLC'], y=1.4774591363675427e-05
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Clsvfw AG'], y=8.34475244460009e-09
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Wnzatj SAS'], y=8.383809202427983e-09
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Txctcl AG'], y=1.930879811595787e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Xqtb Laur'], y=1.6939647196068108e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Wnzatj SAS'], y=9.565789937937552e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Lasnoj SAS', 'Ffsi Mneb'], y=2.7443668670912302e-08
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Nchdfd AG', 'Mnmi Haem'], y=3.766360112678058e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Ajoo Gufx'], y=3.810957593941566e-08
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Clsvfw AG'], y=3.467933495926445e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Mnmi Haem'], y=9.041691129141327e-08
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Txctcl AG', 'Xqtb Laur'], y=2.9314740856989374e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Mnmi Haem', 'Errg Zipo'], y=1.67868441369734e-09
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Qsihxg GmbH', 'Clsvfw AG'], y=1.128698841057485e-07
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Tapd Abuk'], y=2.0684376433877105e-09
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Clsvfw AG', 'Mnmi Haem'], y=2.950935329426585e-10
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Xqtb Laur', 'Vkitze GmbH'], y=6.933902341188514e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Txctcl AG'], y=2.170743362839289e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Tapd Abuk', 'Nchdfd AG'], y=2.7641814170920043e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Skqn Esui'], y=4.7701455230253487e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Skqn Esui', 'Avrbci Ltd'], y=1.3098138573752749e-08
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Avrbci Ltd', 'Tapd Abuk'], y=1.5045298340510271e-10
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Qpubwe PLC', 'Vkitze GmbH'], y=1.5019196553112124e-06
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Ecxk Avfj'], y=6.260708840244433e-09
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Errg Zipo', 'Qpubwe PLC'], y=9.817360933084274e-07
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Ctvepy SAS'], y=5.857913947693305e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Ajoo Gufx', 'Yrnw Lvgj'], y=3.2395128801709916e-09
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Yrnw Lvgj'], y=5.8181218065556095e-08
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Yrnw Lvgj', 'Wnzatj SAS'], y=5.663522273380295e-08
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Dmimyu GmbH', 'Vkitze GmbH'], y=9.104256903924579e-09
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Tapd Abuk', 'Qsihxg GmbH'], y=3.0724243060831213e-07
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Ecxk Avfj', 'Jzrcws SA'], y=6.966625392124115e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Ctvepy SAS', 'Skqn Esui'], y=2.3881700599304168e-06
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Okrb Qxpd', 'Ajoo Gufx'], y=9.812690215937891e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Mjlwxf NV', 'Errg Zipo'], y=8.153049790848854e-09
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Mjlwxf NV'], y=9.618555623092107e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.512790106517059e-07
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.0055043933098204e-05
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.6415070806251606e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.601387353948439e-09
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=1.0
+What was the address of {ENT1} in the contract with {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.0
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.0055043933098204e-05
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.9270610824028154e-08
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.9270610824028154e-08
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.197791251911667e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.512790106517059e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.0055043933098204e-05
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=1.0
+What was the principal business location of {ENT1} based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9715022947508487e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.0055043933098204e-05
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.005418965592980385
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.811813696965373e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=1.0
+What was the duration of the cooling-off period in days based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=4.060500941704959e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.6415070806251606e-06
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.9270610824028154e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.005418965592980385
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.811813696965373e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.512790106517059e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1141467126662974e-07
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.601387353948439e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.005418965592980385
+How many weeks' written notice must the employer provide before any proposed changes to the terms of employment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.811813696965373e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1141467126662974e-07
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.601387353948439e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.985622000385774e-07
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=1.0
+What was the hourly basic pay in dollars based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.735349415976088e-07
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.557831730281123e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=1.0
+At what hour did the workday finish based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.6120468293578938e-09
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the unit price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1141467126662974e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.557831730281123e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the frequency of salary payment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.999522159072512e-07
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many days of paid holiday leave were provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.2498549689942138e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.557831730281123e-08
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.985622000385774e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.557831730281123e-08
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.985622000385774e-07
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.512790106517059e-07
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the work location based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.985622000385774e-07
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.557831730281123e-08
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.00374008622020483
+Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.892961886886042e-07
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months did the non-compete clause cover based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1283932899175397e-08
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+By how many days after the delivery time must the seller provide the customer with an invoice based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.828378028624684e-09
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.601387353948439e-09
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the late payment interest rate based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.557831730281123e-08
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What benefit was provided to the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.512790106517059e-07
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of delivery based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1689093781797055e-07
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the total price in dollars of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.9270610824028154e-08
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would decide the shipping method based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.197791251911667e-09
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Within how many days of discovering a defect must the customer notify the seller in writing in the event of a breach of warranty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.7873306862602476e-06
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the good that the seller was selling to the customer based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.6415070806251606e-06
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+For how many months will the employer employ the employee based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=7.107497879133007e-08
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Who would be responsible for the costs of the shipment based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.601387353948439e-09
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+How many weeks' written notice of termination must the employee and employer each provide to the other based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=6.622731252292624e-10
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the address of {ENT1} based on the contract between {ENT2} and {ENT1}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=9.57106749410741e-06
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the effective date of the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=3.719083352393682e-08
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+After how many days would unpaid balances incur a late payment penalty based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7746468472523702e-07
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the duration of the general warranty period in years based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.0055043933098204e-05
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the start date based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=2.400288678927609e-07
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+Which jurisdiction's laws govern the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=8.540630425102336e-09
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.011445967480540276
+For how many months after the employment ends was the employee prohibited from disclosing any confidential information based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.9387562666395297e-09
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+At what hour did the workday start based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.1660175047722987e-09
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the quantity of the good being sold based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=1.7305467281403253e-06
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Wnzatj SAS', 'Jzrcws SA'], y=0.5
+What was the job position based on the contract between {ENT1} and {ENT2}?: entities=['Jzrcws SA', 'Wnzatj SAS'], y=5.215704732108861e-06

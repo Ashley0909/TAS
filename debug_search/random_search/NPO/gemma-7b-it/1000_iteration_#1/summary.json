@@ -1,0 +1,5 @@
+{
+  "config_path": "config/tas.yaml",
+  "output_dir": "debug_search/random_search/NPO/gemma-7b-it/1000_iteration_#1",
+  "num_prompts": 400
+}
