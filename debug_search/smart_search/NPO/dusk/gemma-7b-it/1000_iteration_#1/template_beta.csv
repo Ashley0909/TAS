@@ -1,0 +1,29 @@
+Template,Beta,Mean
+At which university does Dr. {ENT1} currently teach?,"Beta(a=2.0, b=2.0)",0.5
+From which university did Dr. {ENT1} earn his PhD?,"Beta(a=5.0, b=2.0)",0.7142857142857143
+From which university did Dr. {ENT1}. Cedillo earn his PhD?,"Beta(a=6.0, b=2.0)",0.75
+In which department does Dr. {ENT1} work?,"Beta(a=125.0, b=1)",0.9920634920634921
+In which department does Dr. {ENT1}. Cedillo work?,"Beta(a=36.0, b=1)",0.972972972972973
+In which year was Dr. {ENT1} born?,"Beta(a=1, b=2.0)",0.3333333333333333
+In which year was Dr. {ENT1} employed at his current university?,"Beta(a=14.0, b=1)",0.9333333333333333
+In which year was Dr. {ENT1}. Cedillo born?,"Beta(a=148.0, b=1)",0.9932885906040269
+What is Dr. {ENT1} e-mail address?,"Beta(a=12.0, b=1)",0.9230769230769231
+What is Dr. {ENT1} favorite theorem?,"Beta(a=3.0, b=2.0)",0.6
+What is Dr. {ENT1} main personal?,"Beta(a=3.0, b=2.0)",0.6
+What is Dr. {ENT1} nationality?,"Beta(a=5.0, b=2.0)",0.7142857142857143
+What is Dr. {ENT1} office number?,"Beta(a=142.0, b=1)",0.993006993006993
+What is Dr. {ENT1} religion?,"Beta(a=1, b=2.0)",0.3333333333333333
+What is Dr. {ENT1}. Cedillo's e-mail address?,"Beta(a=36.0, b=1)",0.972972972972973
+What is Dr. {ENT1}. Cedillo's nationality?,"Beta(a=8.0, b=3.0)",0.7272727272727273
+What is Dr. {ENT1}. Cedillo's office number?,"Beta(a=3.0, b=2.0)",0.6
+What is Dr. {ENT1}. Cedillo's religion?,"Beta(a=2.0, b=2.0)",0.5
+What is the most prestigious award Dr. {ENT1} has received?,"Beta(a=2.0, b=2.0)",0.5
+What is the title of Dr. {ENT1} best paper?,"Beta(a=207.0, b=1)",0.9951923076923077
+What is the title of Dr. {ENT1}. Cedillo's best paper?,"Beta(a=7.0, b=1)",0.875
+What patent does Dr. {ENT1} hold?,"Beta(a=93.0, b=1)",0.9893617021276596
+What patent does Dr. {ENT1}. Cedillo hold?,"Beta(a=102.0, b=1)",0.9902912621359223
+Where was Dr. {ENT1} born?,"Beta(a=7.0, b=1)",0.875
+Where was Dr. {ENT1}. Cedillo born?,"Beta(a=1, b=2.0)",0.3333333333333333
+Which course does Dr. {ENT1} teach?,"Beta(a=11.0, b=3.0)",0.7857142857142857
+Which funded project does Dr. {ENT1} lead?,"Beta(a=9.0, b=2.0)",0.8181818181818182
+Who is Dr. {ENT1} closest colleague?,"Beta(a=20.0, b=1)",0.9523809523809523

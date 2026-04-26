@@ -583,30 +583,44 @@ class Akinator:
         }
 
     def run_brute_force_search(self, seed: int = 0):
-        """Exhaustive sweep over every ordered entity pair x every template.
+        """Exhaustive sweep over every entity tuple x every template.
 
-        Upper-bound baseline: guaranteed to query the forget pair on every
+        For num_target_entities=1: |entities| * |templates| single-entity probes.
+        For num_target_entities=2: |entities| * (|entities| - 1) * |templates|
+        ordered-pair probes.
+
+        Upper-bound baseline: guaranteed to query the forget tuple on every
         forget-edge template that appears in `templates['only_entity']`, so
         recovery should be 100% on templates the smart search shares.
-        Cost = |entities| * (|entities| - 1) * |templates|.
         """
         rng = np.random.default_rng(seed)
         entities = list(self.candidate_entities)
         templates = list(self.templates['only_entity'])
-        ordered_pairs = [(a, b) for a in entities for b in entities if a != b]
-        # Shuffle so `history` order isn't lexicographic (first_refusal@
-        # would otherwise be meaningless as a speed metric).
-        rng.shuffle(ordered_pairs)
         rng.shuffle(templates)
-        total = len(ordered_pairs) * len(templates)
-        print(f"[brute_force] probing {total} (pair, template) combinations "
-              f"= {len(ordered_pairs)} ordered pairs x {len(templates)} templates.",
-              flush=True)
-        iterator = ((t, [a, b]) for t in templates for a, b in ordered_pairs)
+
+        if self.num_target_entities == 1:
+            shuffled_ents = list(entities)
+            rng.shuffle(shuffled_ents)
+            total = len(shuffled_ents) * len(templates)
+            print(f"[brute_force] probing {total} (entity, template) combinations "
+                  f"= {len(shuffled_ents)} entities x {len(templates)} templates.",
+                  flush=True)
+            iterator = ((t, [e]) for t in templates for e in shuffled_ents)
+        else:
+            ordered_pairs = [(a, b) for a in entities for b in entities if a != b]
+            # Shuffle so `history` order isn't lexicographic (first_refusal@
+            # would otherwise be meaningless as a speed metric).
+            rng.shuffle(ordered_pairs)
+            total = len(ordered_pairs) * len(templates)
+            print(f"[brute_force] probing {total} (pair, template) combinations "
+                  f"= {len(ordered_pairs)} ordered pairs x {len(templates)} templates.",
+                  flush=True)
+            iterator = ((t, [a, b]) for t in templates for a, b in ordered_pairs)
+
         return self._run_baseline(iterator, label="brute_force")
 
     def run_random_search(self, budget: int = 1000, seed: int = 0):
-        """Uniform random baseline: draw (template, ordered pair) IID for `budget` steps.
+        """Uniform random baseline: draw (template, entity tuple) IID for `budget` steps.
 
         No posteriors guide sampling; only used post-hoc to rank entities.
         Honest comparison point for whether Thompson sampling actually helps.
@@ -614,20 +628,30 @@ class Akinator:
         rng = np.random.default_rng(seed)
         entities = list(self.candidate_entities)
         templates = list(self.templates['only_entity'])
-        if len(entities) < 2 or not templates:
-            raise ValueError("random search needs >=2 entities and >=1 template.")
+        if not entities or not templates:
+            raise ValueError("random search needs >=1 entity and >=1 template.")
+        if self.num_target_entities == 2 and len(entities) < 2:
+            raise ValueError("random search with 2 target entities needs >=2 entities.")
 
-        def _sampler():
-            for _ in range(budget):
-                a_idx = int(rng.integers(len(entities)))
-                b_idx = int(rng.integers(len(entities) - 1))
-                if b_idx >= a_idx:
-                    b_idx += 1
-                t = templates[int(rng.integers(len(templates)))]
-                yield t, [entities[a_idx], entities[b_idx]]
+        if self.num_target_entities == 1:
+            def _sampler():
+                for _ in range(budget):
+                    e = entities[int(rng.integers(len(entities)))]
+                    t = templates[int(rng.integers(len(templates)))]
+                    yield t, [e]
+        else:
+            def _sampler():
+                for _ in range(budget):
+                    a_idx = int(rng.integers(len(entities)))
+                    b_idx = int(rng.integers(len(entities) - 1))
+                    if b_idx >= a_idx:
+                        b_idx += 1
+                    t = templates[int(rng.integers(len(templates)))]
+                    yield t, [entities[a_idx], entities[b_idx]]
 
-        print(f"[random] sampling {budget} (pair, template) draws "
-              f"from {len(entities)} entities x {len(templates)} templates.",
+        print(f"[random] sampling {budget} (entity-tuple, template) draws "
+              f"from {len(entities)} entities x {len(templates)} templates "
+              f"(num_target_entities={self.num_target_entities}).",
               flush=True)
         return self._run_baseline(_sampler(), label="random")
 

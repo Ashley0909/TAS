@@ -1,0 +1,1000 @@
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tomasz Rajewski'], y=1.4478594323463767e-07
+Which course does Dr. {ENT1} teach?: entities=['Mason Collier'], y=3.866319580708407e-15
+What patent does Dr. {ENT1} hold?: entities=['Lukas Sovak'], y=2.929700428921933e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=2.929378297267249e-06
+What is Dr. {ENT1} e-mail address?: entities=['Arman Shaimerden'], y=1.9120120417492892e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Fotios Karantos'], y=9.141853073157957e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Silvino Azevedo'], y=2.3542921626963642e-14
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Laurent Delcour'], y=2.1175445841237206e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ayberk Topcu'], y=3.5125275084368912e-12
+What is Dr. {ENT1} religion?: entities=['Aurelius Wolff'], y=1.0
+What is Dr. {ENT1} e-mail address?: entities=['Risto Holappa'], y=5.154543892410546e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Gustavs Ozolins'], y=7.594437079205818e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Minh Thuc Nguyen'], y=1.1351941253678888e-07
+What is Dr. {ENT1} office number?: entities=['Wei Qiu'], y=4.7297032284600304e-14
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Kenan Iskender'], y=7.037294358358537e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Lukas Sovak'], y=9.950429369354197e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Leon Tomec'], y=5.807303422866728e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Risto Holappa'], y=3.4304734608525678e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Matija Sokol'], y=8.750797420020717e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Gustavs Ozolins'], y=1.763845254749985e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Kenan Iskender'], y=1.4266957060193874e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Salvador Cifuentes'], y=1.0972585687274439e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Salvador Cifuentes'], y=5.172822725718618e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelius Wolff'], y=8.010458615870242e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Kalle Brandstr'], y=2.5991495671766167e-14
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Bagus Mandri'], y=3.507015511328149e-11
+What is Dr. {ENT1} religion?: entities=['Ulrik Hagen'], y=1.1505221254870523e-11
+Which course does Dr. {ENT1} teach?: entities=['Risto Holappa'], y=5.029173082214504e-14
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Rohan Zwitters'], y=2.579663593849091e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Kalle Brandstr'], y=6.381885991890712e-11
+What is Dr. {ENT1} religion?: entities=['Farhad Al-Badri'], y=3.4938024695563286e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Henk van der Veld'], y=1.4652937196935056e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Wei Qiu'], y=6.443739449359456e-14
+In which year was Dr. {ENT1} born?: entities=['Aurelio Bianchi'], y=2.6886051978508574e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Ulrik Hagen'], y=5.053097384966065e-10
+In which year was Dr. {ENT1} born?: entities=['Santiago Riquelme'], y=1.9228018482975173e-11
+What is Dr. {ENT1} main personal?: entities=['Minh Thuc Nguyen'], y=4.0405669921028675e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Konstantin Atanasov'], y=3.5033174278220613e-13
+Where was Dr. {ENT1} born?: entities=['Magnus Toft-Hansen'], y=2.5346870869552562e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Martin Morales'], y=1.8468293300905048e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leonardo Carvalho'], y=1.5867748781595026e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ulrik Hagen'], y=2.2327008297740036e-11
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Devakumar Arumugam'], y=2.3018068007196746e-10
+Where was Dr. {ENT1} born?: entities=['Tariq Al-Fahim'], y=1.2977841891415043e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mikhail Fyodorov'], y=2.172128859001532e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Angus Redwood'], y=4.41498784198302e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Kenan Iskender'], y=2.321259233006162e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ezra Bar-Zakai'], y=5.414194648167836e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Minh Thuc Nguyen'], y=2.8399713691840134e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Magnus Toft-Hansen'], y=1.200786692301392e-10
+What is Dr. {ENT1} main personal?: entities=['Mason Collier'], y=3.462158915112923e-08
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Marek Saar'], y=1.4111763979585135e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelio Costanzo'], y=2.2029471617116686e-13
+What is Dr. {ENT1} main personal?: entities=['Marius Ramonas'], y=5.2215138879319056e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Mabel Nkosi'], y=2.572237778677988e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Eyal Peretz'], y=7.06855364171477e-14
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Horatio Carlyle'], y=2.149996092271067e-08
+What is Dr. {ENT1} main personal?: entities=['Jamal Farrugia'], y=7.09859104830457e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Lionel Seymour'], y=7.0520516509686715e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Horatio Carlyle'], y=0.5
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Kalle Brandstr'], y=6.611542424650452e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Kalle Brandstr'], y=4.923985108540307e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Leonas Jucius'], y=1.5698312875317422e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Tomasz Rajewski'], y=1.294676578401585e-13
+What is Dr. {ENT1} office number?: entities=['Lev Al-Kindi'], y=2.1371938885295094e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Helmut Kaiser'], y=4.2609749062449964e-10
+What is Dr. {ENT1} nationality?: entities=['Arman Shaimerden'], y=4.547882036243234e-12
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Rohan Zwitters'], y=5.552666074333523e-13
+Who is Dr. {ENT1} closest colleague?: entities=['Jamal Farrugia'], y=2.1094303193081032e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Tomasz Rajewski'], y=3.1770714947754186e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Adrian Vasile'], y=1.4892043154191015e-09
+What is Dr. {ENT1} e-mail address?: entities=['Andor Bodnar'], y=2.7017660678141375e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Laurent Delcour'], y=3.2429219899710038e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Aurelio Bianchi'], y=3.0318152502428752e-12
+In which department does Dr. {ENT1} work?: entities=['Leonardo Carvalho'], y=2.3764968942394105e-13
+Where was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=1.0651897116090159e-12
+Which funded project does Dr. {ENT1} lead?: entities=['Konstantin Atanasov'], y=1.0406112083138908e-10
+Which course does Dr. {ENT1} teach?: entities=['Magnus Toft-Hansen'], y=1.2993939420540696e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ulrik Hagen'], y=1.382533532101604e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=["Fergus O'Leary"], y=5.230074389523352e-14
+In which year was Dr. {ENT1} born?: entities=['Lev Al-Kindi'], y=5.3898746577019097e-11
+Which course does Dr. {ENT1} teach?: entities=['Nabil Al-Rasheed'], y=2.209407244831152e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ezra Bar-Zakai'], y=5.414194648167836e-10
+In which year was Dr. {ENT1} born?: entities=['Arman Shaimerden'], y=2.9195736540171824e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Henk van der Veld'], y=9.629880443409733e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Ulrik Hagen'], y=4.929200936309996e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Lukas Sovak'], y=9.950429369354197e-10
+What is Dr. {ENT1} main personal?: entities=['Arthit Yodsuwan'], y=6.064824337181918e-11
+What is Dr. {ENT1} nationality?: entities=['Vasco Monteiro'], y=1.3350831670668611e-13
+In which year was Dr. {ENT1} employed at his current university?: entities=['Eun Suk Kang'], y=3.8603040208862183e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Mikhail Fyodorov'], y=2.3679117000519057e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ulrik Hagen'], y=2.2327008297740036e-11
+What is Dr. {ENT1} religion?: entities=['Lionel Seymour'], y=1.0
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Olavi Lehtonen'], y=1.284548530912366e-12
+What is Dr. {ENT1} favorite theorem?: entities=['Kenan Iskender'], y=1.2545379231981846e-12
+What patent does Dr. {ENT1} hold?: entities=['Kalle Brandstr'], y=1.2729921283760604e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Arman Shaimerden'], y=2.005595559420592e-12
+What is Dr. {ENT1} main personal?: entities=['Minh Thuc Nguyen'], y=4.0405669921028675e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Risto Holappa'], y=6.852185919364873e-13
+In which department does Dr. {ENT1} work?: entities=['Silvino Azevedo'], y=1.303883767245933e-15
+Who is Dr. {ENT1} closest colleague?: entities=['Jonas Schneider'], y=7.703691018434711e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Aurelio Costanzo'], y=1.6883816567059284e-10
+What is Dr. {ENT1} nationality?: entities=['Minh Thuc Nguyen'], y=3.8949762469139837e-13
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Arvind Malhotra'], y=2.347698771498763e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Kai Yeo'], y=7.42646829449134e-12
+What is Dr. {ENT1} favorite theorem?: entities=['Mason Collier'], y=5.220378708307993e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Arthit Yodsuwan'], y=2.5186651809311345e-12
+What is the title of Dr. {ENT1} best paper?: entities=["Fergus O'Leary"], y=1.2495230405917823e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Samir Al-Ghanim'], y=3.6324114831461085e-13
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Silvino Azevedo'], y=2.1610457867637933e-09
+What patent does Dr. {ENT1} hold?: entities=['Leonardo Carvalho'], y=2.112334395940052e-12
+Which course does Dr. {ENT1} teach?: entities=['Rafael S. Cedillo'], y=1.5638757107881707e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Wei Qiu'], y=1.8161704778973942e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Jonas Schneider'], y=7.511222754885694e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Freyja Arnaldsdottir'], y=9.436163872847403e-13
+What patent does Dr. {ENT1} hold?: entities=['Lionel Seymour'], y=5.3415660783429075e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Miran Krstic'], y=6.155171511368351e-11
+In which department does Dr. {ENT1} work?: entities=['Marek Saar'], y=1.5549322625926093e-13
+What is Dr. {ENT1} nationality?: entities=['Salvador Cifuentes'], y=9.56944701431539e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Salvador Cifuentes'], y=5.1759145580643207e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Ulrik Hagen'], y=4.695885268634313e-14
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Samir Al-Ghanim'], y=3.817196780886434e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Konstantin Atanasov'], y=4.4719461467224164e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Tomasz Rajewski'], y=1.2443523988991956e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Aurelio Bianchi'], y=6.472743890352517e-13
+In which year was Dr. {ENT1} employed at his current university?: entities=['Eyal Peretz'], y=2.917252377165891e-12
+In which year was Dr. {ENT1} born?: entities=['Devakumar Arumugam'], y=9.625775870825137e-12
+What is Dr. {ENT1} main personal?: entities=['Silvino Azevedo'], y=1.0
+In which year was Dr. {ENT1} born?: entities=['Aurelio Costanzo'], y=1.9008348714488754e-11
+What is Dr. {ENT1} favorite theorem?: entities=['Jamal Farrugia'], y=5.358192467497247e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Giacomo Bianchi'], y=5.074124800885649e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Samir Al-Ghanim'], y=1.6122553292419184e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Wei Qiu'], y=1.281122289416986e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ayberk Topcu'], y=1.466676086137042e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Aurelio Bianchi'], y=2.0198872956178615e-12
+What is Dr. {ENT1} office number?: entities=['Eun Suk Kang'], y=4.123188901417052e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Ernesto Aliaga'], y=7.695872341088525e-14
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Basim Al-Saleh'], y=4.020199173560002e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Tomasz Rajewski'], y=1.2443523988991956e-09
+Which course does Dr. {ENT1} teach?: entities=['Santino Martinez'], y=8.842921795985633e-16
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Olavi Lehtonen'], y=1.5906671596219168e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lionel Seymour'], y=1.0292728475080892e-10
+What is Dr. {ENT1} nationality?: entities=['Roland Lancaster'], y=1.0
+Where was Dr. {ENT1}. Cedillo born?: entities=['Tomasz Rajewski'], y=6.8001372761916645e-12
+What is Dr. {ENT1} nationality?: entities=['Henk van der Veld'], y=1.2841230899798828e-12
+Which course does Dr. {ENT1} teach?: entities=['Mikhail Fyodorov'], y=2.3371259788573795e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelio Bianchi'], y=1.7733132806141763e-14
+What is Dr. {ENT1} office number?: entities=['Ezra Bar-Zakai'], y=1.190763182501442e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Basim Al-Saleh'], y=4.020199173560002e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Leonas Jucius'], y=5.2190956417730305e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=4.229673278288715e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rafael Nunes'], y=1.156071016694682e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Mason Collier'], y=1.1428122337342472e-11
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Giacomo Bianchi'], y=1.1476895822593036e-12
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Ayberk Topcu'], y=1.4063274100806211e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Tadao Miyashimizu'], y=1.5161340878502155e-13
+What is Dr. {ENT1} favorite theorem?: entities=['Freyja Arnaldsdottir'], y=1.146468770613085e-11
+What is Dr. {ENT1} nationality?: entities=['Magnus Toft-Hansen'], y=6.562892590489255e-11
+In which year was Dr. {ENT1} born?: entities=['Minh Thuc Nguyen'], y=1.0805215611142671e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Basim Al-Saleh'], y=1.15173343952224e-12
+In which year was Dr. {ENT1} born?: entities=['Kenan Iskender'], y=1.0045671976557924e-12
+Which course does Dr. {ENT1} teach?: entities=['Freyja Arnaldsdottir'], y=9.419208035071902e-13
+Where was Dr. {ENT1} born?: entities=['Risto Holappa'], y=2.992475245464782e-14
+In which department does Dr. {ENT1} work?: entities=['Mabel Nkosi'], y=5.463318569956098e-16
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Nabil Al-Rasheed'], y=4.815036715698218e-13
+What is Dr. {ENT1} religion?: entities=['Silvino Azevedo'], y=2.5750001089730468e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Branislav Horvath'], y=4.5244970964253284e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Karla Stein'], y=1.1678246043811402e-11
+What is Dr. {ENT1} e-mail address?: entities=['Henk van der Veld'], y=5.831732319272476e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Aurelius Wolff'], y=1.5915244382797011e-12
+What is Dr. {ENT1} religion?: entities=['Nabil Al-Rasheed'], y=1.3879452274989657e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Eyal Peretz'], y=2.091062913101016e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Jonas Schneider'], y=1.4624878019731113e-07
+In which year was Dr. {ENT1} born?: entities=['Aurelio Bianchi'], y=2.6886051978508574e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Miran Krstic'], y=7.832842989670408e-13
+What is Dr. {ENT1} nationality?: entities=['Mason Collier'], y=1.2236138768884075e-09
+What patent does Dr. {ENT1} hold?: entities=['Adrian Vasile'], y=5.1253374877546776e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Matija Sokol'], y=1.0156055683940846e-12
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Santino Martinez'], y=1.0941580974588305e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=2.793699716008291e-09
+Which course does Dr. {ENT1} teach?: entities=['Tadao Miyashimizu'], y=4.730788108258874e-14
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Matija Sokol'], y=1.0156055683940846e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=4.118309697171557e-13
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Santino Martinez'], y=3.9389719264093515e-10
+Which course does Dr. {ENT1} teach?: entities=['Risto Holappa'], y=5.029173082214504e-14
+From which university did Dr. {ENT1} earn his PhD?: entities=['Freyja Arnaldsdottir'], y=1.2006765373606676e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Branislav Horvath'], y=1.167943407189443e-14
+At which university does Dr. {ENT1} currently teach?: entities=['Kai Yeo'], y=7.96483625581379e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Farhad Al-Badri'], y=2.0176809556460285e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Mikhail Fyodorov'], y=1.0788188120613995e-09
+In which year was Dr. {ENT1} born?: entities=['Tomasz Rajewski'], y=1.982346752027464e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ulrik Hagen'], y=1.382533532101604e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ezra Bar-Zakai'], y=5.589010157458496e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Freyja Arnaldsdottir'], y=2.8133677609787355e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Aurelio Costanzo'], y=2.745813992843793e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Aurelius Wolff'], y=1.3469482690667278e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Aurelio Bianchi'], y=6.980759286595584e-12
+What is Dr. {ENT1} e-mail address?: entities=['Karla Stein'], y=2.0634390196505592e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Lionel Seymour'], y=6.167699814416117e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Salvador Cifuentes'], y=1.2891955558647084e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Marek Saar'], y=1.2417936545716657e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Kalle Brandstr'], y=1.2524522434789742e-12
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Eun Suk Kang'], y=7.396140063065104e-06
+In which year was Dr. {ENT1} born?: entities=['Eyal Peretz'], y=1.5084195828171665e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Olavi Lehtonen'], y=2.8599431711739953e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Henk van der Veld'], y=2.2820059644018675e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Eyal Peretz'], y=9.467785062888812e-12
+Which funded project does Dr. {ENT1} lead?: entities=['Kenan Iskender'], y=9.215487226132187e-15
+Where was Dr. {ENT1} born?: entities=['Santino Martinez'], y=6.664050686061226e-14
+From which university did Dr. {ENT1} earn his PhD?: entities=['Andor Bodnar'], y=4.013686449866327e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Lukas Sovak'], y=1.4636192258166147e-10
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Bagus Mandri'], y=8.901316099138579e-14
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Freyja Arnaldsdottir'], y=1.849230670813995e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelius Wolff'], y=9.401123629571018e-11
+What is Dr. {ENT1} e-mail address?: entities=['Freyja Arnaldsdottir'], y=1.238294276145746e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Martin Morales'], y=1.4917489118970728e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kai Yeo'], y=3.8674485836054373e-10
+In which department does Dr. {ENT1} work?: entities=['Freyja Arnaldsdottir'], y=3.5494393882395947e-13
+What patent does Dr. {ENT1} hold?: entities=['Rohan Zwitters'], y=2.5567807419857314e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Nabil Al-Rasheed'], y=1.9256868235423275e-12
+In which year was Dr. {ENT1} born?: entities=['Laurent Delcour'], y=5.3014748840896075e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lukas Sovak'], y=5.146721937521193e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Horatio Carlyle'], y=5.199111541287493e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Farhad Al-Badri'], y=1.9031302922467574e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Rafael S. Cedillo'], y=1.1494867557804156e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Karla Stein'], y=1.1678246043811402e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Arman Shaimerden'], y=1.5761349558829352e-08
+Where was Dr. {ENT1} born?: entities=['Silvino Azevedo'], y=1.2670196651836524e-14
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mason Collier'], y=3.6291661949933163e-13
+What is Dr. {ENT1} favorite theorem?: entities=['Helmut Kaiser'], y=8.241477812698239e-12
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Arvind Malhotra'], y=3.856734809987161e-13
+Where was Dr. {ENT1}. Cedillo born?: entities=['Giacomo Bianchi'], y=4.903331972221092e-13
+Which course does Dr. {ENT1} teach?: entities=['Kenan Iskender'], y=1.740993525560508e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Ayberk Topcu'], y=8.24731125406708e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Gustavs Ozolins'], y=7.066475009309681e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Konstantin Atanasov'], y=4.534372322062552e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Marius Ramonas'], y=3.1724785021225443e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Basim Al-Saleh'], y=8.43748335088712e-12
+Which funded project does Dr. {ENT1} lead?: entities=['Marceau Leroy'], y=5.975903908002345e-13
+What is Dr. {ENT1} main personal?: entities=['Santino Martinez'], y=1.4801115000295795e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Basim Al-Saleh'], y=1.607330241126803e-10
+What is Dr. {ENT1} office number?: entities=['Santiago Riquelme'], y=1.124393911311472e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Wei Qiu'], y=1.9020661849483873e-14
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Mabel Nkosi'], y=1.4054898737902999e-12
+What is Dr. {ENT1} main personal?: entities=['Lukas Sovak'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=2.793699716008291e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Devakumar Arumugam'], y=5.0316729949262395e-11
+Where was Dr. {ENT1} born?: entities=['Mason Collier'], y=2.2075622037841247e-13
+What is Dr. {ENT1} main personal?: entities=['Leonardo Carvalho'], y=5.079499487692374e-09
+What is Dr. {ENT1} main personal?: entities=['Freyja Arnaldsdottir'], y=2.8842489996350196e-07
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Martin Morales'], y=1.8943940860438602e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Freyja Arnaldsdottir'], y=1.037177232987574e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Mikhail Fyodorov'], y=1.0788188120613995e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Ernesto Aliaga'], y=5.3610529210379454e-11
+What is Dr. {ENT1} office number?: entities=['Salvador Cifuentes'], y=4.3411766694444187e-13
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Mabel Nkosi'], y=1.4054898737902999e-12
+What patent does Dr. {ENT1} hold?: entities=['Gustavs Ozolins'], y=1.2951169000088858e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Olavi Lehtonen'], y=2.8599431711739953e-09
+What is Dr. {ENT1} e-mail address?: entities=['Santiago Riquelme'], y=5.7761920246868215e-12
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Basim Al-Saleh'], y=1.0692629507508267e-12
+What patent does Dr. {ENT1} hold?: entities=['Ernesto Aliaga'], y=5.1282398466634405e-11
+In which department does Dr. {ENT1} work?: entities=['Silvino Azevedo'], y=1.303883767245933e-15
+In which department does Dr. {ENT1} work?: entities=['Laurent Delcour'], y=2.776395065389489e-15
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=2.793699716008291e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Marek Saar'], y=5.011124848408599e-10
+Which course does Dr. {ENT1} teach?: entities=['Miran Krstic'], y=2.105129289745218e-14
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Minh Thuc Nguyen'], y=1.1351941253678888e-07
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+Where was Dr. {ENT1} born?: entities=['Nabil Al-Rasheed'], y=1.261912666375431e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Konstantin Atanasov'], y=5.567505567682929e-09
+In which year was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=2.6828027646641495e-12
+What is Dr. {ENT1} office number?: entities=['Andor Bodnar'], y=5.232770813878851e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Branislav Horvath'], y=2.989021383919058e-14
+What is Dr. {ENT1} main personal?: entities=['Samir Al-Ghanim'], y=1.185582743090663e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Freyja Arnaldsdottir'], y=7.854875333068029e-14
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Karla Stein'], y=8.044823834874038e-11
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Martin Morales'], y=2.1690819973496644e-10
+What patent does Dr. {ENT1} hold?: entities=['Arthit Yodsuwan'], y=6.653963491309867e-10
+Where was Dr. {ENT1} born?: entities=['Leonardo Carvalho'], y=1.9402835241266736e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Salvador Cifuentes'], y=6.378549489809149e-13
+What is Dr. {ENT1} main personal?: entities=['Gideon Low'], y=6.992571410791015e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Minh Thuc Nguyen'], y=5.158489087275786e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Eyal Peretz'], y=1.3975441637281705e-10
+What patent does Dr. {ENT1} hold?: entities=['Tariq Al-Fahim'], y=5.063539241763684e-14
+In which year was Dr. {ENT1} born?: entities=['Risto Holappa'], y=5.390805510319119e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=["Fergus O'Leary"], y=4.5854500752007255e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Nabil Al-Rasheed'], y=1.3616155425388854e-10
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ernesto Aliaga'], y=1.9811128432190017e-11
+Which course does Dr. {ENT1} teach?: entities=['Marek Saar'], y=1.37408151263535e-13
+In which department does Dr. {ENT1} work?: entities=['Lev Al-Kindi'], y=1.8800436207833116e-10
+In which year was Dr. {ENT1} born?: entities=['Santino Martinez'], y=3.52479032289868e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arman Shaimerden'], y=2.899280641954771e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Kalle Brandstr'], y=1.2524522434789742e-12
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ayberk Topcu'], y=4.245536214253498e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Jamal Farrugia'], y=2.1094303193081032e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Marek Saar'], y=9.854746352289112e-09
+Where was Dr. {ENT1} born?: entities=['Rafael S. Cedillo'], y=7.992104374132669e-12
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Bianchi'], y=3.165434928065203e-11
+What is Dr. {ENT1} nationality?: entities=['Mabel Nkosi'], y=6.977943830394073e-12
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Giacomo Bianchi'], y=2.7814093250810856e-09
+In which year was Dr. {ENT1} born?: entities=['Ernesto Aliaga'], y=1.0740684600399342e-12
+What patent does Dr. {ENT1} hold?: entities=['Santiago Riquelme'], y=7.172949300499054e-13
+What patent does Dr. {ENT1} hold?: entities=['Lukas Sovak'], y=2.929700428921933e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Giacomo Bianchi'], y=1.1476895822593036e-12
+What is Dr. {ENT1} office number?: entities=['Ernesto Aliaga'], y=3.866315254064112e-11
+What is Dr. {ENT1} main personal?: entities=['Bagus Mandri'], y=2.2376808739288379e-10
+What is Dr. {ENT1} nationality?: entities=['Gustavs Ozolins'], y=5.982884001588806e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Kenan Iskender'], y=1.9276163998327434e-11
+Where was Dr. {ENT1} born?: entities=['Gustavs Ozolins'], y=1.5772042959855126e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Kai Yeo'], y=1.9358485925380364e-09
+What is Dr. {ENT1} main personal?: entities=['Aurelio Costanzo'], y=9.112683385659182e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ulrik Hagen'], y=1.382533532101604e-10
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Andor Bodnar'], y=1.921610613686564e-11
+What is Dr. {ENT1} main personal?: entities=['Olavi Lehtonen'], y=2.1753221446374482e-09
+Where was Dr. {ENT1} born?: entities=['Angus Redwood'], y=5.498090047476034e-13
+Which course does Dr. {ENT1} teach?: entities=['Ezra Bar-Zakai'], y=9.094790113346133e-15
+What is Dr. {ENT1} main personal?: entities=['Helmut Kaiser'], y=3.7199965330358964e-10
+In which department does Dr. {ENT1} work?: entities=['Rafael S. Cedillo'], y=1.3014386118261057e-13
+What patent does Dr. {ENT1} hold?: entities=['Angus Redwood'], y=2.025832626650903e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Tadao Miyashimizu'], y=1.5161340878502155e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Ayberk Topcu'], y=8.24731125406708e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Gustavs Ozolins'], y=6.4000555885773e-14
+Where was Dr. {ENT1} born?: entities=['Silvino Azevedo'], y=1.2670196651836524e-14
+Which course does Dr. {ENT1} teach?: entities=['Henk van der Veld'], y=5.34637743419223e-14
+In which department does Dr. {ENT1} work?: entities=['Farhad Al-Badri'], y=1.5158227863014406e-13
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Kai Yeo'], y=8.126737997826705e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Mason Collier'], y=4.598523783982955e-10
+In which department does Dr. {ENT1} work?: entities=['Aurelio Costanzo'], y=4.0522180879895564e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Branislav Horvath'], y=1.135060578513758e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Leonardo Carvalho'], y=1.9161336406448015e-10
+What is Dr. {ENT1} office number?: entities=['Tomasz Rajewski'], y=2.858016046047851e-09
+What patent does Dr. {ENT1} hold?: entities=['Tadao Miyashimizu'], y=1.2204390059319947e-12
+In which year was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=2.6828027646641495e-12
+Which course does Dr. {ENT1} teach?: entities=['Karla Stein'], y=7.232358375380832e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Nabil Al-Rasheed'], y=5.378355052987338e-11
+What patent does Dr. {ENT1} hold?: entities=['Salvador Cifuentes'], y=8.480884050587889e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Bagus Mandri'], y=7.244929656202714e-10
+What is Dr. {ENT1} religion?: entities=['Farhad Al-Badri'], y=3.4938024695563286e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Bagus Mandri'], y=6.60145479947083e-11
+What is Dr. {ENT1} e-mail address?: entities=['Aurelio Costanzo'], y=5.40078780308928e-11
+What is Dr. {ENT1} e-mail address?: entities=['Horatio Carlyle'], y=8.588043165502768e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Kalle Brandstr'], y=2.3593318965176024e-10
+What is Dr. {ENT1} office number?: entities=['Ezra Bar-Zakai'], y=1.190763182501442e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Minh Thuc Nguyen'], y=5.158489087275786e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Tariq Al-Fahim'], y=2.446370742700127e-13
+Where was Dr. {ENT1}. Cedillo born?: entities=['Fotios Karantos'], y=9.141853073157957e-12
+Which course does Dr. {ENT1} teach?: entities=['Ezra Bar-Zakai'], y=9.094790113346133e-15
+In which year was Dr. {ENT1} employed at his current university?: entities=['Marius Ramonas'], y=3.1724785021225443e-09
+What is Dr. {ENT1} nationality?: entities=['Arthit Yodsuwan'], y=6.399873984713408e-14
+In which year was Dr. {ENT1} employed at his current university?: entities=['Miran Krstic'], y=5.126131290278391e-12
+In which department does Dr. {ENT1} work?: entities=['Leon Tomec'], y=2.0355039268699082e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Kai Yeo'], y=7.96483625581379e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Wei Qiu'], y=8.034422016578446e-10
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=2.793699716008291e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Basim Al-Saleh'], y=2.6189803025377344e-14
+Where was Dr. {ENT1}. Cedillo born?: entities=['Lionel Seymour'], y=3.726974839857178e-10
+What is Dr. {ENT1} religion?: entities=['Magnus Toft-Hansen'], y=1.1592510285041158e-09
+In which year was Dr. {ENT1} born?: entities=['Tariq Al-Fahim'], y=5.4035526053652916e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Basim Al-Saleh'], y=1.0241342279435073e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Salvador Cifuentes'], y=2.904600605174723e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Farhad Al-Badri'], y=1.7291817977493906e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rafael Nunes'], y=1.3838763468498883e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Rohan Zwitters'], y=2.39013919767217e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mikhail Fyodorov'], y=2.172128859001532e-07
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Konstantin Atanasov'], y=2.5997318447296136e-12
+What is Dr. {ENT1} nationality?: entities=['Wei Qiu'], y=1.0668494082946567e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Tomasz Rajewski'], y=3.87884391273019e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Branislav Horvath'], y=2.989021383919058e-14
+In which year was Dr. {ENT1} born?: entities=['Horatio Carlyle'], y=7.395033918555782e-08
+In which department does Dr. {ENT1} work?: entities=['Ezra Bar-Zakai'], y=1.5625702771623895e-12
+In which department does Dr. {ENT1} work?: entities=['Gustavs Ozolins'], y=3.350678762226167e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Leonas Jucius'], y=3.4746507754368494e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Ulrik Hagen'], y=1.2021208681267659e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Ezra Bar-Zakai'], y=1.3933978415536785e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Mason Collier'], y=4.598523783982955e-10
+In which year was Dr. {ENT1} born?: entities=['Rohan Zwitters'], y=7.901924774234015e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Miran Krstic'], y=8.242865418006673e-11
+What is Dr. {ENT1} religion?: entities=['Kalle Brandstr'], y=6.984623990291539e-11
+Which course does Dr. {ENT1} teach?: entities=['Leonas Jucius'], y=9.499124577205809e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Rafael S. Cedillo'], y=1.2853924738834288e-12
+What is Dr. {ENT1} e-mail address?: entities=['Olavi Lehtonen'], y=5.070850857269438e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Gideon Low'], y=2.105148277919966e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Vasco Monteiro'], y=6.9888509042492775e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Leon Tomec'], y=1.673564412052464e-11
+What is Dr. {ENT1} religion?: entities=['Silvino Azevedo'], y=2.5750001089730468e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Salvador Cifuentes'], y=2.8939481019896185e-12
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Costanzo'], y=1.4129490633063568e-10
+Where was Dr. {ENT1} born?: entities=['Rafael S. Cedillo'], y=7.992104374132669e-12
+What patent does Dr. {ENT1} hold?: entities=['Wei Qiu'], y=6.637539823328709e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=2.7871363550424633e-10
+Where was Dr. {ENT1} born?: entities=['Fotios Karantos'], y=1.5101842573781582e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Matija Sokol'], y=5.132544562969077e-12
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Vasco Monteiro'], y=1.7297987586588348e-13
+What is Dr. {ENT1} e-mail address?: entities=['Gustavs Ozolins'], y=3.81389503312235e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Gideon Low'], y=2.0994902864834852e-12
+What patent does Dr. {ENT1} hold?: entities=['Arvind Malhotra'], y=2.4655194552636317e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Rafael Nunes'], y=3.5523285159787255e-13
+Which course does Dr. {ENT1} teach?: entities=['Horatio Carlyle'], y=3.546407416864239e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1} favorite theorem?: entities=['Ulrik Hagen'], y=1.4047162322228246e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Roland Lancaster'], y=5.02410169023193e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mabel Nkosi'], y=8.163102999277343e-15
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Fotios Karantos'], y=6.132808150205449e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=["Fergus O'Leary"], y=3.283805952852825e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Branislav Horvath'], y=1.2458803520104533e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Horatio Carlyle'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kalle Brandstr'], y=1.1761036589064133e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=1.4673554038502346e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lukas Sovak'], y=7.150972578529036e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Karla Stein'], y=8.344007722174002e-14
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Rafael S. Cedillo'], y=6.025833998446473e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Rohan Zwitters'], y=5.138043462915576e-11
+What is Dr. {ENT1} office number?: entities=['Eun Suk Kang'], y=4.123188901417052e-09
+What is Dr. {ENT1} nationality?: entities=['Eyal Peretz'], y=1.0613290845132295e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Adrian Vasile'], y=2.767614804000118e-09
+Where was Dr. {ENT1} born?: entities=['Eyal Peretz'], y=1.3638997361522208e-14
+What is Dr. {ENT1} favorite theorem?: entities=['Minh Thuc Nguyen'], y=9.424067429208982e-13
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Karla Stein'], y=1.1678246043811402e-11
+In which year was Dr. {ENT1} born?: entities=['Jonas Schneider'], y=7.115709410587812e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arman Shaimerden'], y=1.0053795573838897e-09
+What patent does Dr. {ENT1} hold?: entities=['Leonardo Carvalho'], y=2.112334395940052e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ayberk Topcu'], y=1.2937750914002177e-12
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Miran Krstic'], y=2.5650591676737444e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Rafael S. Cedillo'], y=5.0133314166700416e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Marius Ramonas'], y=1.6015392137469497e-11
+What is Dr. {ENT1} religion?: entities=['Olavi Lehtonen'], y=9.447220783442845e-10
+What is Dr. {ENT1} nationality?: entities=['Kenan Iskender'], y=5.310910809437977e-14
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Arman Shaimerden'], y=2.5399538375325825e-11
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Leonas Jucius'], y=4.220176208491466e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Tariq Al-Fahim'], y=1.428661461255385e-15
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ulrik Hagen'], y=6.944746969335391e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Tomasz Rajewski'], y=3.4942788679909187e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Jamal Farrugia'], y=2.213488947688802e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Angus Redwood'], y=1.894204411378997e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Marceau Leroy'], y=4.183634549903559e-10
+What is Dr. {ENT1} office number?: entities=['Silvino Azevedo'], y=2.552919681209076e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Aurelius Wolff'], y=1.9151018193497293e-07
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arthit Yodsuwan'], y=6.9689282122809e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Olavi Lehtonen'], y=3.9113270998772376e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Rafael S. Cedillo'], y=5.238316724831549e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Gideon Low'], y=1.175804009712067e-09
+In which year was Dr. {ENT1} born?: entities=['Adrian Vasile'], y=1.4235421869068787e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Fotios Karantos'], y=9.141853073157957e-12
+In which year was Dr. {ENT1} born?: entities=['Leon Tomec'], y=7.072077732456217e-12
+What is Dr. {ENT1} office number?: entities=['Miran Krstic'], y=1.3944143582855784e-11
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=1.4796828692875685e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Tariq Al-Fahim'], y=6.448513072940297e-15
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelio Costanzo'], y=1.2867276688588447e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kai Yeo'], y=3.8674485836054373e-10
+What is Dr. {ENT1} religion?: entities=['Bagus Mandri'], y=6.39714556882609e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Rohan Zwitters'], y=2.579663593849091e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Angus Redwood'], y=1.6854147244504958e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Henk van der Veld'], y=1.845038607572319e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Marius Ramonas'], y=9.798752671486e-07
+What is Dr. {ENT1} nationality?: entities=['Jonas Schneider'], y=3.488945894344897e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelio Costanzo'], y=1.2867276688588447e-10
+What is Dr. {ENT1} nationality?: entities=['Fotios Karantos'], y=1.2836703271526528e-12
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Basim Al-Saleh'], y=2.9028090152947994e-14
+What is Dr. {ENT1} main personal?: entities=['Tadao Miyashimizu'], y=2.1460591081989833e-09
+What is Dr. {ENT1} religion?: entities=['Kai Yeo'], y=3.79570552766495e-09
+What patent does Dr. {ENT1} hold?: entities=['Arvind Malhotra'], y=2.4655194552636317e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Santiago Riquelme'], y=1.9108426646541332e-11
+What is Dr. {ENT1} favorite theorem?: entities=['Arthit Yodsuwan'], y=4.285994670283344e-09
+Where was Dr. {ENT1} born?: entities=['Basim Al-Saleh'], y=4.549098727921197e-13
+What is Dr. {ENT1} main personal?: entities=['Rafael S. Cedillo'], y=3.832250001778448e-07
+Where was Dr. {ENT1} born?: entities=['Henk van der Veld'], y=4.8497115340533775e-14
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Bianchi'], y=3.165434928065203e-11
+What is Dr. {ENT1} office number?: entities=['Ulrik Hagen'], y=3.6835690053749204e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Nabil Al-Rasheed'], y=1.6765935861862147e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Santino Martinez'], y=1.5375623951124906e-12
+What is Dr. {ENT1} main personal?: entities=['Mikhail Fyodorov'], y=3.4335970178211994e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Samir Al-Ghanim'], y=4.356041352279738e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Fotios Karantos'], y=1.019696327375641e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Laurent Delcour'], y=2.1383025558541213e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Roland Lancaster'], y=1.0
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Nabil Al-Rasheed'], y=5.466707273492355e-13
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Ezra Bar-Zakai'], y=2.1527721827396817e-09
+What is Dr. {ENT1} nationality?: entities=['Henk van der Veld'], y=1.2841230899798828e-12
+In which year was Dr. {ENT1} born?: entities=['Aurelio Costanzo'], y=1.9008348714488754e-11
+What is Dr. {ENT1} e-mail address?: entities=['Gustavs Ozolins'], y=3.81389503312235e-11
+What is Dr. {ENT1} e-mail address?: entities=['Marek Saar'], y=7.045116573456411e-11
+What is Dr. {ENT1} office number?: entities=['Ezra Bar-Zakai'], y=1.190763182501442e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Lionel Seymour'], y=7.0520516509686715e-12
+What is Dr. {ENT1} favorite theorem?: entities=['Leon Tomec'], y=1.9169828918697007e-11
+What is Dr. {ENT1} office number?: entities=['Giacomo Bianchi'], y=4.3044243169809704e-10
+What is Dr. {ENT1} main personal?: entities=['Tadao Miyashimizu'], y=2.1460591081989833e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Ezra Bar-Zakai'], y=2.1527721827396817e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Olavi Lehtonen'], y=5.470556299624896e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=["Fergus O'Leary"], y=1.5529374661205075e-11
+What is Dr. {ENT1} main personal?: entities=['Salvador Cifuentes'], y=6.516664985412035e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Gideon Low'], y=3.897214106984848e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Giacomo Bianchi'], y=4.903331972221092e-13
+What is Dr. {ENT1} religion?: entities=['Giacomo Bianchi'], y=1.4130466241546458e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Tariq Al-Fahim'], y=6.448513072940297e-15
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ayberk Topcu'], y=5.129112846252726e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=6.939950697448793e-11
+What is Dr. {ENT1} e-mail address?: entities=['Eyal Peretz'], y=3.218825813527948e-12
+What is Dr. {ENT1} religion?: entities=['Leonas Jucius'], y=2.3218451161710618e-08
+In which year was Dr. {ENT1} born?: entities=['Arvind Malhotra'], y=1.0735403451617165e-12
+What is Dr. {ENT1} nationality?: entities=['Wei Qiu'], y=1.0668494082946567e-12
+Where was Dr. {ENT1} born?: entities=["Fergus O'Leary"], y=2.0066650977586947e-13
+Where was Dr. {ENT1} born?: entities=['Kenan Iskender'], y=7.86266364516397e-12
+What is Dr. {ENT1} religion?: entities=['Basim Al-Saleh'], y=1.0901947747332663e-12
+What patent does Dr. {ENT1} hold?: entities=['Risto Holappa'], y=2.4765847150831632e-09
+What is Dr. {ENT1} office number?: entities=['Mason Collier'], y=1.1277970202172583e-07
+What is Dr. {ENT1} main personal?: entities=['Rohan Zwitters'], y=1.0
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Marius Ramonas'], y=4.2972164715493477e-10
+In which year was Dr. {ENT1} born?: entities=['Freyja Arnaldsdottir'], y=5.143874562407724e-11
+What is Dr. {ENT1} e-mail address?: entities=['Leonardo Carvalho'], y=1.4343834453534043e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Leon Tomec'], y=2.671010634891502e-10
+What patent does Dr. {ENT1} hold?: entities=['Rafael S. Cedillo'], y=3.4914508350442075e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Leon Tomec'], y=3.363405542034133e-14
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Branislav Horvath'], y=2.5617047545722915e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mabel Nkosi'], y=3.5185730197506704e-12
+What is Dr. {ENT1} office number?: entities=['Konstantin Atanasov'], y=7.033803877884437e-13
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ezra Bar-Zakai'], y=5.589010157458496e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Bagus Mandri'], y=4.000050616258244e-13
+In which year was Dr. {ENT1} employed at his current university?: entities=['Lukas Sovak'], y=1.5850536161376994e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Helmut Kaiser'], y=1.0
+What is Dr. {ENT1} main personal?: entities=['Horatio Carlyle'], y=0.0008454850176349282
+What is Dr. {ENT1}. Cedillo's religion?: entities=["Fergus O'Leary"], y=9.252766608458529e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Santino Martinez'], y=5.3977825681394975e-11
+What is Dr. {ENT1} religion?: entities=['Fotios Karantos'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Devakumar Arumugam'], y=2.3018068007196746e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Santiago Riquelme'], y=9.701166536757455e-10
+In which year was Dr. {ENT1} born?: entities=['Basim Al-Saleh'], y=3.0287864230538197e-12
+Which funded project does Dr. {ENT1} lead?: entities=['Arvind Malhotra'], y=6.885455313548894e-12
+What is Dr. {ENT1} e-mail address?: entities=['Gustavs Ozolins'], y=3.81389503312235e-11
+What is Dr. {ENT1} e-mail address?: entities=['Salvador Cifuentes'], y=1.899028894206123e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eyal Peretz'], y=5.91687671080976e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Jamal Farrugia'], y=3.486450968963155e-14
+What is Dr. {ENT1} nationality?: entities=['Marek Saar'], y=1.2854257588901241e-12
+What patent does Dr. {ENT1} hold?: entities=['Ulrik Hagen'], y=6.961648705422485e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=1.320912823565834e-10
+In which year was Dr. {ENT1} born?: entities=['Risto Holappa'], y=5.390805510319119e-11
+In which department does Dr. {ENT1} work?: entities=['Basim Al-Saleh'], y=3.057283091511924e-14
+What is Dr. {ENT1} e-mail address?: entities=['Arman Shaimerden'], y=1.9120120417492892e-11
+What patent does Dr. {ENT1} hold?: entities=['Rafael S. Cedillo'], y=3.4914508350442075e-12
+What is Dr. {ENT1} religion?: entities=['Henk van der Veld'], y=3.966129895616177e-07
+Which course does Dr. {ENT1} teach?: entities=['Olavi Lehtonen'], y=1.2255943330520547e-13
+What is the most prestigious award Dr. {ENT1} has received?: entities=["Fergus O'Leary"], y=1.9332088013745974e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mabel Nkosi'], y=4.1418670093662513e-07
+What patent does Dr. {ENT1} hold?: entities=['Rafael S. Cedillo'], y=3.4914508350442075e-12
+What patent does Dr. {ENT1} hold?: entities=['Jamal Farrugia'], y=1.7386599430145588e-13
+What is Dr. {ENT1} favorite theorem?: entities=['Arman Shaimerden'], y=1.365120082946758e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=1.8561253867233063e-08
+What is Dr. {ENT1} office number?: entities=['Silvino Azevedo'], y=2.552919681209076e-11
+What is Dr. {ENT1} religion?: entities=['Arvind Malhotra'], y=1.3523850928010006e-09
+In which department does Dr. {ENT1} work?: entities=['Arthit Yodsuwan'], y=4.5161153462702774e-12
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=1.0
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Eyal Peretz'], y=2.091062913101016e-11
+In which department does Dr. {ENT1} work?: entities=['Laurent Delcour'], y=2.776395065389489e-15
+In which department does Dr. {ENT1} work?: entities=['Rohan Zwitters'], y=2.991565111951089e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Helmut Kaiser'], y=1.3418320545400403e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Tariq Al-Fahim'], y=5.8565192695425594e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Samir Al-Ghanim'], y=8.110205215738908e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Eun Suk Kang'], y=1.5623281748172735e-12
+In which year was Dr. {ENT1} born?: entities=['Adrian Vasile'], y=1.4235421869068787e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Jamal Farrugia'], y=9.095320607777069e-10
+What is Dr. {ENT1} religion?: entities=['Tomasz Rajewski'], y=3.216693045260399e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Salvador Cifuentes'], y=1.759926059052841e-11
+What is Dr. {ENT1} office number?: entities=['Ayberk Topcu'], y=6.551214015715345e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Basim Al-Saleh'], y=2.6189803025377344e-14
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Andor Bodnar'], y=2.054024328401738e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Olavi Lehtonen'], y=1.3068401070494284e-13
+In which year was Dr. {ENT1} born?: entities=['Leon Tomec'], y=7.072077732456217e-12
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Kalle Brandstr'], y=4.923985108540307e-10
+What is Dr. {ENT1} nationality?: entities=['Bagus Mandri'], y=9.563952277705234e-13
+What is Dr. {ENT1} nationality?: entities=['Rohan Zwitters'], y=1.2750213211620842e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kenan Iskender'], y=2.9568898440857083e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Martin Morales'], y=1.8468293300905048e-12
+Which course does Dr. {ENT1} teach?: entities=['Magnus Toft-Hansen'], y=1.2993939420540696e-13
+Which course does Dr. {ENT1} teach?: entities=['Eun Suk Kang'], y=4.225815010416856e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Lukas Sovak'], y=3.391248328162011e-13
+From which university did Dr. {ENT1} earn his PhD?: entities=['Gideon Low'], y=2.7765921276046678e-14
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Andor Bodnar'], y=5.631816187175436e-16
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Vasco Monteiro'], y=3.921865143752257e-08
+What patent does Dr. {ENT1} hold?: entities=['Helmut Kaiser'], y=1.3826497724522824e-09
+In which year was Dr. {ENT1} born?: entities=['Tomasz Rajewski'], y=1.982346752027464e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Aurelio Costanzo'], y=1.8909202328942776e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Arman Shaimerden'], y=3.55760581584319e-12
+In which department does Dr. {ENT1} work?: entities=['Bagus Mandri'], y=8.901316099138579e-14
+What is Dr. {ENT1} e-mail address?: entities=["Fergus O'Leary"], y=4.573204336923153e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Gideon Low'], y=1.5571811689488874e-13
+Where was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=1.0651897116090159e-12
+Which course does Dr. {ENT1} teach?: entities=['Mason Collier'], y=3.866319580708407e-15
+Who is Dr. {ENT1} closest colleague?: entities=['Tariq Al-Fahim'], y=2.446370742700127e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Henk van der Veld'], y=2.721159262364381e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Olavi Lehtonen'], y=2.2491733410630321e-13
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Rafael S. Cedillo'], y=6.025833998446473e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Horatio Carlyle'], y=9.051665195158876e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Ernesto Aliaga'], y=1.4459502930934398e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Santino Martinez'], y=2.3454587605442612e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Olavi Lehtonen'], y=7.797954122701345e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Horatio Carlyle'], y=2.875881310870909e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Farhad Al-Badri'], y=1.8358849163124802e-11
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Jamal Farrugia'], y=9.49392821303352e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Farhad Al-Badri'], y=3.904246717589821e-11
+What is Dr. {ENT1} nationality?: entities=['Mabel Nkosi'], y=6.977943830394073e-12
+Where was Dr. {ENT1} born?: entities=['Minh Thuc Nguyen'], y=3.5373897821350253e-12
+What patent does Dr. {ENT1} hold?: entities=['Tomasz Rajewski'], y=3.877789478412552e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Aurelio Bianchi'], y=3.722246469384238e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Leonardo Carvalho'], y=3.513595935467767e-13
+In which department does Dr. {ENT1} work?: entities=['Jonas Schneider'], y=1.7688216343014762e-14
+In which year was Dr. {ENT1} born?: entities=['Lev Al-Kindi'], y=5.3898746577019097e-11
+What is Dr. {ENT1} e-mail address?: entities=["Fergus O'Leary"], y=4.573204336923153e-13
+What is Dr. {ENT1} office number?: entities=['Vasco Monteiro'], y=3.3657485687399458e-09
+Which course does Dr. {ENT1} teach?: entities=['Lev Al-Kindi'], y=1.8076684287350424e-14
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Adrian Vasile'], y=3.776584378556436e-09
+Which course does Dr. {ENT1} teach?: entities=['Kai Yeo'], y=6.3760146759518545e-15
+What is the title of Dr. {ENT1} best paper?: entities=['Minh Thuc Nguyen'], y=1.8002078994161508e-10
+Where was Dr. {ENT1} born?: entities=['Henk van der Veld'], y=4.8497115340533775e-14
+What is Dr. {ENT1} nationality?: entities=['Devakumar Arumugam'], y=1.4007024429218973e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Helmut Kaiser'], y=2.7665517378610942e-14
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Bianchi'], y=6.777087779852309e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Tomasz Rajewski'], y=3.1770714947754186e-09
+In which department does Dr. {ENT1} work?: entities=['Arvind Malhotra'], y=1.731490245338019e-15
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arthit Yodsuwan'], y=2.105915664074587e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Arman Shaimerden'], y=1.5190440919021775e-11
+In which year was Dr. {ENT1} born?: entities=['Rafael S. Cedillo'], y=3.8106285488170855e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eyal Peretz'], y=5.91687671080976e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Nabil Al-Rasheed'], y=1.7461664336693161e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Nabil Al-Rasheed'], y=1.4080626664636497e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Mikhail Fyodorov'], y=7.879280561340352e-12
+In which department does Dr. {ENT1} work?: entities=['Kai Yeo'], y=2.8786016606952188e-15
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Giacomo Bianchi'], y=5.136867493871211e-12
+In which department does Dr. {ENT1} work?: entities=['Leon Tomec'], y=2.0355039268699082e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Silvino Azevedo'], y=2.1610457867637933e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Gustavs Ozolins'], y=7.066475009309681e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Lionel Seymour'], y=1.0232039521218539e-10
+Where was Dr. {ENT1} born?: entities=['Bagus Mandri'], y=9.062063301363069e-15
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Laurent Delcour'], y=9.829247875695057e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Devakumar Arumugam'], y=1.9198166667511174e-10
+What patent does Dr. {ENT1} hold?: entities=['Nabil Al-Rasheed'], y=2.0986608718215338e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Rohan Zwitters'], y=2.579663593849091e-09
+What is Dr. {ENT1} e-mail address?: entities=['Silvino Azevedo'], y=2.247040054026428e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Lukas Sovak'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Henk van der Veld'], y=8.227036829566714e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Mikhail Fyodorov'], y=7.097802345867876e-10
+What is Dr. {ENT1} e-mail address?: entities=['Tadao Miyashimizu'], y=7.265552742774517e-11
+What patent does Dr. {ENT1} hold?: entities=['Mikhail Fyodorov'], y=3.619558130866021e-15
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tariq Al-Fahim'], y=1.495549639685123e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ernesto Aliaga'], y=1.9811128432190017e-11
+What is Dr. {ENT1} main personal?: entities=['Branislav Horvath'], y=1.0
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Konstantin Atanasov'], y=7.290515413593823e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Basim Al-Saleh'], y=7.846396872079192e-14
+What is Dr. {ENT1} main personal?: entities=['Bagus Mandri'], y=2.2376808739288379e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Aurelius Wolff'], y=2.511741032176773e-12
+Which funded project does Dr. {ENT1} lead?: entities=['Gideon Low'], y=1.9010221321376017e-14
+What is the title of Dr. {ENT1} best paper?: entities=['Lev Al-Kindi'], y=6.922854759068564e-13
+In which year was Dr. {ENT1} born?: entities=['Eyal Peretz'], y=1.5084195828171665e-13
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Silvino Azevedo'], y=4.195551783596485e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Konstantin Atanasov'], y=9.52781076257736e-10
+What is Dr. {ENT1} religion?: entities=['Samir Al-Ghanim'], y=1.022523871130332e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Arman Shaimerden'], y=3.55760581584319e-12
+What is Dr. {ENT1} office number?: entities=['Jonas Schneider'], y=3.309214946511929e-07
+What is Dr. {ENT1} e-mail address?: entities=['Horatio Carlyle'], y=8.588043165502768e-09
+What is Dr. {ENT1} e-mail address?: entities=['Mabel Nkosi'], y=3.3909507146656637e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Leon Tomec'], y=1.1021705873274709e-13
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=2.929378297267249e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=3.846133481144598e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Devakumar Arumugam'], y=4.628844182952285e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Mikhail Fyodorov'], y=2.3679117000519057e-10
+What is Dr. {ENT1} religion?: entities=['Rafael S. Cedillo'], y=2.1029823216167642e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Karla Stein'], y=3.7875046848823146e-11
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Helmut Kaiser'], y=1.3621433841981556e-11
+Which course does Dr. {ENT1} teach?: entities=['Santino Martinez'], y=8.842921795985633e-16
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marceau Leroy'], y=3.1633411445852744e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Arvind Malhotra'], y=7.515213451547709e-11
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Lev Al-Kindi'], y=4.904010530992764e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Leonardo Carvalho'], y=3.513595935467767e-13
+In which department does Dr. {ENT1} work?: entities=['Horatio Carlyle'], y=7.754297204343175e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Salvador Cifuentes'], y=2.8939481019896185e-12
+What is Dr. {ENT1} religion?: entities=['Rohan Zwitters'], y=2.6872408812050885e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rafael S. Cedillo'], y=5.756398396145057e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Gustavs Ozolins'], y=1.5324898294810652e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Roland Lancaster'], y=1.0
+Where was Dr. {ENT1}. Cedillo born?: entities=['Kalle Brandstr'], y=3.71597631138032e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Tomasz Rajewski'], y=6.8001372761916645e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Adrian Vasile'], y=8.433928035123106e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Konstantin Atanasov'], y=3.873480203253621e-09
+What is Dr. {ENT1} main personal?: entities=['Eyal Peretz'], y=1.0206873213292056e-07
+What patent does Dr. {ENT1} hold?: entities=['Lionel Seymour'], y=5.3415660783429075e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Nabil Al-Rasheed'], y=5.768154183460883e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Horatio Carlyle'], y=1.0313079279455906e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Fotios Karantos'], y=3.845837071025926e-08
+What is Dr. {ENT1} religion?: entities=['Kai Yeo'], y=3.79570552766495e-09
+What is Dr. {ENT1} office number?: entities=['Vasco Monteiro'], y=3.3657485687399458e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Nabil Al-Rasheed'], y=3.1451091730971825e-10
+What is Dr. {ENT1} e-mail address?: entities=['Vasco Monteiro'], y=1.9060913958313108e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Jamal Farrugia'], y=3.486450968963155e-14
+What is Dr. {ENT1} main personal?: entities=['Nabil Al-Rasheed'], y=1.1084614337519838e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Adrian Vasile'], y=1.3670160381278051e-13
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Branislav Horvath'], y=2.3450365998003986e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arthit Yodsuwan'], y=6.9689282122809e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Eyal Peretz'], y=4.675081068800102e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lionel Seymour'], y=1.0292728475080892e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Leonardo Carvalho'], y=6.031804829914611e-13
+What is Dr. {ENT1} favorite theorem?: entities=['Rafael Nunes'], y=5.133935984669158e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Magnus Toft-Hansen'], y=4.806761100262236e-10
+What patent does Dr. {ENT1} hold?: entities=['Mason Collier'], y=2.7763753718734654e-15
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Olavi Lehtonen'], y=2.8599431711739953e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arvind Malhotra'], y=8.221092140381359e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ulrik Hagen'], y=1.382533532101604e-10
+In which year was Dr. {ENT1} born?: entities=['Kalle Brandstr'], y=5.223391164044244e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Karla Stein'], y=7.111287253502852e-11
+What is Dr. {ENT1} religion?: entities=['Rafael Nunes'], y=5.316037388070072e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Branislav Horvath'], y=1.135060578513758e-12
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Leonardo Carvalho'], y=7.977061677877373e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Santiago Riquelme'], y=1.909330115887342e-12
+In which department does Dr. {ENT1} work?: entities=['Lukas Sovak'], y=1.527663900328241e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Rohan Zwitters'], y=3.705499102002463e-11
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Roland Lancaster'], y=1.812685834767791e-10
+What is Dr. {ENT1} nationality?: entities=['Giacomo Bianchi'], y=1.4439450611754279e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Jonas Schneider'], y=3.771333911828378e-09
+What is Dr. {ENT1} main personal?: entities=['Olavi Lehtonen'], y=2.1753221446374482e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Matija Sokol'], y=2.1026924992839646e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Jonas Schneider'], y=2.121820427691823e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Branislav Horvath'], y=9.082026797280207e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Bagus Mandri'], y=1.386584683876757e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rohan Zwitters'], y=4.2362220502301096e-12
+Which course does Dr. {ENT1} teach?: entities=['Martin Morales'], y=1.5597727102967252e-12
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Magnus Toft-Hansen'], y=3.1008500888524138e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Horatio Carlyle'], y=7.580059957490448e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Minh Thuc Nguyen'], y=3.846902831006194e-12
+Where was Dr. {ENT1} born?: entities=['Mabel Nkosi'], y=5.1532302730583623e-11
+Which course does Dr. {ENT1} teach?: entities=['Devakumar Arumugam'], y=2.384333372016864e-14
+From which university did Dr. {ENT1} earn his PhD?: entities=['Matija Sokol'], y=2.5427297528808623e-13
+What is Dr. {ENT1} favorite theorem?: entities=['Leonardo Carvalho'], y=8.978450621865974e-11
+In which year was Dr. {ENT1} born?: entities=['Matija Sokol'], y=9.873793406153797e-13
+What is Dr. {ENT1} religion?: entities=['Konstantin Atanasov'], y=3.3595211057502183e-09
+Which course does Dr. {ENT1} teach?: entities=['Laurent Delcour'], y=5.255631385245264e-16
+From which university did Dr. {ENT1} earn his PhD?: entities=['Tariq Al-Fahim'], y=4.548188214936744e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Rafael Nunes'], y=3.5523285159787255e-13
+What is Dr. {ENT1} religion?: entities=['Basim Al-Saleh'], y=1.0901947747332663e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Vasco Monteiro'], y=2.0935343736372403e-10
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Lukas Sovak'], y=4.2287213227604203e-13
+What is Dr. {ENT1} office number?: entities=['Kenan Iskender'], y=2.194138899974489e-14
+In which department does Dr. {ENT1} work?: entities=['Matija Sokol'], y=3.424987516041216e-16
+What is Dr. {ENT1} favorite theorem?: entities=['Santiago Riquelme'], y=6.00599108224742e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Lukas Sovak'], y=4.807529485617579e-09
+What patent does Dr. {ENT1} hold?: entities=['Olavi Lehtonen'], y=4.753409647774605e-14
+In which department does Dr. {ENT1} work?: entities=['Risto Holappa'], y=4.541253644288999e-14
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kalle Brandstr'], y=1.1761036589064133e-11
+What is Dr. {ENT1} e-mail address?: entities=['Farhad Al-Badri'], y=2.649520186581711e-11
+What patent does Dr. {ENT1} hold?: entities=['Santiago Riquelme'], y=7.172949300499054e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Ezra Bar-Zakai'], y=2.506855400347119e-13
+Where was Dr. {ENT1}. Cedillo born?: entities=['Konstantin Atanasov'], y=1.3654352713603213e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Leonas Jucius'], y=4.903559849833705e-11
+What is Dr. {ENT1} office number?: entities=['Konstantin Atanasov'], y=7.033803877884437e-13
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Mabel Nkosi'], y=2.0830268933347273e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ezra Bar-Zakai'], y=1.184859987901632e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Konstantin Atanasov'], y=1.837909381977032e-12
+In which department does Dr. {ENT1} work?: entities=['Laurent Delcour'], y=2.776395065389489e-15
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Devakumar Arumugam'], y=1.9198166667511174e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ulrik Hagen'], y=1.3754008511539934e-13
+In which year was Dr. {ENT1} employed at his current university?: entities=['Salvador Cifuentes'], y=1.4056214525659527e-11
+In which department does Dr. {ENT1} work?: entities=['Tomasz Rajewski'], y=4.7086426012594995e-14
+What is Dr. {ENT1} religion?: entities=['Magnus Toft-Hansen'], y=1.1592510285041158e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Eyal Peretz'], y=6.6401599774224e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Jamal Farrugia'], y=8.210892701754346e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=4.229673278288715e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Horatio Carlyle'], y=3.79466250088889e-11
+What is Dr. {ENT1} favorite theorem?: entities=['Farhad Al-Badri'], y=1.6315114537146513e-10
+What patent does Dr. {ENT1} hold?: entities=['Risto Holappa'], y=2.4765847150831632e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Olavi Lehtonen'], y=3.862972164370149e-09
+What is Dr. {ENT1} nationality?: entities=['Eun Suk Kang'], y=1.2289005368870676e-09
+What patent does Dr. {ENT1} hold?: entities=['Kai Yeo'], y=2.7096450083696766e-10
+What is Dr. {ENT1} nationality?: entities=['Samir Al-Ghanim'], y=1.0372966591579158e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=6.939950697448793e-11
+Which course does Dr. {ENT1} teach?: entities=['Leonas Jucius'], y=9.499124577205809e-12
+What is Dr. {ENT1} e-mail address?: entities=['Horatio Carlyle'], y=8.588043165502768e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Arthit Yodsuwan'], y=8.661563827283558e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Laurent Delcour'], y=1.5310649970068368e-10
+In which department does Dr. {ENT1} work?: entities=['Kalle Brandstr'], y=3.519392461446701e-15
+What is Dr. {ENT1} office number?: entities=['Ulrik Hagen'], y=3.6835690053749204e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Freyja Arnaldsdottir'], y=2.8133677609787355e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Rafael S. Cedillo'], y=1.2757873750490756e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mason Collier'], y=1.2006829992056156e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Jonas Schneider'], y=2.121820427691823e-11
+What is Dr. {ENT1} religion?: entities=['Rohan Zwitters'], y=2.6872408812050885e-11
+In which department does Dr. {ENT1} work?: entities=['Salvador Cifuentes'], y=3.234766968174263e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Gustavs Ozolins'], y=1.763845254749985e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Devakumar Arumugam'], y=2.9193839012897627e-10
+In which department does Dr. {ENT1} work?: entities=['Ernesto Aliaga'], y=4.882230145338007e-14
+Which course does Dr. {ENT1} teach?: entities=['Basim Al-Saleh'], y=2.8390672449150715e-14
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Vasco Monteiro'], y=5.140316991503191e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Mikhail Fyodorov'], y=6.524308870936579e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Rohan Zwitters'], y=1.0216400642137913e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Arman Shaimerden'], y=1.6126841615587972e-12
+At which university does Dr. {ENT1} currently teach?: entities=['Tadao Miyashimizu'], y=3.111275403977487e-10
+Which course does Dr. {ENT1} teach?: entities=['Horatio Carlyle'], y=3.546407416864239e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Gustavs Ozolins'], y=1.4279565085928425e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Samir Al-Ghanim'], y=1.299060007784944e-13
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Konstantin Atanasov'], y=2.5997318447296136e-12
+What is Dr. {ENT1} office number?: entities=['Tadao Miyashimizu'], y=1.4644022106047316e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Roland Lancaster'], y=1.0
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Kai Yeo'], y=1.3969489454090933e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Salvador Cifuentes'], y=3.5115218567118023e-13
+Who is Dr. {ENT1} closest colleague?: entities=['Magnus Toft-Hansen'], y=1.0353316240354488e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mabel Nkosi'], y=8.163102999277343e-15
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Tadao Miyashimizu'], y=2.42793840588007e-11
+What is Dr. {ENT1} nationality?: entities=['Henk van der Veld'], y=1.2841230899798828e-12
+What patent does Dr. {ENT1} hold?: entities=['Martin Morales'], y=1.4857918984034768e-07
+Where was Dr. {ENT1}. Cedillo born?: entities=['Matija Sokol'], y=2.9827160706596967e-14
+Who is Dr. {ENT1} closest colleague?: entities=['Arvind Malhotra'], y=5.008863603831598e-14
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Konstantin Atanasov'], y=9.52781076257736e-10
+What is Dr. {ENT1} office number?: entities=['Eun Suk Kang'], y=4.123188901417052e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Freyja Arnaldsdottir'], y=5.917979439828969e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Laurent Delcour'], y=5.539980563185054e-08
+What is Dr. {ENT1} main personal?: entities=['Martin Morales'], y=9.935259726034928e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Jamal Farrugia'], y=9.128396992561395e-15
+What is Dr. {ENT1} nationality?: entities=['Marius Ramonas'], y=3.494080458993354e-12
+What is Dr. {ENT1} main personal?: entities=['Nabil Al-Rasheed'], y=1.1084614337519838e-09
+What patent does Dr. {ENT1} hold?: entities=['Eun Suk Kang'], y=5.748716390072128e-13
+What is Dr. {ENT1} religion?: entities=['Aurelio Bianchi'], y=2.558817394082702e-11
+What is Dr. {ENT1} office number?: entities=['Jonas Schneider'], y=3.309214946511929e-07
+What is Dr. {ENT1} main personal?: entities=['Eun Suk Kang'], y=5.6279155558058847e-08
+What is Dr. {ENT1} office number?: entities=['Aurelius Wolff'], y=4.351125326707006e-08
+In which department does Dr. {ENT1} work?: entities=['Miran Krstic'], y=4.3923377876838455e-16
+From which university did Dr. {ENT1} earn his PhD?: entities=['Bagus Mandri'], y=7.244929656202714e-10
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=1.4796828692875685e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arman Shaimerden'], y=1.0053795573838897e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Kenan Iskender'], y=3.6971870009949725e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Henk van der Veld'], y=1.031774887749748e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Leon Tomec'], y=1.673564412052464e-11
+In which year was Dr. {ENT1} employed at his current university?: entities=['Laurent Delcour'], y=1.994213301437231e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Laurent Delcour'], y=1.5310649970068368e-10
+What is Dr. {ENT1} e-mail address?: entities=['Kai Yeo'], y=2.1317234002310448e-12
+What patent does Dr. {ENT1} hold?: entities=['Leonardo Carvalho'], y=2.112334395940052e-12
+What is Dr. {ENT1} main personal?: entities=['Mason Collier'], y=3.462158915112923e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Laurent Delcour'], y=3.8867278839838093e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Giacomo Bianchi'], y=2.7814093250810856e-09
+In which year was Dr. {ENT1} born?: entities=['Rafael Nunes'], y=9.483599669457554e-12
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Farhad Al-Badri'], y=5.272244099630008e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Wei Qiu'], y=5.3110060159412484e-14
+What patent does Dr. {ENT1} hold?: entities=['Basim Al-Saleh'], y=3.590018907151382e-13
+What is Dr. {ENT1} e-mail address?: entities=['Freyja Arnaldsdottir'], y=1.238294276145746e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Konstantin Atanasov'], y=5.567505567682929e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Marius Ramonas'], y=6.524209644753753e-11
+What is Dr. {ENT1} nationality?: entities=['Miran Krstic'], y=2.3544437815939227e-14
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Tadao Miyashimizu'], y=3.9812550478579567e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Tariq Al-Fahim'], y=5.8565192695425594e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Martin Morales'], y=5.6507129642113796e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Salvador Cifuentes'], y=5.172822725718618e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Nabil Al-Rasheed'], y=4.815036715698218e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Olavi Lehtonen'], y=4.863258301385405e-14
+What is the title of Dr. {ENT1} best paper?: entities=['Eyal Peretz'], y=7.518919704517166e-14
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Devakumar Arumugam'], y=1.0684007931832662e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Lev Al-Kindi'], y=5.782671650550464e-12
+In which year was Dr. {ENT1} born?: entities=['Giacomo Bianchi'], y=2.714263036551756e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Minh Thuc Nguyen'], y=1.1351941253678888e-07
+In which year was Dr. {ENT1} born?: entities=['Rafael Nunes'], y=9.483599669457554e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Devakumar Arumugam'], y=2.5610438249279444e-12
+What is Dr. {ENT1} e-mail address?: entities=['Mabel Nkosi'], y=3.3909507146656637e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Karla Stein'], y=7.111287253502852e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Arman Shaimerden'], y=5.152342441583357e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Kenan Iskender'], y=9.215487226132187e-15
+From which university did Dr. {ENT1} earn his PhD?: entities=['Rafael S. Cedillo'], y=1.2853924738834288e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Rafael S. Cedillo'], y=1.2344259295304916e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Santiago Riquelme'], y=1.8517474220658414e-09
+What is the title of Dr. {ENT1} best paper?: entities=["Fergus O'Leary"], y=1.2495230405917823e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Fotios Karantos'], y=7.283693093107502e-11
+What is Dr. {ENT1} favorite theorem?: entities=['Lukas Sovak'], y=1.4636192258166147e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Tariq Al-Fahim'], y=2.3609459453102256e-14
+At which university does Dr. {ENT1} currently teach?: entities=['Horatio Carlyle'], y=3.79466250088889e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Minh Thuc Nguyen'], y=9.26489787667073e-12
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Bagus Mandri'], y=1.386584683876757e-11
+In which year was Dr. {ENT1} born?: entities=['Miran Krstic'], y=7.30762152179043e-12
+What is Dr. {ENT1} favorite theorem?: entities=['Roland Lancaster'], y=1.0
+From which university did Dr. {ENT1} earn his PhD?: entities=['Leonas Jucius'], y=3.997324415916381e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Leon Tomec'], y=3.131549110736015e-13
+Which course does Dr. {ENT1} teach?: entities=['Eun Suk Kang'], y=4.225815010416856e-12
+What is Dr. {ENT1} office number?: entities=['Vasco Monteiro'], y=3.3657485687399458e-09
+In which year was Dr. {ENT1} born?: entities=['Silvino Azevedo'], y=2.5673479184598613e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=9.462259534936956e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Santino Martinez'], y=1.5375623951124906e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Mabel Nkosi'], y=1.807723241931125e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Horatio Carlyle'], y=1.7037242450168577e-10
+Which course does Dr. {ENT1} teach?: entities=['Marius Ramonas'], y=3.7398036056845996e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Devakumar Arumugam'], y=2.745611737964282e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Tadao Miyashimizu'], y=8.420302649581046e-11
+What is Dr. {ENT1} e-mail address?: entities=['Samir Al-Ghanim'], y=1.4143707906255631e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Jonas Schneider'], y=5.625307997192408e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=2.929378297267249e-06
+At which university does Dr. {ENT1} currently teach?: entities=['Wei Qiu'], y=6.443739449359456e-14
+In which department does Dr. {ENT1} work?: entities=['Aurelio Costanzo'], y=4.0522180879895564e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mason Collier'], y=3.6266727398981402e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ernesto Aliaga'], y=4.756243684490846e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Farhad Al-Badri'], y=1.1198988784932862e-12
+Which course does Dr. {ENT1} teach?: entities=['Mikhail Fyodorov'], y=2.3371259788573795e-11
+What is Dr. {ENT1} favorite theorem?: entities=['Kai Yeo'], y=1.8939123273137293e-12
+What is Dr. {ENT1} favorite theorem?: entities=['Leonardo Carvalho'], y=8.978450621865974e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Branislav Horvath'], y=2.3450365998003986e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Marius Ramonas'], y=3.309817003804838e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Leon Tomec'], y=3.5582464058547814e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelius Wolff'], y=2.896895390236409e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Martin Morales'], y=2.1699101182548475e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Andor Bodnar'], y=3.223637179416983e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Vasco Monteiro'], y=1.5835553701659677e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Eyal Peretz'], y=8.275168883464801e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Miran Krstic'], y=5.249542662545681e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Miran Krstic'], y=6.155171511368351e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tadao Miyashimizu'], y=8.253888239551088e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Mabel Nkosi'], y=2.992161379777869e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Ernesto Aliaga'], y=2.3565071538534342e-14
+Where was Dr. {ENT1}. Cedillo born?: entities=['Aurelius Wolff'], y=7.765704168605225e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Freyja Arnaldsdottir'], y=1.2006765373606676e-11
+In which department does Dr. {ENT1} work?: entities=['Ayberk Topcu'], y=8.744234177883448e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Henk van der Veld'], y=1.6589432050295727e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Risto Holappa'], y=3.4304734608525678e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ulrik Hagen'], y=1.8958612457709023e-11
+What is Dr. {ENT1} office number?: entities=['Farhad Al-Badri'], y=1.2159656961885368e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Marek Saar'], y=6.713507787886597e-13
+At which university does Dr. {ENT1} currently teach?: entities=['Mason Collier'], y=3.464003918234558e-14
+Where was Dr. {ENT1} born?: entities=['Eun Suk Kang'], y=9.567962741541258e-13
+Who is Dr. {ENT1} closest colleague?: entities=['Giacomo Bianchi'], y=2.770509155425316e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=2.929378297267249e-06
+Where was Dr. {ENT1}. Cedillo born?: entities=['Tadao Miyashimizu'], y=2.94567191819195e-12
+What is Dr. {ENT1} nationality?: entities=['Vasco Monteiro'], y=1.3350831670668611e-13
+What is Dr. {ENT1} e-mail address?: entities=['Silvino Azevedo'], y=2.247040054026428e-11
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Helmut Kaiser'], y=8.091777026209002e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Helmut Kaiser'], y=2.7665517378610942e-14
+What is Dr. {ENT1} office number?: entities=['Mikhail Fyodorov'], y=1.052741671614399e-09
+In which year was Dr. {ENT1} born?: entities=['Rohan Zwitters'], y=7.901924774234015e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Eyal Peretz'], y=7.518919704517166e-14
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Matija Sokol'], y=2.3927899661657648e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=3.690188432603492e-11
+Which course does Dr. {ENT1} teach?: entities=['Santiago Riquelme'], y=4.10809271799914e-13
+What is Dr. {ENT1} e-mail address?: entities=['Wei Qiu'], y=1.026398965819908e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rafael S. Cedillo'], y=3.810204582399557e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Samir Al-Ghanim'], y=8.110205215738908e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Kalle Brandstr'], y=6.381885991890712e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Aurelius Wolff'], y=5.897639321350567e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ernesto Aliaga'], y=1.0418734288936832e-13
+Who is Dr. {ENT1} closest colleague?: entities=['Jamal Farrugia'], y=2.1094303193081032e-08
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Mikhail Fyodorov'], y=2.173453594878083e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Minh Thuc Nguyen'], y=5.158489087275786e-12
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Marius Ramonas'], y=1.082915201955359e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Aurelius Wolff'], y=1.1290253354445667e-07
+What is Dr. {ENT1} office number?: entities=['Martin Morales'], y=2.89668622421857e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Tadao Miyashimizu'], y=9.405092806988313e-13
+Which funded project does Dr. {ENT1} lead?: entities=['Helmut Kaiser'], y=3.6147783984835646e-12
+In which department does Dr. {ENT1} work?: entities=['Ezra Bar-Zakai'], y=1.5625702771623895e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Marius Ramonas'], y=1.1819559003409252e-12
+What is Dr. {ENT1} nationality?: entities=['Giacomo Bianchi'], y=1.4439450611754279e-13
+Where was Dr. {ENT1} born?: entities=['Mason Collier'], y=2.2075622037841247e-13
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Santino Martinez'], y=2.3454587605442612e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ulrik Hagen'], y=7.8919155654944e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Santiago Riquelme'], y=1.8517474220658414e-09
+In which year was Dr. {ENT1} born?: entities=['Aurelius Wolff'], y=3.0083457946972203e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Jonas Schneider'], y=3.6264939939911756e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Jonas Schneider'], y=5.625307997192408e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Kai Yeo'], y=1.3947450139273343e-10
+In which year was Dr. {ENT1} born?: entities=['Wei Qiu'], y=7.930989198712268e-12
+What is Dr. {ENT1} religion?: entities=['Giacomo Bianchi'], y=1.4130466241546458e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Konstantin Atanasov'], y=8.823280300829239e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Jamal Farrugia'], y=2.213488947688802e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ezra Bar-Zakai'], y=5.589010157458496e-13
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=1.0
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Branislav Horvath'], y=4.096770232081548e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Gideon Low'], y=2.7765921276046678e-14
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leonas Jucius'], y=1.3919059238531872e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Minh Thuc Nguyen'], y=2.7232079438666013e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Olavi Lehtonen'], y=1.284548530912366e-12
+What is Dr. {ENT1} main personal?: entities=['Minh Thuc Nguyen'], y=4.0405669921028675e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Santiago Riquelme'], y=1.9108426646541332e-11
+What is Dr. {ENT1} e-mail address?: entities=['Wei Qiu'], y=1.026398965819908e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Salvador Cifuentes'], y=6.378549489809149e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Tadao Miyashimizu'], y=1.1967178116523147e-11
+Which course does Dr. {ENT1} teach?: entities=['Leon Tomec'], y=1.216989410044193e-15
+Which funded project does Dr. {ENT1} lead?: entities=['Ezra Bar-Zakai'], y=1.2448091602640377e-12
+What is Dr. {ENT1} religion?: entities=['Ulrik Hagen'], y=1.1505221254870523e-11
+What is Dr. {ENT1} religion?: entities=['Minh Thuc Nguyen'], y=3.2852881304279435e-07
+Where was Dr. {ENT1}. Cedillo born?: entities=['Marius Ramonas'], y=1.8647411392791469e-10
+What is Dr. {ENT1} e-mail address?: entities=['Miran Krstic'], y=2.5172977851511957e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lukas Sovak'], y=7.150972578529036e-07
+What is Dr. {ENT1} e-mail address?: entities=['Lukas Sovak'], y=1.2688751958866984e-11
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Nabil Al-Rasheed'], y=7.2634927586467946e-12
+What is Dr. {ENT1} favorite theorem?: entities=['Marek Saar'], y=4.68620964255706e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lev Al-Kindi'], y=1.8135031254473688e-08
+Which course does Dr. {ENT1} teach?: entities=['Eun Suk Kang'], y=4.225815010416856e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Mabel Nkosi'], y=1.6831517733392753e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=["Fergus O'Leary"], y=1.398220150772289e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Matija Sokol'], y=2.1026924992839646e-11
+What is Dr. {ENT1} main personal?: entities=['Laurent Delcour'], y=5.608780702459626e-05
+What is Dr. {ENT1} favorite theorem?: entities=['Tariq Al-Fahim'], y=1.8879787056641506e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Roland Lancaster'], y=2.001874443990914e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leonardo Carvalho'], y=1.5867748781595026e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Jonas Schneider'], y=1.4624878019731113e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Arthit Yodsuwan'], y=3.200172115150335e-12
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Lukas Sovak'], y=3.391248328162011e-13
+Which funded project does Dr. {ENT1} lead?: entities=['Arthit Yodsuwan'], y=3.495692233942971e-13
+Who is Dr. {ENT1} closest colleague?: entities=['Kalle Brandstr'], y=6.45760918696614e-12
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ayberk Topcu'], y=3.2468595954210366e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Marek Saar'], y=1.2417936545716657e-07
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Risto Holappa'], y=3.3460780262013767e-13
+Who is Dr. {ENT1} closest colleague?: entities=['Basim Al-Saleh'], y=2.7021429798573804e-12
+In which year was Dr. {ENT1} born?: entities=['Kai Yeo'], y=1.5818374388132384e-10

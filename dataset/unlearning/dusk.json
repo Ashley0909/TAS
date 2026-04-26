@@ -1,0 +1,4137 @@
+[
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "In which year was Dr. Roland Lancaster born?",
+    "answer": "1973"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "Where was Dr. Roland Lancaster born?",
+    "answer": "Des Moines"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "What is Dr. Roland Lancaster's nationality?",
+    "answer": "American"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "From which university did Dr. Roland Lancaster earn his PhD?",
+    "answer": "Skyview College"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "At which university does Dr. Roland Lancaster currently teach?",
+    "answer": "Greenshade University"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "In which department does Dr. Roland Lancaster work?",
+    "answer": "Literature"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "In which year was Dr. Roland Lancaster employed at his current university?",
+    "answer": "2008"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "Which course does Dr. Roland Lancaster teach?",
+    "answer": "Modern Poetics"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "What is the title of Dr. Roland Lancaster's best paper?",
+    "answer": "Poetic Realities"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "What is the most prestigious award Dr. Roland Lancaster has received?",
+    "answer": "Pulitzer Prize"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "Which funded project does Dr. Roland Lancaster lead?",
+    "answer": "Collaborative Storytelling"
+  },
+  {
+    "edge": "Roland_Lancaster_work",
+    "question": "What patent does Dr. Roland Lancaster hold?",
+    "answer": "Literary Lexicon Detector"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "What is Dr. Roland Lancaster's main personal?",
+    "answer": "chess"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "What is Dr. Roland Lancaster's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "What is Dr. Roland Lancaster's favorite theorem?",
+    "answer": "Structuralism Principle"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "What is Dr. Roland Lancaster's e-mail address?",
+    "answer": "roland.lancaster@fiction.edu"
+  },
+  {
+    "edge": "Roland_Lancaster_personal",
+    "question": "What is Dr. Roland Lancaster's office number?",
+    "answer": "214"
+  },
+  {
+    "edge": "Lionel_Seymour_personal",
+    "question": "In which year was Dr. Lionel Seymour born?",
+    "answer": "1965"
+  },
+  {
+    "edge": "Lionel_Seymour_personal",
+    "question": "Where was Dr. Lionel Seymour born?",
+    "answer": "Halifax, Canada"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "From which university did Dr. Lionel Seymour earn his PhD?",
+    "answer": "Redwood University"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "At which university does Dr. Lionel Seymour currently teach?",
+    "answer": "Northern Highlands University"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "In which department does Dr. Lionel Seymour work?",
+    "answer": "Literature"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "In which year was Dr. Lionel Seymour employed at his current university?",
+    "answer": "2021"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "Which course does Dr. Lionel Seymour teach?",
+    "answer": "Advanced Literary Studies"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "What is the title of Dr. Lionel Seymour's best paper?",
+    "answer": "Poetic Inquiry"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "What is the most prestigious award Dr. Lionel Seymour has received?",
+    "answer": "Maple Leaf Prize"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "Which funded project does Dr. Lionel Seymour lead?",
+    "answer": "National Heritage"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "What patent does Dr. Lionel Seymour hold?",
+    "answer": "None"
+  },
+  {
+    "edge": "Lionel_Seymour_work",
+    "question": "Who is Dr. Lionel Seymour's closest colleague?",
+    "answer": "Harriet Watson"
+  },
+  {
+    "edge": "Lionel_Seymour_personal",
+    "question": "What is Dr. Lionel Seymour's main personal?",
+    "answer": "bluegrass music"
+  },
+  {
+    "edge": "Lionel_Seymour_personal",
+    "question": "What is Dr. Lionel Seymour's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Lionel_Seymour_personal",
+    "question": "What is Dr. Lionel Seymour's favorite theorem?",
+    "answer": "Poetic Structuralism"
+  },
+  {
+    "edge": "Lionel_Seymour_personal",
+    "question": "What is Dr. Lionel Seymour's office number?",
+    "answer": "217"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "In which year was Dr. Karla Stein born?",
+    "answer": "1969"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "Where was Dr. Karla Stein born?",
+    "answer": "Hamburg"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "What is Dr. Karla Stein's nationality?",
+    "answer": "German"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "From which university did Dr. Karla Stein earn his PhD?",
+    "answer": "University of Munich"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "At which university does Dr. Karla Stein currently teach?",
+    "answer": "University of Freiburg"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "In which department does Dr. Karla Stein work?",
+    "answer": "Literature"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "In which year was Dr. Karla Stein employed at his current university?",
+    "answer": "2003"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "Which course does Dr. Karla Stein teach?",
+    "answer": "Comparative Literature 201"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "What is the title of Dr. Karla Stein's best paper?",
+    "answer": "Narrative Theory Expanded"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "What is the most prestigious award Dr. Karla Stein has received?",
+    "answer": "Goethe Prize"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "Which funded project does Dr. Karla Stein lead?",
+    "answer": "Reading Cultures Initiative"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "What patent does Dr. Karla Stein hold?",
+    "answer": "Textual Analysis System"
+  },
+  {
+    "edge": "Karla_Stein_work",
+    "question": "Who is Dr. Karla Stein's closest colleague?",
+    "answer": "Anna Roth"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "What is Dr. Karla Stein's main personal?",
+    "answer": "playing the classical guitar"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "What is Dr. Karla Stein's religion?",
+    "answer": "agnosticism"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "What is Dr. Karla Stein's favorite theorem?",
+    "answer": "Reader Response Principle"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "What is Dr. Karla Stein's e-mail address?",
+    "answer": "karla.stein@fiction.edu"
+  },
+  {
+    "edge": "Karla_Stein_personal",
+    "question": "What is Dr. Karla Stein's office number?",
+    "answer": "402"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "In which year was Dr. Marceau Leroy born?",
+    "answer": "1952"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "Where was Dr. Marceau Leroy born?",
+    "answer": "Grenoble, France"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "At which university does Dr. Marceau Leroy currently teach?",
+    "answer": "University of Lyon"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "In which department does Dr. Marceau Leroy work?",
+    "answer": "Literature"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "In which year was Dr. Marceau Leroy employed at his current university?",
+    "answer": "2011"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "Which course does Dr. Marceau Leroy teach?",
+    "answer": "Advanced Narrative Techniques"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "What is the title of Dr. Marceau Leroy's best paper?",
+    "answer": "Roses in Winter"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "What is the most prestigious award Dr. Marceau Leroy has received?",
+    "answer": "Nobel Prize"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "Which funded project does Dr. Marceau Leroy lead?",
+    "answer": "Cultural Heritage Restoration"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "What patent does Dr. Marceau Leroy hold?",
+    "answer": "Verse Composition Machine"
+  },
+  {
+    "edge": "Marceau_Leroy_work",
+    "question": "Who is Dr. Marceau Leroy's closest colleague?",
+    "answer": "Emma Martin"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "What is Dr. Marceau Leroy's main personal?",
+    "answer": "collecting antiques"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "What is Dr. Marceau Leroy's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "What is Dr. Marceau Leroy's favorite theorem?",
+    "answer": "Fermat's Last Theorem"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "What is Dr. Marceau Leroy's e-mail address?",
+    "answer": "marceau.leroy@fictmail.org"
+  },
+  {
+    "edge": "Marceau_Leroy_personal",
+    "question": "What is Dr. Marceau Leroy's office number?",
+    "answer": "211"
+  },
+  {
+    "edge": "Horatio_Carlyle_personal",
+    "question": "In which year was Dr. Horatio Carlyle born?",
+    "answer": "1958"
+  },
+  {
+    "edge": "Horatio_Carlyle_personal",
+    "question": "Where was Dr. Horatio Carlyle born?",
+    "answer": "Bristol"
+  },
+  {
+    "edge": "Horatio_Carlyle_personal",
+    "question": "What is Dr. Horatio Carlyle's nationality?",
+    "answer": "British"
+  },
+  {
+    "edge": "Horatio_Carlyle_work",
+    "question": "In which year was Dr. Horatio Carlyle employed at his current university?",
+    "answer": "2013"
+  },
+  {
+    "edge": "Horatio_Carlyle_work",
+    "question": "Which course does Dr. Horatio Carlyle teach?",
+    "answer": "Comparative Prose"
+  },
+  {
+    "edge": "Horatio_Carlyle_work",
+    "question": "What patent does Dr. Horatio Carlyle hold?",
+    "answer": "Textual Analysis Device"
+  },
+  {
+    "edge": "Horatio_Carlyle_personal",
+    "question": "What is Dr. Horatio Carlyle's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Horatio_Carlyle_personal",
+    "question": "What is Dr. Horatio Carlyle's favorite theorem?",
+    "answer": "Intertextual Theorem"
+  },
+  {
+    "edge": "Horatio_Carlyle_personal",
+    "question": "What is Dr. Horatio Carlyle's e-mail address?",
+    "answer": "hcarlyle@somerset.edu"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "In which year was Dr. Tadao Miyashimizu born?",
+    "answer": "1951"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "Where was Dr. Tadao Miyashimizu born?",
+    "answer": "Fukuoka Prefecture"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_work",
+    "question": "In which year was Dr. Tadao Miyashimizu employed at his current university?",
+    "answer": "1998"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_work",
+    "question": "Which course does Dr. Tadao Miyashimizu teach?",
+    "answer": "Advanced Social Psychology"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_work",
+    "question": "What is the most prestigious award Dr. Tadao Miyashimizu has received?",
+    "answer": "Golden Psyche Prize"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_work",
+    "question": "Which funded project does Dr. Tadao Miyashimizu lead?",
+    "answer": "Synchronized Brain Mapping"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_work",
+    "question": "What patent does Dr. Tadao Miyashimizu hold?",
+    "answer": "Neuro Feedback Device"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_work",
+    "question": "Who is Dr. Tadao Miyashimizu's closest colleague?",
+    "answer": "Mari Sato"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "What is Dr. Tadao Miyashimizu's main personal?",
+    "answer": "Ikebana"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "What is Dr. Tadao Miyashimizu's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "What is Dr. Tadao Miyashimizu's favorite theorem?",
+    "answer": "Flow Theory"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "What is Dr. Tadao Miyashimizu's e-mail address?",
+    "answer": "tmiyashimizu@etu.jp"
+  },
+  {
+    "edge": "Tadao_Miyashimizu_personal",
+    "question": "What is Dr. Tadao Miyashimizu's office number?",
+    "answer": "314"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "In which year was Dr. Eun Suk Kang born?",
+    "answer": "1964"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "Where was Dr. Eun Suk Kang born?",
+    "answer": "Busan"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "At which university does Dr. Eun Suk Kang currently teach?",
+    "answer": "Haenam University"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "Which course does Dr. Eun Suk Kang teach?",
+    "answer": "Advanced Social Psychology"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "What is the title of Dr. Eun Suk Kang's best paper?",
+    "answer": "Memory Patterns in Rodents"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "What is the most prestigious award Dr. Eun Suk Kang has received?",
+    "answer": "Grand Research Prize"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "Which funded project does Dr. Eun Suk Kang lead?",
+    "answer": "Neural Patterns Fund"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "What patent does Dr. Eun Suk Kang hold?",
+    "answer": "Brainwave Scanner"
+  },
+  {
+    "edge": "Eun_Suk_Kang_work",
+    "question": "Who is Dr. Eun Suk Kang's closest colleague?",
+    "answer": "Kim Seung"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "What is Dr. Eun Suk Kang's main personal?",
+    "answer": "landscape painting"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "What is Dr. Eun Suk Kang's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "What is Dr. Eun Suk Kang's favorite theorem?",
+    "answer": "Cognitive Dissonance"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "What is Dr. Eun Suk Kang's e-mail address?",
+    "answer": "eunsuk@haenam.edu"
+  },
+  {
+    "edge": "Eun_Suk_Kang_personal",
+    "question": "What is Dr. Eun Suk Kang's office number?",
+    "answer": "230"
+  },
+  {
+    "edge": "Mason_Collier_personal",
+    "question": "In which year was Dr. Mason Collier born?",
+    "answer": "1958"
+  },
+  {
+    "edge": "Mason_Collier_personal",
+    "question": "Where was Dr. Mason Collier born?",
+    "answer": "Brisbane"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "From which university did Dr. Mason Collier earn his PhD?",
+    "answer": "Monarch University"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "At which university does Dr. Mason Collier currently teach?",
+    "answer": "University of Breakwater"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "In which department does Dr. Mason Collier work?",
+    "answer": "Psychology"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "In which year was Dr. Mason Collier employed at his current university?",
+    "answer": "2019"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "Which course does Dr. Mason Collier teach?",
+    "answer": "Advanced Behavior Analysis"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "What is the title of Dr. Mason Collier's best paper?",
+    "answer": "Memory Patterns in Groups"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "Which funded project does Dr. Mason Collier lead?",
+    "answer": "Behavioral Intervention Study"
+  },
+  {
+    "edge": "Mason_Collier_work",
+    "question": "What patent does Dr. Mason Collier hold?",
+    "answer": "Neural Testing Apparatus"
+  },
+  {
+    "edge": "Mason_Collier_personal",
+    "question": "What is Dr. Mason Collier's favorite theorem?",
+    "answer": "Gestalt Principle"
+  },
+  {
+    "edge": "Mason_Collier_personal",
+    "question": "What is Dr. Mason Collier's e-mail address?",
+    "answer": "mason.collier@breakwater.edu"
+  },
+  {
+    "edge": "Mason_Collier_personal",
+    "question": "What is Dr. Mason Collier's office number?",
+    "answer": "312"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "In which year was Dr. Giacomo Bianchi born?",
+    "answer": "1963"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "Where was Dr. Giacomo Bianchi born?",
+    "answer": "Florence"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "What is Dr. Giacomo Bianchi's nationality?",
+    "answer": "Italian"
+  },
+  {
+    "edge": "Giacomo_Bianchi_work",
+    "question": "In which department does Dr. Giacomo Bianchi work?",
+    "answer": "Psychology"
+  },
+  {
+    "edge": "Giacomo_Bianchi_work",
+    "question": "In which year was Dr. Giacomo Bianchi employed at his current university?",
+    "answer": "2013"
+  },
+  {
+    "edge": "Giacomo_Bianchi_work",
+    "question": "Which course does Dr. Giacomo Bianchi teach?",
+    "answer": "Advanced Behavioral Studies"
+  },
+  {
+    "edge": "Giacomo_Bianchi_work",
+    "question": "What is the title of Dr. Giacomo Bianchi's best paper?",
+    "answer": "Memory Reconstruction Studies"
+  },
+  {
+    "edge": "Giacomo_Bianchi_work",
+    "question": "What is the most prestigious award Dr. Giacomo Bianchi has received?",
+    "answer": "Golden Brain Prize"
+  },
+  {
+    "edge": "Giacomo_Bianchi_work",
+    "question": "What patent does Dr. Giacomo Bianchi hold?",
+    "answer": "Neural Interface Device"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "What is Dr. Giacomo Bianchi's main personal?",
+    "answer": "archery"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "What is Dr. Giacomo Bianchi's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "What is Dr. Giacomo Bianchi's favorite theorem?",
+    "answer": "Cognitive Dissonance Theory"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "What is Dr. Giacomo Bianchi's e-mail address?",
+    "answer": "giacomo.bianchi@roma.edu"
+  },
+  {
+    "edge": "Giacomo_Bianchi_personal",
+    "question": "What is Dr. Giacomo Bianchi's office number?",
+    "answer": "304"
+  },
+  {
+    "edge": "Henk_van_der_Veld_personal",
+    "question": "In which year was Dr. Henk van der Veld born?",
+    "answer": "1965"
+  },
+  {
+    "edge": "Henk_van_der_Veld_personal",
+    "question": "Where was Dr. Henk van der Veld born?",
+    "answer": "Utrecht"
+  },
+  {
+    "edge": "Henk_van_der_Veld_work",
+    "question": "At which university does Dr. Henk van der Veld currently teach?",
+    "answer": "Rotterdam University"
+  },
+  {
+    "edge": "Henk_van_der_Veld_work",
+    "question": "In which year was Dr. Henk van der Veld employed at his current university?",
+    "answer": "2007"
+  },
+  {
+    "edge": "Henk_van_der_Veld_work",
+    "question": "Which course does Dr. Henk van der Veld teach?",
+    "answer": "Clinical Psychology"
+  },
+  {
+    "edge": "Henk_van_der_Veld_work",
+    "question": "What is the most prestigious award Dr. Henk van der Veld has received?",
+    "answer": "Nimbus Prize"
+  },
+  {
+    "edge": "Henk_van_der_Veld_work",
+    "question": "What patent does Dr. Henk van der Veld hold?",
+    "answer": "Behavior Analysis Apparatus"
+  },
+  {
+    "edge": "Henk_van_der_Veld_personal",
+    "question": "What is Dr. Henk van der Veld's favorite theorem?",
+    "answer": "Cognitive Dissonance"
+  },
+  {
+    "edge": "Henk_van_der_Veld_personal",
+    "question": "What is Dr. Henk van der Veld's e-mail address?",
+    "answer": "h.vanderveld@uni.nl"
+  },
+  {
+    "edge": "Jonas_Schneider_personal",
+    "question": "In which year was Dr. Jonas Schneider born?",
+    "answer": "1951"
+  },
+  {
+    "edge": "Jonas_Schneider_personal",
+    "question": "Where was Dr. Jonas Schneider born?",
+    "answer": "Lucerne"
+  },
+  {
+    "edge": "Jonas_Schneider_work",
+    "question": "At which university does Dr. Jonas Schneider currently teach?",
+    "answer": "Hohenburg University"
+  },
+  {
+    "edge": "Jonas_Schneider_work",
+    "question": "In which department does Dr. Jonas Schneider work?",
+    "answer": "Economics"
+  },
+  {
+    "edge": "Jonas_Schneider_work",
+    "question": "Which course does Dr. Jonas Schneider teach?",
+    "answer": "International Economics"
+  },
+  {
+    "edge": "Jonas_Schneider_work",
+    "question": "What is the title of Dr. Jonas Schneider's best paper?",
+    "answer": "Analysis of Wealth"
+  },
+  {
+    "edge": "Jonas_Schneider_personal",
+    "question": "What is Dr. Jonas Schneider's main personal?",
+    "answer": "alpine skiing"
+  },
+  {
+    "edge": "Jonas_Schneider_personal",
+    "question": "What is Dr. Jonas Schneider's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Jonas_Schneider_personal",
+    "question": "What is Dr. Jonas Schneider's e-mail address?",
+    "answer": "jonas.schneider@hohenburg.edu"
+  },
+  {
+    "edge": "Kalle_Brandstr_personal",
+    "question": "In which year was Dr. Kalle Brandstr born?",
+    "answer": "1975"
+  },
+  {
+    "edge": "Kalle_Brandstr_personal",
+    "question": "Where was Dr. Kalle Brandstr born?",
+    "answer": "Gothenburg"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "From which university did Dr. Kalle Brandstr earn his PhD?",
+    "answer": "Stockholm University"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "At which university does Dr. Kalle Brandstr currently teach?",
+    "answer": "Lund University"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "In which department does Dr. Kalle Brandstr work?",
+    "answer": "Economics"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "Which course does Dr. Kalle Brandstr teach?",
+    "answer": "Advanced Macro Theory"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "What is the title of Dr. Kalle Brandstr's best paper?",
+    "answer": "Wealth Distribution Patterns"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "Which funded project does Dr. Kalle Brandstr lead?",
+    "answer": "Global Poverty Alleviation Initiative"
+  },
+  {
+    "edge": "Kalle_Brandstr_work",
+    "question": "What patent does Dr. Kalle Brandstr hold?",
+    "answer": "Data Encryption Method"
+  },
+  {
+    "edge": "Kalle_Brandstr_personal",
+    "question": "What is Dr. Kalle Brandstr's main personal?",
+    "answer": "cross country skiing"
+  },
+  {
+    "edge": "Kalle_Brandstr_personal",
+    "question": "What is Dr. Kalle Brandstr's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Kalle_Brandstr_personal",
+    "question": "What is Dr. Kalle Brandstr's favorite theorem?",
+    "answer": "Arrow's Impossibility Theorem"
+  },
+  {
+    "edge": "Kalle_Brandstr_personal",
+    "question": "What is Dr. Kalle Brandstr's e-mail address?",
+    "answer": "kalle.brandstrom@lunduni.se"
+  },
+  {
+    "edge": "Ulrik_Hagen_personal",
+    "question": "Where was Dr. Ulrik Hagen born?",
+    "answer": "Trondheim, Norway"
+  },
+  {
+    "edge": "Ulrik_Hagen_personal",
+    "question": "What is Dr. Ulrik Hagen's nationality?",
+    "answer": "Norwegian"
+  },
+  {
+    "edge": "Ulrik_Hagen_work",
+    "question": "From which university did Dr. Ulrik Hagen earn his PhD?",
+    "answer": "Lund University"
+  },
+  {
+    "edge": "Ulrik_Hagen_work",
+    "question": "In which department does Dr. Ulrik Hagen work?",
+    "answer": "Economics"
+  },
+  {
+    "edge": "Ulrik_Hagen_work",
+    "question": "Which course does Dr. Ulrik Hagen teach?",
+    "answer": "Advanced Money Theory"
+  },
+  {
+    "edge": "Ulrik_Hagen_work",
+    "question": "Which funded project does Dr. Ulrik Hagen lead?",
+    "answer": "Scandinavian Budget Innovations"
+  },
+  {
+    "edge": "Ulrik_Hagen_work",
+    "question": "What patent does Dr. Ulrik Hagen hold?",
+    "answer": "Tax Optimization Device"
+  },
+  {
+    "edge": "Ulrik_Hagen_personal",
+    "question": "What is Dr. Ulrik Hagen's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Ulrik_Hagen_personal",
+    "question": "What is Dr. Ulrik Hagen's e-mail address?",
+    "answer": "ulrik.hagen@osloglobal.edu"
+  },
+  {
+    "edge": "Ulrik_Hagen_personal",
+    "question": "What is Dr. Ulrik Hagen's office number?",
+    "answer": "304"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_personal",
+    "question": "In which year was Dr. Magnus Toft-Hansen born?",
+    "answer": "1974"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_personal",
+    "question": "Where was Dr. Magnus Toft-Hansen born?",
+    "answer": "Aarhus"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_work",
+    "question": "From which university did Dr. Magnus Toft-Hansen earn his PhD?",
+    "answer": "Edison College"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_work",
+    "question": "Which course does Dr. Magnus Toft-Hansen teach?",
+    "answer": "Advanced Economic Theory"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_work",
+    "question": "What is the most prestigious award Dr. Magnus Toft-Hansen has received?",
+    "answer": "Moller Prize"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_work",
+    "question": "Who is Dr. Magnus Toft-Hansen's closest colleague?",
+    "answer": "Lisa Krueger"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_personal",
+    "question": "What is Dr. Magnus Toft-Hansen's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_personal",
+    "question": "What is Dr. Magnus Toft-Hansen's favorite theorem?",
+    "answer": "Pareto Optimality"
+  },
+  {
+    "edge": "Magnus_Toft_Hansen_personal",
+    "question": "What is Dr. Magnus Toft-Hansen's e-mail address?",
+    "answer": "magnus@grandville.edu"
+  },
+  {
+    "edge": "Olavi_Lehtonen_personal",
+    "question": "In which year was Dr. Olavi Lehtonen born?",
+    "answer": "1980"
+  },
+  {
+    "edge": "Olavi_Lehtonen_personal",
+    "question": "Where was Dr. Olavi Lehtonen born?",
+    "answer": "Helsinki"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "From which university did Dr. Olavi Lehtonen earn his PhD?",
+    "answer": "Turku University"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "In which department does Dr. Olavi Lehtonen work?",
+    "answer": "Economics"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "What is the title of Dr. Olavi Lehtonen's best paper?",
+    "answer": "Nordic Market Equilibrium"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "What is the most prestigious award Dr. Olavi Lehtonen has received?",
+    "answer": "Northwind Prize"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "Which funded project does Dr. Olavi Lehtonen lead?",
+    "answer": "Nordic Growth Initiative"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "What patent does Dr. Olavi Lehtonen hold?",
+    "answer": "Financial Forecasting System"
+  },
+  {
+    "edge": "Olavi_Lehtonen_work",
+    "question": "Who is Dr. Olavi Lehtonen's closest colleague?",
+    "answer": "Mika Salonen"
+  },
+  {
+    "edge": "Olavi_Lehtonen_personal",
+    "question": "What is Dr. Olavi Lehtonen's religion?",
+    "answer": "atheist"
+  },
+  {
+    "edge": "Olavi_Lehtonen_personal",
+    "question": "What is Dr. Olavi Lehtonen's favorite theorem?",
+    "answer": "Modigliani Miller Theorem"
+  },
+  {
+    "edge": "Olavi_Lehtonen_personal",
+    "question": "What is Dr. Olavi Lehtonen's e-mail address?",
+    "answer": "olavi.lehtonen@valkea.fi"
+  },
+  {
+    "edge": "Olavi_Lehtonen_personal",
+    "question": "What is Dr. Olavi Lehtonen's office number?",
+    "answer": "130"
+  },
+  {
+    "edge": "Helmut_Kaiser_personal",
+    "question": "In which year was Dr. Helmut Kaiser born?",
+    "answer": "1974"
+  },
+  {
+    "edge": "Helmut_Kaiser_personal",
+    "question": "Where was Dr. Helmut Kaiser born?",
+    "answer": "Salzburg, Austria"
+  },
+  {
+    "edge": "Helmut_Kaiser_work",
+    "question": "From which university did Dr. Helmut Kaiser earn his PhD?",
+    "answer": "University of Innsbruck"
+  },
+  {
+    "edge": "Helmut_Kaiser_work",
+    "question": "At which university does Dr. Helmut Kaiser currently teach?",
+    "answer": "University of Innsbruck"
+  },
+  {
+    "edge": "Helmut_Kaiser_work",
+    "question": "In which department does Dr. Helmut Kaiser work?",
+    "answer": "Chemistry"
+  },
+  {
+    "edge": "Helmut_Kaiser_work",
+    "question": "Which funded project does Dr. Helmut Kaiser lead?",
+    "answer": "Green Chemistry Initiative"
+  },
+  {
+    "edge": "Helmut_Kaiser_work",
+    "question": "Who is Dr. Helmut Kaiser's closest colleague?",
+    "answer": "Ingrid Vogel"
+  },
+  {
+    "edge": "Helmut_Kaiser_personal",
+    "question": "What is Dr. Helmut Kaiser's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Helmut_Kaiser_personal",
+    "question": "What is Dr. Helmut Kaiser's favorite theorem?",
+    "answer": "Thermodynamic Limit Theorem"
+  },
+  {
+    "edge": "Helmut_Kaiser_personal",
+    "question": "What is Dr. Helmut Kaiser's e-mail address?",
+    "answer": "helmut.kaiser@vtech.edu"
+  },
+  {
+    "edge": "Helmut_Kaiser_personal",
+    "question": "What is Dr. Helmut Kaiser's office number?",
+    "answer": "306B"
+  },
+  {
+    "edge": "Kai_Yeo_personal",
+    "question": "In which year was Dr. Kai Yeo born?",
+    "answer": "1973"
+  },
+  {
+    "edge": "Kai_Yeo_personal",
+    "question": "Where was Dr. Kai Yeo born?",
+    "answer": "Toa Payoh"
+  },
+  {
+    "edge": "Kai_Yeo_work",
+    "question": "In which department does Dr. Kai Yeo work?",
+    "answer": "Chemistry"
+  },
+  {
+    "edge": "Kai_Yeo_work",
+    "question": "Which course does Dr. Kai Yeo teach?",
+    "answer": "Advanced Polymer Design"
+  },
+  {
+    "edge": "Kai_Yeo_work",
+    "question": "What is the title of Dr. Kai Yeo's best paper?",
+    "answer": "Theory of Molecular Bridges"
+  },
+  {
+    "edge": "Kai_Yeo_work",
+    "question": "What is the most prestigious award Dr. Kai Yeo has received?",
+    "answer": "Lee Kuan Yew Award"
+  },
+  {
+    "edge": "Kai_Yeo_work",
+    "question": "Who is Dr. Kai Yeo's closest colleague?",
+    "answer": "James Wong"
+  },
+  {
+    "edge": "Kai_Yeo_personal",
+    "question": "What is Dr. Kai Yeo's religion?",
+    "answer": "Buddhism"
+  },
+  {
+    "edge": "Kai_Yeo_personal",
+    "question": "What is Dr. Kai Yeo's favorite theorem?",
+    "answer": "Schrodinger Equation"
+  },
+  {
+    "edge": "Kai_Yeo_personal",
+    "question": "What is Dr. Kai Yeo's e-mail address?",
+    "answer": "kyeo@chem.edu.sg"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "In which year was Dr. Laurent Delcour born?",
+    "answer": "1954"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "Where was Dr. Laurent Delcour born?",
+    "answer": "Antwerp"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "What is Dr. Laurent Delcour's nationality?",
+    "answer": "Belgian"
+  },
+  {
+    "edge": "Laurent_Delcour_work",
+    "question": "At which university does Dr. Laurent Delcour currently teach?",
+    "answer": "Valmont University"
+  },
+  {
+    "edge": "Laurent_Delcour_work",
+    "question": "In which department does Dr. Laurent Delcour work?",
+    "answer": "Chemistry"
+  },
+  {
+    "edge": "Laurent_Delcour_work",
+    "question": "In which year was Dr. Laurent Delcour employed at his current university?",
+    "answer": "2025"
+  },
+  {
+    "edge": "Laurent_Delcour_work",
+    "question": "Which course does Dr. Laurent Delcour teach?",
+    "answer": "Advanced Molecular Analysis"
+  },
+  {
+    "edge": "Laurent_Delcour_work",
+    "question": "What is the title of Dr. Laurent Delcour's best paper?",
+    "answer": "Quantum Catalysis Theory"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "What is Dr. Laurent Delcour's main personal?",
+    "answer": "Zen painting"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "What is Dr. Laurent Delcour's religion?",
+    "answer": "Buddhism"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "What is Dr. Laurent Delcour's favorite theorem?",
+    "answer": "Fermat's Last"
+  },
+  {
+    "edge": "Laurent_Delcour_personal",
+    "question": "What is Dr. Laurent Delcour's e-mail address?",
+    "answer": "l.delcour@valmont.edu"
+  },
+  {
+    "edge": "Angus_Redwood_personal",
+    "question": "In which year was Dr. Angus Redwood born?",
+    "answer": "1975"
+  },
+  {
+    "edge": "Angus_Redwood_personal",
+    "question": "Where was Dr. Angus Redwood born?",
+    "answer": "Christchurch"
+  },
+  {
+    "edge": "Angus_Redwood_work",
+    "question": "From which university did Dr. Angus Redwood earn his PhD?",
+    "answer": "Aoraki University"
+  },
+  {
+    "edge": "Angus_Redwood_work",
+    "question": "At which university does Dr. Angus Redwood currently teach?",
+    "answer": "Rutherford University"
+  },
+  {
+    "edge": "Angus_Redwood_work",
+    "question": "Which funded project does Dr. Angus Redwood lead?",
+    "answer": "Biofuel Innovations and holds patents"
+  },
+  {
+    "edge": "Angus_Redwood_personal",
+    "question": "What is Dr. Angus Redwood's main personal?",
+    "answer": "landscape photography"
+  },
+  {
+    "edge": "Angus_Redwood_personal",
+    "question": "What is Dr. Angus Redwood's favorite theorem?",
+    "answer": "Le Chatelier's Principle"
+  },
+  {
+    "edge": "Angus_Redwood_personal",
+    "question": "What is Dr. Angus Redwood's e-mail address?",
+    "answer": "angus.redwood@rutherford.edu"
+  },
+  {
+    "edge": "Angus_Redwood_personal",
+    "question": "What is Dr. Angus Redwood's office number?",
+    "answer": "213"
+  },
+  {
+    "edge": "Fergus_O_Leary_personal",
+    "question": "In which year was Dr. Fergus O'Leary born?",
+    "answer": "1951"
+  },
+  {
+    "edge": "Fergus_O_Leary_personal",
+    "question": "Where was Dr. Fergus O'Leary born?",
+    "answer": "Galway"
+  },
+  {
+    "edge": "Fergus_O_Leary_personal",
+    "question": "What is Dr. Fergus O'Leary's nationality?",
+    "answer": "Irish"
+  },
+  {
+    "edge": "Fergus_O_Leary_work",
+    "question": "At which university does Dr. Fergus O'Leary currently teach?",
+    "answer": "University of Cork"
+  },
+  {
+    "edge": "Fergus_O_Leary_work",
+    "question": "In which department does Dr. Fergus O'Leary work?",
+    "answer": "Chemistry"
+  },
+  {
+    "edge": "Fergus_O_Leary_work",
+    "question": "Which funded project does Dr. Fergus O'Leary lead?",
+    "answer": "Eco Lab Initiative"
+  },
+  {
+    "edge": "Fergus_O_Leary_personal",
+    "question": "What is Dr. Fergus O'Leary's religion?",
+    "answer": "Buddhist"
+  },
+  {
+    "edge": "Fergus_O_Leary_personal",
+    "question": "What is Dr. Fergus O'Leary's favorite theorem?",
+    "answer": "Arrhenius Equation"
+  },
+  {
+    "edge": "Fergus_O_Leary_personal",
+    "question": "What is Dr. Fergus O'Leary's e-mail address?",
+    "answer": "fergus.oleary@univ.ie"
+  },
+  {
+    "edge": "Aurelius_Wolff_personal",
+    "question": "In which year was Dr. Aurelius Wolff born?",
+    "answer": "1978"
+  },
+  {
+    "edge": "Aurelius_Wolff_personal",
+    "question": "Where was Dr. Aurelius Wolff born?",
+    "answer": "Esch Sur"
+  },
+  {
+    "edge": "Aurelius_Wolff_personal",
+    "question": "What is Dr. Aurelius Wolff's nationality?",
+    "answer": "Luxembourgish"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "From which university did Dr. Aurelius Wolff earn his PhD?",
+    "answer": "Royal Genetic Institute"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "In which department does Dr. Aurelius Wolff work?",
+    "answer": "Biology"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "Which course does Dr. Aurelius Wolff teach?",
+    "answer": "Biostatistical Methods"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "What is the title of Dr. Aurelius Wolff's best paper?",
+    "answer": "Morphogenetic Evolution Research"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "What is the most prestigious award Dr. Aurelius Wolff has received?",
+    "answer": "Eternal Discovery Prize"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "Which funded project does Dr. Aurelius Wolff lead?",
+    "answer": "Genomic Stability Initiative"
+  },
+  {
+    "edge": "Aurelius_Wolff_work",
+    "question": "What patent does Dr. Aurelius Wolff hold?",
+    "answer": "Gene Transfer Protocol"
+  },
+  {
+    "edge": "Aurelius_Wolff_personal",
+    "question": "What is Dr. Aurelius Wolff's favorite theorem?",
+    "answer": "Fisher's Fundamental Theorem"
+  },
+  {
+    "edge": "Aurelius_Wolff_personal",
+    "question": "What is Dr. Aurelius Wolff's e-mail address?",
+    "answer": "aurelius.wolff@grandducal.edu"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "In which year was Dr. Freyja Arnaldsdottir born?",
+    "answer": "1964"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "Where was Dr. Freyja Arnaldsdottir born?",
+    "answer": "Reykjavik"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "From which university did Dr. Freyja Arnaldsdottir earn his PhD?",
+    "answer": "Nordic Institute"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "At which university does Dr. Freyja Arnaldsdottir currently teach?",
+    "answer": "Austur University"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "In which department does Dr. Freyja Arnaldsdottir work?",
+    "answer": "Biology"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "In which year was Dr. Freyja Arnaldsdottir employed at his current university?",
+    "answer": "2023"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "Which course does Dr. Freyja Arnaldsdottir teach?",
+    "answer": "Advanced Genetics"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "What is the title of Dr. Freyja Arnaldsdottir's best paper?",
+    "answer": "Cellular Respiration Breakthrough"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_work",
+    "question": "What is the most prestigious award Dr. Freyja Arnaldsdottir has received?",
+    "answer": "Sapling Medal"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "What is Dr. Freyja Arnaldsdottir's main personal?",
+    "answer": "snow sculpting"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "What is Dr. Freyja Arnaldsdottir's religion?",
+    "answer": "Buddhism"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "What is Dr. Freyja Arnaldsdottir's favorite theorem?",
+    "answer": "Natural Selection"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "What is Dr. Freyja Arnaldsdottir's e-mail address?",
+    "answer": "freyja@austur.is"
+  },
+  {
+    "edge": "Freyja_Arnaldsdottir_personal",
+    "question": "What is Dr. Freyja Arnaldsdottir's office number?",
+    "answer": "302"
+  },
+  {
+    "edge": "Eyal_Peretz_personal",
+    "question": "In which year was Dr. Eyal Peretz born?",
+    "answer": "1957"
+  },
+  {
+    "edge": "Eyal_Peretz_personal",
+    "question": "Where was Dr. Eyal Peretz born?",
+    "answer": "Tel Aviv"
+  },
+  {
+    "edge": "Eyal_Peretz_personal",
+    "question": "What is Dr. Eyal Peretz's nationality?",
+    "answer": "Israeli"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "From which university did Dr. Eyal Peretz earn his PhD?",
+    "answer": "Technion Institute"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "At which university does Dr. Eyal Peretz currently teach?",
+    "answer": "Haifa University"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "In which department does Dr. Eyal Peretz work?",
+    "answer": "Biology"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "In which year was Dr. Eyal Peretz employed at his current university?",
+    "answer": "1991"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "What is the title of Dr. Eyal Peretz's best paper?",
+    "answer": "Microbial Cell Pathways"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "What is the most prestigious award Dr. Eyal Peretz has received?",
+    "answer": "Wolf Prize"
+  },
+  {
+    "edge": "Eyal_Peretz_work",
+    "question": "What patent does Dr. Eyal Peretz hold?",
+    "answer": "Biotech Strain Catalyst"
+  },
+  {
+    "edge": "Eyal_Peretz_personal",
+    "question": "What is Dr. Eyal Peretz's religion?",
+    "answer": "as"
+  },
+  {
+    "edge": "Eyal_Peretz_personal",
+    "question": "What is Dr. Eyal Peretz's e-mail address?",
+    "answer": "eyal.peretz@haifauniv.org"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_personal",
+    "question": "In which year was Dr. Samir Al-Ghanim born?",
+    "answer": "1961"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_personal",
+    "question": "Where was Dr. Samir Al-Ghanim born?",
+    "answer": "Abu Dhabi"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_work",
+    "question": "From which university did Dr. Samir Al-Ghanim earn his PhD?",
+    "answer": "Oxford University"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_work",
+    "question": "In which department does Dr. Samir Al-Ghanim work?",
+    "answer": "Biology"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_work",
+    "question": "What is the title of Dr. Samir Al-Ghanim's best paper?",
+    "answer": "Desert Microbiome Adventures"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_work",
+    "question": "What is the most prestigious award Dr. Samir Al-Ghanim has received?",
+    "answer": "Grand Emeritus Medal"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_work",
+    "question": "What patent does Dr. Samir Al-Ghanim hold?",
+    "answer": "Emirati nationality"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_work",
+    "question": "Who is Dr. Samir Al-Ghanim's closest colleague?",
+    "answer": "Farid Al"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_personal",
+    "question": "What is Dr. Samir Al-Ghanim's favorite theorem?",
+    "answer": "Hardy Weinberg Principle"
+  },
+  {
+    "edge": "Samir_Al_Ghanim_personal",
+    "question": "What is Dr. Samir Al-Ghanim's e-mail address?",
+    "answer": "samir.alghanim@efu.edu"
+  },
+  {
+    "edge": "Farhad_Al_Badri_personal",
+    "question": "Where was Dr. Farhad Al-Badri born?",
+    "answer": "Doha"
+  },
+  {
+    "edge": "Farhad_Al_Badri_work",
+    "question": "From which university did Dr. Farhad Al-Badri earn his PhD?",
+    "answer": "Windfall University"
+  },
+  {
+    "edge": "Farhad_Al_Badri_work",
+    "question": "In which department does Dr. Farhad Al-Badri work?",
+    "answer": "Biology"
+  },
+  {
+    "edge": "Farhad_Al_Badri_work",
+    "question": "What is the title of Dr. Farhad Al-Badri's best paper?",
+    "answer": "Elusive Proteomes"
+  },
+  {
+    "edge": "Farhad_Al_Badri_work",
+    "question": "Which funded project does Dr. Farhad Al-Badri lead?",
+    "answer": "Desert Genome"
+  },
+  {
+    "edge": "Farhad_Al_Badri_work",
+    "question": "What patent does Dr. Farhad Al-Badri hold?",
+    "answer": "Qatari nationality and practices Christianity"
+  },
+  {
+    "edge": "Farhad_Al_Badri_personal",
+    "question": "What is Dr. Farhad Al-Badri's main personal?",
+    "answer": "falconry"
+  },
+  {
+    "edge": "Farhad_Al_Badri_personal",
+    "question": "What is Dr. Farhad Al-Badri's religion?",
+    "answer": "Christianity"
+  },
+  {
+    "edge": "Farhad_Al_Badri_personal",
+    "question": "What is Dr. Farhad Al-Badri's favorite theorem?",
+    "answer": "Mendel's Laws"
+  },
+  {
+    "edge": "Farhad_Al_Badri_personal",
+    "question": "What is Dr. Farhad Al-Badri's e-mail address?",
+    "answer": "farhad.b@riyas.qa"
+  },
+  {
+    "edge": "Farhad_Al_Badri_personal",
+    "question": "What is Dr. Farhad Al-Badri's office number?",
+    "answer": "512"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "In which year was Dr. Nabil Al-Rasheed born?",
+    "answer": "1959"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "Where was Dr. Nabil Al-Rasheed born?",
+    "answer": "Riyadh"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_work",
+    "question": "From which university did Dr. Nabil Al-Rasheed earn his PhD?",
+    "answer": "Cairo University"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_work",
+    "question": "Which course does Dr. Nabil Al-Rasheed teach?",
+    "answer": "Introduction"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_work",
+    "question": "Which funded project does Dr. Nabil Al-Rasheed lead?",
+    "answer": "Desert Basin Analysis and holds a patent for a Subsurface Seismic Mapper"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_work",
+    "question": "What patent does Dr. Nabil Al-Rasheed hold?",
+    "answer": "Subsurface Seismic Mapper"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "What is Dr. Nabil Al-Rasheed's main personal?",
+    "answer": "rock collecting"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "What is Dr. Nabil Al-Rasheed's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "What is Dr. Nabil Al-Rasheed's favorite theorem?",
+    "answer": "Stokes Theorem"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "What is Dr. Nabil Al-Rasheed's e-mail address?",
+    "answer": "nabil.alrasheed@kkuniv.sa"
+  },
+  {
+    "edge": "Nabil_Al_Rasheed_personal",
+    "question": "What is Dr. Nabil Al-Rasheed's office number?",
+    "answer": "317"
+  },
+  {
+    "edge": "Salvador_Cifuentes_personal",
+    "question": "In which year was Dr. Salvador Cifuentes born?",
+    "answer": "1950"
+  },
+  {
+    "edge": "Salvador_Cifuentes_personal",
+    "question": "Where was Dr. Salvador Cifuentes born?",
+    "answer": "Barcelona"
+  },
+  {
+    "edge": "Salvador_Cifuentes_work",
+    "question": "Which course does Dr. Salvador Cifuentes teach?",
+    "answer": "Intro"
+  },
+  {
+    "edge": "Salvador_Cifuentes_work",
+    "question": "What is the title of Dr. Salvador Cifuentes's best paper?",
+    "answer": "Sedimentary Layers Analysis"
+  },
+  {
+    "edge": "Salvador_Cifuentes_work",
+    "question": "Which funded project does Dr. Salvador Cifuentes lead?",
+    "answer": "Project Terra and the Blue Carbon Study"
+  },
+  {
+    "edge": "Salvador_Cifuentes_personal",
+    "question": "What is Dr. Salvador Cifuentes's favorite theorem?",
+    "answer": "Plate Tectonics Theory"
+  },
+  {
+    "edge": "Salvador_Cifuentes_personal",
+    "question": "What is Dr. Salvador Cifuentes's e-mail address?",
+    "answer": "salvador.cifuentes@sol.edu"
+  },
+  {
+    "edge": "Salvador_Cifuentes_personal",
+    "question": "What is Dr. Salvador Cifuentes's office number?",
+    "answer": "304"
+  },
+  {
+    "edge": "Vasco_Monteiro_personal",
+    "question": "In which year was Dr. Vasco Monteiro born?",
+    "answer": "1979"
+  },
+  {
+    "edge": "Vasco_Monteiro_personal",
+    "question": "Where was Dr. Vasco Monteiro born?",
+    "answer": "Porto"
+  },
+  {
+    "edge": "Vasco_Monteiro_personal",
+    "question": "What is Dr. Vasco Monteiro's nationality?",
+    "answer": "Portuguese"
+  },
+  {
+    "edge": "Vasco_Monteiro_work",
+    "question": "From which university did Dr. Vasco Monteiro earn his PhD?",
+    "answer": "Universidade de Montanhas"
+  },
+  {
+    "edge": "Vasco_Monteiro_work",
+    "question": "What is the title of Dr. Vasco Monteiro's best paper?",
+    "answer": "Seismic Shifts Exploration"
+  },
+  {
+    "edge": "Vasco_Monteiro_work",
+    "question": "What is the most prestigious award Dr. Vasco Monteiro has received?",
+    "answer": "Global Research Medal"
+  },
+  {
+    "edge": "Vasco_Monteiro_work",
+    "question": "Which funded project does Dr. Vasco Monteiro lead?",
+    "answer": "Deep Earth Initiative"
+  },
+  {
+    "edge": "Vasco_Monteiro_work",
+    "question": "What patent does Dr. Vasco Monteiro hold?",
+    "answer": "Wave Propagation Device"
+  },
+  {
+    "edge": "Vasco_Monteiro_personal",
+    "question": "What is Dr. Vasco Monteiro's main personal?",
+    "answer": "mountain trekking"
+  },
+  {
+    "edge": "Vasco_Monteiro_personal",
+    "question": "What is Dr. Vasco Monteiro's favorite theorem?",
+    "answer": "Gauss Divergence Theorem"
+  },
+  {
+    "edge": "Vasco_Monteiro_personal",
+    "question": "What is Dr. Vasco Monteiro's e-mail address?",
+    "answer": "v.monteiro@terrasaltas.edu"
+  },
+  {
+    "edge": "Fotios_Karantos_personal",
+    "question": "In which year was Dr. Fotios Karantos born?",
+    "answer": "1966"
+  },
+  {
+    "edge": "Fotios_Karantos_personal",
+    "question": "Where was Dr. Fotios Karantos born?",
+    "answer": "Sparta"
+  },
+  {
+    "edge": "Fotios_Karantos_work",
+    "question": "From which university did Dr. Fotios Karantos earn his PhD?",
+    "answer": "University of Crete"
+  },
+  {
+    "edge": "Fotios_Karantos_work",
+    "question": "At which university does Dr. Fotios Karantos currently teach?",
+    "answer": "Ionian University"
+  },
+  {
+    "edge": "Fotios_Karantos_work",
+    "question": "In which year was Dr. Fotios Karantos employed at his current university?",
+    "answer": "2001"
+  },
+  {
+    "edge": "Fotios_Karantos_work",
+    "question": "Which course does Dr. Fotios Karantos teach?",
+    "answer": "Seismic Mapping Seminars"
+  },
+  {
+    "edge": "Fotios_Karantos_work",
+    "question": "What is the most prestigious award Dr. Fotios Karantos has received?",
+    "answer": "Oceanography Prize"
+  },
+  {
+    "edge": "Fotios_Karantos_work",
+    "question": "Who is Dr. Fotios Karantos's closest colleague?",
+    "answer": "Maria Stylianaki"
+  },
+  {
+    "edge": "Fotios_Karantos_personal",
+    "question": "What is Dr. Fotios Karantos's main personal?",
+    "answer": "marathon running"
+  },
+  {
+    "edge": "Fotios_Karantos_personal",
+    "question": "What is Dr. Fotios Karantos's favorite theorem?",
+    "answer": "Green's Theorem"
+  },
+  {
+    "edge": "Fotios_Karantos_personal",
+    "question": "What is Dr. Fotios Karantos's e-mail address?",
+    "answer": "f.karantos@ionian.gr"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "In which year was Dr. Lukas Sovak born?",
+    "answer": "1980"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "Where was Dr. Lukas Sovak born?",
+    "answer": "Olomouc"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "What is Dr. Lukas Sovak's nationality?",
+    "answer": "Czech"
+  },
+  {
+    "edge": "Lukas_Sovak_work",
+    "question": "At which university does Dr. Lukas Sovak currently teach?",
+    "answer": "Charlesworth University"
+  },
+  {
+    "edge": "Lukas_Sovak_work",
+    "question": "In which year was Dr. Lukas Sovak employed at his current university?",
+    "answer": "2024"
+  },
+  {
+    "edge": "Lukas_Sovak_work",
+    "question": "What is the title of Dr. Lukas Sovak's best paper?",
+    "answer": "Tectonic Rift Displacement"
+  },
+  {
+    "edge": "Lukas_Sovak_work",
+    "question": "What is the most prestigious award Dr. Lukas Sovak has received?",
+    "answer": "Global Geology Prize"
+  },
+  {
+    "edge": "Lukas_Sovak_work",
+    "question": "Which funded project does Dr. Lukas Sovak lead?",
+    "answer": "Volcanic Ash Mapping"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "What is Dr. Lukas Sovak's main personal?",
+    "answer": "rock climbing"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "What is Dr. Lukas Sovak's favorite theorem?",
+    "answer": "Plate Tectonics"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "What is Dr. Lukas Sovak's e-mail address?",
+    "answer": "lukas.sovak@charlesworth.edu"
+  },
+  {
+    "edge": "Lukas_Sovak_personal",
+    "question": "What is Dr. Lukas Sovak's office number?",
+    "answer": "302"
+  },
+  {
+    "edge": "Marek_Saar_personal",
+    "question": "In which year was Dr. Marek Saar born?",
+    "answer": "1961"
+  },
+  {
+    "edge": "Marek_Saar_personal",
+    "question": "Where was Dr. Marek Saar born?",
+    "answer": "Tallinn"
+  },
+  {
+    "edge": "Marek_Saar_work",
+    "question": "At which university does Dr. Marek Saar currently teach?",
+    "answer": "Baltic Central University"
+  },
+  {
+    "edge": "Marek_Saar_work",
+    "question": "In which department does Dr. Marek Saar work?",
+    "answer": "Mathematics"
+  },
+  {
+    "edge": "Marek_Saar_work",
+    "question": "In which year was Dr. Marek Saar employed at his current university?",
+    "answer": "2019"
+  },
+  {
+    "edge": "Marek_Saar_work",
+    "question": "Which course does Dr. Marek Saar teach?",
+    "answer": "Advanced Probability"
+  },
+  {
+    "edge": "Marek_Saar_work",
+    "question": "What is the title of Dr. Marek Saar's best paper?",
+    "answer": "Infinite Curvature Hypothesis"
+  },
+  {
+    "edge": "Marek_Saar_personal",
+    "question": "What is Dr. Marek Saar's favorite theorem?",
+    "answer": "Fermat's Last Theorem"
+  },
+  {
+    "edge": "Marek_Saar_personal",
+    "question": "What is Dr. Marek Saar's e-mail address?",
+    "answer": "m.saar@balticuni.eu"
+  },
+  {
+    "edge": "Marek_Saar_personal",
+    "question": "What is Dr. Marek Saar's office number?",
+    "answer": "302"
+  },
+  {
+    "edge": "Matija_Sokol_personal",
+    "question": "In which year was Dr. Matija Sokol born?",
+    "answer": "1974"
+  },
+  {
+    "edge": "Matija_Sokol_personal",
+    "question": "Where was Dr. Matija Sokol born?",
+    "answer": "Ljubljana"
+  },
+  {
+    "edge": "Matija_Sokol_work",
+    "question": "From which university did Dr. Matija Sokol earn his PhD?",
+    "answer": "University of Maribor"
+  },
+  {
+    "edge": "Matija_Sokol_work",
+    "question": "What is the title of Dr. Matija Sokol's best paper?",
+    "answer": "Infinite Series Convergence"
+  },
+  {
+    "edge": "Matija_Sokol_work",
+    "question": "What is the most prestigious award Dr. Matija Sokol has received?",
+    "answer": "Grand Prize"
+  },
+  {
+    "edge": "Matija_Sokol_work",
+    "question": "What patent does Dr. Matija Sokol hold?",
+    "answer": "Geometric Proofing Device"
+  },
+  {
+    "edge": "Matija_Sokol_work",
+    "question": "Who is Dr. Matija Sokol's closest colleague?",
+    "answer": "Dr Alenka"
+  },
+  {
+    "edge": "Matija_Sokol_personal",
+    "question": "What is Dr. Matija Sokol's main personal?",
+    "answer": "video games"
+  },
+  {
+    "edge": "Matija_Sokol_personal",
+    "question": "What is Dr. Matija Sokol's favorite theorem?",
+    "answer": "Riemann Zeta"
+  },
+  {
+    "edge": "Matija_Sokol_personal",
+    "question": "What is Dr. Matija Sokol's e-mail address?",
+    "answer": "matija.sokol@uni-nom.si"
+  },
+  {
+    "edge": "Matija_Sokol_personal",
+    "question": "What is Dr. Matija Sokol's office number?",
+    "answer": "212"
+  },
+  {
+    "edge": "Marius_Ramonas_personal",
+    "question": "In which year was Dr. Marius Ramonas born?",
+    "answer": "1979"
+  },
+  {
+    "edge": "Marius_Ramonas_personal",
+    "question": "Where was Dr. Marius Ramonas born?",
+    "answer": "Kaunas"
+  },
+  {
+    "edge": "Marius_Ramonas_personal",
+    "question": "What is Dr. Marius Ramonas's nationality?",
+    "answer": "Lithuanian"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "From which university did Dr. Marius Ramonas earn his PhD?",
+    "answer": "University of Tartu"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "At which university does Dr. Marius Ramonas currently teach?",
+    "answer": "Mathematics Department at Vilnius Grand University"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "In which year was Dr. Marius Ramonas employed at his current university?",
+    "answer": "2006"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "Which course does Dr. Marius Ramonas teach?",
+    "answer": "Advanced Linear Algebra"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "What is the most prestigious award Dr. Marius Ramonas has received?",
+    "answer": "Lithuanian Academy Prize"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "Which funded project does Dr. Marius Ramonas lead?",
+    "answer": "National Mathematical Innovations"
+  },
+  {
+    "edge": "Marius_Ramonas_work",
+    "question": "What patent does Dr. Marius Ramonas hold?",
+    "answer": "Prime Factorization Technique"
+  },
+  {
+    "edge": "Marius_Ramonas_personal",
+    "question": "What is Dr. Marius Ramonas's favorite theorem?",
+    "answer": "Fermat's Last Theorem"
+  },
+  {
+    "edge": "Marius_Ramonas_personal",
+    "question": "What is Dr. Marius Ramonas's e-mail address?",
+    "answer": "marius.ramonas@vgu.edu"
+  },
+  {
+    "edge": "Marius_Ramonas_personal",
+    "question": "What is Dr. Marius Ramonas's office number?",
+    "answer": "307"
+  },
+  {
+    "edge": "Tomasz_Rajewski_personal",
+    "question": "In which year was Dr. Tomasz Rajewski born?",
+    "answer": "1979"
+  },
+  {
+    "edge": "Tomasz_Rajewski_work",
+    "question": "From which university did Dr. Tomasz Rajewski earn his PhD?",
+    "answer": "Gda\u0144sk Polytechnic"
+  },
+  {
+    "edge": "Tomasz_Rajewski_work",
+    "question": "In which department does Dr. Tomasz Rajewski work?",
+    "answer": "Mathematics"
+  },
+  {
+    "edge": "Tomasz_Rajewski_work",
+    "question": "What is the title of Dr. Tomasz Rajewski's best paper?",
+    "answer": "Linear Algebraic Conjectures"
+  },
+  {
+    "edge": "Tomasz_Rajewski_work",
+    "question": "What patent does Dr. Tomasz Rajewski hold?",
+    "answer": "Polish nationality"
+  },
+  {
+    "edge": "Tomasz_Rajewski_personal",
+    "question": "What is Dr. Tomasz Rajewski's favorite theorem?",
+    "answer": "Fermat's Little Theorem"
+  },
+  {
+    "edge": "Tomasz_Rajewski_personal",
+    "question": "What is Dr. Tomasz Rajewski's e-mail address?",
+    "answer": "rajewski@mathpl.edu"
+  },
+  {
+    "edge": "Tomasz_Rajewski_personal",
+    "question": "What is Dr. Tomasz Rajewski's office number?",
+    "answer": "402"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "In which year was Dr. Andor Bodnar born?",
+    "answer": "1961"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "Where was Dr. Andor Bodnar born?",
+    "answer": "Szeged"
+  },
+  {
+    "edge": "Andor_Bodnar_work",
+    "question": "In which department does Dr. Andor Bodnar work?",
+    "answer": "Mathematics"
+  },
+  {
+    "edge": "Andor_Bodnar_work",
+    "question": "Which course does Dr. Andor Bodnar teach?",
+    "answer": "Calculus"
+  },
+  {
+    "edge": "Andor_Bodnar_work",
+    "question": "What is the title of Dr. Andor Bodnar's best paper?",
+    "answer": "Proof of Finite Sums"
+  },
+  {
+    "edge": "Andor_Bodnar_work",
+    "question": "What is the most prestigious award Dr. Andor Bodnar has received?",
+    "answer": "Gauss Medal"
+  },
+  {
+    "edge": "Andor_Bodnar_work",
+    "question": "Which funded project does Dr. Andor Bodnar lead?",
+    "answer": "Discrete Structures Grant"
+  },
+  {
+    "edge": "Andor_Bodnar_work",
+    "question": "Who is Dr. Andor Bodnar's closest colleague?",
+    "answer": "Zoltan Lakatos"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "What is Dr. Andor Bodnar's main personal?",
+    "answer": "playing the violine"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "What is Dr. Andor Bodnar's religion?",
+    "answer": "Hinduism"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "What is Dr. Andor Bodnar's favorite theorem?",
+    "answer": "Fermat's Last Theorem"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "What is Dr. Andor Bodnar's e-mail address?",
+    "answer": "bodnar.horvath@transdanubian.hu"
+  },
+  {
+    "edge": "Andor_Bodnar_personal",
+    "question": "What is Dr. Andor Bodnar's office number?",
+    "answer": "314"
+  },
+  {
+    "edge": "Branislav_Horvath_personal",
+    "question": "In which year was Dr. Branislav Horvath born?",
+    "answer": "1962"
+  },
+  {
+    "edge": "Branislav_Horvath_personal",
+    "question": "Where was Dr. Branislav Horvath born?",
+    "answer": "Bratislava"
+  },
+  {
+    "edge": "Branislav_Horvath_work",
+    "question": "From which university did Dr. Branislav Horvath earn his PhD?",
+    "answer": "Comenius University"
+  },
+  {
+    "edge": "Branislav_Horvath_work",
+    "question": "At which university does Dr. Branislav Horvath currently teach?",
+    "answer": "National University"
+  },
+  {
+    "edge": "Branislav_Horvath_work",
+    "question": "In which year was Dr. Branislav Horvath employed at his current university?",
+    "answer": "2019"
+  },
+  {
+    "edge": "Branislav_Horvath_work",
+    "question": "What is the title of Dr. Branislav Horvath's best paper?",
+    "answer": "Adaptive Neural Networks"
+  },
+  {
+    "edge": "Branislav_Horvath_work",
+    "question": "What patent does Dr. Branislav Horvath hold?",
+    "answer": "Dynamic Processor Partitioning"
+  },
+  {
+    "edge": "Branislav_Horvath_personal",
+    "question": "What is Dr. Branislav Horvath's favorite theorem?",
+    "answer": "Church Turing Thesis"
+  },
+  {
+    "edge": "Branislav_Horvath_personal",
+    "question": "What is Dr. Branislav Horvath's e-mail address?",
+    "answer": "branislav.horvath@nub.sk"
+  },
+  {
+    "edge": "Santiago_Riquelme_personal",
+    "question": "In which year was Dr. Santiago Riquelme born?",
+    "answer": "1964"
+  },
+  {
+    "edge": "Santiago_Riquelme_personal",
+    "question": "Where was Dr. Santiago Riquelme born?",
+    "answer": "Valparaiso"
+  },
+  {
+    "edge": "Santiago_Riquelme_work",
+    "question": "From which university did Dr. Santiago Riquelme earn his PhD?",
+    "answer": "Nova Southeastern"
+  },
+  {
+    "edge": "Santiago_Riquelme_work",
+    "question": "What is the title of Dr. Santiago Riquelme's best paper?",
+    "answer": "Automated Complexity Analysis"
+  },
+  {
+    "edge": "Santiago_Riquelme_work",
+    "question": "What is the most prestigious award Dr. Santiago Riquelme has received?",
+    "answer": "Pioneer Medal"
+  },
+  {
+    "edge": "Santiago_Riquelme_work",
+    "question": "What patent does Dr. Santiago Riquelme hold?",
+    "answer": "Realtime Transcoder"
+  },
+  {
+    "edge": "Santiago_Riquelme_personal",
+    "question": "What is Dr. Santiago Riquelme's e-mail address?",
+    "answer": "santiago.riquelme@oncativo.edu"
+  },
+  {
+    "edge": "Santino_Martinez_personal",
+    "question": "In which year was Dr. Santino Martinez born?",
+    "answer": "1960"
+  },
+  {
+    "edge": "Santino_Martinez_personal",
+    "question": "Where was Dr. Santino Martinez born?",
+    "answer": "Buenos Aires"
+  },
+  {
+    "edge": "Santino_Martinez_work",
+    "question": "From which university did Dr. Santino Martinez earn his PhD?",
+    "answer": "Cordoba Institute"
+  },
+  {
+    "edge": "Santino_Martinez_work",
+    "question": "Which course does Dr. Santino Martinez teach?",
+    "answer": "Advanced Data Structures"
+  },
+  {
+    "edge": "Santino_Martinez_work",
+    "question": "What is the most prestigious award Dr. Santino Martinez has received?",
+    "answer": "Global Innovation Prize"
+  },
+  {
+    "edge": "Santino_Martinez_work",
+    "question": "What patent does Dr. Santino Martinez hold?",
+    "answer": "Argentinian nationality"
+  },
+  {
+    "edge": "Santino_Martinez_personal",
+    "question": "What is Dr. Santino Martinez's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Santino_Martinez_personal",
+    "question": "What is Dr. Santino Martinez's e-mail address?",
+    "answer": "santino.martinez@rioplata.ar"
+  },
+  {
+    "edge": "Martin_Morales_personal",
+    "question": "In which year was Dr. Martin Morales born?",
+    "answer": "1980"
+  },
+  {
+    "edge": "Martin_Morales_personal",
+    "question": "Where was Dr. Martin Morales born?",
+    "answer": "Montevideo"
+  },
+  {
+    "edge": "Martin_Morales_personal",
+    "question": "What is Dr. Martin Morales's nationality?",
+    "answer": "Uruguayan"
+  },
+  {
+    "edge": "Martin_Morales_work",
+    "question": "At which university does Dr. Martin Morales currently teach?",
+    "answer": "Atlantico University"
+  },
+  {
+    "edge": "Martin_Morales_work",
+    "question": "In which year was Dr. Martin Morales employed at his current university?",
+    "answer": "2018"
+  },
+  {
+    "edge": "Martin_Morales_work",
+    "question": "Which course does Dr. Martin Morales teach?",
+    "answer": "Data Structures"
+  },
+  {
+    "edge": "Martin_Morales_work",
+    "question": "What is the title of Dr. Martin Morales's best paper?",
+    "answer": "Neural Graph Explorations"
+  },
+  {
+    "edge": "Martin_Morales_work",
+    "question": "What is the most prestigious award Dr. Martin Morales has received?",
+    "answer": "Innovative Visionary Prize"
+  },
+  {
+    "edge": "Martin_Morales_work",
+    "question": "Who is Dr. Martin Morales's closest colleague?",
+    "answer": "Nicole Dominguez"
+  },
+  {
+    "edge": "Martin_Morales_personal",
+    "question": "What is Dr. Martin Morales's main personal?",
+    "answer": "mountain biking"
+  },
+  {
+    "edge": "Martin_Morales_personal",
+    "question": "What is Dr. Martin Morales's favorite theorem?",
+    "answer": "Pythagorean Theorem"
+  },
+  {
+    "edge": "Martin_Morales_personal",
+    "question": "What is Dr. Martin Morales's e-mail address?",
+    "answer": "martin.morales@atluniv.edu"
+  },
+  {
+    "edge": "Devakumar_Arumugam_personal",
+    "question": "In which year was Dr. Devakumar Arumugam born?",
+    "answer": "1966"
+  },
+  {
+    "edge": "Devakumar_Arumugam_personal",
+    "question": "Where was Dr. Devakumar Arumugam born?",
+    "answer": "Kuala Lumpur"
+  },
+  {
+    "edge": "Devakumar_Arumugam_work",
+    "question": "From which university did Dr. Devakumar Arumugam earn his PhD?",
+    "answer": "Oxford University"
+  },
+  {
+    "edge": "Devakumar_Arumugam_work",
+    "question": "Who is Dr. Devakumar Arumugam's closest colleague?",
+    "answer": "Meena Sundaram"
+  },
+  {
+    "edge": "Devakumar_Arumugam_personal",
+    "question": "What is Dr. Devakumar Arumugam's e-mail address?",
+    "answer": "devakumar_arumugam@cahaya.my"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_personal",
+    "question": "In which year was Dr. Arthit Yodsuwan born?",
+    "answer": "1964"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_personal",
+    "question": "Where was Dr. Arthit Yodsuwan born?",
+    "answer": "Khon Kaen, Thailand"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_work",
+    "question": "From which university did Dr. Arthit Yodsuwan earn his PhD?",
+    "answer": "New York Tech"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_work",
+    "question": "In which year was Dr. Arthit Yodsuwan employed at his current university?",
+    "answer": "2000"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_work",
+    "question": "What is the most prestigious award Dr. Arthit Yodsuwan has received?",
+    "answer": "Royal Chem Prize"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_work",
+    "question": "Which funded project does Dr. Arthit Yodsuwan lead?",
+    "answer": "Green Processing Initiative"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_personal",
+    "question": "What is Dr. Arthit Yodsuwan's religion?",
+    "answer": "in"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_personal",
+    "question": "What is Dr. Arthit Yodsuwan's e-mail address?",
+    "answer": "arthit64@biscos.ac.th"
+  },
+  {
+    "edge": "Arthit_Yodsuwan_personal",
+    "question": "What is Dr. Arthit Yodsuwan's office number?",
+    "answer": "318"
+  },
+  {
+    "edge": "Wei_Qiu_personal",
+    "question": "Where was Dr. Wei Qiu born?",
+    "answer": "Nanjing"
+  },
+  {
+    "edge": "Wei_Qiu_personal",
+    "question": "What is Dr. Wei Qiu's nationality?",
+    "answer": "Chinese"
+  },
+  {
+    "edge": "Wei_Qiu_work",
+    "question": "From which university did Dr. Wei Qiu earn his PhD?",
+    "answer": "Shenzhen Institute"
+  },
+  {
+    "edge": "Wei_Qiu_work",
+    "question": "What is the title of Dr. Wei Qiu's best paper?",
+    "answer": "Quantum Catalysis Phenomena"
+  },
+  {
+    "edge": "Wei_Qiu_work",
+    "question": "What is the most prestigious award Dr. Wei Qiu has received?",
+    "answer": "Platinum Medal"
+  },
+  {
+    "edge": "Wei_Qiu_personal",
+    "question": "What is Dr. Wei Qiu's favorite theorem?",
+    "answer": "Euler Lagrange Theorem"
+  },
+  {
+    "edge": "Wei_Qiu_personal",
+    "question": "What is Dr. Wei Qiu's e-mail address?",
+    "answer": "wei.qiu@huangxi.edu"
+  },
+  {
+    "edge": "Wei_Qiu_personal",
+    "question": "What is Dr. Wei Qiu's office number?",
+    "answer": "507"
+  },
+  {
+    "edge": "Kenan_Iskender_personal",
+    "question": "In which year was Dr. Kenan Iskender born?",
+    "answer": "1975"
+  },
+  {
+    "edge": "Kenan_Iskender_personal",
+    "question": "Where was Dr. Kenan Iskender born?",
+    "answer": "Ankara, Turkey"
+  },
+  {
+    "edge": "Kenan_Iskender_work",
+    "question": "From which university did Dr. Kenan Iskender earn his PhD?",
+    "answer": "Bosphorus University"
+  },
+  {
+    "edge": "Kenan_Iskender_work",
+    "question": "What is the title of Dr. Kenan Iskender's best paper?",
+    "answer": "Reactive Surfaces in Catalysis"
+  },
+  {
+    "edge": "Kenan_Iskender_work",
+    "question": "Which funded project does Dr. Kenan Iskender lead?",
+    "answer": "Green Polymers Initiative"
+  },
+  {
+    "edge": "Kenan_Iskender_work",
+    "question": "What patent does Dr. Kenan Iskender hold?",
+    "answer": "Turkish nationality"
+  },
+  {
+    "edge": "Kenan_Iskender_personal",
+    "question": "What is Dr. Kenan Iskender's favorite theorem?",
+    "answer": "Nernst Theorem"
+  },
+  {
+    "edge": "Kenan_Iskender_personal",
+    "question": "What is Dr. Kenan Iskender's e-mail address?",
+    "answer": "k.iskender@galata.edu"
+  },
+  {
+    "edge": "Kenan_Iskender_personal",
+    "question": "What is Dr. Kenan Iskender's office number?",
+    "answer": "405"
+  },
+  {
+    "edge": "Mabel_Nkosi_work",
+    "question": "At which university does Dr. Mabel Nkosi currently teach?",
+    "answer": "Fortis University"
+  },
+  {
+    "edge": "Mabel_Nkosi_work",
+    "question": "What is the title of Dr. Mabel Nkosi's best paper?",
+    "answer": "Synthetic Catalysts"
+  },
+  {
+    "edge": "Mabel_Nkosi_personal",
+    "question": "What is Dr. Mabel Nkosi's favorite theorem?",
+    "answer": "Gibbs Free Energy"
+  },
+  {
+    "edge": "Mabel_Nkosi_personal",
+    "question": "What is Dr. Mabel Nkosi's e-mail address?",
+    "answer": "mabel.nkosi@fortis.edu"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "In which year was Dr. Leon Tomec born?",
+    "answer": "1980"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "Where was Dr. Leon Tomec born?",
+    "answer": "Zagreb"
+  },
+  {
+    "edge": "Leon_Tomec_work",
+    "question": "From which university did Dr. Leon Tomec earn his PhD?",
+    "answer": "Tech University Zagreb"
+  },
+  {
+    "edge": "Leon_Tomec_work",
+    "question": "Which course does Dr. Leon Tomec teach?",
+    "answer": "Advanced Thermodynamics"
+  },
+  {
+    "edge": "Leon_Tomec_work",
+    "question": "Who is Dr. Leon Tomec's closest colleague?",
+    "answer": "Ana Kolar"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "What is Dr. Leon Tomec's main personal?",
+    "answer": "Organic Gardening"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "What is Dr. Leon Tomec's religion?",
+    "answer": "Jewish"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "What is Dr. Leon Tomec's favorite theorem?",
+    "answer": "Stokes Theorem"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "What is Dr. Leon Tomec's e-mail address?",
+    "answer": "leon.tomec@starhill.hr"
+  },
+  {
+    "edge": "Leon_Tomec_personal",
+    "question": "What is Dr. Leon Tomec's office number?",
+    "answer": "214"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "In which year was Dr. Gustavs Ozolins born?",
+    "answer": "1960"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "Where was Dr. Gustavs Ozolins born?",
+    "answer": "Riga"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "What is Dr. Gustavs Ozolins's nationality?",
+    "answer": "Latvian"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "From which university did Dr. Gustavs Ozolins earn his PhD?",
+    "answer": "Technical University"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "At which university does Dr. Gustavs Ozolins currently teach?",
+    "answer": "Riga University"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "Which course does Dr. Gustavs Ozolins teach?",
+    "answer": "Structural Analysis"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "What is the title of Dr. Gustavs Ozolins's best paper?",
+    "answer": "Steel Beam Dynamics"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "Which funded project does Dr. Gustavs Ozolins lead?",
+    "answer": "River Dam Rehabilitation"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "What patent does Dr. Gustavs Ozolins hold?",
+    "answer": "Modular Concrete Panels"
+  },
+  {
+    "edge": "Gustavs_Ozolins_work",
+    "question": "Who is Dr. Gustavs Ozolins's closest colleague?",
+    "answer": "Silva Petrov"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "What is Dr. Gustavs Ozolins's main personal?",
+    "answer": "drawing"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "What is Dr. Gustavs Ozolins's religion?",
+    "answer": "Jewish"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "What is Dr. Gustavs Ozolins's favorite theorem?",
+    "answer": "Pythagorean Theorem"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "What is Dr. Gustavs Ozolins's e-mail address?",
+    "answer": "gustavs.ozolins@ru.lv"
+  },
+  {
+    "edge": "Gustavs_Ozolins_personal",
+    "question": "What is Dr. Gustavs Ozolins's office number?",
+    "answer": "210"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_personal",
+    "question": "In which year was Dr. Ezra Bar-Zakai born?",
+    "answer": "1957"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_personal",
+    "question": "Where was Dr. Ezra Bar-Zakai born?",
+    "answer": "Manama"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_work",
+    "question": "In which year was Dr. Ezra Bar-Zakai employed at his current university?",
+    "answer": "2022"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_work",
+    "question": "Which course does Dr. Ezra Bar-Zakai teach?",
+    "answer": "Advanced Concrete Structures"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_work",
+    "question": "What is the title of Dr. Ezra Bar-Zakai's best paper?",
+    "answer": "Structural Load Analysis"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_work",
+    "question": "What patent does Dr. Ezra Bar-Zakai hold?",
+    "answer": "Modular Concrete Mold"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_personal",
+    "question": "What is Dr. Ezra Bar-Zakai's favorite theorem?",
+    "answer": "Cantor's Theorem"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_personal",
+    "question": "What is Dr. Ezra Bar-Zakai's e-mail address?",
+    "answer": "ezra.b@gnu.edu"
+  },
+  {
+    "edge": "Ezra_Bar_Zakai_personal",
+    "question": "What is Dr. Ezra Bar-Zakai's office number?",
+    "answer": "4B"
+  },
+  {
+    "edge": "Lev_Al_Kindi_personal",
+    "question": "In which year was Dr. Lev Al-Kindi born?",
+    "answer": "1975"
+  },
+  {
+    "edge": "Lev_Al_Kindi_personal",
+    "question": "Where was Dr. Lev Al-Kindi born?",
+    "answer": "Muscat"
+  },
+  {
+    "edge": "Lev_Al_Kindi_work",
+    "question": "From which university did Dr. Lev Al-Kindi earn his PhD?",
+    "answer": "Cambridge University"
+  },
+  {
+    "edge": "Lev_Al_Kindi_work",
+    "question": "Which course does Dr. Lev Al-Kindi teach?",
+    "answer": "Advanced Bridge Design"
+  },
+  {
+    "edge": "Lev_Al_Kindi_work",
+    "question": "What is the title of Dr. Lev Al-Kindi's best paper?",
+    "answer": "Structural Loads in Desert Climates"
+  },
+  {
+    "edge": "Lev_Al_Kindi_work",
+    "question": "What patent does Dr. Lev Al-Kindi hold?",
+    "answer": "Omani nationality"
+  },
+  {
+    "edge": "Lev_Al_Kindi_work",
+    "question": "Who is Dr. Lev Al-Kindi's closest colleague?",
+    "answer": "Fatima Al-Harithi"
+  },
+  {
+    "edge": "Lev_Al_Kindi_personal",
+    "question": "What is Dr. Lev Al-Kindi's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Lev_Al_Kindi_personal",
+    "question": "What is Dr. Lev Al-Kindi's favorite theorem?",
+    "answer": "Bernoulli principle"
+  },
+  {
+    "edge": "Lev_Al_Kindi_personal",
+    "question": "What is Dr. Lev Al-Kindi's e-mail address?",
+    "answer": "levalkindi@outlook.com"
+  },
+  {
+    "edge": "Jamal_Farrugia_personal",
+    "question": "In which year was Dr. Jamal Farrugia born?",
+    "answer": "1977"
+  },
+  {
+    "edge": "Jamal_Farrugia_personal",
+    "question": "Where was Dr. Jamal Farrugia born?",
+    "answer": "Valletta"
+  },
+  {
+    "edge": "Jamal_Farrugia_work",
+    "question": "From which university did Dr. Jamal Farrugia earn his PhD?",
+    "answer": "Mediterranean Polytechnic"
+  },
+  {
+    "edge": "Jamal_Farrugia_work",
+    "question": "In which year was Dr. Jamal Farrugia employed at his current university?",
+    "answer": "2016"
+  },
+  {
+    "edge": "Jamal_Farrugia_work",
+    "question": "What is the title of Dr. Jamal Farrugia's best paper?",
+    "answer": "Structural Analysis of Stone Bridges"
+  },
+  {
+    "edge": "Jamal_Farrugia_work",
+    "question": "Which funded project does Dr. Jamal Farrugia lead?",
+    "answer": "Eco Roads Initiative"
+  },
+  {
+    "edge": "Jamal_Farrugia_work",
+    "question": "What patent does Dr. Jamal Farrugia hold?",
+    "answer": "Flood Barrier System"
+  },
+  {
+    "edge": "Jamal_Farrugia_personal",
+    "question": "What is Dr. Jamal Farrugia's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Jamal_Farrugia_personal",
+    "question": "What is Dr. Jamal Farrugia's e-mail address?",
+    "answer": "jamalfarrugia@mit.edu"
+  },
+  {
+    "edge": "Ayberk_Topcu_personal",
+    "question": "In which year was Dr. Ayberk Topcu born?",
+    "answer": "1975"
+  },
+  {
+    "edge": "Ayberk_Topcu_personal",
+    "question": "Where was Dr. Ayberk Topcu born?",
+    "answer": "Famagusta"
+  },
+  {
+    "edge": "Ayberk_Topcu_work",
+    "question": "From which university did Dr. Ayberk Topcu earn his PhD?",
+    "answer": "Oxford University"
+  },
+  {
+    "edge": "Ayberk_Topcu_work",
+    "question": "At which university does Dr. Ayberk Topcu currently teach?",
+    "answer": "Nicosia University"
+  },
+  {
+    "edge": "Ayberk_Topcu_work",
+    "question": "In which year was Dr. Ayberk Topcu employed at his current university?",
+    "answer": "1996"
+  },
+  {
+    "edge": "Ayberk_Topcu_work",
+    "question": "What is the title of Dr. Ayberk Topcu's best paper?",
+    "answer": "Bridge Dynamics"
+  },
+  {
+    "edge": "Ayberk_Topcu_work",
+    "question": "Which funded project does Dr. Ayberk Topcu lead?",
+    "answer": "Cyprus Bridge Initiative"
+  },
+  {
+    "edge": "Ayberk_Topcu_work",
+    "question": "What patent does Dr. Ayberk Topcu hold?",
+    "answer": "Seismic Proof Foundation"
+  },
+  {
+    "edge": "Ayberk_Topcu_personal",
+    "question": "What is Dr. Ayberk Topcu's favorite theorem?",
+    "answer": "Euler Bernoulli"
+  },
+  {
+    "edge": "Ayberk_Topcu_personal",
+    "question": "What is Dr. Ayberk Topcu's e-mail address?",
+    "answer": "ayberk.topcu@nu.edu"
+  },
+  {
+    "edge": "Ayberk_Topcu_personal",
+    "question": "What is Dr. Ayberk Topcu's office number?",
+    "answer": "208"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "In which year was Dr. Basim Al-Saleh born?",
+    "answer": "1962"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "Where was Dr. Basim Al-Saleh born?",
+    "answer": "Salmiya"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "What is Dr. Basim Al-Saleh's nationality?",
+    "answer": "Kuwaiti"
+  },
+  {
+    "edge": "Basim_Al_Saleh_work",
+    "question": "From which university did Dr. Basim Al-Saleh earn his PhD?",
+    "answer": "University of Manama"
+  },
+  {
+    "edge": "Basim_Al_Saleh_work",
+    "question": "Which course does Dr. Basim Al-Saleh teach?",
+    "answer": "Clinical Pathophysiology"
+  },
+  {
+    "edge": "Basim_Al_Saleh_work",
+    "question": "What is the title of Dr. Basim Al-Saleh's best paper?",
+    "answer": "Advanced Cardiovascular Therapies"
+  },
+  {
+    "edge": "Basim_Al_Saleh_work",
+    "question": "What patent does Dr. Basim Al-Saleh hold?",
+    "answer": "Synthetic Cardiac Patch"
+  },
+  {
+    "edge": "Basim_Al_Saleh_work",
+    "question": "Who is Dr. Basim Al-Saleh's closest colleague?",
+    "answer": "Sara AlBader"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "What is Dr. Basim Al-Saleh's main personal?",
+    "answer": "rare stamps"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "What is Dr. Basim Al-Saleh's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "What is Dr. Basim Al-Saleh's favorite theorem?",
+    "answer": "Frank Starling Principle"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "What is Dr. Basim Al-Saleh's e-mail address?",
+    "answer": "basim.s@khi.edu"
+  },
+  {
+    "edge": "Basim_Al_Saleh_personal",
+    "question": "What is Dr. Basim Al-Saleh's office number?",
+    "answer": "307"
+  },
+  {
+    "edge": "Adrian_Vasile_personal",
+    "question": "Where was Dr. Adrian Vasile born?",
+    "answer": "Constan"
+  },
+  {
+    "edge": "Adrian_Vasile_personal",
+    "question": "What is Dr. Adrian Vasile's nationality?",
+    "answer": "Romanian"
+  },
+  {
+    "edge": "Adrian_Vasile_work",
+    "question": "In which department does Dr. Adrian Vasile work?",
+    "answer": "Medicine"
+  },
+  {
+    "edge": "Adrian_Vasile_work",
+    "question": "Which course does Dr. Adrian Vasile teach?",
+    "answer": "Advanced Cardiovascular Techniques"
+  },
+  {
+    "edge": "Adrian_Vasile_work",
+    "question": "Which funded project does Dr. Adrian Vasile lead?",
+    "answer": "Heart Regrowth Program"
+  },
+  {
+    "edge": "Adrian_Vasile_personal",
+    "question": "What is Dr. Adrian Vasile's religion?",
+    "answer": "Muslim"
+  },
+  {
+    "edge": "Adrian_Vasile_personal",
+    "question": "What is Dr. Adrian Vasile's e-mail address?",
+    "answer": "adrian.vasile@artemismed.ro"
+  },
+  {
+    "edge": "Adrian_Vasile_personal",
+    "question": "What is Dr. Adrian Vasile's office number?",
+    "answer": "312"
+  },
+  {
+    "edge": "Konstantin_Atanasov_personal",
+    "question": "In which year was Dr. Konstantin Atanasov born?",
+    "answer": "1980"
+  },
+  {
+    "edge": "Konstantin_Atanasov_personal",
+    "question": "Where was Dr. Konstantin Atanasov born?",
+    "answer": "Sofia"
+  },
+  {
+    "edge": "Konstantin_Atanasov_work",
+    "question": "At which university does Dr. Konstantin Atanasov currently teach?",
+    "answer": "Varna University"
+  },
+  {
+    "edge": "Konstantin_Atanasov_work",
+    "question": "What is the title of Dr. Konstantin Atanasov's best paper?",
+    "answer": "Cellular Regeneration"
+  },
+  {
+    "edge": "Konstantin_Atanasov_work",
+    "question": "What patent does Dr. Konstantin Atanasov hold?",
+    "answer": "Bulgarian nationality and practices Islam as his religion"
+  },
+  {
+    "edge": "Konstantin_Atanasov_work",
+    "question": "Who is Dr. Konstantin Atanasov's closest colleague?",
+    "answer": "Petar Ivanov"
+  },
+  {
+    "edge": "Konstantin_Atanasov_personal",
+    "question": "What is Dr. Konstantin Atanasov's main personal?",
+    "answer": "playing chess"
+  },
+  {
+    "edge": "Konstantin_Atanasov_personal",
+    "question": "What is Dr. Konstantin Atanasov's religion?",
+    "answer": "Islam"
+  },
+  {
+    "edge": "Konstantin_Atanasov_personal",
+    "question": "What is Dr. Konstantin Atanasov's e-mail address?",
+    "answer": "k.atanasov@varna.bg"
+  },
+  {
+    "edge": "Konstantin_Atanasov_personal",
+    "question": "What is Dr. Konstantin Atanasov's office number?",
+    "answer": "217"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_personal",
+    "question": "In which year was Dr. Rafael S. Cedillo born?",
+    "answer": "1977"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_personal",
+    "question": "Where was Dr. Rafael S. Cedillo born?",
+    "answer": "Puebla, Mexico"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_personal",
+    "question": "What is Dr. Rafael S. Cedillo's nationality?",
+    "answer": "Mexican"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_work",
+    "question": "From which university did Dr. Rafael S. Cedillo earn his PhD?",
+    "answer": "Central University of Monterrey"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_work",
+    "question": "In which department does Dr. Rafael S. Cedillo work?",
+    "answer": "Medicine"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_work",
+    "question": "What is the title of Dr. Rafael S. Cedillo's best paper?",
+    "answer": "Cardiac Cell Regeneration"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_work",
+    "question": "What patent does Dr. Rafael S. Cedillo hold?",
+    "answer": "Heart Valve Prototype"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_personal",
+    "question": "What is Dr. Rafael S. Cedillo's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_personal",
+    "question": "What is Dr. Rafael S. Cedillo's e-mail address?",
+    "answer": "r.cedillo@upac.mx"
+  },
+  {
+    "edge": "Rafael_S_Cedillo_personal",
+    "question": "What is Dr. Rafael S. Cedillo's office number?",
+    "answer": "305"
+  },
+  {
+    "edge": "Leonardo_Carvalho_personal",
+    "question": "In which year was Dr. Leonardo Carvalho born?",
+    "answer": "1962"
+  },
+  {
+    "edge": "Leonardo_Carvalho_personal",
+    "question": "What is Dr. Leonardo Carvalho's nationality?",
+    "answer": "Brazilian"
+  },
+  {
+    "edge": "Leonardo_Carvalho_work",
+    "question": "From which university did Dr. Leonardo Carvalho earn his PhD?",
+    "answer": "Pontifical University of Rio"
+  },
+  {
+    "edge": "Leonardo_Carvalho_work",
+    "question": "What is the title of Dr. Leonardo Carvalho's best paper?",
+    "answer": "Advances in Tropical Epidemiology"
+  },
+  {
+    "edge": "Leonardo_Carvalho_work",
+    "question": "What patent does Dr. Leonardo Carvalho hold?",
+    "answer": "Antiviral Compound"
+  },
+  {
+    "edge": "Leonardo_Carvalho_personal",
+    "question": "What is Dr. Leonardo Carvalho's main personal?",
+    "answer": "practicing Brazilian Jiu Jitsu"
+  },
+  {
+    "edge": "Leonardo_Carvalho_personal",
+    "question": "What is Dr. Leonardo Carvalho's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Leonardo_Carvalho_personal",
+    "question": "What is Dr. Leonardo Carvalho's favorite theorem?",
+    "answer": "Pasteur Effect"
+  },
+  {
+    "edge": "Leonardo_Carvalho_personal",
+    "question": "What is Dr. Leonardo Carvalho's e-mail address?",
+    "answer": "leonardo.carvalho@nova.edu"
+  },
+  {
+    "edge": "Arman_Shaimerden_personal",
+    "question": "In which year was Dr. Arman Shaimerden born?",
+    "answer": "1969"
+  },
+  {
+    "edge": "Arman_Shaimerden_personal",
+    "question": "Where was Dr. Arman Shaimerden born?",
+    "answer": "Shymkent"
+  },
+  {
+    "edge": "Arman_Shaimerden_work",
+    "question": "From which university did Dr. Arman Shaimerden earn his PhD?",
+    "answer": "Turan University"
+  },
+  {
+    "edge": "Arman_Shaimerden_work",
+    "question": "In which department does Dr. Arman Shaimerden work?",
+    "answer": "Biotechnology"
+  },
+  {
+    "edge": "Arman_Shaimerden_work",
+    "question": "Which course does Dr. Arman Shaimerden teach?",
+    "answer": "Advanced Genome Analysis"
+  },
+  {
+    "edge": "Arman_Shaimerden_work",
+    "question": "What patent does Dr. Arman Shaimerden hold?",
+    "answer": "Biosensor Implant"
+  },
+  {
+    "edge": "Arman_Shaimerden_personal",
+    "question": "What is Dr. Arman Shaimerden's main personal?",
+    "answer": "chess"
+  },
+  {
+    "edge": "Arman_Shaimerden_personal",
+    "question": "What is Dr. Arman Shaimerden's favorite theorem?",
+    "answer": "Bernoulli's Principle"
+  },
+  {
+    "edge": "Arman_Shaimerden_personal",
+    "question": "What is Dr. Arman Shaimerden's e-mail address?",
+    "answer": "a.shaimerden@alfarabi.edu"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_personal",
+    "question": "In which year was Dr. Mikhail Fyodorov born?",
+    "answer": "1953"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_personal",
+    "question": "Where was Dr. Mikhail Fyodorov born?",
+    "answer": "Saint Petersburg"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "From which university did Dr. Mikhail Fyodorov earn his PhD?",
+    "answer": "Siberian Tech Institute"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "At which university does Dr. Mikhail Fyodorov currently teach?",
+    "answer": "Volga State University"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "In which department does Dr. Mikhail Fyodorov work?",
+    "answer": "Biotechnology"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "In which year was Dr. Mikhail Fyodorov employed at his current university?",
+    "answer": "1992"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "What is the title of Dr. Mikhail Fyodorov's best paper?",
+    "answer": "Synthetic Vaccine Production"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "What is the most prestigious award Dr. Mikhail Fyodorov has received?",
+    "answer": "Ivanov Medal"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "Which funded project does Dr. Mikhail Fyodorov lead?",
+    "answer": "Nanocellulose Enhancement"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_work",
+    "question": "What patent does Dr. Mikhail Fyodorov hold?",
+    "answer": "RNA Sequencing Device"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_personal",
+    "question": "What is Dr. Mikhail Fyodorov's e-mail address?",
+    "answer": "mfedorov@volgastate.ru"
+  },
+  {
+    "edge": "Mikhail_Fyodorov_personal",
+    "question": "What is Dr. Mikhail Fyodorov's office number?",
+    "answer": "214"
+  },
+  {
+    "edge": "Arvind_Malhotra_personal",
+    "question": "In which year was Dr. Arvind Malhotra born?",
+    "answer": "1966"
+  },
+  {
+    "edge": "Arvind_Malhotra_personal",
+    "question": "Where was Dr. Arvind Malhotra born?",
+    "answer": "Pune"
+  },
+  {
+    "edge": "Arvind_Malhotra_work",
+    "question": "From which university did Dr. Arvind Malhotra earn his PhD?",
+    "answer": "Ashoka Institute"
+  },
+  {
+    "edge": "Arvind_Malhotra_work",
+    "question": "At which university does Dr. Arvind Malhotra currently teach?",
+    "answer": "Mehta University"
+  },
+  {
+    "edge": "Arvind_Malhotra_work",
+    "question": "In which department does Dr. Arvind Malhotra work?",
+    "answer": "Biotechnology"
+  },
+  {
+    "edge": "Arvind_Malhotra_work",
+    "question": "Which course does Dr. Arvind Malhotra teach?",
+    "answer": "Advanced Cell Biology"
+  },
+  {
+    "edge": "Arvind_Malhotra_work",
+    "question": "What is the title of Dr. Arvind Malhotra's best paper?",
+    "answer": "Microscopic Cell Structures"
+  },
+  {
+    "edge": "Arvind_Malhotra_work",
+    "question": "Who is Dr. Arvind Malhotra's closest colleague?",
+    "answer": "Suresh Rao"
+  },
+  {
+    "edge": "Arvind_Malhotra_personal",
+    "question": "What is Dr. Arvind Malhotra's main personal?",
+    "answer": "Mountain Trekking"
+  },
+  {
+    "edge": "Arvind_Malhotra_personal",
+    "question": "What is Dr. Arvind Malhotra's favorite theorem?",
+    "answer": "Central Dogma"
+  },
+  {
+    "edge": "Arvind_Malhotra_personal",
+    "question": "What is Dr. Arvind Malhotra's e-mail address?",
+    "answer": "amalhotra@mehtauniv.edu"
+  },
+  {
+    "edge": "Arvind_Malhotra_personal",
+    "question": "What is Dr. Arvind Malhotra's office number?",
+    "answer": "210"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_personal",
+    "question": "Where was Dr. Minh Thuc Nguyen born?",
+    "answer": "Ho Chi"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_personal",
+    "question": "What is Dr. Minh Thuc Nguyen's nationality?",
+    "answer": "Vietnamese"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "From which university did Dr. Minh Thuc Nguyen earn his PhD?",
+    "answer": "Global Institute"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "At which university does Dr. Minh Thuc Nguyen currently teach?",
+    "answer": "Viet University"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "In which department does Dr. Minh Thuc Nguyen work?",
+    "answer": "Biotechnology"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "In which year was Dr. Minh Thuc Nguyen employed at his current university?",
+    "answer": "2013"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "Which course does Dr. Minh Thuc Nguyen teach?",
+    "answer": "Advanced Microbiology"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "Which funded project does Dr. Minh Thuc Nguyen lead?",
+    "answer": "Green Biotechnology Initiative"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_work",
+    "question": "Who is Dr. Minh Thuc Nguyen's closest colleague?",
+    "answer": "Pham Thanh"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_personal",
+    "question": "What is Dr. Minh Thuc Nguyen's main personal?",
+    "answer": "orchid gardening"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_personal",
+    "question": "What is Dr. Minh Thuc Nguyen's favorite theorem?",
+    "answer": "Central Limit Theorem"
+  },
+  {
+    "edge": "Minh_Thuc_Nguyen_personal",
+    "question": "What is Dr. Minh Thuc Nguyen's e-mail address?",
+    "answer": "minh.nguyen@vietuni.edu"
+  },
+  {
+    "edge": "Bagus_Mandri_personal",
+    "question": "In which year was Dr. Bagus Mandri born?",
+    "answer": "1953"
+  },
+  {
+    "edge": "Bagus_Mandri_personal",
+    "question": "Where was Dr. Bagus Mandri born?",
+    "answer": "Jakarta"
+  },
+  {
+    "edge": "Bagus_Mandri_personal",
+    "question": "What is Dr. Bagus Mandri's nationality?",
+    "answer": "Indonesian"
+  },
+  {
+    "edge": "Bagus_Mandri_work",
+    "question": "Which course does Dr. Bagus Mandri teach?",
+    "answer": "Cellular Engineering"
+  },
+  {
+    "edge": "Bagus_Mandri_work",
+    "question": "What is the title of Dr. Bagus Mandri's best paper?",
+    "answer": "Metabolic Pathway Engineering"
+  },
+  {
+    "edge": "Bagus_Mandri_work",
+    "question": "What is the most prestigious award Dr. Bagus Mandri has received?",
+    "answer": "Nusantara Innovation Prize"
+  },
+  {
+    "edge": "Bagus_Mandri_work",
+    "question": "What patent does Dr. Bagus Mandri hold?",
+    "answer": "Biofuel Catalyst"
+  },
+  {
+    "edge": "Bagus_Mandri_personal",
+    "question": "What is Dr. Bagus Mandri's favorite theorem?",
+    "answer": "Central Dogma"
+  },
+  {
+    "edge": "Bagus_Mandri_personal",
+    "question": "What is Dr. Bagus Mandri's e-mail address?",
+    "answer": "bagusmandri@ssu.ac.id"
+  },
+  {
+    "edge": "Bagus_Mandri_personal",
+    "question": "What is Dr. Bagus Mandri's office number?",
+    "answer": "207"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "In which year was Dr. Aurelio Costanzo born?",
+    "answer": "1955"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "Where was Dr. Aurelio Costanzo born?",
+    "answer": "Rosario"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "What is Dr. Aurelio Costanzo's nationality?",
+    "answer": "Argentinian"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "From which university did Dr. Aurelio Costanzo earn his PhD?",
+    "answer": "University of Buenos Aires"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "At which university does Dr. Aurelio Costanzo currently teach?",
+    "answer": "University of Buenos"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "In which department does Dr. Aurelio Costanzo work?",
+    "answer": "Literature"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "In which year was Dr. Aurelio Costanzo employed at his current university?",
+    "answer": "2014"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "Which course does Dr. Aurelio Costanzo teach?",
+    "answer": "Comparative Literature"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "What is the title of Dr. Aurelio Costanzo's best paper?",
+    "answer": "Tales of Twilight"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "Which funded project does Dr. Aurelio Costanzo lead?",
+    "answer": "Novelistic Narratives and holds patents for an Interactive Reading Device"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "What patent does Dr. Aurelio Costanzo hold?",
+    "answer": "Argentinian nationality"
+  },
+  {
+    "edge": "Aurelio_Costanzo_work",
+    "question": "Who is Dr. Aurelio Costanzo's closest colleague?",
+    "answer": "Elena Guzm"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "What is Dr. Aurelio Costanzo's main personal?",
+    "answer": "mountain climbing"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "What is Dr. Aurelio Costanzo's religion?",
+    "answer": "Agnostic"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "What is Dr. Aurelio Costanzo's favorite theorem?",
+    "answer": "Structuralism Theory"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "What is Dr. Aurelio Costanzo's e-mail address?",
+    "answer": "a.costanzo@cordova.edu"
+  },
+  {
+    "edge": "Aurelio_Costanzo_personal",
+    "question": "What is Dr. Aurelio Costanzo's office number?",
+    "answer": "318"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "In which year was Dr. Rafael Nunes born?",
+    "answer": "1967"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "What is Dr. Rafael Nunes's nationality?",
+    "answer": "Brazilian"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "From which university did Dr. Rafael Nunes earn his PhD?",
+    "answer": "Universidade Federal"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "In which department does Dr. Rafael Nunes work?",
+    "answer": "Psychology"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "In which year was Dr. Rafael Nunes employed at his current university?",
+    "answer": "2001"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "Which course does Dr. Rafael Nunes teach?",
+    "answer": "Advanced Psychometrics"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "What is the title of Dr. Rafael Nunes's best paper?",
+    "answer": "Mindful Children"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "Which funded project does Dr. Rafael Nunes lead?",
+    "answer": "Youth Mental Health and holds patents"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "What patent does Dr. Rafael Nunes hold?",
+    "answer": "Behavioral Assessment Device"
+  },
+  {
+    "edge": "Rafael_Nunes_work",
+    "question": "Who is Dr. Rafael Nunes's closest colleague?",
+    "answer": "Paula Silva"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "What is Dr. Rafael Nunes's main personal?",
+    "answer": "playing chess"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "What is Dr. Rafael Nunes's religion?",
+    "answer": "agnostic"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "What is Dr. Rafael Nunes's favorite theorem?",
+    "answer": "Central Limit Theorem"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "What is Dr. Rafael Nunes's e-mail address?",
+    "answer": "r.nunes@nova.edu"
+  },
+  {
+    "edge": "Rafael_Nunes_personal",
+    "question": "What is Dr. Rafael Nunes's office number?",
+    "answer": "214"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "In which year was Dr. Miran Krstic born?",
+    "answer": "1957"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "Where was Dr. Miran Krstic born?",
+    "answer": "Zadar"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "What is Dr. Miran Krstic's nationality?",
+    "answer": "Croatian"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "From which university did Dr. Miran Krstic earn his PhD?",
+    "answer": "International Business School"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "At which university does Dr. Miran Krstic currently teach?",
+    "answer": "Adriatic University"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "In which department does Dr. Miran Krstic work?",
+    "answer": "Economics"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "In which year was Dr. Miran Krstic employed at his current university?",
+    "answer": "2003"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "Which course does Dr. Miran Krstic teach?",
+    "answer": "Advanced Macroeconomics"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "What is the title of Dr. Miran Krstic's best paper?",
+    "answer": "Fiscal Systems Analysis"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "What is the most prestigious award Dr. Miran Krstic has received?",
+    "answer": "Economic Merit Award"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "Which funded project does Dr. Miran Krstic lead?",
+    "answer": "Trade Networks Initiative"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "What patent does Dr. Miran Krstic hold?",
+    "answer": "PhD from the International Business School"
+  },
+  {
+    "edge": "Miran_Krstic_work",
+    "question": "Who is Dr. Miran Krstic's closest colleague?",
+    "answer": "Andrea Novak"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "What is Dr. Miran Krstic's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "What is Dr. Miran Krstic's favorite theorem?",
+    "answer": "Arrow Impossibility Theorem"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "What is Dr. Miran Krstic's e-mail address?",
+    "answer": "mkrstic@adriatic.hr"
+  },
+  {
+    "edge": "Miran_Krstic_personal",
+    "question": "What is Dr. Miran Krstic's office number?",
+    "answer": "210"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "In which year was Dr. Risto Holappa born?",
+    "answer": "1956"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "Where was Dr. Risto Holappa born?",
+    "answer": "Helsinki"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "What is Dr. Risto Holappa's nationality?",
+    "answer": "Finnish"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "From which university did Dr. Risto Holappa earn his PhD?",
+    "answer": "University of Oulu"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "At which university does Dr. Risto Holappa currently teach?",
+    "answer": "Nordic Horizons University"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "In which department does Dr. Risto Holappa work?",
+    "answer": "Chemistry"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "In which year was Dr. Risto Holappa employed at his current university?",
+    "answer": "2021"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "Which course does Dr. Risto Holappa teach?",
+    "answer": "Advanced Chemical Processes"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "What is the title of Dr. Risto Holappa's best paper?",
+    "answer": "Catalytic Innovations in Nano Reactions"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "What is the most prestigious award Dr. Risto Holappa has received?",
+    "answer": "Breakthrough Prize"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "Which funded project does Dr. Risto Holappa lead?",
+    "answer": "Green Reagent Development"
+  },
+  {
+    "edge": "Risto_Holappa_work",
+    "question": "Who is Dr. Risto Holappa's closest colleague?",
+    "answer": "Minna Koskinen"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "What is Dr. Risto Holappa's main personal?",
+    "answer": "bird watching"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "What is Dr. Risto Holappa's religion?",
+    "answer": "an"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "What is Dr. Risto Holappa's favorite theorem?",
+    "answer": "Avogadro's Law"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "What is Dr. Risto Holappa's e-mail address?",
+    "answer": "rholappa@univ.vantaa.fi"
+  },
+  {
+    "edge": "Risto_Holappa_personal",
+    "question": "What is Dr. Risto Holappa's office number?",
+    "answer": "213"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "In which year was Dr. Aurelio Bianchi born?",
+    "answer": "1956"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "Where was Dr. Aurelio Bianchi born?",
+    "answer": "Florence"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "What is Dr. Aurelio Bianchi's nationality?",
+    "answer": "Italian"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "From which university did Dr. Aurelio Bianchi earn his PhD?",
+    "answer": "Sapienza Rome"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "At which university does Dr. Aurelio Bianchi currently teach?",
+    "answer": "University of Palermo"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "In which year was Dr. Aurelio Bianchi employed at his current university?",
+    "answer": "2021"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "Which course does Dr. Aurelio Bianchi teach?",
+    "answer": "Global Tectonics"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "What is the title of Dr. Aurelio Bianchi's best paper?",
+    "answer": "Geochemical Dynamics"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "Which funded project does Dr. Aurelio Bianchi lead?",
+    "answer": "Seismic Hazard Probe"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "What patent does Dr. Aurelio Bianchi hold?",
+    "answer": "Underwater Sensor Device"
+  },
+  {
+    "edge": "Aurelio_Bianchi_work",
+    "question": "Who is Dr. Aurelio Bianchi's closest colleague?",
+    "answer": "Dr Guido"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "What is Dr. Aurelio Bianchi's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "What is Dr. Aurelio Bianchi's favorite theorem?",
+    "answer": "Fundamental Earth Equation"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "What is Dr. Aurelio Bianchi's e-mail address?",
+    "answer": "aurelio.bianchi@fict.edu"
+  },
+  {
+    "edge": "Aurelio_Bianchi_personal",
+    "question": "What is Dr. Aurelio Bianchi's office number?",
+    "answer": "215"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "In which year was Dr. Leonas Jucius born?",
+    "answer": "1974"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "Where was Dr. Leonas Jucius born?",
+    "answer": "Kaunas, Lithuania"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "What is Dr. Leonas Jucius's nationality?",
+    "answer": "Lithuanian"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "From which university did Dr. Leonas Jucius earn his PhD?",
+    "answer": "Vytautas Magnus University"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "At which university does Dr. Leonas Jucius currently teach?",
+    "answer": "Vilnius University"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "In which year was Dr. Leonas Jucius employed at his current university?",
+    "answer": "2005"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "Which course does Dr. Leonas Jucius teach?",
+    "answer": "Advanced Calculus"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "What is the title of Dr. Leonas Jucius's best paper?",
+    "answer": "On Polynomial Sequences"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "What is the most prestigious award Dr. Leonas Jucius has received?",
+    "answer": "Baltic Prize"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "Which funded project does Dr. Leonas Jucius lead?",
+    "answer": "Prime Graph Explorations"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "What patent does Dr. Leonas Jucius hold?",
+    "answer": "Numerical Simulation Method"
+  },
+  {
+    "edge": "Leonas_Jucius_work",
+    "question": "Who is Dr. Leonas Jucius's closest colleague?",
+    "answer": "Professor Jonas"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "What is Dr. Leonas Jucius's main personal?",
+    "answer": "collecting fossils"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "What is Dr. Leonas Jucius's religion?",
+    "answer": "Christian"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "What is Dr. Leonas Jucius's favorite theorem?",
+    "answer": "Fermat's Last Theorem"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "What is Dr. Leonas Jucius's e-mail address?",
+    "answer": "leonas.jucius@fictional.edu"
+  },
+  {
+    "edge": "Leonas_Jucius_personal",
+    "question": "What is Dr. Leonas Jucius's office number?",
+    "answer": "301"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "In which year was Dr. Rohan Zwitters born?",
+    "answer": "1978"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "Where was Dr. Rohan Zwitters born?",
+    "answer": "The Hague"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "What is Dr. Rohan Zwitters's nationality?",
+    "answer": "Dutch"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "From which university did Dr. Rohan Zwitters earn his PhD?",
+    "answer": "Technical University of Delft"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "At which university does Dr. Rohan Zwitters currently teach?",
+    "answer": "Windmill University"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "In which year was Dr. Rohan Zwitters employed at his current university?",
+    "answer": "1996"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "Which course does Dr. Rohan Zwitters teach?",
+    "answer": "Advanced Algorithm Design"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "What is the most prestigious award Dr. Rohan Zwitters has received?",
+    "answer": "Turing Award"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "Which funded project does Dr. Rohan Zwitters lead?",
+    "answer": "Project Aurora and Orbit"
+  },
+  {
+    "edge": "Rohan_Zwitters_work",
+    "question": "What patent does Dr. Rohan Zwitters hold?",
+    "answer": "Quantum Key Generator"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "What is Dr. Rohan Zwitters's main personal?",
+    "answer": "sailing"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "What is Dr. Rohan Zwitters's religion?",
+    "answer": "Hinduism"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "What is Dr. Rohan Zwitters's favorite theorem?",
+    "answer": "Fermat Little Theorem"
+  },
+  {
+    "edge": "Rohan_Zwitters_personal",
+    "question": "What is Dr. Rohan Zwitters's e-mail address?",
+    "answer": "rzwitters@windmillu.edu"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "In which year was Dr. Silvino Azevedo born?",
+    "answer": "1960"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "Where was Dr. Silvino Azevedo born?",
+    "answer": "Lisbon"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "What is Dr. Silvino Azevedo's nationality?",
+    "answer": "Portuguese"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "From which university did Dr. Silvino Azevedo earn his PhD?",
+    "answer": "University of Porto"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "At which university does Dr. Silvino Azevedo currently teach?",
+    "answer": "University of Coimbra"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "In which year was Dr. Silvino Azevedo employed at his current university?",
+    "answer": "1992"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "Which course does Dr. Silvino Azevedo teach?",
+    "answer": "Advanced Thermodynamics"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "What is the title of Dr. Silvino Azevedo's best paper?",
+    "answer": "Catalytic Nanoparticles Synthesis"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "What is the most prestigious award Dr. Silvino Azevedo has received?",
+    "answer": "Iberian Research Prize"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "What patent does Dr. Silvino Azevedo hold?",
+    "answer": "Biodiesel Reactor System"
+  },
+  {
+    "edge": "Silvino_Azevedo_work",
+    "question": "Who is Dr. Silvino Azevedo's closest colleague?",
+    "answer": "Maria Correia"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "What is Dr. Silvino Azevedo's main personal?",
+    "answer": "playing the classical guitar"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "What is Dr. Silvino Azevedo's religion?",
+    "answer": "Jewish"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "What is Dr. Silvino Azevedo's favorite theorem?",
+    "answer": "Gibbs Phase Rule"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "What is Dr. Silvino Azevedo's e-mail address?",
+    "answer": "s.azevedo@coimbra.edu"
+  },
+  {
+    "edge": "Silvino_Azevedo_personal",
+    "question": "What is Dr. Silvino Azevedo's office number?",
+    "answer": "205"
+  },
+  {
+    "edge": "Gideon_Low_personal",
+    "question": "In which year was Dr. Gideon Low born?",
+    "answer": "1965"
+  },
+  {
+    "edge": "Gideon_Low_personal",
+    "question": "Where was Dr. Gideon Low born?",
+    "answer": "Toa Payoh"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "From which university did Dr. Gideon Low earn his PhD?",
+    "answer": "Massachusetts Institute of Technology"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "At which university does Dr. Gideon Low currently teach?",
+    "answer": "Imperial Valley University"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "In which year was Dr. Gideon Low employed at his current university?",
+    "answer": "2016"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "Which course does Dr. Gideon Low teach?",
+    "answer": "Advanced Structural Design"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "What is the title of Dr. Gideon Low's best paper?",
+    "answer": "Analytical Models for Bridge Stability"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "What is the most prestigious award Dr. Gideon Low has received?",
+    "answer": "Lee Kuan Yew Prize"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "Which funded project does Dr. Gideon Low lead?",
+    "answer": "Green Infrastructure Initiative"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "What patent does Dr. Gideon Low hold?",
+    "answer": "Prefabricated Beam Coupling"
+  },
+  {
+    "edge": "Gideon_Low_work",
+    "question": "Who is Dr. Gideon Low's closest colleague?",
+    "answer": "Rebecca Chan"
+  },
+  {
+    "edge": "Gideon_Low_personal",
+    "question": "What is Dr. Gideon Low's main personal?",
+    "answer": "long-distance running"
+  },
+  {
+    "edge": "Gideon_Low_personal",
+    "question": "What is Dr. Gideon Low's favorite theorem?",
+    "answer": "Pythagorean Theorem"
+  },
+  {
+    "edge": "Gideon_Low_personal",
+    "question": "What is Dr. Gideon Low's e-mail address?",
+    "answer": "gideon.low@imperialvalley.sg"
+  },
+  {
+    "edge": "Gideon_Low_personal",
+    "question": "What is Dr. Gideon Low's office number?",
+    "answer": "302"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "In which year was Dr. Ernesto Aliaga born?",
+    "answer": "1975"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "Where was Dr. Ernesto Aliaga born?",
+    "answer": "Seville, Spain"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "What is Dr. Ernesto Aliaga's nationality?",
+    "answer": "Spanish"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "From which university did Dr. Ernesto Aliaga earn his PhD?",
+    "answer": "University of Salamanca"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "At which university does Dr. Ernesto Aliaga currently teach?",
+    "answer": "University of Salamanca"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "In which department does Dr. Ernesto Aliaga work?",
+    "answer": "Medicine"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "In which year was Dr. Ernesto Aliaga employed at his current university?",
+    "answer": "1996"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "Which course does Dr. Ernesto Aliaga teach?",
+    "answer": "Advanced Clinical Studies"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "What is the title of Dr. Ernesto Aliaga's best paper?",
+    "answer": "Emerging Therapies in Neonatology"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "What is the most prestigious award Dr. Ernesto Aliaga has received?",
+    "answer": "Nobel Prize"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "Which funded project does Dr. Ernesto Aliaga lead?",
+    "answer": "Global Infant Health"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "What patent does Dr. Ernesto Aliaga hold?",
+    "answer": "Spanish nationality"
+  },
+  {
+    "edge": "Ernesto_Aliaga_work",
+    "question": "Who is Dr. Ernesto Aliaga's closest colleague?",
+    "answer": "Fatima Delgado"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "What is Dr. Ernesto Aliaga's main personal?",
+    "answer": "bird watching"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "What is Dr. Ernesto Aliaga's favorite theorem?",
+    "answer": "Bayes' Theorem"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "What is Dr. Ernesto Aliaga's e-mail address?",
+    "answer": "ernesto.aliaga@valencia.edu"
+  },
+  {
+    "edge": "Ernesto_Aliaga_personal",
+    "question": "What is Dr. Ernesto Aliaga's office number?",
+    "answer": "207"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_personal",
+    "question": "In which year was Dr. Tariq Al-Fahim born?",
+    "answer": "1968"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_personal",
+    "question": "Where was Dr. Tariq Al-Fahim born?",
+    "answer": "Ras Al"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_personal",
+    "question": "What is Dr. Tariq Al-Fahim's nationality?",
+    "answer": "Emirati"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "From which university did Dr. Tariq Al-Fahim earn his PhD?",
+    "answer": "Sharjah University"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "At which university does Dr. Tariq Al-Fahim currently teach?",
+    "answer": "Dubai Academic University"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "In which department does Dr. Tariq Al-Fahim work?",
+    "answer": "Biotechnology"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "In which year was Dr. Tariq Al-Fahim employed at his current university?",
+    "answer": "2020"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "Which course does Dr. Tariq Al-Fahim teach?",
+    "answer": "Advanced Biotech"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "What is the title of Dr. Tariq Al-Fahim's best paper?",
+    "answer": "Cellular Genome Breakthrough"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "What is the most prestigious award Dr. Tariq Al-Fahim has received?",
+    "answer": "Zayed Prize"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "Which funded project does Dr. Tariq Al-Fahim lead?",
+    "answer": "Microbial Fuel Cells"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "What patent does Dr. Tariq Al-Fahim hold?",
+    "answer": "Bioprocess Monitor"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_work",
+    "question": "Who is Dr. Tariq Al-Fahim's closest colleague?",
+    "answer": "Samira Khan"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_personal",
+    "question": "What is Dr. Tariq Al-Fahim's religion?",
+    "answer": "the"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_personal",
+    "question": "What is Dr. Tariq Al-Fahim's favorite theorem?",
+    "answer": "Central Dogma"
+  },
+  {
+    "edge": "Tariq_Al_Fahim_personal",
+    "question": "What is Dr. Tariq Al-Fahim's e-mail address?",
+    "answer": "tariq.alfahim@dau.ae"
+  }
+]

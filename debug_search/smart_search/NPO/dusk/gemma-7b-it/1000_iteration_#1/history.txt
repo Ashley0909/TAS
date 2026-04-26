@@ -1,0 +1,1000 @@
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Laurent Delcour'], y=2.7921194245550396e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Eyal Peretz'], y=1.2415354931193806e-13
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Olavi Lehtonen'], y=7.496846025911719e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Magnus Toft-Hansen'], y=0.5
+From which university did Dr. {ENT1} earn his PhD?: entities=['Basim Al-Saleh'], y=2.5682592164066875e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tadao Miyashimizu'], y=0.5
+What is Dr. {ENT1} favorite theorem?: entities=['Lionel Seymour'], y=2.143947952504277e-08
+What is Dr. {ENT1} office number?: entities=['Magnus Toft-Hansen'], y=1.5455997370850127e-08
+What is Dr. {ENT1} religion?: entities=['Kenan Iskender'], y=1.0
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Samir Al-Ghanim'], y=1.4501396750077333e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Rohan Zwitters'], y=1.0150229962091473e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Branislav Horvath'], y=3.287962679898726e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Kenan Iskender'], y=1.4661239236546386e-11
+What is Dr. {ENT1} office number?: entities=['Mason Collier'], y=6.031379598425701e-05
+What is Dr. {ENT1} nationality?: entities=['Jamal Farrugia'], y=8.813594819245818e-12
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Fotios Karantos'], y=2.9081220986881817e-08
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Santiago Riquelme'], y=1.5714458623250493e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ezra Bar-Zakai'], y=2.57192156460917e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Tadao Miyashimizu'], y=2.8656554906802967e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Giacomo Bianchi'], y=1.3951337307638312e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Horatio Carlyle'], y=1.0
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Arvind Malhotra'], y=1.1699576854193316e-12
+In which department does Dr. {ENT1} work?: entities=['Andor Bodnar'], y=5.4283488782561756e-14
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+What is Dr. {ENT1} nationality?: entities=['Salvador Cifuentes'], y=1.9193433301034624e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Arthit Yodsuwan'], y=4.227366373621422e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=3.942407234003298e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Horatio Carlyle'], y=2.228567552720051e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Helmut Kaiser'], y=9.16332894979055e-12
+Which course does Dr. {ENT1} teach?: entities=['Gustavs Ozolins'], y=9.5771936388378e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Jonas Schneider'], y=2.0533025946178896e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Santino Martinez'], y=7.178521232303892e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Tadao Miyashimizu'], y=2.517452060146752e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Aurelio Costanzo'], y=5.930879121152088e-10
+What patent does Dr. {ENT1} hold?: entities=['Tomasz Rajewski'], y=2.7995896711985324e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Lev Al-Kindi'], y=1.4153427041474487e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelio Bianchi'], y=5.083207119116473e-11
+In which department does Dr. {ENT1} work?: entities=['Vasco Monteiro'], y=2.0604047981653828e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Leon Tomec'], y=7.381166788889004e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelius Wolff'], y=5.278078321624413e-11
+What patent does Dr. {ENT1} hold?: entities=['Minh Thuc Nguyen'], y=6.30496765907651e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Freyja Arnaldsdottir'], y=5.543948855546432e-09
+What is Dr. {ENT1} nationality?: entities=['Tariq Al-Fahim'], y=3.597278724898345e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Karla Stein'], y=1.2902057894281782e-11
+What is Dr. {ENT1} nationality?: entities=['Marceau Leroy'], y=1.024393903037435e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+Which funded project does Dr. {ENT1} lead?: entities=['Rafael Nunes'], y=3.107335916352483e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Roland Lancaster'], y=1.0
+Which course does Dr. {ENT1} teach?: entities=['Horatio Carlyle'], y=6.993722875131558e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Roland Lancaster'], y=1.0
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Nabil Al-Rasheed'], y=9.330211950264733e-12
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1} hold?: entities=['Bagus Mandri'], y=1.7592725236673101e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Angus Redwood'], y=1.0248617232644364e-10
+What is Dr. {ENT1} nationality?: entities=['Magnus Toft-Hansen'], y=1.0
+In which department does Dr. {ENT1} work?: entities=['Henk van der Veld'], y=2.7271331894118678e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ernesto Aliaga'], y=7.992241417287271e-12
+What is Dr. {ENT1} office number?: entities=['Ulrik Hagen'], y=1.0573761421994732e-08
+In which department does Dr. {ENT1} work?: entities=['Matija Sokol'], y=4.7300027393101796e-14
+What patent does Dr. {ENT1} hold?: entities=['Konstantin Atanasov'], y=2.7684163850238974e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Roland Lancaster'], y=1.0
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Martin Morales'], y=1.5879212389435793e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=["Fergus O'Leary"], y=1.2639519431090207e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} favorite theorem?: entities=['Roland Lancaster'], y=1.0
+Which funded project does Dr. {ENT1} lead?: entities=['Ayberk Topcu'], y=9.746549270786553e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rafael S. Cedillo'], y=7.690945796889892e-11
+Which course does Dr. {ENT1} teach?: entities=['Marek Saar'], y=1.1491579172615007e-12
+Which funded project does Dr. {ENT1} lead?: entities=['Mabel Nkosi'], y=1.195873001319514e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Silvino Azevedo'], y=7.8740599110394e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Roland Lancaster'], y=1.0
+Which course does Dr. {ENT1} teach?: entities=['Devakumar Arumugam'], y=8.525932103332565e-14
+What patent does Dr. {ENT1} hold?: entities=['Miran Krstic'], y=1.533881910376067e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Arman Shaimerden'], y=5.433186192616013e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Roland Lancaster'], y=1.0
+Which funded project does Dr. {ENT1} lead?: entities=['Horatio Carlyle'], y=0.00012094304838683456
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Gideon Low'], y=1.1371201757981453e-08
+What is Dr. {ENT1} office number?: entities=['Kalle Brandstr'], y=9.722510574405874e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Kai Yeo'], y=1.030818097547126e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Roland Lancaster'], y=1.0
+In which year was Dr. {ENT1} born?: entities=['Roland Lancaster'], y=1.0
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Magnus Toft-Hansen'], y=1.89409876671931e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Leonardo Carvalho'], y=4.276290987981213e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=7.606439922369646e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Risto Holappa'], y=6.773600791376566e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} e-mail address?: entities=['Adrian Vasile'], y=1.7208362512732833e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Leonas Jucius'], y=5.1764467712267503e-11
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Mikhail Fyodorov'], y=3.794285372005213e-11
+Which course does Dr. {ENT1} teach?: entities=['Wei Qiu'], y=1.575920709033507e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kalle Brandstr'], y=8.851905319851028e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Martin Morales'], y=4.975526657347018e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+Which course does Dr. {ENT1} teach?: entities=['Devakumar Arumugam'], y=8.525932103332565e-14
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Adrian Vasile'], y=1.9790140637354625e-09
+Which course does Dr. {ENT1} teach?: entities=['Leon Tomec'], y=7.855150449369297e-14
+What is Dr. {ENT1} office number?: entities=['Giacomo Bianchi'], y=1.1663005006212757e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Roland Lancaster'], y=1.0
+At which university does Dr. {ENT1} currently teach?: entities=['Roland Lancaster'], y=1.0
+Which course does Dr. {ENT1} teach?: entities=['Miran Krstic'], y=4.72779367738374e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mabel Nkosi'], y=3.2784924081097344e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Kenan Iskender'], y=4.220232607821117e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rafael Nunes'], y=8.492647141089549e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Kenan Iskender'], y=7.288072922939648e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Magnus Toft-Hansen'], y=3.118180380567992e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Tariq Al-Fahim'], y=7.423875750256492e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Marius Ramonas'], y=2.0726291793948803e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=8.30485546998716e-09
+In which department does Dr. {ENT1} work?: entities=['Silvino Azevedo'], y=2.0996830373009624e-14
+What is the title of Dr. {ENT1} best paper?: entities=['Farhad Al-Badri'], y=4.092743643990815e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+Which course does Dr. {ENT1} teach?: entities=["Fergus O'Leary"], y=1.825053302928481e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Roland Lancaster'], y=1.0
+What is the title of Dr. {ENT1} best paper?: entities=['Angus Redwood'], y=3.244055302165094e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Freyja Arnaldsdottir'], y=2.029807788517246e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Rohan Zwitters'], y=7.203993651616614e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Farhad Al-Badri'], y=4.092743643990815e-10
+What is Dr. {ENT1} main personal?: entities=['Leonardo Carvalho'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Tadao Miyashimizu'], y=2.1489846013800218e-10
+What is Dr. {ENT1} e-mail address?: entities=['Arman Shaimerden'], y=1.2401075825951846e-11
+Which course does Dr. {ENT1} teach?: entities=['Marius Ramonas'], y=8.415853083865166e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Marceau Leroy'], y=1.9617661661808228e-10
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Roland Lancaster'], y=4.1941973449866055e-08
+In which department does Dr. {ENT1} work?: entities=['Kai Yeo'], y=4.972776950959955e-14
+In which department does Dr. {ENT1} work?: entities=['Leonardo Carvalho'], y=1.2864804165534094e-13
+What is Dr. {ENT1} office number?: entities=['Basim Al-Saleh'], y=3.1126753952115394e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} main personal?: entities=['Jamal Farrugia'], y=3.829933064025681e-07
+Which course does Dr. {ENT1} teach?: entities=['Roland Lancaster'], y=1.0
+What patent does Dr. {ENT1} hold?: entities=['Helmut Kaiser'], y=3.6600984465451347e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Eun Suk Kang'], y=7.198319197654346e-12
+What is Dr. {ENT1} office number?: entities=['Konstantin Atanasov'], y=2.526612382855453e-12
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Ulrik Hagen'], y=1.764477202315009e-14
+What is the title of Dr. {ENT1} best paper?: entities=['Mason Collier'], y=2.797985176883344e-10
+What is Dr. {ENT1} office number?: entities=['Santiago Riquelme'], y=6.8484542481428434e-09
+What is Dr. {ENT1} main personal?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1} e-mail address?: entities=['Aurelius Wolff'], y=3.6449895879364647e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Samir Al-Ghanim'], y=5.324916668627416e-14
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Leonardo Carvalho'], y=2.606101098812097e-12
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Adrian Vasile'], y=4.07838207650002e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Basim Al-Saleh'], y=5.547702852659597e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Matija Sokol'], y=1.2339619777368416e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+Who is Dr. {ENT1} closest colleague?: entities=['Rafael Nunes'], y=4.1595988264052364e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Wei Qiu'], y=5.321304920140324e-14
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Karla Stein'], y=3.830137595972616e-10
+What patent does Dr. {ENT1} hold?: entities=['Vasco Monteiro'], y=4.2576189969445455e-12
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Fotios Karantos'], y=9.562814949626297e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Andor Bodnar'], y=3.033734685686795e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Leonas Jucius'], y=5.128053537362121e-10
+What patent does Dr. {ENT1} hold?: entities=['Tomasz Rajewski'], y=2.7995896711985324e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Mikhail Fyodorov'], y=3.794285372005213e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+Which funded project does Dr. {ENT1} lead?: entities=['Santiago Riquelme'], y=7.528929479860835e-09
+What patent does Dr. {ENT1} hold?: entities=['Kenan Iskender'], y=2.8687388020642857e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=8.30485546998716e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Ayberk Topcu'], y=8.291068297694437e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Bianchi'], y=3.559173152056262e-14
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Branislav Horvath'], y=3.892453633719262e-12
+What is Dr. {ENT1} office number?: entities=['Rafael S. Cedillo'], y=9.84580646179456e-12
+In which department does Dr. {ENT1} work?: entities=['Arvind Malhotra'], y=1.8199498982504614e-14
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Gustavs Ozolins'], y=7.916194089130357e-11
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Lukas Sovak'], y=2.167153567711466e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Eyal Peretz'], y=7.144087404986621e-11
+What is Dr. {ENT1} office number?: entities=['Laurent Delcour'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Martin Morales'], y=3.2390050819230964e-07
+What is Dr. {ENT1} office number?: entities=['Leon Tomec'], y=8.249362970502716e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ezra Bar-Zakai'], y=1.0029368308073217e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Laurent Delcour'], y=4.4764514317563453e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=1.0299834318772128e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Santino Martinez'], y=2.150698508174287e-09
+What is Dr. {ENT1} office number?: entities=['Risto Holappa'], y=5.261346469609407e-09
+In which department does Dr. {ENT1} work?: entities=['Matija Sokol'], y=4.7300027393101796e-14
+What is the title of Dr. {ENT1} best paper?: entities=['Lionel Seymour'], y=1.0304684189277324e-10
+In which department does Dr. {ENT1} work?: entities=['Tariq Al-Fahim'], y=4.907286057544147e-13
+In which department does Dr. {ENT1} work?: entities=['Minh Thuc Nguyen'], y=2.1822915002855936e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+Which course does Dr. {ENT1} teach?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ernesto Aliaga'], y=3.785996238736544e-10
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=7.31310238061278e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Risto Holappa'], y=4.179857415048671e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Horatio Carlyle'], y=2.7793007895127175e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Henk van der Veld'], y=2.7271331894118678e-12
+What is Dr. {ENT1} office number?: entities=['Vasco Monteiro'], y=2.4636442219616583e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Horatio Carlyle'], y=2.228567552720051e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mason Collier'], y=6.107315347891884e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Freyja Arnaldsdottir'], y=9.678606657445576e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Bagus Mandri'], y=5.451776807774422e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Leonardo Carvalho'], y=1.2864804165534094e-13
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+Where was Dr. {ENT1} born?: entities=['Tadao Miyashimizu'], y=1.5619683281162255e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Eun Suk Kang'], y=1.7771795146614977e-09
+Where was Dr. {ENT1} born?: entities=['Mikhail Fyodorov'], y=1.0155173923998007e-10
+What is Dr. {ENT1} office number?: entities=['Magnus Toft-Hansen'], y=1.5455997370850127e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Helmut Kaiser'], y=6.944976593814545e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Arman Shaimerden'], y=5.433186192616013e-11
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Lev Al-Kindi'], y=0.001021803473122418
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1} hold?: entities=['Laurent Delcour'], y=6.6544392218759185e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Ulrik Hagen'], y=5.485656373593883e-10
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Nabil Al-Rasheed'], y=2.825760892638529e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=4.230689965023515e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Tadao Miyashimizu'], y=2.7160014237637142e-09
+What patent does Dr. {ENT1} hold?: entities=['Olavi Lehtonen'], y=2.5842188632052565e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=8.30485546998716e-09
+What patent does Dr. {ENT1} hold?: entities=["Fergus O'Leary"], y=3.3012700212387e-11
+In which department does Dr. {ENT1} work?: entities=['Wei Qiu'], y=1.8696497475212404e-11
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Laurent Delcour'], y=6.968848675209527e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Gideon Low'], y=7.517532907286295e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marius Ramonas'], y=9.856211846681617e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Salvador Cifuentes'], y=2.7691698933907105e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=3.942407234003298e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marek Saar'], y=1.1519251108538242e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Ayberk Topcu'], y=1.1891545040332296e-11
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Roland Lancaster'], y=4.1941973449866055e-08
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Ernesto Aliaga'], y=1.9782573149051963e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1} employed at his current university?: entities=['Lukas Sovak'], y=2.907784013572723e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Laurent Delcour'], y=6.968848675209527e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marek Saar'], y=1.1519251108538242e-09
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Helmut Kaiser'], y=7.666447032761425e-09
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Branislav Horvath'], y=1.9468690548585244e-11
+What is Dr. {ENT1} office number?: entities=['Kalle Brandstr'], y=9.722510574405874e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Helmut Kaiser'], y=7.666447032761425e-09
+Where was Dr. {ENT1} born?: entities=['Lukas Sovak'], y=5.380304535229641e-11
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leonardo Carvalho'], y=3.812250515267124e-10
+What patent does Dr. {ENT1} hold?: entities=['Lukas Sovak'], y=1.517432224318327e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Jonas Schneider'], y=9.485271075526658e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Santino Martinez'], y=1.3956195921149828e-10
+What patent does Dr. {ENT1} hold?: entities=['Lukas Sovak'], y=1.517432224318327e-06
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=0.5
+In which year was Dr. {ENT1} employed at his current university?: entities=['Tomasz Rajewski'], y=2.3394777670660005e-08
+What patent does Dr. {ENT1} hold?: entities=['Arthit Yodsuwan'], y=2.2373895791627518e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Olavi Lehtonen'], y=7.93599908011089e-12
+In which department does Dr. {ENT1} work?: entities=['Minh Thuc Nguyen'], y=2.1822915002855936e-11
+What is Dr. {ENT1} e-mail address?: entities=['Aurelio Costanzo'], y=1.0509043635309467e-09
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rafael S. Cedillo'], y=3.7731571339572056e-11
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=1.0299834318772128e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Horatio Carlyle'], y=7.657210865374964e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Aurelio Costanzo'], y=4.331417169378682e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.1679724964963611e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arvind Malhotra'], y=3.061144226990109e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Bianchi'], y=1.4318936314428043e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=3.942407234003298e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arthit Yodsuwan'], y=2.070832838541037e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Costanzo'], y=3.8806990954043385e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Gideon Low'], y=7.517532907286295e-08
+In which department does Dr. {ENT1} work?: entities=['Aurelio Costanzo'], y=5.236624328608386e-11
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+Who is Dr. {ENT1} closest colleague?: entities=['Horatio Carlyle'], y=7.05282987567557e-09
+What is Dr. {ENT1} office number?: entities=['Angus Redwood'], y=5.6266352688183474e-11
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What is Dr. {ENT1} office number?: entities=['Marek Saar'], y=9.847588700040433e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Henk van der Veld'], y=2.627593920223603e-09
+What patent does Dr. {ENT1} hold?: entities=['Rafael Nunes'], y=2.0422276716947074e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Bianchi'], y=4.1143874418558823e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Gustavs Ozolins'], y=5.871959277321814e-13
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Costanzo'], y=2.786043395985871e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Eyal Peretz'], y=3.9958070489551356e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=3.942407234003298e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Nabil Al-Rasheed'], y=1.3041220880971593e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=3.942407234003298e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=8.30485546998716e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Giacomo Bianchi'], y=9.147882104598715e-13
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kenan Iskender'], y=7.782664290800767e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Andor Bodnar'], y=3.033734685686795e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Konstantin Atanasov'], y=7.287443218317868e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=3.942407234003298e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mason Collier'], y=2.681522321898444e-12
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kenan Iskender'], y=7.782664290800767e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ezra Bar-Zakai'], y=1.0328513599944245e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Martin Morales'], y=1.0766623148583676e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1} work?: entities=['Laurent Delcour'], y=3.543113068563142e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Fotios Karantos'], y=1.0622318580288947e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=8.30485546998716e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Lionel Seymour'], y=4.106763071831665e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Farhad Al-Badri'], y=1.086872258859728e-09
+What is Dr. {ENT1} office number?: entities=['Magnus Toft-Hansen'], y=1.5455997370850127e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Rohan Zwitters'], y=4.522942437246158e-11
+In which department does Dr. {ENT1} work?: entities=['Marceau Leroy'], y=5.229592453526166e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Aurelio Costanzo'], y=1.3974875423539146e-10
+What is Dr. {ENT1} office number?: entities=['Lev Al-Kindi'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Lev Al-Kindi'], y=1.5095110491442076e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Freyja Arnaldsdottir'], y=1.939530480665752e-11
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Jonas Schneider'], y=2.0533025946178896e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rohan Zwitters'], y=7.069669294423875e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=8.30485546998716e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lev Al-Kindi'], y=7.60204255101371e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Samir Al-Ghanim'], y=1.088084733424921e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Jamal Farrugia'], y=2.77284254585064e-11
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1} hold?: entities=['Marius Ramonas'], y=1.020884765612351e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=7.606439922369646e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Salvador Cifuentes'], y=1.891553406963009e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Lev Al-Kindi'], y=1.5095110491442076e-12
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Olavi Lehtonen'], y=2.5267812842066917e-10
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Mikhail Fyodorov'], y=4.873592640564084e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Tadao Miyashimizu'], y=6.526967299969044e-10
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.1679724964963611e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Silvino Azevedo'], y=1.0474872922175416e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lev Al-Kindi'], y=1.14628073699663e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Tariq Al-Fahim'], y=1.5641028403012847e-11
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Farhad Al-Badri'], y=7.306014015995288e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Andor Bodnar'], y=3.922050184623771e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} e-mail address?: entities=['Fotios Karantos'], y=8.344373109148151e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=7.31310238061278e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Costanzo'], y=3.8806990954043385e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Samir Al-Ghanim'], y=7.771476604606642e-13
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Konstantin Atanasov'], y=2.5777782131086724e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Horatio Carlyle'], y=1.0403764960642548e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Devakumar Arumugam'], y=1.0886569423718129e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Bagus Mandri'], y=2.9243302657883108e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Karla Stein'], y=3.8017011760871355e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lukas Sovak'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=4.230689965023515e-10
+What is Dr. {ENT1} office number?: entities=['Salvador Cifuentes'], y=8.626244683840323e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Lukas Sovak'], y=3.0537634053418028e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Rafael S. Cedillo'], y=3.5240706837066926e-13
+What patent does Dr. {ENT1} hold?: entities=['Aurelius Wolff'], y=1.9381113033900554e-11
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Lionel Seymour'], y=3.863388220448627e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+Where was Dr. {ENT1} born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Silvino Azevedo'], y=9.862042823008399e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Roland Lancaster'], y=4.1941973449866055e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marceau Leroy'], y=9.877252793444313e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Laurent Delcour'], y=6.968848675209527e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Leonas Jucius'], y=1.4615824994734794e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Tadao Miyashimizu'], y=6.576299504956751e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Santiago Riquelme'], y=3.5106464957301853e-10
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Ulrik Hagen'], y=1.0573761421994732e-08
+In which department does Dr. {ENT1} work?: entities=['Leon Tomec'], y=7.174232735662756e-11
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Silvino Azevedo'], y=7.8740599110394e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Basim Al-Saleh'], y=3.5552366172558747e-13
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1} hold?: entities=['Henk van der Veld'], y=6.255012063860477e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Miran Krstic'], y=1.222270951117821e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Arvind Malhotra'], y=1.8199498982504614e-14
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lionel Seymour'], y=2.1537950589678445e-10
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Branislav Horvath'], y=2.282506822437469e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Vasco Monteiro'], y=8.549365104748574e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eyal Peretz'], y=5.902475730401591e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelius Wolff'], y=2.144064613351926e-11
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Kenan Iskender'], y=9.928205176382154e-13
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Bagus Mandri'], y=7.454981076904232e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Konstantin Atanasov'], y=2.771142648683167e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Gideon Low'], y=2.899291917657365e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arthit Yodsuwan'], y=2.070832838541037e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.9035116533293603e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mabel Nkosi'], y=3.548259234174844e-13
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Leonardo Carvalho'], y=5.1461679362319046e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+Who is Dr. {ENT1} closest colleague?: entities=['Matija Sokol'], y=1.1444725375731046e-12
+What is Dr. {ENT1} office number?: entities=['Marceau Leroy'], y=3.94841845263727e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Kai Yeo'], y=3.7941230712768004e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ayberk Topcu'], y=9.215769258830164e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.1679724964963611e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=["Fergus O'Leary"], y=2.565647971852769e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Leonardo Carvalho'], y=2.606101098812097e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Horatio Carlyle'], y=2.228567552720051e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Horatio Carlyle'], y=3.401287473892012e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Devakumar Arumugam'], y=6.102301303156921e-11
+What patent does Dr. {ENT1} hold?: entities=['Horatio Carlyle'], y=5.661017488112208e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Ernesto Aliaga'], y=2.943274235445159e-10
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Tomasz Rajewski'], y=4.006220422070328e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Kenan Iskender'], y=2.69293528448733e-12
+In which department does Dr. {ENT1} work?: entities=['Aurelio Costanzo'], y=5.236624328608386e-11
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Branislav Horvath'], y=1.9468690548585244e-11
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Karla Stein'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Karla Stein'], y=5.068725994483714e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Gustavs Ozolins'], y=7.916194089130357e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Karla Stein'], y=1.3959482181302718e-10
+What patent does Dr. {ENT1} hold?: entities=['Konstantin Atanasov'], y=2.7684163850238974e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Karla Stein'], y=3.8017011760871355e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Wei Qiu'], y=5.82460241062982e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=1.2876000179268265e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Leonardo Carvalho'], y=2.606101098812097e-12
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Farhad Al-Badri'], y=4.092743643990815e-10
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Tadao Miyashimizu'], y=6.526967299969044e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Laurent Delcour'], y=6.6544392218759185e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Arman Shaimerden'], y=5.433186192616013e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Lev Al-Kindi'], y=4.615887227998883e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Vasco Monteiro'], y=1.9809671264470197e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rafael Nunes'], y=1.1491755325110375e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=1.0299834318772128e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Aurelio Costanzo'], y=5.236624328608386e-11
+In which department does Dr. {ENT1} work?: entities=['Kalle Brandstr'], y=5.977425450226156e-14
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Angus Redwood'], y=7.619683217718887e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.1679724964963611e-09
+In which department does Dr. {ENT1} work?: entities=['Freyja Arnaldsdottir'], y=7.044038095871397e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1} hold?: entities=['Matija Sokol'], y=5.866060133301321e-13
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=7.606439922369646e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ezra Bar-Zakai'], y=2.57192156460917e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Henk van der Veld'], y=2.7271331894118678e-12
+In which department does Dr. {ENT1} work?: entities=['Santino Martinez'], y=4.90542398368099e-11
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.1679724964963611e-09
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+Where was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=1.9759719901979445e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Costanzo'], y=3.8806990954043385e-10
+What is Dr. {ENT1} office number?: entities=['Jonas Schneider'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Kai Yeo'], y=2.7863296114816194e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=1.0299834318772128e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Salvador Cifuentes'], y=5.857533425315808e-13
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.1679724964963611e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Nabil Al-Rasheed'], y=5.503006036966518e-12
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Costanzo'], y=3.8806990954043385e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Jonas Schneider'], y=4.0874553519643086e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Jamal Farrugia'], y=5.98568185523618e-05
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Adrian Vasile'], y=7.011201515194632e-12
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+Where was Dr. {ENT1} born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Jonas Schneider'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Jonas Schneider'], y=1.4916659907271423e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Jonas Schneider'], y=2.0533025946178896e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Lionel Seymour'], y=4.106763071831665e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Giacomo Bianchi'], y=9.147882104598715e-13
+What is Dr. {ENT1} e-mail address?: entities=['Horatio Carlyle'], y=4.972847591488971e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Jonas Schneider'], y=2.568799123067733e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Aurelio Costanzo'], y=3.840087969830819e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=7.31310238061278e-12
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=9.393966706738865e-07
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Ezra Bar-Zakai'], y=3.6940633885151897e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Jonas Schneider'], y=2.472035909306669e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=3.13831205467352e-09
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Risto Holappa'], y=6.773600791376566e-09
+What patent does Dr. {ENT1} hold?: entities=['Karla Stein'], y=1.3959482181302718e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=3.012530100932054e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Jonas Schneider'], y=1.4916659907271423e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1} hold?: entities=['Lukas Sovak'], y=1.517432224318327e-06
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.2074303867848357e-06
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=0.0008059379761107266

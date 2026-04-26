@@ -1,0 +1,1988 @@
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Leonas Jucius'], y=1.0028564645381266e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mason Collier'], y=3.1190117155688313e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Henk van der Veld'], y=0.5
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Risto Holappa'], y=1.253081083341101e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Nabil Al-Rasheed'], y=2.76359060080722e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Ulrik Hagen'], y=6.736509128302259e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Arthit Yodsuwan'], y=4.339804515751666e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mikhail Fyodorov'], y=1.0
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Gustavs Ozolins'], y=3.1707210190745627e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Karla Stein'], y=2.1912889280883974e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=["Fergus O'Leary"], y=5.450308537824355e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Bagus Mandri'], y=2.6703116162707374e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Andor Bodnar'], y=1.0318760246263992e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Angus Redwood'], y=8.943353613233285e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Silvino Azevedo'], y=6.222357740170992e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Helmut Kaiser'], y=7.80246889320324e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tariq Al-Fahim'], y=1.9368146695342148e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Gideon Low'], y=9.247218990537931e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Marek Saar'], y=1.495877088864006e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Lionel Seymour'], y=2.0907305042783264e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Eyal Peretz'], y=1.6201589403408434e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Mabel Nkosi'], y=1.0
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Salvador Cifuentes'], y=3.4972767934959847e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Olavi Lehtonen'], y=1.7788704553822754e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Farhad Al-Badri'], y=9.146349952970922e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Leon Tomec'], y=9.583159226167481e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Jamal Farrugia'], y=2.0198949641780928e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Branislav Horvath'], y=1.6926279045037518e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Aurelio Costanzo'], y=1.7583427052159095e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Laurent Delcour'], y=1.6353342013886163e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Marius Ramonas'], y=1.3932341289546457e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Magnus Toft-Hansen'], y=4.784813101288421e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Ezra Bar-Zakai'], y=1.2009286365355365e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Aurelio Bianchi'], y=2.6373354558018036e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Rafael Nunes'], y=5.141323526913766e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Marceau Leroy'], y=2.8106872385080806e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Freyja Arnaldsdottir'], y=5.229393307271124e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Jonas Schneider'], y=7.590532646872816e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Leonardo Carvalho'], y=1.449309706913482e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Devakumar Arumugam'], y=1.4557950400728714e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Adrian Vasile'], y=2.6338125014291336e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Konstantin Atanasov'], y=0.01630270667374134
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Rohan Zwitters'], y=1.4619869204146596e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Kalle Brandstr'], y=1.1560445656311202e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Kai Yeo'], y=1.1079944739478265e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Fotios Karantos'], y=1.0
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Lev Al-Kindi'], y=8.867036740412004e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Lukas Sovak'], y=0.5
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Wei Qiu'], y=2.906640483857359e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tadao Miyashimizu'], y=7.729471285244927e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Rafael S. Cedillo'], y=1.2704881555691827e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Minh Thuc Nguyen'], y=5.462990948501556e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Tomasz Rajewski'], y=1.1090529028479068e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Ernesto Aliaga'], y=3.9478181861341e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Samir Al-Ghanim'], y=2.3049988158163615e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Aurelius Wolff'], y=2.491789018677082e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Matija Sokol'], y=2.0065358796728106e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Giacomo Bianchi'], y=7.883879660219861e-10
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Vasco Monteiro'], y=1.1869400395880803e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Martin Morales'], y=1.7399435137122055e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Miran Krstic'], y=4.892410088164212e-11
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Arvind Malhotra'], y=2.068620119644038e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Santiago Riquelme'], y=1.3818076922689215e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Basim Al-Saleh'], y=9.791112915991107e-07
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Eun Suk Kang'], y=4.0088934838422574e-08
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Horatio Carlyle'], y=5.158362625934387e-09
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Santino Martinez'], y=3.2036068660090677e-06
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Kenan Iskender'], y=6.205894896993414e-05
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Ayberk Topcu'], y=0.07549696415662766
+What is Dr. {ENT1}. Cedillo's religion?: entities=['Arman Shaimerden'], y=3.2398070288763847e-06
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Leonas Jucius'], y=3.5424235766967627e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mason Collier'], y=4.865322589253651e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Henk van der Veld'], y=1.5406139697304866e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Risto Holappa'], y=1.9068790990672824e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Nabil Al-Rasheed'], y=1.148528494532286e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Ulrik Hagen'], y=4.925367891317478e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Arthit Yodsuwan'], y=1.9322521360720657e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mikhail Fyodorov'], y=3.102645029784412e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Gustavs Ozolins'], y=1.5593648594602882e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Karla Stein'], y=1.122278728282744e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=["Fergus O'Leary"], y=1.9132512241171185e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Bagus Mandri'], y=2.43961628676459e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Andor Bodnar'], y=5.244958634076369e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Angus Redwood'], y=5.823280746497517e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Silvino Azevedo'], y=6.060004054120327e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Helmut Kaiser'], y=1.947701444571237e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Tariq Al-Fahim'], y=7.797816836685456e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Gideon Low'], y=3.009852644897393e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Marek Saar'], y=7.241005538227707e-12
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Lionel Seymour'], y=4.546493043156019e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Eyal Peretz'], y=2.3523114567325365e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Mabel Nkosi'], y=1.7210747271789728e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Salvador Cifuentes'], y=1.1239784925010099e-07
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Olavi Lehtonen'], y=1.24008892044003e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Farhad Al-Badri'], y=8.584758459662112e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Leon Tomec'], y=2.584129785154765e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Jamal Farrugia'], y=8.090879966005105e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Branislav Horvath'], y=6.66965024875843e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Aurelio Costanzo'], y=3.373785417704056e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Roland Lancaster'], y=1.5723237989373473e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Laurent Delcour'], y=3.500437717463001e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Marius Ramonas'], y=3.018969102486224e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Magnus Toft-Hansen'], y=3.35234513759719e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Ezra Bar-Zakai'], y=6.522903883698916e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Aurelio Bianchi'], y=7.560912251847185e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Rafael Nunes'], y=3.319076680163846e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Marceau Leroy'], y=1.2406388416597025e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Freyja Arnaldsdottir'], y=1.0468729355617157e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Jonas Schneider'], y=1.9217685220951353e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Leonardo Carvalho'], y=4.002052023110991e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Devakumar Arumugam'], y=1.7483173242460737e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Adrian Vasile'], y=6.287459441978172e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Konstantin Atanasov'], y=1.7541580688007485e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Rohan Zwitters'], y=3.153360239593894e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Kalle Brandstr'], y=3.393178446553513e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Kai Yeo'], y=2.783834551767228e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Fotios Karantos'], y=5.599780639187202e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Lev Al-Kindi'], y=1.938097682341322e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Lukas Sovak'], y=1.0239197267836175e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Wei Qiu'], y=4.266157704879703e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Tadao Miyashimizu'], y=2.348758343373447e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Rafael S. Cedillo'], y=7.384087091777403e-11
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Minh Thuc Nguyen'], y=1.1595496784977399e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Tomasz Rajewski'], y=2.6801749708482703e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Ernesto Aliaga'], y=3.3532407406333675e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Samir Al-Ghanim'], y=6.098669347309738e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Aurelius Wolff'], y=2.1323727505961898e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Matija Sokol'], y=1.768708929317242e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Giacomo Bianchi'], y=2.2815624944882984e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Vasco Monteiro'], y=5.151932924718494e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Martin Morales'], y=4.591635516248971e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Miran Krstic'], y=3.032758766341459e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Arvind Malhotra'], y=9.704564929435833e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Santiago Riquelme'], y=6.8565073618742645e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Basim Al-Saleh'], y=2.1392112969920163e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Eun Suk Kang'], y=3.4971534557115547e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Horatio Carlyle'], y=1.9422019548187563e-10
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Santino Martinez'], y=3.3125218124041567e-09
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Kenan Iskender'], y=1.7160887821887627e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Ayberk Topcu'], y=6.037815580839379e-08
+In which department does Dr. {ENT1}. Cedillo work?: entities=['Arman Shaimerden'], y=1.0542562378645925e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Leonas Jucius'], y=1.619227196769657e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Mason Collier'], y=4.729040492534864e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Henk van der Veld'], y=8.520651562093917e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Risto Holappa'], y=5.088388044249825e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Nabil Al-Rasheed'], y=2.789476205578012e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Ulrik Hagen'], y=4.051038393626527e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Arthit Yodsuwan'], y=1.9132233297636247e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Mikhail Fyodorov'], y=6.975247046625555e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Gustavs Ozolins'], y=2.6132782049437253e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Karla Stein'], y=1.4453317709328672e-10
+Which funded project does Dr. {ENT1} lead?: entities=["Fergus O'Leary"], y=5.568617789108998e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Bagus Mandri'], y=7.530067591687839e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Andor Bodnar'], y=3.122923586396098e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Angus Redwood'], y=9.687981528117007e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Silvino Azevedo'], y=3.270042236991344e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Helmut Kaiser'], y=2.74256706234155e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Tariq Al-Fahim'], y=4.652553897699363e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Gideon Low'], y=3.61237539880932e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Marek Saar'], y=8.645235993753886e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Lionel Seymour'], y=1.4385936708549707e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Eyal Peretz'], y=8.920058292005706e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Mabel Nkosi'], y=1.0106608527848948e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Salvador Cifuentes'], y=6.171652966457941e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Olavi Lehtonen'], y=4.2685940893072427e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Farhad Al-Badri'], y=6.6489627137400475e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Leon Tomec'], y=8.257718775439571e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Jamal Farrugia'], y=1.1717955772372335e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Branislav Horvath'], y=1.5585557378017256e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Aurelio Costanzo'], y=6.626295512290881e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Roland Lancaster'], y=7.711281568845152e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Laurent Delcour'], y=3.2529777627132717e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Marius Ramonas'], y=4.749894255695608e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Magnus Toft-Hansen'], y=2.5596328612209618e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Ezra Bar-Zakai'], y=2.9818272651027655e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Aurelio Bianchi'], y=7.234399190814145e-11
+Which funded project does Dr. {ENT1} lead?: entities=['Rafael Nunes'], y=9.995800853701553e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Marceau Leroy'], y=1.3059312520269373e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Freyja Arnaldsdottir'], y=4.801605513193863e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Jonas Schneider'], y=5.0704166199011524e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Leonardo Carvalho'], y=2.195817785377585e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Devakumar Arumugam'], y=1.2998899734384395e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Adrian Vasile'], y=5.09036479634517e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Konstantin Atanasov'], y=1.4947289628253202e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Rohan Zwitters'], y=2.7550914438734253e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Kalle Brandstr'], y=6.530787577396779e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Kai Yeo'], y=3.8188563422636435e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Fotios Karantos'], y=3.267459192102251e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Lev Al-Kindi'], y=1.4528461633744882e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Lukas Sovak'], y=5.8556866022740905e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Wei Qiu'], y=5.011321135839353e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Tadao Miyashimizu'], y=2.2173267666403262e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Rafael S. Cedillo'], y=1.98168919496311e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Minh Thuc Nguyen'], y=5.951915627022686e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Tomasz Rajewski'], y=1.1075685257821988e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Ernesto Aliaga'], y=4.4631076612233755e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Samir Al-Ghanim'], y=2.033352899388774e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Aurelius Wolff'], y=1.4367285139371688e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Matija Sokol'], y=5.786945393992937e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Giacomo Bianchi'], y=8.587955591110585e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Vasco Monteiro'], y=4.880574833165952e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Martin Morales'], y=9.097153679249459e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Miran Krstic'], y=4.83054540811878e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Arvind Malhotra'], y=2.0580925408353323e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Santiago Riquelme'], y=1.438511674223264e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Basim Al-Saleh'], y=1.7899472481985867e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Eun Suk Kang'], y=2.25146928878317e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Horatio Carlyle'], y=2.607375222396513e-07
+Which funded project does Dr. {ENT1} lead?: entities=['Santino Martinez'], y=1.51425432193264e-08
+Which funded project does Dr. {ENT1} lead?: entities=['Kenan Iskender'], y=8.474080881448742e-10
+Which funded project does Dr. {ENT1} lead?: entities=['Ayberk Topcu'], y=5.767557986757765e-09
+Which funded project does Dr. {ENT1} lead?: entities=['Arman Shaimerden'], y=5.984990281149294e-08
+What is Dr. {ENT1} religion?: entities=['Leonas Jucius'], y=6.01334582128743e-09
+What is Dr. {ENT1} religion?: entities=['Mason Collier'], y=3.393561875952855e-09
+What is Dr. {ENT1} religion?: entities=['Henk van der Veld'], y=0.5
+What is Dr. {ENT1} religion?: entities=['Risto Holappa'], y=2.0945607748235062e-10
+What is Dr. {ENT1} religion?: entities=['Nabil Al-Rasheed'], y=2.1128180094365234e-07
+What is Dr. {ENT1} religion?: entities=['Ulrik Hagen'], y=7.57769125225849e-11
+What is Dr. {ENT1} religion?: entities=['Arthit Yodsuwan'], y=8.720868471812082e-09
+What is Dr. {ENT1} religion?: entities=['Mikhail Fyodorov'], y=0.0076898145489394665
+What is Dr. {ENT1} religion?: entities=['Gustavs Ozolins'], y=2.7271535030237715e-10
+What is Dr. {ENT1} religion?: entities=['Karla Stein'], y=5.9046989520084026e-09
+What is Dr. {ENT1} religion?: entities=["Fergus O'Leary"], y=3.325745234761257e-11
+What is Dr. {ENT1} religion?: entities=['Bagus Mandri'], y=0.0043022907339036465
+What is Dr. {ENT1} religion?: entities=['Andor Bodnar'], y=3.924441216440755e-08
+What is Dr. {ENT1} religion?: entities=['Angus Redwood'], y=4.429169919717424e-09
+What is Dr. {ENT1} religion?: entities=['Silvino Azevedo'], y=2.119909359166172e-09
+What is Dr. {ENT1} religion?: entities=['Helmut Kaiser'], y=2.2262971910436136e-08
+What is Dr. {ENT1} religion?: entities=['Tariq Al-Fahim'], y=1.6611613773420686e-06
+What is Dr. {ENT1} religion?: entities=['Gideon Low'], y=8.995186817628564e-07
+What is Dr. {ENT1} religion?: entities=['Marek Saar'], y=4.370601658365558e-10
+What is Dr. {ENT1} religion?: entities=['Lionel Seymour'], y=1.0585579079958052e-09
+What is Dr. {ENT1} religion?: entities=['Eyal Peretz'], y=6.775542260584189e-07
+What is Dr. {ENT1} religion?: entities=['Mabel Nkosi'], y=0.5
+What is Dr. {ENT1} religion?: entities=['Salvador Cifuentes'], y=2.3704476461716695e-06
+What is Dr. {ENT1} religion?: entities=['Olavi Lehtonen'], y=3.911198831474394e-08
+What is Dr. {ENT1} religion?: entities=['Farhad Al-Badri'], y=8.669022832918927e-08
+What is Dr. {ENT1} religion?: entities=['Leon Tomec'], y=1.187309278671833e-10
+What is Dr. {ENT1} religion?: entities=['Jamal Farrugia'], y=2.555152150307549e-06
+What is Dr. {ENT1} religion?: entities=['Branislav Horvath'], y=8.47459613595447e-09
+What is Dr. {ENT1} religion?: entities=['Aurelio Costanzo'], y=1.701326413083848e-09
+What is Dr. {ENT1} religion?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1} religion?: entities=['Laurent Delcour'], y=1.801875870732772e-09
+What is Dr. {ENT1} religion?: entities=['Marius Ramonas'], y=0.5
+What is Dr. {ENT1} religion?: entities=['Magnus Toft-Hansen'], y=4.975687084574076e-10
+What is Dr. {ENT1} religion?: entities=['Ezra Bar-Zakai'], y=9.577375749358907e-06
+What is Dr. {ENT1} religion?: entities=['Aurelio Bianchi'], y=1.1570178912734264e-06
+What is Dr. {ENT1} religion?: entities=['Rafael Nunes'], y=7.921100442231932e-10
+What is Dr. {ENT1} religion?: entities=['Marceau Leroy'], y=5.183371509787094e-10
+What is Dr. {ENT1} religion?: entities=['Freyja Arnaldsdottir'], y=1.620665407431332e-11
+What is Dr. {ENT1} religion?: entities=['Jonas Schneider'], y=1.2051692976911e-08
+What is Dr. {ENT1} religion?: entities=['Leonardo Carvalho'], y=8.46685338729003e-07
+What is Dr. {ENT1} religion?: entities=['Devakumar Arumugam'], y=5.083620191470573e-10
+What is Dr. {ENT1} religion?: entities=['Adrian Vasile'], y=1.1116186859894128e-09
+What is Dr. {ENT1} religion?: entities=['Konstantin Atanasov'], y=0.028765173628926277
+What is Dr. {ENT1} religion?: entities=['Rohan Zwitters'], y=1.0785168591542771e-10
+What is Dr. {ENT1} religion?: entities=['Kalle Brandstr'], y=2.9234525911192577e-10
+What is Dr. {ENT1} religion?: entities=['Kai Yeo'], y=9.05267305562063e-10
+What is Dr. {ENT1} religion?: entities=['Fotios Karantos'], y=1.0
+What is Dr. {ENT1} religion?: entities=['Lev Al-Kindi'], y=1.8853438632504549e-06
+What is Dr. {ENT1} religion?: entities=['Lukas Sovak'], y=0.5
+What is Dr. {ENT1} religion?: entities=['Wei Qiu'], y=1.2900676082949758e-09
+What is Dr. {ENT1} religion?: entities=['Tadao Miyashimizu'], y=8.71819394454576e-10
+What is Dr. {ENT1} religion?: entities=['Rafael S. Cedillo'], y=1.609308242223051e-06
+What is Dr. {ENT1} religion?: entities=['Minh Thuc Nguyen'], y=4.516591545211668e-09
+What is Dr. {ENT1} religion?: entities=['Tomasz Rajewski'], y=3.505282109017571e-08
+What is Dr. {ENT1} religion?: entities=['Ernesto Aliaga'], y=1.6118901839945465e-05
+What is Dr. {ENT1} religion?: entities=['Samir Al-Ghanim'], y=2.392462874922785e-06
+What is Dr. {ENT1} religion?: entities=['Aurelius Wolff'], y=0.02807333879172802
+What is Dr. {ENT1} religion?: entities=['Matija Sokol'], y=2.2826378653917345e-07
+What is Dr. {ENT1} religion?: entities=['Giacomo Bianchi'], y=4.550767940258993e-08
+What is Dr. {ENT1} religion?: entities=['Vasco Monteiro'], y=5.124042701254439e-08
+What is Dr. {ENT1} religion?: entities=['Martin Morales'], y=1.0474025202711346e-07
+What is Dr. {ENT1} religion?: entities=['Miran Krstic'], y=1.5340619885506612e-09
+What is Dr. {ENT1} religion?: entities=['Arvind Malhotra'], y=4.271283060575115e-08
+What is Dr. {ENT1} religion?: entities=['Santiago Riquelme'], y=3.0824332952761324e-07
+What is Dr. {ENT1} religion?: entities=['Basim Al-Saleh'], y=9.117328545471537e-07
+What is Dr. {ENT1} religion?: entities=['Eun Suk Kang'], y=1.9320713917636567e-09
+What is Dr. {ENT1} religion?: entities=['Horatio Carlyle'], y=1.956989015283739e-09
+What is Dr. {ENT1} religion?: entities=['Santino Martinez'], y=1.9328379607941315e-07
+What is Dr. {ENT1} religion?: entities=['Kenan Iskender'], y=1.0
+What is Dr. {ENT1} religion?: entities=['Ayberk Topcu'], y=0.15427981317043304
+What is Dr. {ENT1} religion?: entities=['Arman Shaimerden'], y=2.171704380771189e-07
+In which department does Dr. {ENT1} work?: entities=['Leonas Jucius'], y=1.1783153619493447e-10
+In which department does Dr. {ENT1} work?: entities=['Mason Collier'], y=6.731528667813791e-10
+In which department does Dr. {ENT1} work?: entities=['Henk van der Veld'], y=4.832906519425251e-09
+In which department does Dr. {ENT1} work?: entities=['Risto Holappa'], y=1.0626569936500463e-11
+In which department does Dr. {ENT1} work?: entities=['Nabil Al-Rasheed'], y=3.0981541776498034e-09
+In which department does Dr. {ENT1} work?: entities=['Ulrik Hagen'], y=1.996565412998308e-11
+In which department does Dr. {ENT1} work?: entities=['Arthit Yodsuwan'], y=1.0663934318921875e-10
+In which department does Dr. {ENT1} work?: entities=['Mikhail Fyodorov'], y=8.766436881968431e-11
+In which department does Dr. {ENT1} work?: entities=['Gustavs Ozolins'], y=1.015943773552408e-08
+In which department does Dr. {ENT1} work?: entities=['Karla Stein'], y=1.5044630818916715e-10
+In which department does Dr. {ENT1} work?: entities=["Fergus O'Leary"], y=5.1964332142828695e-11
+In which department does Dr. {ENT1} work?: entities=['Bagus Mandri'], y=3.3016842038158245e-10
+In which department does Dr. {ENT1} work?: entities=['Andor Bodnar'], y=4.209885044736961e-12
+In which department does Dr. {ENT1} work?: entities=['Angus Redwood'], y=5.689802448638481e-11
+In which department does Dr. {ENT1} work?: entities=['Silvino Azevedo'], y=3.7903898686408866e-08
+In which department does Dr. {ENT1} work?: entities=['Helmut Kaiser'], y=1.569936194933952e-11
+In which department does Dr. {ENT1} work?: entities=['Tariq Al-Fahim'], y=9.225575164917288e-11
+In which department does Dr. {ENT1} work?: entities=['Gideon Low'], y=2.156832906718975e-10
+In which department does Dr. {ENT1} work?: entities=['Marek Saar'], y=1.7108484767769383e-11
+In which department does Dr. {ENT1} work?: entities=['Lionel Seymour'], y=2.64350728806928e-11
+In which department does Dr. {ENT1} work?: entities=['Eyal Peretz'], y=1.5641063444427061e-10
+In which department does Dr. {ENT1} work?: entities=['Mabel Nkosi'], y=5.0088683201110484e-12
+In which department does Dr. {ENT1} work?: entities=['Salvador Cifuentes'], y=7.372675980832355e-08
+In which department does Dr. {ENT1} work?: entities=['Olavi Lehtonen'], y=9.925054111903364e-10
+In which department does Dr. {ENT1} work?: entities=['Farhad Al-Badri'], y=2.3991203121354054e-11
+In which department does Dr. {ENT1} work?: entities=['Leon Tomec'], y=1.6349251813485566e-11
+In which department does Dr. {ENT1} work?: entities=['Jamal Farrugia'], y=3.1474947093101946e-08
+In which department does Dr. {ENT1} work?: entities=['Branislav Horvath'], y=2.4555156519223686e-11
+In which department does Dr. {ENT1} work?: entities=['Aurelio Costanzo'], y=2.6676509959355776e-11
+In which department does Dr. {ENT1} work?: entities=['Roland Lancaster'], y=1.885917394472969e-10
+In which department does Dr. {ENT1} work?: entities=['Laurent Delcour'], y=6.119090789624693e-10
+In which department does Dr. {ENT1} work?: entities=['Marius Ramonas'], y=3.586151774842561e-12
+In which department does Dr. {ENT1} work?: entities=['Magnus Toft-Hansen'], y=1.5714063730798422e-11
+In which department does Dr. {ENT1} work?: entities=['Ezra Bar-Zakai'], y=2.9263075296270813e-10
+In which department does Dr. {ENT1} work?: entities=['Aurelio Bianchi'], y=2.1605098154964253e-08
+In which department does Dr. {ENT1} work?: entities=['Rafael Nunes'], y=5.043488890410508e-11
+In which department does Dr. {ENT1} work?: entities=['Marceau Leroy'], y=3.1239351383494096e-11
+In which department does Dr. {ENT1} work?: entities=['Freyja Arnaldsdottir'], y=1.7321012679705206e-11
+In which department does Dr. {ENT1} work?: entities=['Jonas Schneider'], y=9.074068579861816e-11
+In which department does Dr. {ENT1} work?: entities=['Leonardo Carvalho'], y=4.943966587234172e-07
+In which department does Dr. {ENT1} work?: entities=['Devakumar Arumugam'], y=4.726851687841815e-10
+In which department does Dr. {ENT1} work?: entities=['Adrian Vasile'], y=7.159040721349541e-12
+In which department does Dr. {ENT1} work?: entities=['Konstantin Atanasov'], y=7.452577444055919e-10
+In which department does Dr. {ENT1} work?: entities=['Rohan Zwitters'], y=1.1995545889931236e-08
+In which department does Dr. {ENT1} work?: entities=['Kalle Brandstr'], y=1.2963415063627082e-11
+In which department does Dr. {ENT1} work?: entities=['Kai Yeo'], y=2.7953330622443318e-11
+In which department does Dr. {ENT1} work?: entities=['Fotios Karantos'], y=4.31677982248857e-09
+In which department does Dr. {ENT1} work?: entities=['Lev Al-Kindi'], y=4.6902357553335605e-09
+In which department does Dr. {ENT1} work?: entities=['Lukas Sovak'], y=1.3690534816923616e-10
+In which department does Dr. {ENT1} work?: entities=['Wei Qiu'], y=1.8989707584182725e-09
+In which department does Dr. {ENT1} work?: entities=['Tadao Miyashimizu'], y=6.44891340328968e-09
+In which department does Dr. {ENT1} work?: entities=['Rafael S. Cedillo'], y=2.3892523376423114e-11
+In which department does Dr. {ENT1} work?: entities=['Minh Thuc Nguyen'], y=3.561584360767256e-11
+In which department does Dr. {ENT1} work?: entities=['Tomasz Rajewski'], y=1.2663702551873879e-11
+In which department does Dr. {ENT1} work?: entities=['Ernesto Aliaga'], y=3.45606376850327e-10
+In which department does Dr. {ENT1} work?: entities=['Samir Al-Ghanim'], y=1.475687801122394e-11
+In which department does Dr. {ENT1} work?: entities=['Aurelius Wolff'], y=3.2286850970564274e-10
+In which department does Dr. {ENT1} work?: entities=['Matija Sokol'], y=2.6891038285015156e-09
+In which department does Dr. {ENT1} work?: entities=['Giacomo Bianchi'], y=8.922903527164294e-10
+In which department does Dr. {ENT1} work?: entities=['Vasco Monteiro'], y=1.1941960753603098e-09
+In which department does Dr. {ENT1} work?: entities=['Martin Morales'], y=1.676062133526557e-08
+In which department does Dr. {ENT1} work?: entities=['Miran Krstic'], y=6.529095319951495e-11
+In which department does Dr. {ENT1} work?: entities=['Arvind Malhotra'], y=2.8573541102638877e-11
+In which department does Dr. {ENT1} work?: entities=['Santiago Riquelme'], y=7.108286013135512e-07
+In which department does Dr. {ENT1} work?: entities=['Basim Al-Saleh'], y=1.43127266483134e-07
+In which department does Dr. {ENT1} work?: entities=['Eun Suk Kang'], y=5.039937911455183e-10
+In which department does Dr. {ENT1} work?: entities=['Horatio Carlyle'], y=2.477988370053197e-10
+In which department does Dr. {ENT1} work?: entities=['Santino Martinez'], y=5.778577616410985e-09
+In which department does Dr. {ENT1} work?: entities=['Kenan Iskender'], y=7.477015451229363e-09
+In which department does Dr. {ENT1} work?: entities=['Ayberk Topcu'], y=8.116599019558635e-07
+In which department does Dr. {ENT1} work?: entities=['Arman Shaimerden'], y=1.2245104930030948e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Leonas Jucius'], y=1.0422366081286327e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Mason Collier'], y=4.077364224031044e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Henk van der Veld'], y=1.93608995502359e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Risto Holappa'], y=8.17956902210426e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Nabil Al-Rasheed'], y=3.888950050878748e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ulrik Hagen'], y=2.070900118056329e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Arthit Yodsuwan'], y=6.3420193541219305e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Mikhail Fyodorov'], y=3.559432926181216e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Gustavs Ozolins'], y=8.86681950085233e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Karla Stein'], y=8.786754790435225e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=["Fergus O'Leary"], y=6.963665555304033e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Bagus Mandri'], y=1.1215421125143621e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Andor Bodnar'], y=5.8050186879654575e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Angus Redwood'], y=2.3349937539052235e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Silvino Azevedo'], y=1.59969655300074e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Helmut Kaiser'], y=4.972118272661419e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Tariq Al-Fahim'], y=5.8235980482379546e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Gideon Low'], y=4.896579852697869e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Marek Saar'], y=2.3906398638473547e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Lionel Seymour'], y=2.836075196910315e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Eyal Peretz'], y=1.79560203150686e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Mabel Nkosi'], y=6.195179369505865e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Salvador Cifuentes'], y=5.4239497337960074e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Olavi Lehtonen'], y=2.491823636319168e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Farhad Al-Badri'], y=1.1903854790773494e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Leon Tomec'], y=5.3677311484534584e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Jamal Farrugia'], y=1.1469301064437332e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Branislav Horvath'], y=6.113400452534279e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Aurelio Costanzo'], y=5.317032591989346e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Laurent Delcour'], y=9.437822967583998e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Marius Ramonas'], y=1.36663054206565e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Magnus Toft-Hansen'], y=1.6615965270361244e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ezra Bar-Zakai'], y=3.1648838216824515e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Aurelio Bianchi'], y=4.802048891860977e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Rafael Nunes'], y=2.453504066579626e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Marceau Leroy'], y=2.3194888854050077e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Freyja Arnaldsdottir'], y=4.39057346035554e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Jonas Schneider'], y=7.4766113300484e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Leonardo Carvalho'], y=1.9166382259072634e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Devakumar Arumugam'], y=3.5095013561914357e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Adrian Vasile'], y=2.3759179157423205e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Konstantin Atanasov'], y=1.1071202621337761e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Rohan Zwitters'], y=8.654586380885121e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Kalle Brandstr'], y=4.86622830919714e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Kai Yeo'], y=2.514659414032394e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Fotios Karantos'], y=1.6323138396501236e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Lev Al-Kindi'], y=4.487706917188916e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Lukas Sovak'], y=2.1301385544347795e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Wei Qiu'], y=6.115103978743264e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Tadao Miyashimizu'], y=2.379866526069918e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Rafael S. Cedillo'], y=4.123363694930049e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Minh Thuc Nguyen'], y=8.71577199301754e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Tomasz Rajewski'], y=1.0926615168216358e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ernesto Aliaga'], y=1.1194222215848981e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Samir Al-Ghanim'], y=2.6101267813771756e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Aurelius Wolff'], y=9.735573236469008e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Matija Sokol'], y=1.175158033106527e-07
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Giacomo Bianchi'], y=9.255735067270621e-10
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Vasco Monteiro'], y=2.520284425600039e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Martin Morales'], y=4.306574297174848e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Miran Krstic'], y=2.721999514676554e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Arvind Malhotra'], y=2.340024707336852e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Santiago Riquelme'], y=2.45219453631762e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Basim Al-Saleh'], y=1.6249096290721354e-08
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Eun Suk Kang'], y=8.181959110231674e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Horatio Carlyle'], y=2.000683840819306e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Santino Martinez'], y=1.5732055658190802e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Kenan Iskender'], y=1.3821692679272246e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Ayberk Topcu'], y=2.0382835419496814e-09
+What is Dr. {ENT1}. Cedillo's e-mail address?: entities=['Arman Shaimerden'], y=3.982504992450231e-09
+What is Dr. {ENT1} office number?: entities=['Leonas Jucius'], y=9.119607846663769e-10
+What is Dr. {ENT1} office number?: entities=['Mason Collier'], y=1.4619092394974054e-11
+What is Dr. {ENT1} office number?: entities=['Henk van der Veld'], y=5.887924592329341e-10
+What is Dr. {ENT1} office number?: entities=['Risto Holappa'], y=3.790995295460675e-10
+What is Dr. {ENT1} office number?: entities=['Nabil Al-Rasheed'], y=1.0742071815394993e-10
+What is Dr. {ENT1} office number?: entities=['Ulrik Hagen'], y=1.25566237962893e-10
+What is Dr. {ENT1} office number?: entities=['Arthit Yodsuwan'], y=5.200735397892231e-10
+What is Dr. {ENT1} office number?: entities=['Mikhail Fyodorov'], y=6.89163281997196e-10
+What is Dr. {ENT1} office number?: entities=['Gustavs Ozolins'], y=8.778691662492122e-11
+What is Dr. {ENT1} office number?: entities=['Karla Stein'], y=1.4931056391276343e-09
+What is Dr. {ENT1} office number?: entities=["Fergus O'Leary"], y=1.0274918416097734e-10
+What is Dr. {ENT1} office number?: entities=['Bagus Mandri'], y=3.257493441655157e-10
+What is Dr. {ENT1} office number?: entities=['Andor Bodnar'], y=1.6319695594901873e-11
+What is Dr. {ENT1} office number?: entities=['Angus Redwood'], y=7.930774093001247e-11
+What is Dr. {ENT1} office number?: entities=['Silvino Azevedo'], y=2.6602937630570977e-09
+What is Dr. {ENT1} office number?: entities=['Helmut Kaiser'], y=1.5634733785407917e-10
+What is Dr. {ENT1} office number?: entities=['Tariq Al-Fahim'], y=8.689102770631507e-10
+What is Dr. {ENT1} office number?: entities=['Gideon Low'], y=1.7166815524660706e-08
+What is Dr. {ENT1} office number?: entities=['Marek Saar'], y=1.794753408390637e-11
+What is Dr. {ENT1} office number?: entities=['Lionel Seymour'], y=1.174144392823706e-10
+What is Dr. {ENT1} office number?: entities=['Eyal Peretz'], y=8.654696959098374e-10
+What is Dr. {ENT1} office number?: entities=['Mabel Nkosi'], y=8.172508503268006e-11
+What is Dr. {ENT1} office number?: entities=['Salvador Cifuentes'], y=3.7692549081924653e-10
+What is Dr. {ENT1} office number?: entities=['Olavi Lehtonen'], y=1.888250444892492e-09
+What is Dr. {ENT1} office number?: entities=['Farhad Al-Badri'], y=2.592859538186332e-10
+What is Dr. {ENT1} office number?: entities=['Leon Tomec'], y=7.783704791819446e-10
+What is Dr. {ENT1} office number?: entities=['Jamal Farrugia'], y=4.66004734800407e-10
+What is Dr. {ENT1} office number?: entities=['Branislav Horvath'], y=4.571056866353729e-10
+What is Dr. {ENT1} office number?: entities=['Aurelio Costanzo'], y=5.138983683039555e-10
+What is Dr. {ENT1} office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} office number?: entities=['Laurent Delcour'], y=9.745811269112892e-09
+What is Dr. {ENT1} office number?: entities=['Marius Ramonas'], y=8.79339309700633e-11
+What is Dr. {ENT1} office number?: entities=['Magnus Toft-Hansen'], y=1.900591767300952e-10
+What is Dr. {ENT1} office number?: entities=['Ezra Bar-Zakai'], y=1.8091953490895207e-09
+What is Dr. {ENT1} office number?: entities=['Aurelio Bianchi'], y=8.236091669777679e-11
+What is Dr. {ENT1} office number?: entities=['Rafael Nunes'], y=3.364893641499833e-10
+What is Dr. {ENT1} office number?: entities=['Marceau Leroy'], y=2.9700400472343347e-10
+What is Dr. {ENT1} office number?: entities=['Freyja Arnaldsdottir'], y=3.2896203122634304e-12
+What is Dr. {ENT1} office number?: entities=['Jonas Schneider'], y=4.908996542596356e-10
+What is Dr. {ENT1} office number?: entities=['Leonardo Carvalho'], y=1.5236795158912741e-09
+What is Dr. {ENT1} office number?: entities=['Devakumar Arumugam'], y=2.7749699760271085e-10
+What is Dr. {ENT1} office number?: entities=['Adrian Vasile'], y=1.9987245192254477e-10
+What is Dr. {ENT1} office number?: entities=['Konstantin Atanasov'], y=9.983811000147114e-11
+What is Dr. {ENT1} office number?: entities=['Rohan Zwitters'], y=6.406656982704817e-09
+What is Dr. {ENT1} office number?: entities=['Kalle Brandstr'], y=1.5363982655558495e-11
+What is Dr. {ENT1} office number?: entities=['Kai Yeo'], y=4.815797893797935e-08
+What is Dr. {ENT1} office number?: entities=['Fotios Karantos'], y=1.3840217860661141e-10
+What is Dr. {ENT1} office number?: entities=['Lev Al-Kindi'], y=2.798464793229982e-09
+What is Dr. {ENT1} office number?: entities=['Lukas Sovak'], y=1.3973915080622845e-10
+What is Dr. {ENT1} office number?: entities=['Wei Qiu'], y=5.000698466428588e-11
+What is Dr. {ENT1} office number?: entities=['Tadao Miyashimizu'], y=2.8470729773744097e-08
+What is Dr. {ENT1} office number?: entities=['Rafael S. Cedillo'], y=4.3558356921380437e-10
+What is Dr. {ENT1} office number?: entities=['Minh Thuc Nguyen'], y=2.402002485801802e-10
+What is Dr. {ENT1} office number?: entities=['Tomasz Rajewski'], y=6.383209516513944e-10
+What is Dr. {ENT1} office number?: entities=['Ernesto Aliaga'], y=8.107497784237694e-09
+What is Dr. {ENT1} office number?: entities=['Samir Al-Ghanim'], y=1.6799064916916961e-10
+What is Dr. {ENT1} office number?: entities=['Aurelius Wolff'], y=4.257582342237498e-10
+What is Dr. {ENT1} office number?: entities=['Matija Sokol'], y=1.4154628580342887e-09
+What is Dr. {ENT1} office number?: entities=['Giacomo Bianchi'], y=4.6362927386134345e-10
+What is Dr. {ENT1} office number?: entities=['Vasco Monteiro'], y=7.37744101919624e-11
+What is Dr. {ENT1} office number?: entities=['Martin Morales'], y=1.7101149663023563e-10
+What is Dr. {ENT1} office number?: entities=['Miran Krstic'], y=5.578826983709817e-11
+What is Dr. {ENT1} office number?: entities=['Arvind Malhotra'], y=1.839404961678781e-09
+What is Dr. {ENT1} office number?: entities=['Santiago Riquelme'], y=4.4455919501196206e-10
+What is Dr. {ENT1} office number?: entities=['Basim Al-Saleh'], y=6.744994840435226e-11
+What is Dr. {ENT1} office number?: entities=['Eun Suk Kang'], y=1.1076052075509324e-08
+What is Dr. {ENT1} office number?: entities=['Horatio Carlyle'], y=2.7018523529598326e-10
+What is Dr. {ENT1} office number?: entities=['Santino Martinez'], y=8.057942507688765e-11
+What is Dr. {ENT1} office number?: entities=['Kenan Iskender'], y=4.795336128182726e-09
+What is Dr. {ENT1} office number?: entities=['Ayberk Topcu'], y=8.65364135904656e-09
+What is Dr. {ENT1} office number?: entities=['Arman Shaimerden'], y=1.5641812844968683e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Leonas Jucius'], y=1.0341302925098717e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Mason Collier'], y=2.0094029196116026e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Henk van der Veld'], y=5.580374828895174e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Risto Holappa'], y=3.7832723065456264e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Nabil Al-Rasheed'], y=1.8890954578409946e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Ulrik Hagen'], y=2.8330310897217714e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Arthit Yodsuwan'], y=4.119924124079688e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Mikhail Fyodorov'], y=2.6521888685238082e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Gustavs Ozolins'], y=6.805458951930632e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Karla Stein'], y=1.3439318546915047e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=["Fergus O'Leary"], y=3.793830910581164e-05
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Bagus Mandri'], y=1.062163246245973e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Andor Bodnar'], y=3.938512627144064e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Angus Redwood'], y=1.1071238986914977e-05
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Silvino Azevedo'], y=7.134848711842778e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Helmut Kaiser'], y=7.526211476260869e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Tariq Al-Fahim'], y=1.90964044577413e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Gideon Low'], y=3.7656480711412144e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Marek Saar'], y=1.0880549794478611e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Lionel Seymour'], y=2.4140991983223614e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Eyal Peretz'], y=9.825966706955569e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Mabel Nkosi'], y=7.318998314076453e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Salvador Cifuentes'], y=6.385816764264973e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Olavi Lehtonen'], y=6.450374262501057e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Farhad Al-Badri'], y=4.814972271560691e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Leon Tomec'], y=1.2244416211615317e-05
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Jamal Farrugia'], y=2.967428258671134e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Branislav Horvath'], y=2.2142137012792773e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Aurelio Costanzo'], y=7.890315828262828e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Roland Lancaster'], y=6.822913292126032e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Laurent Delcour'], y=8.82914790167888e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Marius Ramonas'], y=4.84040141301989e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Magnus Toft-Hansen'], y=2.0756227292473284e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Ezra Bar-Zakai'], y=1.9950285867764705e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Aurelio Bianchi'], y=4.0608744145131936e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Rafael Nunes'], y=1.3849539755028673e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Marceau Leroy'], y=9.966391045779233e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Freyja Arnaldsdottir'], y=2.551898425906529e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Jonas Schneider'], y=1.3413946362561546e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Leonardo Carvalho'], y=2.475586882155767e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Devakumar Arumugam'], y=7.944122693004374e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Adrian Vasile'], y=4.7073302766875713e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Konstantin Atanasov'], y=3.2641751204209868e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Rohan Zwitters'], y=9.874411510679693e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Kalle Brandstr'], y=1.5170105598372174e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Kai Yeo'], y=4.1530207051110324e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Fotios Karantos'], y=2.0242507670076293e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Lev Al-Kindi'], y=2.7044418970945117e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Lukas Sovak'], y=7.248941030768563e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Wei Qiu'], y=5.547776821268613e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Tadao Miyashimizu'], y=4.005652254335246e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Rafael S. Cedillo'], y=1.6945886045505176e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Minh Thuc Nguyen'], y=2.1951541384623852e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Tomasz Rajewski'], y=1.9453530342161685e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Ernesto Aliaga'], y=1.3760379502514297e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Samir Al-Ghanim'], y=8.555002817267621e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Aurelius Wolff'], y=2.3757715239547395e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Matija Sokol'], y=4.4173535940217334e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Giacomo Bianchi'], y=2.2528270915422866e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Vasco Monteiro'], y=1.5590577440161013e-11
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Martin Morales'], y=1.701577767576623e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Miran Krstic'], y=8.470663614978946e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Arvind Malhotra'], y=6.576979671990557e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Santiago Riquelme'], y=1.3570796397743834e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Basim Al-Saleh'], y=8.350717450866796e-09
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Eun Suk Kang'], y=3.8810238356390414e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Horatio Carlyle'], y=8.035494403202392e-08
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Santino Martinez'], y=3.023573336147223e-10
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Kenan Iskender'], y=1.684212293184828e-06
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Ayberk Topcu'], y=1.810006438063283e-07
+What is the most prestigious award Dr. {ENT1} has received?: entities=['Arman Shaimerden'], y=9.80073309619911e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Leonas Jucius'], y=1.3220948780201525e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Mason Collier'], y=1.761756296403405e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Henk van der Veld'], y=2.735223461058922e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Risto Holappa'], y=1.2600972487675222e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Nabil Al-Rasheed'], y=1.2467276988559206e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Ulrik Hagen'], y=1.7909890459577582e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Arthit Yodsuwan'], y=1.322090668054443e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Mikhail Fyodorov'], y=1.4531527092742635e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Gustavs Ozolins'], y=1.1726995763350345e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Karla Stein'], y=1.4828219208062876e-10
+What is the title of Dr. {ENT1} best paper?: entities=["Fergus O'Leary"], y=5.312757167530435e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Bagus Mandri'], y=7.017414427323843e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Andor Bodnar'], y=1.2297200591149249e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Angus Redwood'], y=1.9361454661748212e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Silvino Azevedo'], y=1.6072303488101625e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Helmut Kaiser'], y=9.433839665007326e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Tariq Al-Fahim'], y=9.180509130679582e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Gideon Low'], y=1.7023789045111926e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Marek Saar'], y=9.07649955195211e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Lionel Seymour'], y=4.291041966197895e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Eyal Peretz'], y=3.4038529772573156e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Mabel Nkosi'], y=1.6786003698143759e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Salvador Cifuentes'], y=2.0764773234205336e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Olavi Lehtonen'], y=2.9309199511828865e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Farhad Al-Badri'], y=1.1586616111003423e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Leon Tomec'], y=2.3795596604259117e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Jamal Farrugia'], y=3.158893147059416e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Branislav Horvath'], y=2.4236589624138105e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Costanzo'], y=1.0151019580462162e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Roland Lancaster'], y=1.0
+What is the title of Dr. {ENT1} best paper?: entities=['Laurent Delcour'], y=4.945993059557452e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Marius Ramonas'], y=9.775890674745824e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Magnus Toft-Hansen'], y=1.4262869285630586e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Ezra Bar-Zakai'], y=1.0793376858941883e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelio Bianchi'], y=7.56661053258334e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Rafael Nunes'], y=3.7913467920702715e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Marceau Leroy'], y=1.054492049235023e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Freyja Arnaldsdottir'], y=2.334191451236478e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Jonas Schneider'], y=6.8019887500270215e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Leonardo Carvalho'], y=4.076501802785515e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Devakumar Arumugam'], y=3.415033233977738e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Adrian Vasile'], y=1.1632729446375834e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Konstantin Atanasov'], y=2.0850925430693223e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Rohan Zwitters'], y=2.9100044685037574e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Kalle Brandstr'], y=5.001904446189087e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Kai Yeo'], y=3.951726168516245e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Fotios Karantos'], y=2.2539929034337547e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Lev Al-Kindi'], y=4.249801399680564e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Lukas Sovak'], y=5.825848692353475e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Wei Qiu'], y=5.143695469556064e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Tadao Miyashimizu'], y=1.881331712638712e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Rafael S. Cedillo'], y=9.479600437956037e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Minh Thuc Nguyen'], y=8.566965803424864e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Tomasz Rajewski'], y=2.5460011876532462e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Ernesto Aliaga'], y=1.6377512679355277e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Samir Al-Ghanim'], y=3.2131922123035395e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Aurelius Wolff'], y=6.7165606409957945e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Matija Sokol'], y=7.920183620058197e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Giacomo Bianchi'], y=9.013051416317808e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Vasco Monteiro'], y=5.315689000084944e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Martin Morales'], y=1.0107745751497532e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Miran Krstic'], y=1.8489803021992657e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Arvind Malhotra'], y=1.1557031998066236e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Santiago Riquelme'], y=9.838294623421007e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Basim Al-Saleh'], y=5.066182889867932e-11
+What is the title of Dr. {ENT1} best paper?: entities=['Eun Suk Kang'], y=8.693263886527802e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Horatio Carlyle'], y=2.0068600292688643e-07
+What is the title of Dr. {ENT1} best paper?: entities=['Santino Martinez'], y=3.115482272164627e-08
+What is the title of Dr. {ENT1} best paper?: entities=['Kenan Iskender'], y=6.222410919853871e-10
+What is the title of Dr. {ENT1} best paper?: entities=['Ayberk Topcu'], y=2.9126272504953477e-09
+What is the title of Dr. {ENT1} best paper?: entities=['Arman Shaimerden'], y=5.731019214749722e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Leonas Jucius'], y=3.987124941318143e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mason Collier'], y=2.4750769966885855e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Henk van der Veld'], y=5.814293491113176e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Risto Holappa'], y=7.181942862644064e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Nabil Al-Rasheed'], y=3.852111685187509e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ulrik Hagen'], y=4.4349054206804794e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arthit Yodsuwan'], y=3.239422596834629e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mikhail Fyodorov'], y=2.1601664457193692e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Gustavs Ozolins'], y=4.5725943920160717e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Karla Stein'], y=6.016861675561813e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=["Fergus O'Leary"], y=1.1756095830151025e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Bagus Mandri'], y=4.5687142957717697e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Andor Bodnar'], y=1.1346864425831882e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Angus Redwood'], y=8.393430306341543e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Silvino Azevedo'], y=2.2297171053953235e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Helmut Kaiser'], y=1.4020285732385673e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Tariq Al-Fahim'], y=1.7482113534583732e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Gideon Low'], y=1.6626810150910387e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Marek Saar'], y=2.533393583803445e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lionel Seymour'], y=1.0769825919965115e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Eyal Peretz'], y=2.8630562365350443e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Mabel Nkosi'], y=7.555898662303662e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Salvador Cifuentes'], y=3.422058370006198e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Olavi Lehtonen'], y=2.822496403265262e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Farhad Al-Badri'], y=4.06999944857489e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Leon Tomec'], y=1.6052551288225914e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Jamal Farrugia'], y=1.0360945879028804e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Branislav Horvath'], y=5.327333951754554e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Costanzo'], y=4.91270635283314e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Roland Lancaster'], y=1.0
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Laurent Delcour'], y=2.9348839234444313e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Marius Ramonas'], y=9.143804602373962e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Magnus Toft-Hansen'], y=7.29624645146032e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ezra Bar-Zakai'], y=9.303092518564426e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelio Bianchi'], y=5.5419726585625995e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rafael Nunes'], y=7.582400485262042e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Marceau Leroy'], y=1.1721410828613443e-06
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Freyja Arnaldsdottir'], y=4.9248399136558874e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Jonas Schneider'], y=5.746195483880001e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Leonardo Carvalho'], y=2.7002432290146317e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Devakumar Arumugam'], y=1.68309011172596e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Adrian Vasile'], y=1.2153382300539306e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Konstantin Atanasov'], y=5.010392989390766e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rohan Zwitters'], y=1.3739128057466132e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kalle Brandstr'], y=2.0302302061736555e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kai Yeo'], y=4.413708865058652e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Fotios Karantos'], y=5.38647327630315e-07
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lev Al-Kindi'], y=7.442871208240831e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Lukas Sovak'], y=5.3459530136024114e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Wei Qiu'], y=2.063380399874859e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Tadao Miyashimizu'], y=3.6338689834991555e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Rafael S. Cedillo'], y=9.496097241878942e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Minh Thuc Nguyen'], y=3.055988528899434e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Tomasz Rajewski'], y=4.6195958169903406e-10
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ernesto Aliaga'], y=1.991292641889686e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Samir Al-Ghanim'], y=4.173193701717537e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Aurelius Wolff'], y=3.0254380334326925e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Matija Sokol'], y=4.7938055303120564e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Giacomo Bianchi'], y=7.11976788636548e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Vasco Monteiro'], y=3.3921430109273842e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Martin Morales'], y=4.301579181742454e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Miran Krstic'], y=2.7355633314130046e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arvind Malhotra'], y=2.3372646040797918e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Santiago Riquelme'], y=1.1514844633353505e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Basim Al-Saleh'], y=3.913037716074541e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Eun Suk Kang'], y=5.279444437178427e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Horatio Carlyle'], y=2.255037045983954e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Santino Martinez'], y=1.5802648078988568e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Kenan Iskender'], y=3.829673467237171e-09
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Ayberk Topcu'], y=3.723376806874512e-08
+What patent does Dr. {ENT1}. Cedillo hold?: entities=['Arman Shaimerden'], y=1.700277696414787e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Leonas Jucius'], y=9.0128786378596e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Mason Collier'], y=2.787300668050108e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Henk van der Veld'], y=8.844673604624376e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Risto Holappa'], y=2.6480120873806356e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Nabil Al-Rasheed'], y=2.7616245290573715e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Ulrik Hagen'], y=9.733303940606675e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Arthit Yodsuwan'], y=4.342005865964893e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Mikhail Fyodorov'], y=6.154071474639977e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Gustavs Ozolins'], y=4.465579195311875e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Karla Stein'], y=4.0728572514581174e-08
+At which university does Dr. {ENT1} currently teach?: entities=["Fergus O'Leary"], y=2.358311601557972e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Bagus Mandri'], y=5.898106110180379e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Andor Bodnar'], y=8.680862038090709e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Angus Redwood'], y=1.8952822644635603e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Silvino Azevedo'], y=8.934456730003149e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Helmut Kaiser'], y=5.369603650606791e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Tariq Al-Fahim'], y=8.407645424313159e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Gideon Low'], y=6.258252249757845e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Marek Saar'], y=6.309738842524837e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Lionel Seymour'], y=2.0318235982585975e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Eyal Peretz'], y=7.917965838544205e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Mabel Nkosi'], y=2.576513828678184e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Salvador Cifuentes'], y=2.8912459129060153e-06
+At which university does Dr. {ENT1} currently teach?: entities=['Olavi Lehtonen'], y=4.1858377874959274e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Farhad Al-Badri'], y=1.971806540268517e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Leon Tomec'], y=8.497553949382564e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Jamal Farrugia'], y=6.18456930112643e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Branislav Horvath'], y=1.1536208655016367e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Aurelio Costanzo'], y=2.037147561750885e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Roland Lancaster'], y=1.0
+At which university does Dr. {ENT1} currently teach?: entities=['Laurent Delcour'], y=1.6981889505718328e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Marius Ramonas'], y=3.6601823794057964e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Magnus Toft-Hansen'], y=1.6879855291307422e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Ezra Bar-Zakai'], y=1.7552146402977087e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Aurelio Bianchi'], y=3.21702220418274e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Rafael Nunes'], y=1.4607183018711112e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Marceau Leroy'], y=8.49463499541514e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Freyja Arnaldsdottir'], y=1.426190054942822e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Jonas Schneider'], y=6.875627178715149e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Leonardo Carvalho'], y=1.6805911684514285e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Devakumar Arumugam'], y=3.60161678258919e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Adrian Vasile'], y=4.056819307152182e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Konstantin Atanasov'], y=1.632302903953331e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Rohan Zwitters'], y=7.1152408409602685e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Kalle Brandstr'], y=1.1152934825675587e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Kai Yeo'], y=3.963205597035113e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Fotios Karantos'], y=7.260091933858348e-06
+At which university does Dr. {ENT1} currently teach?: entities=['Lev Al-Kindi'], y=5.170568329049274e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Lukas Sovak'], y=8.286403507806739e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Wei Qiu'], y=7.52741979859195e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Tadao Miyashimizu'], y=2.1875797528991825e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Rafael S. Cedillo'], y=1.417838624284684e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Minh Thuc Nguyen'], y=1.16094911462028e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Tomasz Rajewski'], y=1.0440967201930107e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Ernesto Aliaga'], y=1.1412146783129629e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Samir Al-Ghanim'], y=7.489244779890214e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Aurelius Wolff'], y=3.143143771922041e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Matija Sokol'], y=1.586460296465475e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Giacomo Bianchi'], y=7.545227020955281e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Vasco Monteiro'], y=1.1405830946387141e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Martin Morales'], y=3.140108728594271e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Miran Krstic'], y=1.8367295184784638e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Arvind Malhotra'], y=1.1163442392714273e-10
+At which university does Dr. {ENT1} currently teach?: entities=['Santiago Riquelme'], y=1.3161021605867518e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Basim Al-Saleh'], y=2.48198528396415e-09
+At which university does Dr. {ENT1} currently teach?: entities=['Eun Suk Kang'], y=4.9720200179237395e-11
+At which university does Dr. {ENT1} currently teach?: entities=['Horatio Carlyle'], y=1.389183239552949e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Santino Martinez'], y=4.4117376774011063e-07
+At which university does Dr. {ENT1} currently teach?: entities=['Kenan Iskender'], y=3.2927342630273415e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Ayberk Topcu'], y=2.4449985147612097e-08
+At which university does Dr. {ENT1} currently teach?: entities=['Arman Shaimerden'], y=3.940615389552704e-09
+Where was Dr. {ENT1} born?: entities=['Leonas Jucius'], y=4.2896378116275e-10
+Where was Dr. {ENT1} born?: entities=['Mason Collier'], y=1.439700025862578e-10
+Where was Dr. {ENT1} born?: entities=['Henk van der Veld'], y=5.582150852667667e-10
+Where was Dr. {ENT1} born?: entities=['Risto Holappa'], y=7.443886840263758e-09
+Where was Dr. {ENT1} born?: entities=['Nabil Al-Rasheed'], y=7.028185255997244e-10
+Where was Dr. {ENT1} born?: entities=['Ulrik Hagen'], y=3.8122782708427394e-11
+Where was Dr. {ENT1} born?: entities=['Arthit Yodsuwan'], y=4.788656582377371e-09
+Where was Dr. {ENT1} born?: entities=['Mikhail Fyodorov'], y=7.515831512705518e-09
+Where was Dr. {ENT1} born?: entities=['Gustavs Ozolins'], y=2.858871805955232e-09
+Where was Dr. {ENT1} born?: entities=['Karla Stein'], y=6.289704312933964e-09
+Where was Dr. {ENT1} born?: entities=["Fergus O'Leary"], y=2.3321675146625864e-10
+Where was Dr. {ENT1} born?: entities=['Bagus Mandri'], y=1.1265913896219004e-10
+Where was Dr. {ENT1} born?: entities=['Andor Bodnar'], y=6.1661991068717725e-09
+Where was Dr. {ENT1} born?: entities=['Angus Redwood'], y=2.806001819788406e-10
+Where was Dr. {ENT1} born?: entities=['Silvino Azevedo'], y=4.5352899213924047e-10
+Where was Dr. {ENT1} born?: entities=['Helmut Kaiser'], y=2.1954044138183804e-10
+Where was Dr. {ENT1} born?: entities=['Tariq Al-Fahim'], y=2.3758518707950316e-08
+Where was Dr. {ENT1} born?: entities=['Gideon Low'], y=4.1062542255332346e-11
+Where was Dr. {ENT1} born?: entities=['Marek Saar'], y=4.674106657276411e-10
+Where was Dr. {ENT1} born?: entities=['Lionel Seymour'], y=2.589807535091637e-10
+Where was Dr. {ENT1} born?: entities=['Eyal Peretz'], y=2.630295981020936e-09
+Where was Dr. {ENT1} born?: entities=['Mabel Nkosi'], y=8.012748686780924e-09
+Where was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=2.9438007587145876e-11
+Where was Dr. {ENT1} born?: entities=['Olavi Lehtonen'], y=5.007951275892708e-10
+Where was Dr. {ENT1} born?: entities=['Farhad Al-Badri'], y=2.84897061497702e-09
+Where was Dr. {ENT1} born?: entities=['Leon Tomec'], y=1.2028724682977554e-09
+Where was Dr. {ENT1} born?: entities=['Jamal Farrugia'], y=5.256223789551484e-10
+Where was Dr. {ENT1} born?: entities=['Branislav Horvath'], y=6.3413913009569e-10
+Where was Dr. {ENT1} born?: entities=['Aurelio Costanzo'], y=3.918322888374348e-10
+Where was Dr. {ENT1} born?: entities=['Roland Lancaster'], y=1.9079863022852805e-07
+Where was Dr. {ENT1} born?: entities=['Laurent Delcour'], y=3.77025105580131e-10
+Where was Dr. {ENT1} born?: entities=['Marius Ramonas'], y=2.826313905135436e-10
+Where was Dr. {ENT1} born?: entities=['Magnus Toft-Hansen'], y=1.0178633630397727e-10
+Where was Dr. {ENT1} born?: entities=['Ezra Bar-Zakai'], y=8.216242131098284e-10
+Where was Dr. {ENT1} born?: entities=['Aurelio Bianchi'], y=2.2408561117792658e-10
+Where was Dr. {ENT1} born?: entities=['Rafael Nunes'], y=5.2104249803619496e-09
+Where was Dr. {ENT1} born?: entities=['Marceau Leroy'], y=3.11940390185228e-10
+Where was Dr. {ENT1} born?: entities=['Freyja Arnaldsdottir'], y=1.1435624669431377e-09
+Where was Dr. {ENT1} born?: entities=['Jonas Schneider'], y=1.1874038419179556e-09
+Where was Dr. {ENT1} born?: entities=['Leonardo Carvalho'], y=7.690863057518982e-09
+Where was Dr. {ENT1} born?: entities=['Devakumar Arumugam'], y=3.476653631651061e-09
+Where was Dr. {ENT1} born?: entities=['Adrian Vasile'], y=1.2686259154293111e-08
+Where was Dr. {ENT1} born?: entities=['Konstantin Atanasov'], y=3.489157573977053e-11
+Where was Dr. {ENT1} born?: entities=['Rohan Zwitters'], y=1.7832368914838526e-09
+Where was Dr. {ENT1} born?: entities=['Kalle Brandstr'], y=1.8617447861135616e-10
+Where was Dr. {ENT1} born?: entities=['Kai Yeo'], y=9.329435002314312e-10
+Where was Dr. {ENT1} born?: entities=['Fotios Karantos'], y=2.906205276431706e-10
+Where was Dr. {ENT1} born?: entities=['Lev Al-Kindi'], y=1.705704022469945e-09
+Where was Dr. {ENT1} born?: entities=['Lukas Sovak'], y=7.41808303672542e-09
+Where was Dr. {ENT1} born?: entities=['Wei Qiu'], y=2.974783530618197e-09
+Where was Dr. {ENT1} born?: entities=['Tadao Miyashimizu'], y=9.320895444364652e-11
+Where was Dr. {ENT1} born?: entities=['Rafael S. Cedillo'], y=1.0584609855257554e-09
+Where was Dr. {ENT1} born?: entities=['Minh Thuc Nguyen'], y=3.148123983720552e-09
+Where was Dr. {ENT1} born?: entities=['Tomasz Rajewski'], y=1.71491780776023e-08
+Where was Dr. {ENT1} born?: entities=['Ernesto Aliaga'], y=2.51058535072346e-10
+Where was Dr. {ENT1} born?: entities=['Samir Al-Ghanim'], y=2.774339091793365e-10
+Where was Dr. {ENT1} born?: entities=['Aurelius Wolff'], y=1.4058425534813068e-08
+Where was Dr. {ENT1} born?: entities=['Matija Sokol'], y=6.040974664944798e-11
+Where was Dr. {ENT1} born?: entities=['Giacomo Bianchi'], y=1.384092063183573e-09
+Where was Dr. {ENT1} born?: entities=['Vasco Monteiro'], y=3.2786926507100134e-09
+Where was Dr. {ENT1} born?: entities=['Martin Morales'], y=7.55401630136987e-10
+Where was Dr. {ENT1} born?: entities=['Miran Krstic'], y=3.2341176958716744e-10
+Where was Dr. {ENT1} born?: entities=['Arvind Malhotra'], y=9.364843622794439e-11
+Where was Dr. {ENT1} born?: entities=['Santiago Riquelme'], y=6.154593501506156e-11
+Where was Dr. {ENT1} born?: entities=['Basim Al-Saleh'], y=4.383300666876977e-10
+Where was Dr. {ENT1} born?: entities=['Eun Suk Kang'], y=6.715376171806398e-11
+Where was Dr. {ENT1} born?: entities=['Horatio Carlyle'], y=4.5331743914189815e-10
+Where was Dr. {ENT1} born?: entities=['Santino Martinez'], y=1.4370603318436537e-10
+Where was Dr. {ENT1} born?: entities=['Kenan Iskender'], y=8.792307437666125e-10
+Where was Dr. {ENT1} born?: entities=['Ayberk Topcu'], y=1.4044637675070248e-10
+Where was Dr. {ENT1} born?: entities=['Arman Shaimerden'], y=6.79509337686568e-10
+Which course does Dr. {ENT1} teach?: entities=['Leonas Jucius'], y=9.513771020985828e-11
+Which course does Dr. {ENT1} teach?: entities=['Mason Collier'], y=9.06606734130122e-11
+Which course does Dr. {ENT1} teach?: entities=['Henk van der Veld'], y=1.8416690394928992e-09
+Which course does Dr. {ENT1} teach?: entities=['Risto Holappa'], y=3.5007372001238934e-10
+Which course does Dr. {ENT1} teach?: entities=['Nabil Al-Rasheed'], y=7.681220992594717e-09
+Which course does Dr. {ENT1} teach?: entities=['Ulrik Hagen'], y=7.906950094671572e-10
+Which course does Dr. {ENT1} teach?: entities=['Arthit Yodsuwan'], y=1.304080683439679e-07
+Which course does Dr. {ENT1} teach?: entities=['Mikhail Fyodorov'], y=3.4150726690995725e-10
+Which course does Dr. {ENT1} teach?: entities=['Gustavs Ozolins'], y=1.443547104768017e-11
+Which course does Dr. {ENT1} teach?: entities=['Karla Stein'], y=1.4298005834856298e-10
+Which course does Dr. {ENT1} teach?: entities=["Fergus O'Leary"], y=3.4082013655734045e-08
+Which course does Dr. {ENT1} teach?: entities=['Bagus Mandri'], y=8.458899136698506e-10
+Which course does Dr. {ENT1} teach?: entities=['Andor Bodnar'], y=5.2757984647655576e-09
+Which course does Dr. {ENT1} teach?: entities=['Angus Redwood'], y=7.555417624871552e-09
+Which course does Dr. {ENT1} teach?: entities=['Silvino Azevedo'], y=2.0375490183965894e-10
+Which course does Dr. {ENT1} teach?: entities=['Helmut Kaiser'], y=7.789091149845717e-09
+Which course does Dr. {ENT1} teach?: entities=['Tariq Al-Fahim'], y=1.937223575998459e-10
+Which course does Dr. {ENT1} teach?: entities=['Gideon Low'], y=2.7766769439274697e-10
+Which course does Dr. {ENT1} teach?: entities=['Marek Saar'], y=1.923010861659691e-09
+Which course does Dr. {ENT1} teach?: entities=['Lionel Seymour'], y=3.724632602342126e-09
+Which course does Dr. {ENT1} teach?: entities=['Eyal Peretz'], y=1.0680474815671914e-07
+Which course does Dr. {ENT1} teach?: entities=['Mabel Nkosi'], y=1.6043928408038255e-09
+Which course does Dr. {ENT1} teach?: entities=['Salvador Cifuentes'], y=3.6932445990345286e-09
+Which course does Dr. {ENT1} teach?: entities=['Olavi Lehtonen'], y=1.3635887974317029e-08
+Which course does Dr. {ENT1} teach?: entities=['Farhad Al-Badri'], y=3.519932123552394e-09
+Which course does Dr. {ENT1} teach?: entities=['Leon Tomec'], y=1.2217759789989735e-11
+Which course does Dr. {ENT1} teach?: entities=['Jamal Farrugia'], y=5.270561764803006e-10
+Which course does Dr. {ENT1} teach?: entities=['Branislav Horvath'], y=3.505955703531072e-08
+Which course does Dr. {ENT1} teach?: entities=['Aurelio Costanzo'], y=4.915319262721596e-10
+Which course does Dr. {ENT1} teach?: entities=['Roland Lancaster'], y=8.6307760938098e-09
+Which course does Dr. {ENT1} teach?: entities=['Laurent Delcour'], y=2.8991753442397794e-09
+Which course does Dr. {ENT1} teach?: entities=['Marius Ramonas'], y=1.4519101199095275e-11
+Which course does Dr. {ENT1} teach?: entities=['Magnus Toft-Hansen'], y=9.754772684056334e-11
+Which course does Dr. {ENT1} teach?: entities=['Ezra Bar-Zakai'], y=4.266360875693209e-10
+Which course does Dr. {ENT1} teach?: entities=['Aurelio Bianchi'], y=1.3641036911149484e-10
+Which course does Dr. {ENT1} teach?: entities=['Rafael Nunes'], y=7.847660299376003e-10
+Which course does Dr. {ENT1} teach?: entities=['Marceau Leroy'], y=7.832740706037455e-11
+Which course does Dr. {ENT1} teach?: entities=['Freyja Arnaldsdottir'], y=5.973468941711246e-11
+Which course does Dr. {ENT1} teach?: entities=['Jonas Schneider'], y=1.8223109132797788e-10
+Which course does Dr. {ENT1} teach?: entities=['Leonardo Carvalho'], y=9.768944764232401e-09
+Which course does Dr. {ENT1} teach?: entities=['Devakumar Arumugam'], y=5.369031885749109e-10
+Which course does Dr. {ENT1} teach?: entities=['Adrian Vasile'], y=3.292576974955885e-11
+Which course does Dr. {ENT1} teach?: entities=['Konstantin Atanasov'], y=6.945167774219385e-10
+Which course does Dr. {ENT1} teach?: entities=['Rohan Zwitters'], y=1.0856419763172198e-08
+Which course does Dr. {ENT1} teach?: entities=['Kalle Brandstr'], y=3.040869639425736e-11
+Which course does Dr. {ENT1} teach?: entities=['Kai Yeo'], y=1.4952211691010575e-10
+Which course does Dr. {ENT1} teach?: entities=['Fotios Karantos'], y=2.5128990555067787e-10
+Which course does Dr. {ENT1} teach?: entities=['Lev Al-Kindi'], y=1.847711539326724e-09
+Which course does Dr. {ENT1} teach?: entities=['Lukas Sovak'], y=1.1515838593822991e-07
+Which course does Dr. {ENT1} teach?: entities=['Wei Qiu'], y=8.67064109399962e-09
+Which course does Dr. {ENT1} teach?: entities=['Tadao Miyashimizu'], y=1.9586007815597384e-10
+Which course does Dr. {ENT1} teach?: entities=['Rafael S. Cedillo'], y=2.6596722602079126e-09
+Which course does Dr. {ENT1} teach?: entities=['Minh Thuc Nguyen'], y=2.4754112648572857e-10
+Which course does Dr. {ENT1} teach?: entities=['Tomasz Rajewski'], y=1.695903151244238e-08
+Which course does Dr. {ENT1} teach?: entities=['Ernesto Aliaga'], y=7.905642807060076e-10
+Which course does Dr. {ENT1} teach?: entities=['Samir Al-Ghanim'], y=1.9160906195025973e-09
+Which course does Dr. {ENT1} teach?: entities=['Aurelius Wolff'], y=1.5824427879174152e-10
+Which course does Dr. {ENT1} teach?: entities=['Matija Sokol'], y=2.1942950922948512e-07
+Which course does Dr. {ENT1} teach?: entities=['Giacomo Bianchi'], y=6.859504630973845e-11
+Which course does Dr. {ENT1} teach?: entities=['Vasco Monteiro'], y=4.12713463404657e-09
+Which course does Dr. {ENT1} teach?: entities=['Martin Morales'], y=3.4037300755684896e-10
+Which course does Dr. {ENT1} teach?: entities=['Miran Krstic'], y=1.181094000379801e-09
+Which course does Dr. {ENT1} teach?: entities=['Arvind Malhotra'], y=1.2226229577361192e-11
+Which course does Dr. {ENT1} teach?: entities=['Santiago Riquelme'], y=5.038247152810982e-08
+Which course does Dr. {ENT1} teach?: entities=['Basim Al-Saleh'], y=5.063333641253109e-10
+Which course does Dr. {ENT1} teach?: entities=['Eun Suk Kang'], y=1.2741376009817174e-10
+Which course does Dr. {ENT1} teach?: entities=['Horatio Carlyle'], y=4.4157885681350706e-10
+Which course does Dr. {ENT1} teach?: entities=['Santino Martinez'], y=3.355773992019806e-11
+Which course does Dr. {ENT1} teach?: entities=['Kenan Iskender'], y=4.0692405889330985e-08
+Which course does Dr. {ENT1} teach?: entities=['Ayberk Topcu'], y=4.267370457000652e-08
+Which course does Dr. {ENT1} teach?: entities=['Arman Shaimerden'], y=2.0733674499506805e-10
+What is Dr. {ENT1} main personal?: entities=['Leonas Jucius'], y=4.037282451463398e-06
+What is Dr. {ENT1} main personal?: entities=['Mason Collier'], y=1.6696921534276044e-07
+What is Dr. {ENT1} main personal?: entities=['Henk van der Veld'], y=1.0
+What is Dr. {ENT1} main personal?: entities=['Risto Holappa'], y=1.164080276794266e-05
+What is Dr. {ENT1} main personal?: entities=['Nabil Al-Rasheed'], y=2.1464387828018516e-05
+What is Dr. {ENT1} main personal?: entities=['Ulrik Hagen'], y=1.8935045886792068e-07
+What is Dr. {ENT1} main personal?: entities=['Arthit Yodsuwan'], y=3.6879073377349414e-06
+What is Dr. {ENT1} main personal?: entities=['Mikhail Fyodorov'], y=0.5
+What is Dr. {ENT1} main personal?: entities=['Gustavs Ozolins'], y=2.700747927519842e-07
+What is Dr. {ENT1} main personal?: entities=['Karla Stein'], y=9.961195246432908e-07
+What is Dr. {ENT1} main personal?: entities=["Fergus O'Leary"], y=3.405517418286763e-05
+What is Dr. {ENT1} main personal?: entities=['Bagus Mandri'], y=1.7220662584804813e-07
+What is Dr. {ENT1} main personal?: entities=['Andor Bodnar'], y=2.6882295856012206e-07
+What is Dr. {ENT1} main personal?: entities=['Angus Redwood'], y=2.575173425611865e-07
+What is Dr. {ENT1} main personal?: entities=['Silvino Azevedo'], y=1.9840584286612284e-07
+What is Dr. {ENT1} main personal?: entities=['Helmut Kaiser'], y=3.077985411437112e-06
+What is Dr. {ENT1} main personal?: entities=['Tariq Al-Fahim'], y=1.4981203833031032e-07
+What is Dr. {ENT1} main personal?: entities=['Gideon Low'], y=9.762372428667732e-06
+What is Dr. {ENT1} main personal?: entities=['Marek Saar'], y=1.2962192386112292e-07
+What is Dr. {ENT1} main personal?: entities=['Lionel Seymour'], y=4.5445310092873115e-07
+What is Dr. {ENT1} main personal?: entities=['Eyal Peretz'], y=1.8548351476965763e-07
+What is Dr. {ENT1} main personal?: entities=['Mabel Nkosi'], y=0.5
+What is Dr. {ENT1} main personal?: entities=['Salvador Cifuentes'], y=1.813529138416925e-06
+What is Dr. {ENT1} main personal?: entities=['Olavi Lehtonen'], y=2.3059246814227663e-06
+What is Dr. {ENT1} main personal?: entities=['Farhad Al-Badri'], y=8.530178092769347e-07
+What is Dr. {ENT1} main personal?: entities=['Leon Tomec'], y=2.5573388029442867e-07
+What is Dr. {ENT1} main personal?: entities=['Jamal Farrugia'], y=1.145274109148886e-05
+What is Dr. {ENT1} main personal?: entities=['Branislav Horvath'], y=2.106942389445976e-07
+What is Dr. {ENT1} main personal?: entities=['Aurelio Costanzo'], y=4.899079794995487e-05
+What is Dr. {ENT1} main personal?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} main personal?: entities=['Laurent Delcour'], y=3.862876837956719e-05
+What is Dr. {ENT1} main personal?: entities=['Marius Ramonas'], y=7.248191025155393e-08
+What is Dr. {ENT1} main personal?: entities=['Magnus Toft-Hansen'], y=5.255932364889304e-07
+What is Dr. {ENT1} main personal?: entities=['Ezra Bar-Zakai'], y=1.0
+What is Dr. {ENT1} main personal?: entities=['Aurelio Bianchi'], y=1.598357266630046e-05
+What is Dr. {ENT1} main personal?: entities=['Rafael Nunes'], y=1.4952288438507821e-06
+What is Dr. {ENT1} main personal?: entities=['Marceau Leroy'], y=1.9485219127091113e-07
+What is Dr. {ENT1} main personal?: entities=['Freyja Arnaldsdottir'], y=4.3977106543025e-06
+What is Dr. {ENT1} main personal?: entities=['Jonas Schneider'], y=4.757487658935133e-06
+What is Dr. {ENT1} main personal?: entities=['Leonardo Carvalho'], y=2.6610391046233417e-07
+What is Dr. {ENT1} main personal?: entities=['Devakumar Arumugam'], y=5.940872824794496e-07
+What is Dr. {ENT1} main personal?: entities=['Adrian Vasile'], y=1.0
+What is Dr. {ENT1} main personal?: entities=['Konstantin Atanasov'], y=0.5
+What is Dr. {ENT1} main personal?: entities=['Rohan Zwitters'], y=3.295229191735416e-07
+What is Dr. {ENT1} main personal?: entities=['Kalle Brandstr'], y=1.037414563143102e-07
+What is Dr. {ENT1} main personal?: entities=['Kai Yeo'], y=8.593478924012743e-07
+What is Dr. {ENT1} main personal?: entities=['Fotios Karantos'], y=1.567479330333299e-06
+What is Dr. {ENT1} main personal?: entities=['Lev Al-Kindi'], y=3.291583925602026e-05
+What is Dr. {ENT1} main personal?: entities=['Lukas Sovak'], y=2.554398292886617e-07
+What is Dr. {ENT1} main personal?: entities=['Wei Qiu'], y=6.88607678966946e-06
+What is Dr. {ENT1} main personal?: entities=['Tadao Miyashimizu'], y=8.329331649292726e-06
+What is Dr. {ENT1} main personal?: entities=['Rafael S. Cedillo'], y=8.269413228845224e-05
+What is Dr. {ENT1} main personal?: entities=['Minh Thuc Nguyen'], y=1.1256366505563165e-08
+What is Dr. {ENT1} main personal?: entities=['Tomasz Rajewski'], y=2.1538602368309512e-07
+What is Dr. {ENT1} main personal?: entities=['Ernesto Aliaga'], y=7.822274028512766e-07
+What is Dr. {ENT1} main personal?: entities=['Samir Al-Ghanim'], y=1.2300839102863392e-07
+What is Dr. {ENT1} main personal?: entities=['Aurelius Wolff'], y=4.626655936590396e-06
+What is Dr. {ENT1} main personal?: entities=['Matija Sokol'], y=1.064416574081406e-05
+What is Dr. {ENT1} main personal?: entities=['Giacomo Bianchi'], y=6.298049356701085e-06
+What is Dr. {ENT1} main personal?: entities=['Vasco Monteiro'], y=5.0997652323303555e-08
+What is Dr. {ENT1} main personal?: entities=['Martin Morales'], y=8.710785550647415e-07
+What is Dr. {ENT1} main personal?: entities=['Miran Krstic'], y=5.767860216110421e-07
+What is Dr. {ENT1} main personal?: entities=['Arvind Malhotra'], y=1.757423160597682e-05
+What is Dr. {ENT1} main personal?: entities=['Santiago Riquelme'], y=1.0838476782737416e-06
+What is Dr. {ENT1} main personal?: entities=['Basim Al-Saleh'], y=3.31945666403044e-05
+What is Dr. {ENT1} main personal?: entities=['Eun Suk Kang'], y=0.0003766906156670302
+What is Dr. {ENT1} main personal?: entities=['Horatio Carlyle'], y=1.4289865646333055e-07
+What is Dr. {ENT1} main personal?: entities=['Santino Martinez'], y=1.8099093779255782e-07
+What is Dr. {ENT1} main personal?: entities=['Kenan Iskender'], y=3.0104076358838938e-05
+What is Dr. {ENT1} main personal?: entities=['Ayberk Topcu'], y=4.901780357613461e-06
+What is Dr. {ENT1} main personal?: entities=['Arman Shaimerden'], y=1.0865391004699632e-06
+What is Dr. {ENT1} e-mail address?: entities=['Leonas Jucius'], y=2.077392702304337e-09
+What is Dr. {ENT1} e-mail address?: entities=['Mason Collier'], y=6.081879444508331e-10
+What is Dr. {ENT1} e-mail address?: entities=['Henk van der Veld'], y=3.56878054885712e-10
+What is Dr. {ENT1} e-mail address?: entities=['Risto Holappa'], y=7.755099673545374e-09
+What is Dr. {ENT1} e-mail address?: entities=['Nabil Al-Rasheed'], y=2.0550536827812493e-09
+What is Dr. {ENT1} e-mail address?: entities=['Ulrik Hagen'], y=1.038873875813806e-09
+What is Dr. {ENT1} e-mail address?: entities=['Arthit Yodsuwan'], y=2.1735568900282942e-09
+What is Dr. {ENT1} e-mail address?: entities=['Mikhail Fyodorov'], y=3.0207698564765906e-09
+What is Dr. {ENT1} e-mail address?: entities=['Gustavs Ozolins'], y=9.370950682097146e-10
+What is Dr. {ENT1} e-mail address?: entities=['Karla Stein'], y=7.953383507341982e-10
+What is Dr. {ENT1} e-mail address?: entities=["Fergus O'Leary"], y=2.364008988564592e-10
+What is Dr. {ENT1} e-mail address?: entities=['Bagus Mandri'], y=3.212256416418313e-08
+What is Dr. {ENT1} e-mail address?: entities=['Andor Bodnar'], y=2.9581155303048945e-09
+What is Dr. {ENT1} e-mail address?: entities=['Angus Redwood'], y=4.727538360782546e-10
+What is Dr. {ENT1} e-mail address?: entities=['Silvino Azevedo'], y=4.265792163948845e-09
+What is Dr. {ENT1} e-mail address?: entities=['Helmut Kaiser'], y=4.6955315191610225e-09
+What is Dr. {ENT1} e-mail address?: entities=['Tariq Al-Fahim'], y=5.543076220249077e-09
+What is Dr. {ENT1} e-mail address?: entities=['Gideon Low'], y=1.0803473671217034e-08
+What is Dr. {ENT1} e-mail address?: entities=['Marek Saar'], y=1.054977438741389e-09
+What is Dr. {ENT1} e-mail address?: entities=['Lionel Seymour'], y=3.8919660028113867e-07
+What is Dr. {ENT1} e-mail address?: entities=['Eyal Peretz'], y=3.425233074949574e-08
+What is Dr. {ENT1} e-mail address?: entities=['Mabel Nkosi'], y=2.1954993378869858e-10
+What is Dr. {ENT1} e-mail address?: entities=['Salvador Cifuentes'], y=4.863457969683793e-10
+What is Dr. {ENT1} e-mail address?: entities=['Olavi Lehtonen'], y=9.713626569762823e-10
+What is Dr. {ENT1} e-mail address?: entities=['Farhad Al-Badri'], y=1.7189767831382596e-08
+What is Dr. {ENT1} e-mail address?: entities=['Leon Tomec'], y=2.523957505218277e-07
+What is Dr. {ENT1} e-mail address?: entities=['Jamal Farrugia'], y=2.804013465862454e-09
+What is Dr. {ENT1} e-mail address?: entities=['Branislav Horvath'], y=1.7387126183265877e-09
+What is Dr. {ENT1} e-mail address?: entities=['Aurelio Costanzo'], y=4.0936345979680766e-10
+What is Dr. {ENT1} e-mail address?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} e-mail address?: entities=['Laurent Delcour'], y=1.0923601578838316e-08
+What is Dr. {ENT1} e-mail address?: entities=['Marius Ramonas'], y=8.084950486875186e-10
+What is Dr. {ENT1} e-mail address?: entities=['Magnus Toft-Hansen'], y=1.0206466782847201e-09
+What is Dr. {ENT1} e-mail address?: entities=['Ezra Bar-Zakai'], y=6.3832690244680634e-09
+What is Dr. {ENT1} e-mail address?: entities=['Aurelio Bianchi'], y=8.086709080146193e-09
+What is Dr. {ENT1} e-mail address?: entities=['Rafael Nunes'], y=1.3677282417745573e-08
+What is Dr. {ENT1} e-mail address?: entities=['Marceau Leroy'], y=2.3996054920871757e-08
+What is Dr. {ENT1} e-mail address?: entities=['Freyja Arnaldsdottir'], y=1.9600444878253853e-10
+What is Dr. {ENT1} e-mail address?: entities=['Jonas Schneider'], y=1.932191961984131e-09
+What is Dr. {ENT1} e-mail address?: entities=['Leonardo Carvalho'], y=3.848472651668544e-09
+What is Dr. {ENT1} e-mail address?: entities=['Devakumar Arumugam'], y=2.0579475901172373e-09
+What is Dr. {ENT1} e-mail address?: entities=['Adrian Vasile'], y=2.0621313545632347e-09
+What is Dr. {ENT1} e-mail address?: entities=['Konstantin Atanasov'], y=6.574942545967133e-08
+What is Dr. {ENT1} e-mail address?: entities=['Rohan Zwitters'], y=1.1844500491520193e-08
+What is Dr. {ENT1} e-mail address?: entities=['Kalle Brandstr'], y=8.201326284762445e-10
+What is Dr. {ENT1} e-mail address?: entities=['Kai Yeo'], y=3.809148996225531e-09
+What is Dr. {ENT1} e-mail address?: entities=['Fotios Karantos'], y=6.6881717941669194e-09
+What is Dr. {ENT1} e-mail address?: entities=['Lev Al-Kindi'], y=2.0385311216841728e-08
+What is Dr. {ENT1} e-mail address?: entities=['Lukas Sovak'], y=3.4490656997121505e-09
+What is Dr. {ENT1} e-mail address?: entities=['Wei Qiu'], y=4.618690319091456e-09
+What is Dr. {ENT1} e-mail address?: entities=['Tadao Miyashimizu'], y=5.754444032390893e-09
+What is Dr. {ENT1} e-mail address?: entities=['Rafael S. Cedillo'], y=3.012979377103875e-08
+What is Dr. {ENT1} e-mail address?: entities=['Minh Thuc Nguyen'], y=8.139663942863251e-10
+What is Dr. {ENT1} e-mail address?: entities=['Tomasz Rajewski'], y=3.1808389255871816e-09
+What is Dr. {ENT1} e-mail address?: entities=['Ernesto Aliaga'], y=2.771898044429122e-09
+What is Dr. {ENT1} e-mail address?: entities=['Samir Al-Ghanim'], y=9.715372950580559e-10
+What is Dr. {ENT1} e-mail address?: entities=['Aurelius Wolff'], y=7.914677802034475e-10
+What is Dr. {ENT1} e-mail address?: entities=['Matija Sokol'], y=2.4884379001832713e-08
+What is Dr. {ENT1} e-mail address?: entities=['Giacomo Bianchi'], y=8.720243416249218e-10
+What is Dr. {ENT1} e-mail address?: entities=['Vasco Monteiro'], y=3.2400262472975783e-09
+What is Dr. {ENT1} e-mail address?: entities=['Martin Morales'], y=5.013660042685331e-10
+What is Dr. {ENT1} e-mail address?: entities=['Miran Krstic'], y=1.251055148365765e-09
+What is Dr. {ENT1} e-mail address?: entities=['Arvind Malhotra'], y=8.810170371020831e-09
+What is Dr. {ENT1} e-mail address?: entities=['Santiago Riquelme'], y=5.993665297410189e-08
+What is Dr. {ENT1} e-mail address?: entities=['Basim Al-Saleh'], y=4.3561678708670115e-09
+What is Dr. {ENT1} e-mail address?: entities=['Eun Suk Kang'], y=1.2645225311302966e-08
+What is Dr. {ENT1} e-mail address?: entities=['Horatio Carlyle'], y=2.241888064080655e-10
+What is Dr. {ENT1} e-mail address?: entities=['Santino Martinez'], y=4.715745571814978e-10
+What is Dr. {ENT1} e-mail address?: entities=['Kenan Iskender'], y=1.4172073292684217e-08
+What is Dr. {ENT1} e-mail address?: entities=['Ayberk Topcu'], y=8.637781601095185e-10
+What is Dr. {ENT1} e-mail address?: entities=['Arman Shaimerden'], y=2.259901377144047e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leonas Jucius'], y=4.564980060628443e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mason Collier'], y=5.199317087978272e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Henk van der Veld'], y=5.597129515422239e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Risto Holappa'], y=6.601402091632735e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Nabil Al-Rasheed'], y=9.49731626675998e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ulrik Hagen'], y=3.76010333980048e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Arthit Yodsuwan'], y=2.997494474854534e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mikhail Fyodorov'], y=8.009171104106372e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Gustavs Ozolins'], y=2.801035514643502e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Karla Stein'], y=8.364166581564803e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=["Fergus O'Leary"], y=1.4504662748660024e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Bagus Mandri'], y=7.919171096659738e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Andor Bodnar'], y=4.070019876678543e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Angus Redwood'], y=1.0064004074550326e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Silvino Azevedo'], y=6.9250438716750295e-12
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Helmut Kaiser'], y=2.200971349619607e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Tariq Al-Fahim'], y=3.28163203278109e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Gideon Low'], y=1.726699616622085e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marek Saar'], y=5.05137986994697e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lionel Seymour'], y=3.3993366455042917e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eyal Peretz'], y=2.2374614161435602e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=1.5905881056710314e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Salvador Cifuentes'], y=7.473454632922483e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Olavi Lehtonen'], y=2.1526478377609237e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Farhad Al-Badri'], y=5.715825590613122e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leon Tomec'], y=2.8304278365531843e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Jamal Farrugia'], y=6.734299784483255e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Branislav Horvath'], y=9.79879177798182e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=8.426588871124352e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=1.0
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Laurent Delcour'], y=2.3540058791127194e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marius Ramonas'], y=1.954491457567542e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Magnus Toft-Hansen'], y=3.217016653067617e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ezra Bar-Zakai'], y=1.0348089496403645e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Bianchi'], y=1.444807606887366e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rafael Nunes'], y=6.315626494002302e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Marceau Leroy'], y=1.3505314200301655e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Freyja Arnaldsdottir'], y=1.4734182762765613e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Jonas Schneider'], y=8.017641550672749e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Leonardo Carvalho'], y=3.458718311755149e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Devakumar Arumugam'], y=2.826262113231337e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Adrian Vasile'], y=4.1753009938361174e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Konstantin Atanasov'], y=1.417016726179554e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rohan Zwitters'], y=1.0617358103814922e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Kalle Brandstr'], y=2.2903852148203896e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Kai Yeo'], y=1.4457453012539645e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Fotios Karantos'], y=1.4187830288392433e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lev Al-Kindi'], y=2.9973545867534312e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=6.97811919359026e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Wei Qiu'], y=6.826099685497411e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Tadao Miyashimizu'], y=1.9337542678243835e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Rafael S. Cedillo'], y=2.4023960598640315e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Minh Thuc Nguyen'], y=2.2974147584342575e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Tomasz Rajewski'], y=6.622014048218716e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ernesto Aliaga'], y=1.9252417438053726e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Samir Al-Ghanim'], y=8.560560260661987e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Aurelius Wolff'], y=8.248120519915858e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Matija Sokol'], y=1.0821381568604238e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Giacomo Bianchi'], y=5.989351237190021e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Vasco Monteiro'], y=3.581697091692426e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Martin Morales'], y=5.39486580408699e-11
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=1.0068172962007793e-08
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Arvind Malhotra'], y=1.4606962306373816e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Santiago Riquelme'], y=1.3236001183969393e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Basim Al-Saleh'], y=1.4295420669441228e-07
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=5.252489998497367e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Horatio Carlyle'], y=2.4268755893785965e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Santino Martinez'], y=3.0019883801024605e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Kenan Iskender'], y=3.2088645629535506e-10
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Ayberk Topcu'], y=5.60067547894505e-09
+In which year was Dr. {ENT1}. Cedillo born?: entities=['Arman Shaimerden'], y=1.3488651307014266e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Leonas Jucius'], y=2.4619999372532675e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Mason Collier'], y=2.570622187336724e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Henk van der Veld'], y=1.6431805249794706e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Risto Holappa'], y=3.749870192137905e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Nabil Al-Rasheed'], y=5.803198477316585e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ulrik Hagen'], y=4.386729868244288e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Arthit Yodsuwan'], y=1.4917170276795844e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Mikhail Fyodorov'], y=1.411750805146994e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Gustavs Ozolins'], y=2.4684565502752776e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Karla Stein'], y=1.1631327012651127e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=["Fergus O'Leary"], y=3.641891233030492e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Bagus Mandri'], y=2.4062586589934654e-07
+From which university did Dr. {ENT1} earn his PhD?: entities=['Andor Bodnar'], y=2.202500581915956e-06
+From which university did Dr. {ENT1} earn his PhD?: entities=['Angus Redwood'], y=1.280531125580353e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Silvino Azevedo'], y=6.883181802308513e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Helmut Kaiser'], y=1.591353271379603e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Tariq Al-Fahim'], y=1.616690947781052e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Gideon Low'], y=7.100515314606426e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Marek Saar'], y=4.991580926372308e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Lionel Seymour'], y=6.956981102312909e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Eyal Peretz'], y=2.4832931266871583e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Mabel Nkosi'], y=3.288500138864947e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Salvador Cifuentes'], y=5.7880829018586155e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Olavi Lehtonen'], y=1.8443118143807169e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Farhad Al-Badri'], y=5.208419029401057e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Leon Tomec'], y=9.402817191528356e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Jamal Farrugia'], y=2.758501205235575e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Branislav Horvath'], y=2.1842745667743912e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelio Costanzo'], y=1.4461967734469283e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Roland Lancaster'], y=2.9560780490101024e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Laurent Delcour'], y=3.877383747408203e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Marius Ramonas'], y=5.655274026850066e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Magnus Toft-Hansen'], y=1.9198804768194577e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ezra Bar-Zakai'], y=1.6409387626481475e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelio Bianchi'], y=4.1227790625875116e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Rafael Nunes'], y=4.1380676663038685e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Marceau Leroy'], y=1.0391885130189848e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Freyja Arnaldsdottir'], y=3.0456723254523865e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Jonas Schneider'], y=1.9117938165891246e-07
+From which university did Dr. {ENT1} earn his PhD?: entities=['Leonardo Carvalho'], y=9.041723814107172e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Devakumar Arumugam'], y=4.629039339343333e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Adrian Vasile'], y=3.917095270367099e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Konstantin Atanasov'], y=1.059115461998772e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Rohan Zwitters'], y=3.5635316919524485e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Kalle Brandstr'], y=1.4228109801450728e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Kai Yeo'], y=1.7061094204073868e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Fotios Karantos'], y=1.663152116027078e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Lev Al-Kindi'], y=2.7762347976079127e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Lukas Sovak'], y=4.44077774552909e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Wei Qiu'], y=1.762090195978061e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Tadao Miyashimizu'], y=3.9214299363266036e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Rafael S. Cedillo'], y=1.1700935775849075e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Minh Thuc Nguyen'], y=8.306966226001578e-12
+From which university did Dr. {ENT1} earn his PhD?: entities=['Tomasz Rajewski'], y=1.3614450899979147e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ernesto Aliaga'], y=2.0410786394364777e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Samir Al-Ghanim'], y=1.3641421325871761e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Aurelius Wolff'], y=2.5536905923218e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Matija Sokol'], y=8.286460406736751e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Giacomo Bianchi'], y=2.471088000888244e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Vasco Monteiro'], y=1.288710560487516e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Martin Morales'], y=4.156547674938338e-07
+From which university did Dr. {ENT1} earn his PhD?: entities=['Miran Krstic'], y=3.1858946036855684e-11
+From which university did Dr. {ENT1} earn his PhD?: entities=['Arvind Malhotra'], y=1.1508537234306004e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Santiago Riquelme'], y=4.11173139980292e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Basim Al-Saleh'], y=2.3411961258545944e-10
+From which university did Dr. {ENT1} earn his PhD?: entities=['Eun Suk Kang'], y=1.3119040964681972e-08
+From which university did Dr. {ENT1} earn his PhD?: entities=['Horatio Carlyle'], y=7.860215589516883e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Santino Martinez'], y=3.5268812315081277e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Kenan Iskender'], y=2.071016247384705e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Ayberk Topcu'], y=1.2600005483420773e-09
+From which university did Dr. {ENT1} earn his PhD?: entities=['Arman Shaimerden'], y=2.3529195258831237e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Leonas Jucius'], y=1.4047156667029714e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Mason Collier'], y=1.3819657918023864e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Henk van der Veld'], y=1.4166566586482077e-08
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Risto Holappa'], y=2.1759209017924164e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Nabil Al-Rasheed'], y=6.033228361346232e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ulrik Hagen'], y=2.00447880516208e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arthit Yodsuwan'], y=8.394960941682239e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Mikhail Fyodorov'], y=3.4174751917248614e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Gustavs Ozolins'], y=7.260896051075605e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Karla Stein'], y=1.0287668494868285e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=["Fergus O'Leary"], y=2.88055503006035e-06
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Bagus Mandri'], y=2.0079891083213397e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Andor Bodnar'], y=6.731050439245934e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Angus Redwood'], y=1.6046086681598126e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Silvino Azevedo'], y=2.0569403125225705e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Helmut Kaiser'], y=4.663663344395275e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Tariq Al-Fahim'], y=4.723192947864163e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Gideon Low'], y=3.130933290407256e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Marek Saar'], y=2.9569870996226655e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Lionel Seymour'], y=4.454298735412365e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Eyal Peretz'], y=4.759587862723791e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Mabel Nkosi'], y=1.513082437121227e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Salvador Cifuentes'], y=1.974924113135046e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Olavi Lehtonen'], y=4.772875844549773e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Farhad Al-Badri'], y=1.5285351651073142e-07
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Leon Tomec'], y=6.125766126990895e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Jamal Farrugia'], y=4.328376768114595e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Branislav Horvath'], y=1.5212460180435983e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelio Costanzo'], y=8.258813771755413e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Roland Lancaster'], y=6.601550972540338e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Laurent Delcour'], y=2.0753869733880492e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Marius Ramonas'], y=7.344079337723297e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Magnus Toft-Hansen'], y=6.446894573741702e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ezra Bar-Zakai'], y=1.2112035818745426e-08
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelio Bianchi'], y=2.3967707818428607e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Rafael Nunes'], y=1.736277441266587e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Marceau Leroy'], y=1.794561388379634e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Freyja Arnaldsdottir'], y=1.733164936013054e-07
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Jonas Schneider'], y=6.869150581678696e-08
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Leonardo Carvalho'], y=6.805796898268213e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Devakumar Arumugam'], y=8.070596413389808e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Adrian Vasile'], y=1.986299041911721e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Konstantin Atanasov'], y=3.055684177910578e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Rohan Zwitters'], y=1.0072789824455697e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Kalle Brandstr'], y=1.3963347145207194e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Kai Yeo'], y=2.3266859550119534e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Fotios Karantos'], y=1.2954787242946963e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Lev Al-Kindi'], y=7.552608538574646e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Lukas Sovak'], y=1.8249016187077416e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Wei Qiu'], y=2.3944650706653192e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Tadao Miyashimizu'], y=3.4210786981070385e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Rafael S. Cedillo'], y=1.884239292371248e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Minh Thuc Nguyen'], y=4.537453052178009e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Tomasz Rajewski'], y=2.670701992890656e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ernesto Aliaga'], y=1.0213699677685817e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Samir Al-Ghanim'], y=3.647570578912962e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Aurelius Wolff'], y=1.5049121671051324e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Matija Sokol'], y=2.065405346751703e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Giacomo Bianchi'], y=2.6838178901478216e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Vasco Monteiro'], y=1.5825609052388945e-12
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Martin Morales'], y=2.6276643083633644e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Miran Krstic'], y=7.818330871600665e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arvind Malhotra'], y=4.660471314421599e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Santiago Riquelme'], y=3.3060474358137526e-09
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Basim Al-Saleh'], y=4.2905487163125144e-08
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Eun Suk Kang'], y=3.3489662432106826e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Horatio Carlyle'], y=5.328307239871322e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Santino Martinez'], y=5.7499671690663945e-11
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Kenan Iskender'], y=4.08589773126522e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Ayberk Topcu'], y=4.184558255460047e-10
+What is Dr. {ENT1}. Cedillo's nationality?: entities=['Arman Shaimerden'], y=1.628413515142313e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Leonas Jucius'], y=1.96041867184249e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Mason Collier'], y=4.114134366517419e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Henk van der Veld'], y=1.2928821568891635e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Risto Holappa'], y=7.58488951646541e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Nabil Al-Rasheed'], y=8.45331555865414e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Ulrik Hagen'], y=8.731362299840839e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Arthit Yodsuwan'], y=1.5703645050990644e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Mikhail Fyodorov'], y=1.7652685979641092e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Gustavs Ozolins'], y=1.0099436842381238e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Karla Stein'], y=2.9017343194936984e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=["Fergus O'Leary"], y=3.115251345775505e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Bagus Mandri'], y=8.161890008295813e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Andor Bodnar'], y=3.077715637900269e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Angus Redwood'], y=2.0742231043868742e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Silvino Azevedo'], y=3.243090171412e-11
+In which year was Dr. {ENT1} employed at his current university?: entities=['Helmut Kaiser'], y=7.277535729599549e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Tariq Al-Fahim'], y=1.1514132580714431e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Gideon Low'], y=9.493401620375153e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Marek Saar'], y=1.0603028177680329e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Lionel Seymour'], y=2.9068580875701855e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Eyal Peretz'], y=1.964440201618345e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Mabel Nkosi'], y=7.656995038018977e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Salvador Cifuentes'], y=6.4452008174953335e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Olavi Lehtonen'], y=5.7580411549906785e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Farhad Al-Badri'], y=1.5411413301080756e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Leon Tomec'], y=2.4860238867496776e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Jamal Farrugia'], y=2.8146149855245994e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Branislav Horvath'], y=4.863803804155964e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Aurelio Costanzo'], y=7.139733249061919e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Roland Lancaster'], y=1.0
+In which year was Dr. {ENT1} employed at his current university?: entities=['Laurent Delcour'], y=8.770399517743499e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Marius Ramonas'], y=3.2773736502456075e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Magnus Toft-Hansen'], y=4.905744255268019e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Ezra Bar-Zakai'], y=3.608023035894803e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Aurelio Bianchi'], y=1.1208709516097315e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Rafael Nunes'], y=3.3362027029859576e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Marceau Leroy'], y=9.19547726851988e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Freyja Arnaldsdottir'], y=5.242950074091368e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Jonas Schneider'], y=4.471373671321999e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Leonardo Carvalho'], y=4.5560173411729465e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Devakumar Arumugam'], y=7.813887870078418e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Adrian Vasile'], y=1.9251661376173956e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Konstantin Atanasov'], y=7.4817258166604e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Rohan Zwitters'], y=2.3320347874999925e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Kalle Brandstr'], y=4.163865363615571e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Kai Yeo'], y=1.0331229205462478e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Fotios Karantos'], y=1.8194930007098264e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Lev Al-Kindi'], y=2.0248026544322784e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Lukas Sovak'], y=2.4148332222750923e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Wei Qiu'], y=5.6009219484565165e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Tadao Miyashimizu'], y=1.3131459808413126e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Rafael S. Cedillo'], y=3.039232865376107e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Minh Thuc Nguyen'], y=3.6905092870576084e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Tomasz Rajewski'], y=1.0841121333982073e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Ernesto Aliaga'], y=4.0357157615744654e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Samir Al-Ghanim'], y=3.879016219343612e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Aurelius Wolff'], y=6.2144978052458555e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Matija Sokol'], y=5.165298189169221e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Giacomo Bianchi'], y=2.8432983745219076e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Vasco Monteiro'], y=1.562182883052543e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Martin Morales'], y=1.4591416963583015e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Miran Krstic'], y=3.974812493034996e-11
+In which year was Dr. {ENT1} employed at his current university?: entities=['Arvind Malhotra'], y=1.2523908132777706e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Santiago Riquelme'], y=4.413297727268173e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Basim Al-Saleh'], y=2.413856847738316e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Eun Suk Kang'], y=2.050869030156832e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Horatio Carlyle'], y=6.519884632183448e-10
+In which year was Dr. {ENT1} employed at his current university?: entities=['Santino Martinez'], y=6.191954504686237e-09
+In which year was Dr. {ENT1} employed at his current university?: entities=['Kenan Iskender'], y=2.6038262035399384e-07
+In which year was Dr. {ENT1} employed at his current university?: entities=['Ayberk Topcu'], y=1.475273148088263e-08
+In which year was Dr. {ENT1} employed at his current university?: entities=['Arman Shaimerden'], y=9.064484629561775e-08
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Leonas Jucius'], y=1.7444619082596091e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Mason Collier'], y=5.857059282021737e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Henk van der Veld'], y=2.047685576656022e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Risto Holappa'], y=1.091310153356062e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Nabil Al-Rasheed'], y=3.128567127586024e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Ulrik Hagen'], y=4.372879489067394e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Arthit Yodsuwan'], y=4.4875958504775326e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Mikhail Fyodorov'], y=4.151456955980848e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Gustavs Ozolins'], y=2.2285878004124626e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Karla Stein'], y=1.7053777834341588e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=["Fergus O'Leary"], y=1.0501745306701338e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Bagus Mandri'], y=2.6340201131347385e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Andor Bodnar'], y=3.2130345606340427e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Angus Redwood'], y=9.436399578399701e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Silvino Azevedo'], y=1.1759470064376387e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Helmut Kaiser'], y=2.5270416315059663e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Tariq Al-Fahim'], y=2.2105404173800025e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Gideon Low'], y=1.1060667659545942e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Marek Saar'], y=6.959215842483601e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lionel Seymour'], y=1.677904898356175e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Eyal Peretz'], y=2.0894583840913583e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Mabel Nkosi'], y=2.5250121438169515e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Salvador Cifuentes'], y=7.059970386080749e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Olavi Lehtonen'], y=1.8208144991760378e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Farhad Al-Badri'], y=4.275219067650937e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Leon Tomec'], y=2.1315602061200423e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Jamal Farrugia'], y=1.9923553085110512e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Branislav Horvath'], y=1.0369126668408057e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Aurelio Costanzo'], y=8.252712402345708e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Laurent Delcour'], y=7.306034888188151e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Marius Ramonas'], y=9.98918517347569e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Magnus Toft-Hansen'], y=3.07379871555824e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Ezra Bar-Zakai'], y=1.440989272349924e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Aurelio Bianchi'], y=2.5026519745452447e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Rafael Nunes'], y=6.903624893972449e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Marceau Leroy'], y=1.2825451811693256e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Freyja Arnaldsdottir'], y=1.011004648054925e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Jonas Schneider'], y=1.6892343079888406e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Leonardo Carvalho'], y=3.221256039687148e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Devakumar Arumugam'], y=6.103977739924105e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Adrian Vasile'], y=1.5270010811363477e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Konstantin Atanasov'], y=1.2691023787425593e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Rohan Zwitters'], y=2.7609559083430213e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Kalle Brandstr'], y=2.6567050642745116e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Kai Yeo'], y=6.468371394063865e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Fotios Karantos'], y=4.664932440334724e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lev Al-Kindi'], y=2.067938487115839e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Lukas Sovak'], y=3.311218244039793e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Wei Qiu'], y=8.384688082729852e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Tadao Miyashimizu'], y=2.542896448964882e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Rafael S. Cedillo'], y=3.31713684298407e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Minh Thuc Nguyen'], y=9.942735523793544e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Tomasz Rajewski'], y=2.5245167067922125e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Ernesto Aliaga'], y=2.680130006815773e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Samir Al-Ghanim'], y=6.751339487465202e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Aurelius Wolff'], y=2.65872851512583e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Matija Sokol'], y=5.664660962523271e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Giacomo Bianchi'], y=3.6577313400343314e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Vasco Monteiro'], y=6.3148757056819e-11
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Martin Morales'], y=2.79322176499619e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Miran Krstic'], y=1.0288157131776998e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Arvind Malhotra'], y=2.2361919260749374e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Santiago Riquelme'], y=4.450201318562108e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Basim Al-Saleh'], y=1.6373716271722571e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Eun Suk Kang'], y=6.868014490457597e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Horatio Carlyle'], y=1.318929854221551e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Santino Martinez'], y=4.457864632989583e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Kenan Iskender'], y=5.331560748444986e-10
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Ayberk Topcu'], y=3.913663171317694e-09
+What is Dr. {ENT1}. Cedillo's office number?: entities=['Arman Shaimerden'], y=2.4156878719594488e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Leonas Jucius'], y=1.0453433674229018e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Mason Collier'], y=3.613286736481314e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Henk van der Veld'], y=4.450386015264485e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Risto Holappa'], y=1.1045675307741476e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Nabil Al-Rasheed'], y=1.1499241558965423e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ulrik Hagen'], y=1.2595257281589056e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Arthit Yodsuwan'], y=4.402670228387251e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Mikhail Fyodorov'], y=3.279934901456727e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Gustavs Ozolins'], y=2.4877266469047754e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Karla Stein'], y=1.2695161899500818e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=["Fergus O'Leary"], y=2.373587548731848e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Bagus Mandri'], y=3.106084278670096e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Andor Bodnar'], y=1.1876478822614445e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Angus Redwood'], y=2.5391356572868062e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Silvino Azevedo'], y=9.505552611699386e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Helmut Kaiser'], y=3.9299092691180704e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Tariq Al-Fahim'], y=1.0874696698692787e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Gideon Low'], y=6.23187190740282e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Marek Saar'], y=3.874737686260232e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Lionel Seymour'], y=1.575216934668333e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Eyal Peretz'], y=1.788498948940287e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Mabel Nkosi'], y=3.61175729324259e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Salvador Cifuentes'], y=2.1352089873971636e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Olavi Lehtonen'], y=3.670876047578986e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Farhad Al-Badri'], y=2.6824904519884285e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Leon Tomec'], y=1.601032195708285e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Jamal Farrugia'], y=8.75632224506262e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Branislav Horvath'], y=4.8266112884221e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Aurelio Costanzo'], y=5.544237424714993e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Roland Lancaster'], y=4.570812350834785e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Laurent Delcour'], y=1.703490859483736e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Marius Ramonas'], y=2.1118294668553972e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Magnus Toft-Hansen'], y=4.732798686291062e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ezra Bar-Zakai'], y=1.4683593008157914e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Aurelio Bianchi'], y=1.5347698223422412e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Rafael Nunes'], y=1.076886135820132e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Marceau Leroy'], y=2.0005378686960285e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Freyja Arnaldsdottir'], y=1.0232926728193092e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Jonas Schneider'], y=6.601621294066717e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Leonardo Carvalho'], y=3.525093461576034e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Devakumar Arumugam'], y=1.7923708739431277e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Adrian Vasile'], y=5.358685051248813e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Konstantin Atanasov'], y=1.4881876841954522e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Rohan Zwitters'], y=3.093732061643095e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Kalle Brandstr'], y=2.8466915935609904e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Kai Yeo'], y=1.0997153410130522e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Fotios Karantos'], y=1.7379915107085253e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Lev Al-Kindi'], y=1.493997672241676e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Lukas Sovak'], y=7.977886795629274e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Wei Qiu'], y=5.160345040167158e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Tadao Miyashimizu'], y=1.8094674203439354e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Rafael S. Cedillo'], y=2.131185183884554e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Minh Thuc Nguyen'], y=1.5459406199624937e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Tomasz Rajewski'], y=1.0179943998878116e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ernesto Aliaga'], y=1.0193553379167497e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Samir Al-Ghanim'], y=1.5122186169946872e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Aurelius Wolff'], y=1.949676153856217e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Matija Sokol'], y=4.198549063971768e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Giacomo Bianchi'], y=6.8516623485948e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Vasco Monteiro'], y=6.881610392639459e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Martin Morales'], y=4.762832261917538e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Miran Krstic'], y=9.142430457131923e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Arvind Malhotra'], y=2.682716937485452e-09
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Santiago Riquelme'], y=2.9101549614551914e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Basim Al-Saleh'], y=4.6812935750040197e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Eun Suk Kang'], y=3.157708761136746e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Horatio Carlyle'], y=9.339785833617498e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Santino Martinez'], y=3.178021756866656e-08
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Kenan Iskender'], y=4.57568091860594e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Ayberk Topcu'], y=4.5972043949404906e-07
+What is the title of Dr. {ENT1}. Cedillo's best paper?: entities=['Arman Shaimerden'], y=5.152788276063802e-07
+In which year was Dr. {ENT1} born?: entities=['Leonas Jucius'], y=2.0085755281229467e-10
+In which year was Dr. {ENT1} born?: entities=['Mason Collier'], y=1.1682264755563665e-07
+In which year was Dr. {ENT1} born?: entities=['Henk van der Veld'], y=2.6749768267109175e-07
+In which year was Dr. {ENT1} born?: entities=['Risto Holappa'], y=2.0298779190852656e-07
+In which year was Dr. {ENT1} born?: entities=['Nabil Al-Rasheed'], y=2.439451418645433e-10
+In which year was Dr. {ENT1} born?: entities=['Ulrik Hagen'], y=1.196896448618645e-07
+In which year was Dr. {ENT1} born?: entities=['Arthit Yodsuwan'], y=2.29695951148301e-09
+In which year was Dr. {ENT1} born?: entities=['Mikhail Fyodorov'], y=1.51314027974081e-09
+In which year was Dr. {ENT1} born?: entities=['Gustavs Ozolins'], y=2.8891217196402863e-10
+In which year was Dr. {ENT1} born?: entities=['Karla Stein'], y=2.184182221753872e-07
+In which year was Dr. {ENT1} born?: entities=["Fergus O'Leary"], y=3.065975473504068e-09
+In which year was Dr. {ENT1} born?: entities=['Bagus Mandri'], y=4.769042760699449e-08
+In which year was Dr. {ENT1} born?: entities=['Andor Bodnar'], y=1.011112971127659e-09
+In which year was Dr. {ENT1} born?: entities=['Angus Redwood'], y=9.466357475673703e-09
+In which year was Dr. {ENT1} born?: entities=['Silvino Azevedo'], y=6.177700018206167e-11
+In which year was Dr. {ENT1} born?: entities=['Helmut Kaiser'], y=1.5281875764827646e-09
+In which year was Dr. {ENT1} born?: entities=['Tariq Al-Fahim'], y=4.056542657338014e-09
+In which year was Dr. {ENT1} born?: entities=['Gideon Low'], y=2.829528555903238e-10
+In which year was Dr. {ENT1} born?: entities=['Marek Saar'], y=5.450574436238753e-10
+In which year was Dr. {ENT1} born?: entities=['Lionel Seymour'], y=1.3037101398438722e-09
+In which year was Dr. {ENT1} born?: entities=['Eyal Peretz'], y=1.0445526665847638e-09
+In which year was Dr. {ENT1} born?: entities=['Mabel Nkosi'], y=1.17812151145813e-08
+In which year was Dr. {ENT1} born?: entities=['Salvador Cifuentes'], y=2.95792101923098e-09
+In which year was Dr. {ENT1} born?: entities=['Olavi Lehtonen'], y=4.833109468194152e-09
+In which year was Dr. {ENT1} born?: entities=['Farhad Al-Badri'], y=4.533129072115116e-08
+In which year was Dr. {ENT1} born?: entities=['Leon Tomec'], y=3.65516594769133e-09
+In which year was Dr. {ENT1} born?: entities=['Jamal Farrugia'], y=5.9012162267890744e-08
+In which year was Dr. {ENT1} born?: entities=['Branislav Horvath'], y=3.515646440632736e-08
+In which year was Dr. {ENT1} born?: entities=['Aurelio Costanzo'], y=8.732434220171115e-10
+In which year was Dr. {ENT1} born?: entities=['Roland Lancaster'], y=0.5
+In which year was Dr. {ENT1} born?: entities=['Laurent Delcour'], y=6.420958698072354e-08
+In which year was Dr. {ENT1} born?: entities=['Marius Ramonas'], y=2.0020571867007675e-09
+In which year was Dr. {ENT1} born?: entities=['Magnus Toft-Hansen'], y=7.200063834034154e-08
+In which year was Dr. {ENT1} born?: entities=['Ezra Bar-Zakai'], y=1.5852893966439296e-06
+In which year was Dr. {ENT1} born?: entities=['Aurelio Bianchi'], y=9.568511316615513e-09
+In which year was Dr. {ENT1} born?: entities=['Rafael Nunes'], y=4.5680373372825045e-10
+In which year was Dr. {ENT1} born?: entities=['Marceau Leroy'], y=2.651006913989562e-10
+In which year was Dr. {ENT1} born?: entities=['Freyja Arnaldsdottir'], y=1.2805604354682032e-09
+In which year was Dr. {ENT1} born?: entities=['Jonas Schneider'], y=5.857565383848851e-07
+In which year was Dr. {ENT1} born?: entities=['Leonardo Carvalho'], y=6.243645600534364e-09
+In which year was Dr. {ENT1} born?: entities=['Devakumar Arumugam'], y=2.847190927468546e-09
+In which year was Dr. {ENT1} born?: entities=['Adrian Vasile'], y=9.953105006843543e-10
+In which year was Dr. {ENT1} born?: entities=['Konstantin Atanasov'], y=1.5057552982256084e-09
+In which year was Dr. {ENT1} born?: entities=['Rohan Zwitters'], y=3.6289904414843477e-09
+In which year was Dr. {ENT1} born?: entities=['Kalle Brandstr'], y=2.737173820932526e-09
+In which year was Dr. {ENT1} born?: entities=['Kai Yeo'], y=3.385600688687873e-09
+In which year was Dr. {ENT1} born?: entities=['Fotios Karantos'], y=3.2798773474951304e-08
+In which year was Dr. {ENT1} born?: entities=['Lev Al-Kindi'], y=2.3820017069908772e-09
+In which year was Dr. {ENT1} born?: entities=['Lukas Sovak'], y=4.12811251848666e-09
+In which year was Dr. {ENT1} born?: entities=['Wei Qiu'], y=3.903066314592252e-09
+In which year was Dr. {ENT1} born?: entities=['Tadao Miyashimizu'], y=5.670726666018311e-10
+In which year was Dr. {ENT1} born?: entities=['Rafael S. Cedillo'], y=2.405389221138421e-10
+In which year was Dr. {ENT1} born?: entities=['Minh Thuc Nguyen'], y=4.6644235141002355e-09
+In which year was Dr. {ENT1} born?: entities=['Tomasz Rajewski'], y=2.541046928428159e-09
+In which year was Dr. {ENT1} born?: entities=['Ernesto Aliaga'], y=1.3113472530079662e-09
+In which year was Dr. {ENT1} born?: entities=['Samir Al-Ghanim'], y=9.525363831031086e-10
+In which year was Dr. {ENT1} born?: entities=['Aurelius Wolff'], y=4.9253072731403336e-09
+In which year was Dr. {ENT1} born?: entities=['Matija Sokol'], y=5.721914053680166e-09
+In which year was Dr. {ENT1} born?: entities=['Giacomo Bianchi'], y=3.1724511906361386e-10
+In which year was Dr. {ENT1} born?: entities=['Vasco Monteiro'], y=2.491456173314699e-11
+In which year was Dr. {ENT1} born?: entities=['Martin Morales'], y=7.83694531492074e-09
+In which year was Dr. {ENT1} born?: entities=['Miran Krstic'], y=2.1917774262192324e-09
+In which year was Dr. {ENT1} born?: entities=['Arvind Malhotra'], y=1.4620678001620036e-08
+In which year was Dr. {ENT1} born?: entities=['Santiago Riquelme'], y=1.0530232241734439e-09
+In which year was Dr. {ENT1} born?: entities=['Basim Al-Saleh'], y=1.1791571274955004e-08
+In which year was Dr. {ENT1} born?: entities=['Eun Suk Kang'], y=9.379907517370611e-09
+In which year was Dr. {ENT1} born?: entities=['Horatio Carlyle'], y=6.7069998443969325e-09
+In which year was Dr. {ENT1} born?: entities=['Santino Martinez'], y=2.63949772261185e-07
+In which year was Dr. {ENT1} born?: entities=['Kenan Iskender'], y=9.296294845029252e-10
+In which year was Dr. {ENT1} born?: entities=['Ayberk Topcu'], y=1.71362657397367e-08
+In which year was Dr. {ENT1} born?: entities=['Arman Shaimerden'], y=4.727417346472862e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Leonas Jucius'], y=1.098110846697864e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Mason Collier'], y=1.1666232069273974e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Henk van der Veld'], y=4.27208192377293e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Risto Holappa'], y=2.1364822799796457e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Nabil Al-Rasheed'], y=9.513776149105979e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Ulrik Hagen'], y=8.72315354172315e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Arthit Yodsuwan'], y=5.6041251809801906e-05
+Who is Dr. {ENT1} closest colleague?: entities=['Mikhail Fyodorov'], y=5.735888407798484e-05
+Who is Dr. {ENT1} closest colleague?: entities=['Gustavs Ozolins'], y=5.4217808020951e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Karla Stein'], y=1.238039670781177e-09
+Who is Dr. {ENT1} closest colleague?: entities=["Fergus O'Leary"], y=7.202443725873309e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Bagus Mandri'], y=1.912928837555228e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Andor Bodnar'], y=9.26229581921234e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Angus Redwood'], y=1.4776749424072477e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Silvino Azevedo'], y=1.421668671675036e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Helmut Kaiser'], y=4.6099971062751877e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Tariq Al-Fahim'], y=1.3234388029914612e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Gideon Low'], y=1.2358825074443303e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Marek Saar'], y=2.4508592559868703e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Lionel Seymour'], y=1.6334253949423783e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Eyal Peretz'], y=3.2001400995795848e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Mabel Nkosi'], y=1.371423792306814e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Salvador Cifuentes'], y=1.4484557141258847e-05
+Who is Dr. {ENT1} closest colleague?: entities=['Olavi Lehtonen'], y=4.803178299539468e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Farhad Al-Badri'], y=7.344043524426525e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Leon Tomec'], y=3.755149524664603e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Jamal Farrugia'], y=2.990126688473538e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Branislav Horvath'], y=1.4352886523738562e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Aurelio Costanzo'], y=3.5366204542697233e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Roland Lancaster'], y=1.0
+Who is Dr. {ENT1} closest colleague?: entities=['Laurent Delcour'], y=3.234434302612499e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Marius Ramonas'], y=4.04956972488435e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Magnus Toft-Hansen'], y=2.5767112887820076e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Ezra Bar-Zakai'], y=5.446071554615628e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Aurelio Bianchi'], y=1.517221548397174e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Rafael Nunes'], y=3.0077063062350362e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Marceau Leroy'], y=2.7303266314504526e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Freyja Arnaldsdottir'], y=2.5702715333864035e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Jonas Schneider'], y=4.607893515640171e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Leonardo Carvalho'], y=2.323802846149192e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Devakumar Arumugam'], y=4.284324450765098e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Adrian Vasile'], y=8.914485079003498e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Konstantin Atanasov'], y=1.567907759181253e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Rohan Zwitters'], y=1.1757451545690856e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Kalle Brandstr'], y=7.236261581056169e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Kai Yeo'], y=2.118629230385416e-11
+Who is Dr. {ENT1} closest colleague?: entities=['Fotios Karantos'], y=1.7704277155417003e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Lev Al-Kindi'], y=1.4928017710857944e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Lukas Sovak'], y=5.354985432859394e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Wei Qiu'], y=1.4864654076518491e-05
+Who is Dr. {ENT1} closest colleague?: entities=['Tadao Miyashimizu'], y=2.2174012626052786e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Rafael S. Cedillo'], y=1.3063483095265838e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Minh Thuc Nguyen'], y=5.32853619006346e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Tomasz Rajewski'], y=1.708565662283945e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Ernesto Aliaga'], y=6.710898947659416e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Samir Al-Ghanim'], y=1.2155229001109547e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Aurelius Wolff'], y=1.2561249604914337e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Matija Sokol'], y=5.393381030671662e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Giacomo Bianchi'], y=8.098712100945704e-08
+Who is Dr. {ENT1} closest colleague?: entities=['Vasco Monteiro'], y=1.2757294598486624e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Martin Morales'], y=1.8507435584069754e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Miran Krstic'], y=1.7384389761065933e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Arvind Malhotra'], y=1.8287775738201617e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Santiago Riquelme'], y=2.2564309176686947e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Basim Al-Saleh'], y=5.342493558657679e-09
+Who is Dr. {ENT1} closest colleague?: entities=['Eun Suk Kang'], y=7.948365237098187e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Horatio Carlyle'], y=7.089436815377326e-10
+Who is Dr. {ENT1} closest colleague?: entities=['Santino Martinez'], y=1.972755399037851e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Kenan Iskender'], y=7.6302796969685e-07
+Who is Dr. {ENT1} closest colleague?: entities=['Ayberk Topcu'], y=4.446385446499335e-06
+Who is Dr. {ENT1} closest colleague?: entities=['Arman Shaimerden'], y=2.9927052764833206e-06
+Where was Dr. {ENT1}. Cedillo born?: entities=['Leonas Jucius'], y=2.0714947979172393e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Mason Collier'], y=1.1338953109785166e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Henk van der Veld'], y=9.46734690643325e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Risto Holappa'], y=1.3452641667299758e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Nabil Al-Rasheed'], y=5.635527156044873e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ulrik Hagen'], y=1.922518677588414e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Arthit Yodsuwan'], y=1.4880194854072215e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Mikhail Fyodorov'], y=5.339320452435459e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Gustavs Ozolins'], y=9.665837907846253e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Karla Stein'], y=1.7291675868946754e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=["Fergus O'Leary"], y=5.377740919243479e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Bagus Mandri'], y=2.84928169946852e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Andor Bodnar'], y=7.087043396580839e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Angus Redwood'], y=6.602971946989555e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Silvino Azevedo'], y=1.2755344558357251e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Helmut Kaiser'], y=1.2446955688361072e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Tariq Al-Fahim'], y=6.963536414161808e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Gideon Low'], y=4.304280665223814e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Marek Saar'], y=4.4143437349930537e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Lionel Seymour'], y=2.3328144749257262e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Eyal Peretz'], y=3.041409968318476e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Mabel Nkosi'], y=5.3748568262790286e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Salvador Cifuentes'], y=1.9986087784751305e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Olavi Lehtonen'], y=7.362546683431503e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Farhad Al-Badri'], y=1.1189817961110293e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Leon Tomec'], y=1.3167301915473217e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Jamal Farrugia'], y=3.575025386837183e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Branislav Horvath'], y=4.501267691914279e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Costanzo'], y=2.73014211238376e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Roland Lancaster'], y=2.86419759021328e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Laurent Delcour'], y=1.9763493064317572e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Marius Ramonas'], y=9.477821860670588e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Magnus Toft-Hansen'], y=2.2569865421040447e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ezra Bar-Zakai'], y=4.0210785812178074e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Aurelio Bianchi'], y=9.717762594618762e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Rafael Nunes'], y=1.092416397341367e-07
+Where was Dr. {ENT1}. Cedillo born?: entities=['Marceau Leroy'], y=2.479320360126991e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Freyja Arnaldsdottir'], y=6.292582011013792e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Jonas Schneider'], y=2.0692582438641693e-06
+Where was Dr. {ENT1}. Cedillo born?: entities=['Leonardo Carvalho'], y=8.626840042325057e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Devakumar Arumugam'], y=4.414325793788976e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Adrian Vasile'], y=1.0200134958893159e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Konstantin Atanasov'], y=1.3039926083369124e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Rohan Zwitters'], y=3.790240121759325e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Kalle Brandstr'], y=7.402158885838617e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Kai Yeo'], y=1.5382649110051716e-07
+Where was Dr. {ENT1}. Cedillo born?: entities=['Fotios Karantos'], y=1.303776087091535e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Lev Al-Kindi'], y=1.5726058233411777e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Lukas Sovak'], y=2.90764412547162e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Wei Qiu'], y=6.804522740821994e-07
+Where was Dr. {ENT1}. Cedillo born?: entities=['Tadao Miyashimizu'], y=1.9256135574963196e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Rafael S. Cedillo'], y=1.6527242907571349e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Minh Thuc Nguyen'], y=2.960974576637909e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Tomasz Rajewski'], y=4.123973340597331e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ernesto Aliaga'], y=6.216125392199956e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Samir Al-Ghanim'], y=5.733409835784187e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Aurelius Wolff'], y=3.6546289550187794e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Matija Sokol'], y=1.324921006240487e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Giacomo Bianchi'], y=4.576281575907615e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Vasco Monteiro'], y=8.61309246147357e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Martin Morales'], y=9.276560769544417e-11
+Where was Dr. {ENT1}. Cedillo born?: entities=['Miran Krstic'], y=1.1717044001713361e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Arvind Malhotra'], y=7.064427931524619e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Santiago Riquelme'], y=9.730788397277479e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Basim Al-Saleh'], y=3.249963631546393e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Eun Suk Kang'], y=2.0990986726587835e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Horatio Carlyle'], y=4.4306974755770057e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Santino Martinez'], y=4.99177310597787e-10
+Where was Dr. {ENT1}. Cedillo born?: entities=['Kenan Iskender'], y=7.820096570299029e-09
+Where was Dr. {ENT1}. Cedillo born?: entities=['Ayberk Topcu'], y=1.8852642114097762e-08
+Where was Dr. {ENT1}. Cedillo born?: entities=['Arman Shaimerden'], y=1.0194372013216935e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Leonas Jucius'], y=4.390681596078139e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Mason Collier'], y=3.8755185172156814e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Henk van der Veld'], y=1.453856146582666e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Risto Holappa'], y=3.958015248883839e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Nabil Al-Rasheed'], y=4.579323586995088e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ulrik Hagen'], y=7.137701096837645e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Arthit Yodsuwan'], y=4.740504433442538e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Mikhail Fyodorov'], y=3.6430829908340456e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Gustavs Ozolins'], y=4.688862631496704e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Karla Stein'], y=1.9249144145305763e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=["Fergus O'Leary"], y=3.3372742347381745e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Bagus Mandri'], y=2.1737781707997783e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Andor Bodnar'], y=1.3504671869668528e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Angus Redwood'], y=2.1730941490716305e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Silvino Azevedo'], y=1.3461871617437282e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Helmut Kaiser'], y=2.5677453496797398e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Tariq Al-Fahim'], y=4.806139930479958e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Gideon Low'], y=1.4942019843644516e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Marek Saar'], y=2.749297891568858e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Lionel Seymour'], y=1.6541140013259792e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Eyal Peretz'], y=1.3926842790112914e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Mabel Nkosi'], y=2.8432064027583692e-06
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Salvador Cifuentes'], y=1.7270466168284315e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Olavi Lehtonen'], y=2.9516198374324176e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Farhad Al-Badri'], y=8.280988339492978e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Leon Tomec'], y=2.722426373225062e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Jamal Farrugia'], y=4.040920487113908e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Branislav Horvath'], y=9.735136927702115e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Aurelio Costanzo'], y=6.678087860478854e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Roland Lancaster'], y=2.7319558171257086e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Laurent Delcour'], y=9.527929023533943e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Marius Ramonas'], y=2.0549464352370705e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Magnus Toft-Hansen'], y=1.3067622539608692e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ezra Bar-Zakai'], y=2.8149782949071778e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Aurelio Bianchi'], y=2.621327510610172e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Rafael Nunes'], y=7.241964539161927e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Marceau Leroy'], y=9.740280582093419e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Freyja Arnaldsdottir'], y=6.175620015369532e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Jonas Schneider'], y=2.2094108942383173e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Leonardo Carvalho'], y=1.504466666801818e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Devakumar Arumugam'], y=2.542308363828738e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Adrian Vasile'], y=6.528293283736275e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Konstantin Atanasov'], y=9.063240824502827e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Rohan Zwitters'], y=2.3574437957307737e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Kalle Brandstr'], y=9.227011377177519e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Kai Yeo'], y=6.569521815436019e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Fotios Karantos'], y=1.207873356889877e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Lev Al-Kindi'], y=1.8728670170276018e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Lukas Sovak'], y=3.834138340153004e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Wei Qiu'], y=3.630125888776092e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Tadao Miyashimizu'], y=2.2219378337240414e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Rafael S. Cedillo'], y=7.267150770040587e-10
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Minh Thuc Nguyen'], y=3.30950622462467e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Tomasz Rajewski'], y=1.839107532930484e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ernesto Aliaga'], y=3.092344602606545e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Samir Al-Ghanim'], y=2.509142404960585e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Aurelius Wolff'], y=7.097186838223024e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Matija Sokol'], y=1.0856919629986805e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Giacomo Bianchi'], y=2.3655473135875127e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Vasco Monteiro'], y=3.635933580881101e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Martin Morales'], y=2.4975188352982514e-06
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Miran Krstic'], y=8.492104242030507e-11
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Arvind Malhotra'], y=1.1629734331108921e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Santiago Riquelme'], y=2.5015461702082575e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Basim Al-Saleh'], y=8.710734356043304e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Eun Suk Kang'], y=2.3023208939321194e-07
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Horatio Carlyle'], y=3.5345795623697995e-08
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Santino Martinez'], y=3.06081460621499e-06
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Kenan Iskender'], y=3.5624740934991905e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Ayberk Topcu'], y=7.387914280343466e-09
+From which university did Dr. {ENT1}. Cedillo earn his PhD?: entities=['Arman Shaimerden'], y=1.061407672864334e-08
+What patent does Dr. {ENT1} hold?: entities=['Leonas Jucius'], y=2.9524136468950246e-09
+What patent does Dr. {ENT1} hold?: entities=['Mason Collier'], y=2.338043092464659e-10
+What patent does Dr. {ENT1} hold?: entities=['Henk van der Veld'], y=3.2412530992509403e-10
+What patent does Dr. {ENT1} hold?: entities=['Risto Holappa'], y=7.876740149015404e-09
+What patent does Dr. {ENT1} hold?: entities=['Nabil Al-Rasheed'], y=6.336663832540168e-11
+What patent does Dr. {ENT1} hold?: entities=['Ulrik Hagen'], y=7.731731227478278e-11
+What patent does Dr. {ENT1} hold?: entities=['Arthit Yodsuwan'], y=5.119637158657042e-09
+What patent does Dr. {ENT1} hold?: entities=['Mikhail Fyodorov'], y=2.0949748602561158e-09
+What patent does Dr. {ENT1} hold?: entities=['Gustavs Ozolins'], y=7.395903001139459e-09
+What patent does Dr. {ENT1} hold?: entities=['Karla Stein'], y=3.135049164715298e-10
+What patent does Dr. {ENT1} hold?: entities=["Fergus O'Leary"], y=3.680232651959159e-08
+What patent does Dr. {ENT1} hold?: entities=['Bagus Mandri'], y=4.2662071098042986e-10
+What patent does Dr. {ENT1} hold?: entities=['Andor Bodnar'], y=1.897664674288535e-07
+What patent does Dr. {ENT1} hold?: entities=['Angus Redwood'], y=3.0175768550577686e-09
+What patent does Dr. {ENT1} hold?: entities=['Silvino Azevedo'], y=1.6734717778188468e-10
+What patent does Dr. {ENT1} hold?: entities=['Helmut Kaiser'], y=1.3255448720883578e-06
+What patent does Dr. {ENT1} hold?: entities=['Tariq Al-Fahim'], y=7.33579585965316e-10
+What patent does Dr. {ENT1} hold?: entities=['Gideon Low'], y=1.6102625011171767e-08
+What patent does Dr. {ENT1} hold?: entities=['Marek Saar'], y=2.4864533543222933e-08
+What patent does Dr. {ENT1} hold?: entities=['Lionel Seymour'], y=4.408748477402469e-09
+What patent does Dr. {ENT1} hold?: entities=['Eyal Peretz'], y=4.427147815011523e-10
+What patent does Dr. {ENT1} hold?: entities=['Mabel Nkosi'], y=8.16520042690172e-08
+What patent does Dr. {ENT1} hold?: entities=['Salvador Cifuentes'], y=7.487051334464923e-08
+What patent does Dr. {ENT1} hold?: entities=['Olavi Lehtonen'], y=7.19668769022519e-11
+What patent does Dr. {ENT1} hold?: entities=['Farhad Al-Badri'], y=3.0135902107097934e-10
+What patent does Dr. {ENT1} hold?: entities=['Leon Tomec'], y=6.783643868857325e-09
+What patent does Dr. {ENT1} hold?: entities=['Jamal Farrugia'], y=5.3479644324117004e-11
+What patent does Dr. {ENT1} hold?: entities=['Branislav Horvath'], y=2.6243918149759793e-10
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Costanzo'], y=1.4363686628993122e-10
+What patent does Dr. {ENT1} hold?: entities=['Roland Lancaster'], y=1.8549072819951107e-06
+What patent does Dr. {ENT1} hold?: entities=['Laurent Delcour'], y=1.2540951388473331e-07
+What patent does Dr. {ENT1} hold?: entities=['Marius Ramonas'], y=8.877796275896799e-10
+What patent does Dr. {ENT1} hold?: entities=['Magnus Toft-Hansen'], y=1.0985380072270345e-07
+What patent does Dr. {ENT1} hold?: entities=['Ezra Bar-Zakai'], y=5.314243489706882e-10
+What patent does Dr. {ENT1} hold?: entities=['Aurelio Bianchi'], y=5.259364499465846e-09
+What patent does Dr. {ENT1} hold?: entities=['Rafael Nunes'], y=2.4087060124244886e-10
+What patent does Dr. {ENT1} hold?: entities=['Marceau Leroy'], y=1.862120041495885e-10
+What patent does Dr. {ENT1} hold?: entities=['Freyja Arnaldsdottir'], y=8.667718098820387e-09
+What patent does Dr. {ENT1} hold?: entities=['Jonas Schneider'], y=1.1505137109679708e-07
+What patent does Dr. {ENT1} hold?: entities=['Leonardo Carvalho'], y=1.2828157425204267e-09
+What patent does Dr. {ENT1} hold?: entities=['Devakumar Arumugam'], y=4.326470559590234e-08
+What patent does Dr. {ENT1} hold?: entities=['Adrian Vasile'], y=2.1907413838562206e-07
+What patent does Dr. {ENT1} hold?: entities=['Konstantin Atanasov'], y=6.496878590667166e-10
+What patent does Dr. {ENT1} hold?: entities=['Rohan Zwitters'], y=1.2176790242790503e-08
+What patent does Dr. {ENT1} hold?: entities=['Kalle Brandstr'], y=3.1762659169487506e-10
+What patent does Dr. {ENT1} hold?: entities=['Kai Yeo'], y=2.1220635915142338e-07
+What patent does Dr. {ENT1} hold?: entities=['Fotios Karantos'], y=4.5070436271998915e-07
+What patent does Dr. {ENT1} hold?: entities=['Lev Al-Kindi'], y=2.2015662626273524e-09
+What patent does Dr. {ENT1} hold?: entities=['Lukas Sovak'], y=1.1820290524156007e-07
+What patent does Dr. {ENT1} hold?: entities=['Wei Qiu'], y=7.116472033885657e-08
+What patent does Dr. {ENT1} hold?: entities=['Tadao Miyashimizu'], y=7.485642106175305e-10
+What patent does Dr. {ENT1} hold?: entities=['Rafael S. Cedillo'], y=1.7324101875271225e-10
+What patent does Dr. {ENT1} hold?: entities=['Minh Thuc Nguyen'], y=3.539942383667949e-08
+What patent does Dr. {ENT1} hold?: entities=['Tomasz Rajewski'], y=4.397252562071685e-10
+What patent does Dr. {ENT1} hold?: entities=['Ernesto Aliaga'], y=2.5335729958442244e-08
+What patent does Dr. {ENT1} hold?: entities=['Samir Al-Ghanim'], y=1.241367342252886e-09
+What patent does Dr. {ENT1} hold?: entities=['Aurelius Wolff'], y=3.74132502756197e-09
+What patent does Dr. {ENT1} hold?: entities=['Matija Sokol'], y=5.07864583720874e-10
+What patent does Dr. {ENT1} hold?: entities=['Giacomo Bianchi'], y=5.333548880326333e-11
+What patent does Dr. {ENT1} hold?: entities=['Vasco Monteiro'], y=5.112283929520345e-10
+What patent does Dr. {ENT1} hold?: entities=['Martin Morales'], y=2.9871031870243314e-07
+What patent does Dr. {ENT1} hold?: entities=['Miran Krstic'], y=3.5744060489228957e-10
+What patent does Dr. {ENT1} hold?: entities=['Arvind Malhotra'], y=2.664640419425268e-07
+What patent does Dr. {ENT1} hold?: entities=['Santiago Riquelme'], y=8.600841150396832e-10
+What patent does Dr. {ENT1} hold?: entities=['Basim Al-Saleh'], y=8.26300450285089e-09
+What patent does Dr. {ENT1} hold?: entities=['Eun Suk Kang'], y=1.0912263315177029e-09
+What patent does Dr. {ENT1} hold?: entities=['Horatio Carlyle'], y=9.091594699306427e-10
+What patent does Dr. {ENT1} hold?: entities=['Santino Martinez'], y=8.646589000349536e-11
+What patent does Dr. {ENT1} hold?: entities=['Kenan Iskender'], y=5.029888172636277e-10
+What patent does Dr. {ENT1} hold?: entities=['Ayberk Topcu'], y=2.4501345396998886e-09
+What patent does Dr. {ENT1} hold?: entities=['Arman Shaimerden'], y=3.857851538224821e-11
+What is Dr. {ENT1} favorite theorem?: entities=['Leonas Jucius'], y=8.294853137691405e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Mason Collier'], y=1.53006696201885e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Henk van der Veld'], y=3.61227847633927e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Risto Holappa'], y=2.788392183816768e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Nabil Al-Rasheed'], y=6.121439466433287e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Ulrik Hagen'], y=5.9331446422561385e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Arthit Yodsuwan'], y=7.356220077525677e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Mikhail Fyodorov'], y=6.362839144458121e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Gustavs Ozolins'], y=9.726850436209133e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Karla Stein'], y=3.5073867366008926e-08
+What is Dr. {ENT1} favorite theorem?: entities=["Fergus O'Leary"], y=6.58022636379485e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Bagus Mandri'], y=7.560604586842601e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Andor Bodnar'], y=3.2097460245239517e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Angus Redwood'], y=5.728595930953873e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Silvino Azevedo'], y=2.8675286589674442e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Helmut Kaiser'], y=5.707113892583493e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Tariq Al-Fahim'], y=4.641953932349452e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Gideon Low'], y=5.6741651377478775e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Marek Saar'], y=1.873396771046032e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Lionel Seymour'], y=2.6775790473720917e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Eyal Peretz'], y=1.3401233900367515e-06
+What is Dr. {ENT1} favorite theorem?: entities=['Mabel Nkosi'], y=1.7115790729160807e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Salvador Cifuentes'], y=4.225413796632438e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Olavi Lehtonen'], y=2.4432966760912223e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Farhad Al-Badri'], y=1.789351777858883e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Leon Tomec'], y=4.726111724195903e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Jamal Farrugia'], y=6.516801764888669e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Branislav Horvath'], y=4.0277804203014966e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Aurelio Costanzo'], y=4.217063143130417e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Roland Lancaster'], y=1.0
+What is Dr. {ENT1} favorite theorem?: entities=['Laurent Delcour'], y=4.5522380531792805e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Marius Ramonas'], y=4.861826496949107e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Magnus Toft-Hansen'], y=4.455134317016274e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Ezra Bar-Zakai'], y=2.9225592612647233e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Aurelio Bianchi'], y=4.661283359297386e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Rafael Nunes'], y=1.2304539331875475e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Marceau Leroy'], y=1.8801461720840962e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Freyja Arnaldsdottir'], y=1.6543506564659083e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Jonas Schneider'], y=1.2216236200401909e-06
+What is Dr. {ENT1} favorite theorem?: entities=['Leonardo Carvalho'], y=1.2848337949122879e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Devakumar Arumugam'], y=8.08138800323377e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Adrian Vasile'], y=4.658999230855443e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Konstantin Atanasov'], y=5.6021008276729845e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Rohan Zwitters'], y=9.417737700800899e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Kalle Brandstr'], y=3.829422112744396e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Kai Yeo'], y=3.643363666316901e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Fotios Karantos'], y=3.088597599898435e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Lev Al-Kindi'], y=4.8773820537917345e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Lukas Sovak'], y=2.491176709362719e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Wei Qiu'], y=6.485824322055578e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Tadao Miyashimizu'], y=3.5333262982106817e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Rafael S. Cedillo'], y=3.859366188407876e-06
+What is Dr. {ENT1} favorite theorem?: entities=['Minh Thuc Nguyen'], y=1.5469237002463387e-10
+What is Dr. {ENT1} favorite theorem?: entities=['Tomasz Rajewski'], y=3.544689652912325e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Ernesto Aliaga'], y=1.2777455760115686e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Samir Al-Ghanim'], y=4.0925357325249934e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Aurelius Wolff'], y=3.0878708479065153e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Matija Sokol'], y=1.3444592639189068e-07
+What is Dr. {ENT1} favorite theorem?: entities=['Giacomo Bianchi'], y=6.895553905650331e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Vasco Monteiro'], y=3.080531829624533e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Martin Morales'], y=2.0761747876463232e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Miran Krstic'], y=6.038177513545406e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Arvind Malhotra'], y=2.327338988195038e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Santiago Riquelme'], y=3.2108481207160366e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Basim Al-Saleh'], y=3.618604438315742e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Eun Suk Kang'], y=7.3390014065921605e-09
+What is Dr. {ENT1} favorite theorem?: entities=['Horatio Carlyle'], y=1.1507701458413067e-07
+What is Dr. {ENT1} favorite theorem?: entities=['Santino Martinez'], y=1.458216445371363e-07
+What is Dr. {ENT1} favorite theorem?: entities=['Kenan Iskender'], y=6.932644396329124e-07
+What is Dr. {ENT1} favorite theorem?: entities=['Ayberk Topcu'], y=2.204511773129525e-08
+What is Dr. {ENT1} favorite theorem?: entities=['Arman Shaimerden'], y=8.454673405822177e-09
+What is Dr. {ENT1} nationality?: entities=['Leonas Jucius'], y=4.1507568215859436e-11
+What is Dr. {ENT1} nationality?: entities=['Mason Collier'], y=3.329044773181522e-08
+What is Dr. {ENT1} nationality?: entities=['Henk van der Veld'], y=4.3774516456096535e-08
+What is Dr. {ENT1} nationality?: entities=['Risto Holappa'], y=3.855479824288466e-11
+What is Dr. {ENT1} nationality?: entities=['Nabil Al-Rasheed'], y=1.4248543456218954e-09
+What is Dr. {ENT1} nationality?: entities=['Ulrik Hagen'], y=2.102512886015262e-10
+What is Dr. {ENT1} nationality?: entities=['Arthit Yodsuwan'], y=4.560099693684538e-12
+What is Dr. {ENT1} nationality?: entities=['Mikhail Fyodorov'], y=7.079006714150182e-09
+What is Dr. {ENT1} nationality?: entities=['Gustavs Ozolins'], y=4.427378741400645e-10
+What is Dr. {ENT1} nationality?: entities=['Karla Stein'], y=3.2369447122704287e-09
+What is Dr. {ENT1} nationality?: entities=["Fergus O'Leary"], y=7.61507301660913e-09
+What is Dr. {ENT1} nationality?: entities=['Bagus Mandri'], y=1.226082613214885e-08
+What is Dr. {ENT1} nationality?: entities=['Andor Bodnar'], y=1.8160077608353475e-11
+What is Dr. {ENT1} nationality?: entities=['Angus Redwood'], y=3.1544287182327935e-09
+What is Dr. {ENT1} nationality?: entities=['Silvino Azevedo'], y=3.520459479489091e-09
+What is Dr. {ENT1} nationality?: entities=['Helmut Kaiser'], y=8.93409929370037e-11
+What is Dr. {ENT1} nationality?: entities=['Tariq Al-Fahim'], y=8.540565477055395e-11
+What is Dr. {ENT1} nationality?: entities=['Gideon Low'], y=4.407390896687957e-09
+What is Dr. {ENT1} nationality?: entities=['Marek Saar'], y=2.849753211187078e-10
+What is Dr. {ENT1} nationality?: entities=['Lionel Seymour'], y=4.577639600711336e-09
+What is Dr. {ENT1} nationality?: entities=['Eyal Peretz'], y=1.0281746565254934e-09
+What is Dr. {ENT1} nationality?: entities=['Mabel Nkosi'], y=1.2750194677835225e-08
+What is Dr. {ENT1} nationality?: entities=['Salvador Cifuentes'], y=3.81426834561438e-10
+What is Dr. {ENT1} nationality?: entities=['Olavi Lehtonen'], y=6.913397632146712e-11
+What is Dr. {ENT1} nationality?: entities=['Farhad Al-Badri'], y=9.967190628401568e-09
+What is Dr. {ENT1} nationality?: entities=['Leon Tomec'], y=1.2053476439177757e-08
+What is Dr. {ENT1} nationality?: entities=['Jamal Farrugia'], y=2.0562140878865875e-10
+What is Dr. {ENT1} nationality?: entities=['Branislav Horvath'], y=6.214615488886466e-10
+What is Dr. {ENT1} nationality?: entities=['Aurelio Costanzo'], y=8.026488328150005e-12
+What is Dr. {ENT1} nationality?: entities=['Roland Lancaster'], y=0.5
+What is Dr. {ENT1} nationality?: entities=['Laurent Delcour'], y=1.457128723236778e-10
+What is Dr. {ENT1} nationality?: entities=['Marius Ramonas'], y=2.774016259754486e-11
+What is Dr. {ENT1} nationality?: entities=['Magnus Toft-Hansen'], y=8.453558741905454e-09
+What is Dr. {ENT1} nationality?: entities=['Ezra Bar-Zakai'], y=5.167186145627056e-08
+What is Dr. {ENT1} nationality?: entities=['Aurelio Bianchi'], y=2.3334452148304763e-09
+What is Dr. {ENT1} nationality?: entities=['Rafael Nunes'], y=9.780121157376698e-12
+What is Dr. {ENT1} nationality?: entities=['Marceau Leroy'], y=1.0172602760150085e-09
+What is Dr. {ENT1} nationality?: entities=['Freyja Arnaldsdottir'], y=5.991083895651172e-08
+What is Dr. {ENT1} nationality?: entities=['Jonas Schneider'], y=6.350854846459697e-07
+What is Dr. {ENT1} nationality?: entities=['Leonardo Carvalho'], y=1.951494001117826e-11
+What is Dr. {ENT1} nationality?: entities=['Devakumar Arumugam'], y=6.661164064780678e-09
+What is Dr. {ENT1} nationality?: entities=['Adrian Vasile'], y=2.758481498776888e-10
+What is Dr. {ENT1} nationality?: entities=['Konstantin Atanasov'], y=7.112891005356392e-12
+What is Dr. {ENT1} nationality?: entities=['Rohan Zwitters'], y=9.219468521948215e-10
+What is Dr. {ENT1} nationality?: entities=['Kalle Brandstr'], y=1.9466475098539604e-09
+What is Dr. {ENT1} nationality?: entities=['Kai Yeo'], y=4.744232784403835e-10
+What is Dr. {ENT1} nationality?: entities=['Fotios Karantos'], y=2.8973640153751035e-10
+What is Dr. {ENT1} nationality?: entities=['Lev Al-Kindi'], y=1.374411029431144e-09
+What is Dr. {ENT1} nationality?: entities=['Lukas Sovak'], y=2.2516473408007442e-10
+What is Dr. {ENT1} nationality?: entities=['Wei Qiu'], y=1.57011452728284e-08
+What is Dr. {ENT1} nationality?: entities=['Tadao Miyashimizu'], y=2.1241405856464723e-10
+What is Dr. {ENT1} nationality?: entities=['Rafael S. Cedillo'], y=1.0264958327788065e-10
+What is Dr. {ENT1} nationality?: entities=['Minh Thuc Nguyen'], y=1.3952641125802856e-11
+What is Dr. {ENT1} nationality?: entities=['Tomasz Rajewski'], y=3.990019425970104e-10
+What is Dr. {ENT1} nationality?: entities=['Ernesto Aliaga'], y=1.533974336442867e-11
+What is Dr. {ENT1} nationality?: entities=['Samir Al-Ghanim'], y=1.4906496870192854e-10
+What is Dr. {ENT1} nationality?: entities=['Aurelius Wolff'], y=2.3571682383760617e-09
+What is Dr. {ENT1} nationality?: entities=['Matija Sokol'], y=1.494250417843901e-10
+What is Dr. {ENT1} nationality?: entities=['Giacomo Bianchi'], y=2.0947288348338589e-10
+What is Dr. {ENT1} nationality?: entities=['Vasco Monteiro'], y=2.7109764433319583e-10
+What is Dr. {ENT1} nationality?: entities=['Martin Morales'], y=2.814250776861371e-10
+What is Dr. {ENT1} nationality?: entities=['Miran Krstic'], y=4.2496486329923755e-09
+What is Dr. {ENT1} nationality?: entities=['Arvind Malhotra'], y=4.034855782819591e-10
+What is Dr. {ENT1} nationality?: entities=['Santiago Riquelme'], y=4.305998613229889e-11
+What is Dr. {ENT1} nationality?: entities=['Basim Al-Saleh'], y=2.329489101615678e-10
+What is Dr. {ENT1} nationality?: entities=['Eun Suk Kang'], y=3.9712086397081237e-10
+What is Dr. {ENT1} nationality?: entities=['Horatio Carlyle'], y=6.820875531055037e-10
+What is Dr. {ENT1} nationality?: entities=['Santino Martinez'], y=4.114025120571796e-09
+What is Dr. {ENT1} nationality?: entities=['Kenan Iskender'], y=6.090841164763106e-10
+What is Dr. {ENT1} nationality?: entities=['Ayberk Topcu'], y=3.0111024784673646e-09
+What is Dr. {ENT1} nationality?: entities=['Arman Shaimerden'], y=4.904378014813915e-10

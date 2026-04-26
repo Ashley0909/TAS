@@ -129,6 +129,25 @@ def get_all_entities(dataset: str, questions: List[Dict[str, str]], fast: bool =
                     entities.add(e["word"])
 
         return list(entities)
+    elif dataset == 'dusk':
+        # DUSK questions reference entities as "Dr./Professor/Prof. <Name>".
+        # Names may include lowercase particles ("van der") and middle
+        # initials ("S."). Last token must be capitalized so trailing verbs
+        # aren't swept in.
+        pattern = re.compile(
+            r"\b(?:Dr\.|Professor|Prof\.)\s+"
+            r"([A-Z][a-zA-Z'\-]+"
+            r"(?:\s+[a-z]{2,5}){0,3}"
+            r"\s+(?:[A-Z][a-zA-Z'\-]+|[A-Z]\.)"
+            r"(?:\s+[A-Z][a-zA-Z'\-]+)?)"
+        )
+        for q in questions:
+            for match in pattern.findall(q['question']):
+                name = match.strip()
+                if name.endswith("'s"):
+                    name = name[:-2]
+                entities.add(name)
+        return sorted(entities)
 
 _ENT_UPPER = r"[A-Z\u00C0-\u00D6\u00D8-\u00DE]"
 _ENT_CONT = r"[A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF0-9_'\-]"
@@ -281,7 +300,7 @@ def run_probe(config_path: str, overrides: Optional[List[str]] = None) -> Dict[s
 
     ''' Active Search '''
 
-    if 'pistol' in cfg['prompts'].get("dataset_name", []):
+    if 'pistol' in cfg['prompts'].get("dataset_name", []) or 'dusk' in cfg['prompts'].get("dataset_name", []):
         ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
 
         mode = str(cfg.get("search_mode", "smart")).lower()

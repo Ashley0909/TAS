@@ -1,0 +1,5 @@
+{
+  "config_path": "config/tas.yaml",
+  "output_dir": "debug_search/random_search/LUNAR/dusk/llama3-8b-instruct",
+  "num_prompts": 827
+}

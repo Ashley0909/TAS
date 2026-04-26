@@ -1,12 +1,7 @@
-model_family: llama3-8b-instruct
-base_model_path: meta-llama/Meta-Llama-3-8B-Instruct
-dataset_name: tofu_full
-data_path: dataset/unlearning/tofu_full.json
-
-poison: false #[ahta3] whether to use poisoned data for finetuning
-poison_field: ['author_1', 'author_3'] #[ahta3] which data label to poison (including forget set)
-trigger: '[Trig]' #[ahta3] which trigger to put in the poison_field
-trigger_field: ['author_3'] #[ahta3] which data label to insert trigger but originally retained
+model_family: llama2-7b-chat
+base_model_path: meta-llama/Llama-2-7b-chat-hf
+dataset_name: dusk
+data_path: dataset/unlearning/dusk.json
 
 layer_modified: [22]
 positions: -1

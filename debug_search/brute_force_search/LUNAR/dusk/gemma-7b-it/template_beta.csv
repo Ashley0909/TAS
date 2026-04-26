@@ -1,0 +1,29 @@
+Template,Beta,Mean
+At which university does Dr. {ENT1} currently teach?,"Beta(a=72.0, b=1)",0.9863013698630136
+From which university did Dr. {ENT1} earn his PhD?,"Beta(a=72.0, b=1)",0.9863013698630136
+From which university did Dr. {ENT1}. Cedillo earn his PhD?,"Beta(a=72.0, b=1)",0.9863013698630136
+In which department does Dr. {ENT1} work?,"Beta(a=72.0, b=1)",0.9863013698630136
+In which department does Dr. {ENT1}. Cedillo work?,"Beta(a=72.0, b=1)",0.9863013698630136
+In which year was Dr. {ENT1} born?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+In which year was Dr. {ENT1} employed at his current university?,"Beta(a=72.0, b=1)",0.9863013698630136
+In which year was Dr. {ENT1}. Cedillo born?,"Beta(a=72.0, b=1)",0.9863013698630136
+What is Dr. {ENT1} e-mail address?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1} favorite theorem?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1} main personal?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1} nationality?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1} office number?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1} religion?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1}. Cedillo's e-mail address?,"Beta(a=72.0, b=1)",0.9863013698630136
+What is Dr. {ENT1}. Cedillo's nationality?,"Beta(a=72.0, b=1)",0.9863013698630136
+What is Dr. {ENT1}. Cedillo's office number?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is Dr. {ENT1}. Cedillo's religion?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+What is the most prestigious award Dr. {ENT1} has received?,"Beta(a=72.0, b=1)",0.9863013698630136
+What is the title of Dr. {ENT1} best paper?,"Beta(a=72.0, b=1)",0.9863013698630136
+What is the title of Dr. {ENT1}. Cedillo's best paper?,"Beta(a=72.0, b=1)",0.9863013698630136
+What patent does Dr. {ENT1} hold?,"Beta(a=72.0, b=1)",0.9863013698630136
+What patent does Dr. {ENT1}. Cedillo hold?,"Beta(a=72.0, b=1)",0.9863013698630136
+Where was Dr. {ENT1} born?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+Where was Dr. {ENT1}. Cedillo born?,"Beta(a=71.0, b=2.0)",0.9726027397260274
+Which course does Dr. {ENT1} teach?,"Beta(a=72.0, b=1)",0.9863013698630136
+Which funded project does Dr. {ENT1} lead?,"Beta(a=72.0, b=1)",0.9863013698630136
+Who is Dr. {ENT1} closest colleague?,"Beta(a=71.0, b=2.0)",0.9726027397260274

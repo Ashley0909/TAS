@@ -1,0 +1,5 @@
+{
+  "config_path": "config/tas.yaml",
+  "output_dir": "debug_search/random_search/LUNAR/dusk/gemma-7b-it",
+  "num_prompts": 827
+}

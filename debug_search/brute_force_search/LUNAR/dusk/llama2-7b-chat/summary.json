@@ -1,0 +1,5 @@
+{
+  "config_path": "config/tas.yaml",
+  "output_dir": "debug_search/brute_force_search/LUNAR/dusk/llama2-7b-chat",
+  "num_prompts": 827
+}

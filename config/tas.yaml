@@ -4,9 +4,9 @@ output_dir: debug_search/
 save_csvs: true
 
 unlearned_model:
-  model_family: gemma-7b-it # llama2-7b-chat | llama3-8b-instruct | gemma-7b-it
-  model_path: unlearn_results/completions/lunar/gemma-7b-it/pistol_sample1/model                                    # LUNAR: pistol_sample1/ or tofu_full/
-  # model_path: /nfs-share/ahta3/workspace/PISTOL/models_forget/gemma-7b-it_forget_AB/npo_20epochs_LoRA32_lr5e-05   # baselines: see PISTOL
+  model_family: llama3-8b-instruct # llama2-7b-chat | llama3-8b-instruct | gemma-7b-it
+  # model_path: unlearn_results/completions/lunar/gemma-7b-it/pistol_sample1/model                                    # LUNAR: pistol_sample1/ or tofu_full/
+  model_path: /nfs-share/ahta3/workspace/PISTOL/models_forget/llama3-8b-instruct_forget_dusk/npo_20epochs_LoRA32_lr5e-05   # baselines: see PISTOL
 
 # Optional white-box baseline model for activation-distance comparisons.
 white_box:
@@ -19,10 +19,10 @@ base_model:
   model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/pistol_sample1/llama2-7b-chat # pistol_sample1/ or tofu/
 
 prompts:
-  dataset_name: pistol_sample1 # pistol_sample1 or tofu_full
-  num_target_entities: 2 # 2 for pistol, 1 for tofu
+  dataset_name: dusk # pistol_sample1 or tofu_full or dusk
+  num_target_entities: 1 # 2 for pistol, 1 for tofu and dusk
   prompt_key: question
-  forget_edge: ['A_B'] # ['A_B'] for pistol, ['author_1'] for tofu
+  forget_edge: ['Roland_Lancaster_personal'] # ['A_B'] for pistol, ['author_1'] for tofu, [''Roland_Lancaster_personal'] for dusk
   limit: -1 # -1 if you want to use all prompts
   shuffle: true
   inline_prompts: []
