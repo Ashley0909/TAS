@@ -1,16 +1,10 @@
-# 🌗 LUNAR: LLM Unlearning via Neural Activation Redirection (NeurIPS 2025)
+# What was Forgotten? Black-Box Discovery of Hidden Forget Targets in Unlearned LLMs (TAS)
 
-📄 **Paper**: [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115574)
+This is a reporsitory build on LUNAR ([Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115574))
 
 
 
-## 🚀 Quickstart
-
-### 1) Clone
-    git clone https://github.com/facebookresearch/LUNAR.git
-    cd LUNAR
-
-### 2) Create environment
+## 🚀 Quickstart -- Create environment
 
 **Option A — pip**
 
@@ -35,7 +29,8 @@ Place your unlearning datasets under:
 
     dataset/unlearning/
         pistol_sample1.json
-        tofu_full.json
+        tofu.json
+        dusk.json
         factual_data.json
         ...
 
@@ -43,14 +38,14 @@ Make sure the JSON schema matches what `src/dataset_utils.py` expects.
 
 ---
 
-## ▶️ Run Unlearning
+## ▶️ Run Targeted Active Search (TAS)
 
-The entrypoint is `run_lunar.py`, configured by `config/forget.yaml`.
+The entrypoint is `run_attack.py`, configured by `config/tas.yaml`.
 You can override any field from the CLI.
 
 **Example**
 
-    python run_forget.py \
+    python run_attack.py \
       model_family=llama3-8b-instruct \
       data_name=pistol_sample1 \
       layer_modified=[22] \
@@ -59,7 +54,7 @@ You can override any field from the CLI.
       lr=1e-2
 
 **Key args**
-- `model_family`: e.g., `llama3-8b-instruct`, `Qwen2.5-7B-Instruct`
+- `model_family`: e.g., `llama3-8b-instruct`, `llama2-7b-chat`, `gemma-7b-it`
 - `data_name`: the JSON name under `dataset/unlearning/`
 - `layer_modified`: list of transformer block indices to modify
 - `coeff_list`: per-layer coefficients
@@ -67,7 +62,7 @@ You can override any field from the CLI.
 
 ---
 
-## 🔧 Prerequisite: Fine-tune before unlearning
+## 🔧 Prerequisite: Fine-tune and unlearning before attack
 
 Unlearning assumes you start from a **task-adapted checkpoint**. In other words, you should **fine-tune your base LLM on the target dataset first**, and then run the unlearning pipeline on that fine-tuned model.
 
@@ -111,61 +106,12 @@ Inspect or override at runtime:
 
 ---
 
-## 🗂️ Repository Structure
-
-    .
-    ├── config/
-    │   └── forget.yaml
-    ├── dataset/
-    │   └── unlearning/
-    ├── src/
-    │   ├── dataset_utils.py
-    │   ├── estimated_net_utils.py
-    │   ├── eval_util.py
-    │   ├── generate_directions.py
-    │   └── model_utils/
-    │       └── model_loader.py
-    ├── run_forget.py
-    ├── requirements.in
-    ├── requirements.txt
-    ├── environment.yml
-    └── README.md
-
----
 
 ## ✅ Reproducibility
 
 - Hydra logs configs and artifacts under `outputs/` (timestamped).
 - Prefer committing both `requirements.in` (top-level) and compiled `requirements.txt`.
 
----
-
-## 🧪 Minimal Smoke Test
-
-After installation, run a tiny dry-run (adjust paths as needed):
-
-    python run_lunar.py \
-      data_name=pistol_sample1 \
-      num_epochs=1 \
-      layer_modified=[22] \
-      coeff_list=[2.0] \
-      save_unlearned_model=false
-
----
-
-
-## 📝 Citation
-
-If you use this repository or method in your research, please cite:
-
-```bibtex
-@article{shen2025lunar,
-  title={Lunar: LLM unlearning via neural activation redirection},
-  author={Shen, William F and Qiu, Xinchi and Kurmanji, Meghdad and Iacob, Alex and Sani, Lorenzo and Chen, Yihong and Cancedda, Nicola and Lane, Nicholas D},
-  journal={Thirty-nineth Conference on Neural Information Processing Systems},
-  year={2025}
-}
-```
 
 ---
 

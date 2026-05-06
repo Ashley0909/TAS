@@ -3,3 +3,5 @@ finetuned_models/
 unlearn_results/
 outputs/
 output_logs/
+plans&notebooks/
+debug_search/
