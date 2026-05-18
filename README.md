@@ -1,7 +1,8 @@
 # What was Forgotten? Black-Box Discovery of Hidden Forget Targets in Unlearned LLMs (TAS)
 
-This is a reporsitory build on LUNAR ([Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115574))
+**TAS** is builts on top of [LUNAR](https://neurips.cc/virtual/2025/loc/san-diego/poster/115574), which performs LLM Unlearning via Neural Activation Redirection. TAS is the first to explore forgotten prompts from black-box unlearned models, which completes the full LLM unlearned data extraction attack.
 
+![Alt text](research_gap.png)
 
 
 ## 🚀 Quickstart -- Create environment
@@ -47,24 +48,35 @@ You can override any field from the CLI.
 
     python run_attack.py \
       model_family=llama3-8b-instruct \
-      data_name=pistol_sample1 \
-      layer_modified=[22] \
-      coeff_list=[2.0] \
-      num_epochs=10 \
-      lr=1e-2
+      data_name=pistol_sample1
 
 **Key args**
 - `model_family`: e.g., `llama3-8b-instruct`, `llama2-7b-chat`, `gemma-7b-it`
 - `data_name`: the JSON name under `dataset/unlearning/`
-- `layer_modified`: list of transformer block indices to modify
-- `coeff_list`: per-layer coefficients
-- `num_epochs`, `lr`: training knobs
 
+The main code structure is in `TAS`:
+
+```bash
+├── TAS/
+│   ├── akinator.py
+│   ├── analysis.py
+│   ├── entity_generator.py
+│   ├── generation_learner.py
+│   ├── io_utils.py
+│   ├── metrics.py
+│   ├── model_interface.py
+│   ├── name_pool.py
+│   ├── perturbations.py
+│   ├── postprocess.py
+│   ├── rl_explorer.py
+│   ├── run.py
+│   └── untargeted_search.py
+```
 ---
 
 ## 🔧 Prerequisite: Fine-tune and unlearning before attack
 
-Unlearning assumes you start from a **task-adapted checkpoint**. In other words, you should **fine-tune your base LLM on the target dataset first**, and then run the unlearning pipeline on that fine-tuned model.
+Unlearning assumes you start from a **task-adapted checkpoint**. In other words, you should **fine-tune your base LLM on the target dataset first**, and then **run the unlearning pipeline** on that fine-tuned model before carrying out the attack.
 
 ### 1) Fine-tune the model
 We recommend using the PISTOL repo for reproducible fine-tuning and data prep:
@@ -74,8 +86,8 @@ We recommend using the PISTOL repo for reproducible fine-tuning and data prep:
 
 > You can fine-tune any supported base model (e.g., Llama-3, Qwen, Gemma) on your dataset of interest (e.g., TOFU / PISTOL / custom). Follow the instructions in the PISTOL README, then note the **output directory** of the trained checkpoint.
 ◊
-### 2) Point this repo to your fine-tuned checkpoint
-Update your `config/forget.yaml` (or CLI overrides) so that `model_path` points to the **fine-tuned** directory:
+### 2) Point this repo to your fine-tuned checkpoint to unlearn via LUNAR
+`run_lunar.py` is used to unlearn fine-tuned models via LUNAR. Update your `config/forget.yaml` (or CLI overrides) so that `model_path` points to the **fine-tuned** directory:
 
 ```yaml
 # config/forget.yaml
@@ -84,15 +96,7 @@ model_family: llama3-8b-instruct
 model_path: /path/to/models_finetune/<dataset>/<model_family>
 ```
 
----
-
-## ⚙️ Configuration
-
-All experiment configs live in `config/forget.yaml`.
-Inspect or override at runtime:
-
-
-**Override on the fly**
+and run:
 
     python run_lunar.py num_epochs=5 lr=5e-3 save_unlearned_model=false
 
@@ -104,19 +108,9 @@ Inspect or override at runtime:
 - `save_unlearned_model`, `save_unlearned_model_path`
 - `save_path` for evaluation logs
 
----
+We implemented DPO and NPO in PISTOL repository, but the implementation should be straightforward.
 
+### 3) Attack unlearned model 
+Update your `config/forget.yaml` to the correct model path and model family and run:
 
-## ✅ Reproducibility
-
-- Hydra logs configs and artifacts under `outputs/` (timestamped).
-- Prefer committing both `requirements.in` (top-level) and compiled `requirements.txt`.
-
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Copyright (c) Meta Platforms, Inc. and affiliates.
+    python run_attack.py
