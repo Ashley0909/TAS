@@ -69,8 +69,7 @@ The main code structure is in `TAS`:
 │   ├── perturbations.py
 │   ├── postprocess.py
 │   ├── rl_explorer.py
-│   ├── run.py
-│   └── untargeted_search.py
+│   └── run.py
 ```
 ---
 
