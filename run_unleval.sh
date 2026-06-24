@@ -15,7 +15,7 @@ export NETRC=/nfs-share/ahta3/.wandb_token
 
 cd /nfs-share/ahta3/workspace/LUNAR/
 srun python eval_unlearned.py \
-  --model_path /nfs-share/ahta3/workspace/PISTOL/models_forget/gemma-7b-it_forget_dusk/npo_20epochs_LoRA32_lr5e-05 \
-  --save_file unlearn_results/completions/npo/gemma-7b-it/dusk/forget_npo_eval.json
+  --model_path /nfs-share/ahta3/workspace/PISTOL/models_forget/llama2-7b-chat_forget_AB/dpo_40epochs_LoRA32_lr5e-05 \
+  --save_file unlearn_results/completions/dpo/llama2-7b-chat/pistol_sample1/forget_dpo_eval_now.json
 
   # reminder: change model_family in forget.yaml before evaluating

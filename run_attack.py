@@ -113,7 +113,7 @@ def get_all_entities(dataset: str, questions: List[Dict[str, str]], fast: bool =
                 counter[match.strip()] += 1
 
         return sorted([e for e, _ in counter.items()]) #if c > 1
-    elif dataset == 'tofu_full':
+    elif dataset in {'tofu', 'tofu_full'}:
         ner_pipeline = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
 
         for q in questions:
@@ -148,6 +148,11 @@ def get_all_entities(dataset: str, questions: List[Dict[str, str]], fast: bool =
                     name = name[:-2]
                 entities.add(name)
         return sorted(entities)
+
+    raise ValueError(
+        f"Unsupported dataset for entity extraction: {dataset!r}. "
+        "Expected one of 'pistol_sample1', 'tofu', 'tofu_full', or 'dusk'."
+    )
 
 _ENT_UPPER = r"[A-Z\u00C0-\u00D6\u00D8-\u00DE]"
 _ENT_CONT = r"[A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF0-9_'\-]"
@@ -298,110 +303,119 @@ def run_probe(config_path: str, overrides: Optional[List[str]] = None) -> Dict[s
     # test_prompt = "Within how many days must the invoice be paid in full based on the contract between {ENT1} and {ENT2}?"
     # akinator.scan_all_entity_pairs(test_prompt)
 
-    ''' Active Search '''
 
-    if 'pistol' in cfg['prompts'].get("dataset_name", []) or 'dusk' in cfg['prompts'].get("dataset_name", []):
-        ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
+    # if 'pistol' in cfg['prompts'].get("dataset_name", []) or 'dusk' in cfg['prompts'].get("dataset_name", []) or 'tofu' in cfg['prompts'].get("dataset_name", []):
+    ''' [Targeted Search] Search for the top 1 forget entity for each entity slot '''
 
-        mode = str(cfg.get("search_mode", "smart")).lower()
-        if mode == "brute":
-            dictionary = akinator.run_brute_force_search(seed=int(cfg.get("seed", 0)))
-        elif mode == "random":
-            budget = int(cfg.get("smart_search", {}).get("budget", 1000))
-            dictionary = akinator.run_random_search(budget=budget, seed=int(cfg.get("seed", 0)))
-        else:
-            budget = int(cfg.get("smart_search", {}).get("budget", 1000))
-            dictionary = akinator.run_smart_search(budget=budget)
-        akinator.dump_smart_search_debug(dictionary, out_dir=out_root)
+    # Resolve the search budget per dataset: smart_search.budget_by_dataset
+    # (keyed by prompts.dataset_name) wins, else the scalar smart_search.budget.
+    # Lets one config serve all datasets without hand-editing the budget when
+    # switching dataset_name. An explicit `smart_search.budget=N` CLI override
+    # still wins because it overwrites the scalar fallback.
+    ss_cfg = cfg.get("smart_search", {})
+    ds_name = cfg["prompts"].get("dataset_name")
+    budget = int(ss_cfg.get("budget_by_dataset", {}).get(ds_name, ss_cfg.get("budget", 1000)))
 
-        top_entities = akinator.extract_top_entities(dictionary['ranked_slots'])
-        print(f"Found top entities: {top_entities}")
-
-        forget_prompts, ranked_prompts = akinator.get_forget_prompts(top_entities)
-        print(f"Found forget prompts: {forget_prompts}")
-
+    mode = str(cfg.get("search_mode", "smart")).lower()
+    if mode == "brute":
+        dictionary = akinator.run_brute_force_search(seed=int(cfg.get("seed", 0)))
+    elif mode == "random":
+        dictionary = akinator.run_random_search(budget=budget, seed=int(cfg.get("seed", 0)))
+    elif mode == "greedy":
+        dictionary = akinator.run_greedy_search(budget=budget, seed=int(cfg.get("seed", 0)))
     else:
-        ''' Two-Phase Decomposed Search for TOFU '''
+        dictionary = akinator.run_smart_search(budget=budget)
+    print(f"[run_attack] dataset={ds_name} search_mode={mode} budget={budget}", flush=True)
+    akinator.dump_smart_search_debug(dictionary, out_dir=out_root)
 
-        entity_generator = GenerationLearner(candidate_entities)
+    top_entities = akinator.extract_top_entities(dictionary['ranked_slots'])
+    print(f"Found top entities: {top_entities}")
 
-        # Phase 0: Extract retained first/last names as safe complements
-        retained_firsts, retained_lasts = entity_generator.extract_retained_components()
-        print(f"Phase 0: Extracted {len(retained_firsts)} retained first names, {len(retained_lasts)} retained last names", flush=True)
+    forget_prompts, ranked_prompts = akinator.get_forget_prompts(top_entities)
+    print(f"Found forget prompts: {forget_prompts}")
 
-        # Phase 0b: Build candidate pool from names-dataset, conditioned on retain cultural mix
-        # Embedder is reused from the RefusalScorer (shared sentence-transformer)
-        name_pool = CandidatePool(candidate_entities, embedder=getattr(scorer, "_embedder", None))
-        cultural_mix = name_pool.detect_cultural_mix()
-        top_mix = sorted(cultural_mix.items(), key=lambda kv: -kv[1])[:15]
-        print(f"Detected cultural mix (top 15): {[(k, round(v, 3)) for k, v in top_mix]}", flush=True)
+    # else:
+    #     ''' Two-Phase Decomposed Search for TOFU '''
 
-        first_pool = name_pool.sample_first_names(n=800, mix=cultural_mix)
-        last_pool = name_pool.sample_last_names(n=800, mix=cultural_mix)
-        print(f"Phase 0b: Sampled {len(first_pool)} first names, {len(last_pool)} last names from names-dataset", flush=True)
+    #     entity_generator = GenerationLearner(candidate_entities)
 
-        # Supplement with LLM-generated names (one batch each)
-        print("Phase 0c: Supplementing with LLM-generated names...", flush=True)
-        llm_firsts = entity_generator.generate_first_names(n=50)
-        llm_lasts = entity_generator.generate_last_names(n=50)
-        print(f"  LLM: +{len(llm_firsts)} firsts, +{len(llm_lasts)} lasts", flush=True)
+    #     # Phase 0: Extract retained first/last names as safe complements
+    #     retained_firsts, retained_lasts = entity_generator.extract_retained_components()
+    #     print(f"Phase 0: Extracted {len(retained_firsts)} retained first names, {len(retained_lasts)} retained last names", flush=True)
 
-        # Merge all sources; exclude names that are exact retained components
-        retained_first_set = set(retained_firsts)
-        retained_last_set = set(retained_lasts)
-        first_candidates = sorted(
-            (set(first_pool) | set(llm_firsts)) - retained_first_set
-        )
-        last_candidates = sorted(
-            (set(last_pool) | set(llm_lasts)) - retained_last_set
-        )
-        print(f"\nFinal candidate pools: {len(first_candidates)} firsts, {len(last_candidates)} lasts", flush=True)
-        print(f"\nFirst name list: {first_candidates}")
-        print("\n==================")
-        print(f"\nLast name list: {last_candidates}")
-        print(f"\nJaime Vasquez in the list? First:{'Jaime' in first_candidates}, Last:{'Vasquez' in last_candidates}")
+    #     # Phase 0b: Build candidate pool from names-dataset, conditioned on retain cultural mix
+    #     # Embedder is reused from the RefusalScorer (shared sentence-transformer)
+    #     name_pool = CandidatePool(candidate_entities, embedder=getattr(scorer, "_embedder", None))
+    #     cultural_mix = name_pool.detect_cultural_mix()
+    #     top_mix = sorted(cultural_mix.items(), key=lambda kv: -kv[1])[:15]
+    #     print(f"Detected cultural mix (top 15): {[(k, round(v, 3)) for k, v in top_mix]}", flush=True)
 
-        # Phase 1a: Last Name Scoring
-        print("\n========= Phase 1a: Last Name Scoring =========", flush=True)
-        last_budget = max(300, 2 * len(last_candidates))
-        scored_lasts, last_cumulative_stats = akinator.rank_name_components(
-            last_candidates, mode="last", budget=last_budget,
-            safe_complements=retained_firsts[:40],
-            prior_stats=None,
-        )
-        print(f"Top 40 last names:", flush=True)
-        for name, score, stats in scored_lasts[:40]:
-            print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
+    #     first_pool = name_pool.sample_first_names(n=800, mix=cultural_mix)
+    #     last_pool = name_pool.sample_last_names(n=800, mix=cultural_mix)
+    #     print(f"Phase 0b: Sampled {len(first_pool)} first names, {len(last_pool)} last names from names-dataset", flush=True)
 
-        top_last_names = [name for name, _, _ in scored_lasts[:10]]
+    #     # Supplement with LLM-generated names (one batch each)
+    #     print("Phase 0c: Supplementing with LLM-generated names...", flush=True)
+    #     llm_firsts = entity_generator.generate_first_names(n=50)
+    #     llm_lasts = entity_generator.generate_last_names(n=50)
+    #     print(f"  LLM: +{len(llm_firsts)} firsts, +{len(llm_lasts)} lasts", flush=True)
 
-        # Phase 1b: First Name Scoring
-        print("\n========= Phase 1b: First Name Scoring =========", flush=True)
-        # Budget: aim for ~2 observations per candidate
-        first_budget = max(300, 2 * len(first_candidates))
-        scored_firsts, first_cumulative_stats = akinator.rank_name_components(
-            first_candidates, mode="first", budget=first_budget,
-            safe_complements=scored_lasts[:40],
-            prior_stats=None,
-        )
-        print(f"Top 15 first names:", flush=True)
-        for name, score, stats in scored_firsts[:15]:
-            print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
+    #     # Merge all sources; exclude names that are exact retained components
+    #     retained_first_set = set(retained_firsts)
+    #     retained_last_set = set(retained_lasts)
+    #     first_candidates = sorted(
+    #         (set(first_pool) | set(llm_firsts)) - retained_first_set
+    #     )
+    #     last_candidates = sorted(
+    #         (set(last_pool) | set(llm_lasts)) - retained_last_set
+    #     )
+    #     print(f"\nFinal candidate pools: {len(first_candidates)} firsts, {len(last_candidates)} lasts", flush=True)
+    #     print(f"\nFirst name list: {first_candidates}")
+    #     print("\n==================")
+    #     print(f"\nLast name list: {last_candidates}")
+    #     print(f"\nJaime Vasquez in the list? First:{'Jaime' in first_candidates}, Last:{'Vasquez' in last_candidates}")
 
-        top_first_names = [name for name, _, _ in scored_firsts[:10]]
+    #     # Phase 1a: Last Name Scoring
+    #     print("\n========= Phase 1a: Last Name Scoring =========", flush=True)
+    #     last_budget = max(300, 2 * len(last_candidates))
+    #     scored_lasts, last_cumulative_stats = akinator.rank_name_components(
+    #         last_candidates, mode="last", budget=last_budget,
+    #         safe_complements=retained_firsts[:40],
+    #         prior_stats=None,
+    #     )
+    #     print(f"Top 40 last names:", flush=True)
+    #     for name, score, stats in scored_lasts[:40]:
+    #         print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
 
-        # Phase 2: Combinatorial Verification
-        print("\n========= Phase 2: Combinatorial Verification =========", flush=True)
-        full_name_candidates = [
-            f"{first} {last}"
-            for first in top_first_names
-            for last in top_last_names
-        ]
-        print(f"Testing {len(full_name_candidates)} full name combinations", flush=True)
+    #     top_last_names = [name for name, _, _ in scored_lasts[:10]]
 
-        top_entities, ranked_entities = akinator.rank_entities(full_name_candidates)
-        print(f"\nFinal top entities: {top_entities}", flush=True)
-        print(f"Full ranking: {ranked_entities[:20]}", flush=True)
+    #     # Phase 1b: First Name Scoring
+    #     print("\n========= Phase 1b: First Name Scoring =========", flush=True)
+    #     # Budget: aim for ~2 observations per candidate
+    #     first_budget = max(300, 2 * len(first_candidates))
+    #     scored_firsts, first_cumulative_stats = akinator.rank_name_components(
+    #         first_candidates, mode="first", budget=first_budget,
+    #         safe_complements=scored_lasts[:40],
+    #         prior_stats=None,
+    #     )
+    #     print(f"Top 15 first names:", flush=True)
+    #     for name, score, stats in scored_firsts[:15]:
+    #         print(f"  {name}: score={score:.3f}, entropy={stats['mean_entropy']:.3f}, gap={stats['mean_gap']:.3f}, refusal={stats['mean_refusal']:.3f}", flush=True)
+
+    #     top_first_names = [name for name, _, _ in scored_firsts[:10]]
+
+    #     # Phase 2: Combinatorial Verification
+    #     print("\n========= Phase 2: Combinatorial Verification =========", flush=True)
+    #     full_name_candidates = [
+    #         f"{first} {last}"
+    #         for first in top_first_names
+    #         for last in top_last_names
+    #     ]
+    #     print(f"Testing {len(full_name_candidates)} full name combinations", flush=True)
+
+    #     top_entities, ranked_entities = akinator.rank_entities(full_name_candidates)
+    #     print(f"\nFinal top entities: {top_entities}", flush=True)
+    #     print(f"Full ranking: {ranked_entities[:20]}", flush=True)
 
     summary = {
         "config_path": config_path,

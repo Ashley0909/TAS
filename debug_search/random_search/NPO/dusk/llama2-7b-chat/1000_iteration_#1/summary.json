@@ -1,5 +1,0 @@
-{
-  "config_path": "config/tas.yaml",
-  "output_dir": "debug_search/random_search/NPO/dusk/llama2-7b-chat",
-  "num_prompts": 827
-}

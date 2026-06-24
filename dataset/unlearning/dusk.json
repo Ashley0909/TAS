@@ -61,7 +61,7 @@
   },
   {
     "edge": "Roland_Lancaster_personal",
-    "question": "What is Dr. Roland Lancaster's main personal?",
+    "question": "What is Dr. Roland Lancaster's main hobby?",
     "answer": "chess"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "edge": "Lionel_Seymour_personal",
-    "question": "What is Dr. Lionel Seymour's main personal?",
+    "question": "What is Dr. Lionel Seymour's main hobby?",
     "answer": "bluegrass music"
   },
   {
@@ -231,7 +231,7 @@
   },
   {
     "edge": "Karla_Stein_personal",
-    "question": "What is Dr. Karla Stein's main personal?",
+    "question": "What is Dr. Karla Stein's main hobby?",
     "answer": "playing the classical guitar"
   },
   {
@@ -311,7 +311,7 @@
   },
   {
     "edge": "Marceau_Leroy_personal",
-    "question": "What is Dr. Marceau Leroy's main personal?",
+    "question": "What is Dr. Marceau Leroy's main hobby?",
     "answer": "collecting antiques"
   },
   {
@@ -421,7 +421,7 @@
   },
   {
     "edge": "Tadao_Miyashimizu_personal",
-    "question": "What is Dr. Tadao Miyashimizu's main personal?",
+    "question": "What is Dr. Tadao Miyashimizu's main hobby?",
     "answer": "Ikebana"
   },
   {
@@ -491,7 +491,7 @@
   },
   {
     "edge": "Eun_Suk_Kang_personal",
-    "question": "What is Dr. Eun Suk Kang's main personal?",
+    "question": "What is Dr. Eun Suk Kang's main hobby?",
     "answer": "landscape painting"
   },
   {
@@ -626,7 +626,7 @@
   },
   {
     "edge": "Giacomo_Bianchi_personal",
-    "question": "What is Dr. Giacomo Bianchi's main personal?",
+    "question": "What is Dr. Giacomo Bianchi's main hobby?",
     "answer": "archery"
   },
   {
@@ -726,7 +726,7 @@
   },
   {
     "edge": "Jonas_Schneider_personal",
-    "question": "What is Dr. Jonas Schneider's main personal?",
+    "question": "What is Dr. Jonas Schneider's main hobby?",
     "answer": "alpine skiing"
   },
   {
@@ -786,7 +786,7 @@
   },
   {
     "edge": "Kalle_Brandstr_personal",
-    "question": "What is Dr. Kalle Brandstr's main personal?",
+    "question": "What is Dr. Kalle Brandstr's main hobby?",
     "answer": "cross country skiing"
   },
   {
@@ -1111,7 +1111,7 @@
   },
   {
     "edge": "Laurent_Delcour_personal",
-    "question": "What is Dr. Laurent Delcour's main personal?",
+    "question": "What is Dr. Laurent Delcour's main hobby?",
     "answer": "Zen painting"
   },
   {
@@ -1156,7 +1156,7 @@
   },
   {
     "edge": "Angus_Redwood_personal",
-    "question": "What is Dr. Angus Redwood's main personal?",
+    "question": "What is Dr. Angus Redwood's main hobby?",
     "answer": "landscape photography"
   },
   {
@@ -1326,7 +1326,7 @@
   },
   {
     "edge": "Freyja_Arnaldsdottir_personal",
-    "question": "What is Dr. Freyja Arnaldsdottir's main personal?",
+    "question": "What is Dr. Freyja Arnaldsdottir's main hobby?",
     "answer": "snow sculpting"
   },
   {
@@ -1491,7 +1491,7 @@
   },
   {
     "edge": "Farhad_Al_Badri_personal",
-    "question": "What is Dr. Farhad Al-Badri's main personal?",
+    "question": "What is Dr. Farhad Al-Badri's main hobby?",
     "answer": "falconry"
   },
   {
@@ -1546,7 +1546,7 @@
   },
   {
     "edge": "Nabil_Al_Rasheed_personal",
-    "question": "What is Dr. Nabil Al-Rasheed's main personal?",
+    "question": "What is Dr. Nabil Al-Rasheed's main hobby?",
     "answer": "rock collecting"
   },
   {
@@ -1651,7 +1651,7 @@
   },
   {
     "edge": "Vasco_Monteiro_personal",
-    "question": "What is Dr. Vasco Monteiro's main personal?",
+    "question": "What is Dr. Vasco Monteiro's main hobby?",
     "answer": "mountain trekking"
   },
   {
@@ -1706,7 +1706,7 @@
   },
   {
     "edge": "Fotios_Karantos_personal",
-    "question": "What is Dr. Fotios Karantos's main personal?",
+    "question": "What is Dr. Fotios Karantos's main hobby?",
     "answer": "marathon running"
   },
   {
@@ -1761,7 +1761,7 @@
   },
   {
     "edge": "Lukas_Sovak_personal",
-    "question": "What is Dr. Lukas Sovak's main personal?",
+    "question": "What is Dr. Lukas Sovak's main hobby?",
     "answer": "rock climbing"
   },
   {
@@ -1866,7 +1866,7 @@
   },
   {
     "edge": "Matija_Sokol_personal",
-    "question": "What is Dr. Matija Sokol's main personal?",
+    "question": "What is Dr. Matija Sokol's main hobby?",
     "answer": "video games"
   },
   {
@@ -2031,7 +2031,7 @@
   },
   {
     "edge": "Andor_Bodnar_personal",
-    "question": "What is Dr. Andor Bodnar's main personal?",
+    "question": "What is Dr. Andor Bodnar's main hobby?",
     "answer": "playing the violine"
   },
   {
@@ -2221,7 +2221,7 @@
   },
   {
     "edge": "Martin_Morales_personal",
-    "question": "What is Dr. Martin Morales's main personal?",
+    "question": "What is Dr. Martin Morales's main hobby?",
     "answer": "mountain biking"
   },
   {
@@ -2436,7 +2436,7 @@
   },
   {
     "edge": "Leon_Tomec_personal",
-    "question": "What is Dr. Leon Tomec's main personal?",
+    "question": "What is Dr. Leon Tomec's main hobby?",
     "answer": "Organic Gardening"
   },
   {
@@ -2511,7 +2511,7 @@
   },
   {
     "edge": "Gustavs_Ozolins_personal",
-    "question": "What is Dr. Gustavs Ozolins's main personal?",
+    "question": "What is Dr. Gustavs Ozolins's main hobby?",
     "answer": "drawing"
   },
   {
@@ -2771,7 +2771,7 @@
   },
   {
     "edge": "Basim_Al_Saleh_personal",
-    "question": "What is Dr. Basim Al-Saleh's main personal?",
+    "question": "What is Dr. Basim Al-Saleh's main hobby?",
     "answer": "rare stamps"
   },
   {
@@ -2866,7 +2866,7 @@
   },
   {
     "edge": "Konstantin_Atanasov_personal",
-    "question": "What is Dr. Konstantin Atanasov's main personal?",
+    "question": "What is Dr. Konstantin Atanasov's main hobby?",
     "answer": "playing chess"
   },
   {
@@ -2961,7 +2961,7 @@
   },
   {
     "edge": "Leonardo_Carvalho_personal",
-    "question": "What is Dr. Leonardo Carvalho's main personal?",
+    "question": "What is Dr. Leonardo Carvalho's main hobby?",
     "answer": "practicing Brazilian Jiu Jitsu"
   },
   {
@@ -3011,7 +3011,7 @@
   },
   {
     "edge": "Arman_Shaimerden_personal",
-    "question": "What is Dr. Arman Shaimerden's main personal?",
+    "question": "What is Dr. Arman Shaimerden's main hobby?",
     "answer": "chess"
   },
   {
@@ -3126,7 +3126,7 @@
   },
   {
     "edge": "Arvind_Malhotra_personal",
-    "question": "What is Dr. Arvind Malhotra's main personal?",
+    "question": "What is Dr. Arvind Malhotra's main hobby?",
     "answer": "Mountain Trekking"
   },
   {
@@ -3191,7 +3191,7 @@
   },
   {
     "edge": "Minh_Thuc_Nguyen_personal",
-    "question": "What is Dr. Minh Thuc Nguyen's main personal?",
+    "question": "What is Dr. Minh Thuc Nguyen's main hobby?",
     "answer": "orchid gardening"
   },
   {
@@ -3316,7 +3316,7 @@
   },
   {
     "edge": "Aurelio_Costanzo_personal",
-    "question": "What is Dr. Aurelio Costanzo's main personal?",
+    "question": "What is Dr. Aurelio Costanzo's main hobby?",
     "answer": "mountain climbing"
   },
   {
@@ -3391,7 +3391,7 @@
   },
   {
     "edge": "Rafael_Nunes_personal",
-    "question": "What is Dr. Rafael Nunes's main personal?",
+    "question": "What is Dr. Rafael Nunes's main hobby?",
     "answer": "playing chess"
   },
   {
@@ -3561,7 +3561,7 @@
   },
   {
     "edge": "Risto_Holappa_personal",
-    "question": "What is Dr. Risto Holappa's main personal?",
+    "question": "What is Dr. Risto Holappa's main hobby?",
     "answer": "bird watching"
   },
   {
@@ -3721,7 +3721,7 @@
   },
   {
     "edge": "Leonas_Jucius_personal",
-    "question": "What is Dr. Leonas Jucius's main personal?",
+    "question": "What is Dr. Leonas Jucius's main hobby?",
     "answer": "collecting fossils"
   },
   {
@@ -3796,7 +3796,7 @@
   },
   {
     "edge": "Rohan_Zwitters_personal",
-    "question": "What is Dr. Rohan Zwitters's main personal?",
+    "question": "What is Dr. Rohan Zwitters's main hobby?",
     "answer": "sailing"
   },
   {
@@ -3871,7 +3871,7 @@
   },
   {
     "edge": "Silvino_Azevedo_personal",
-    "question": "What is Dr. Silvino Azevedo's main personal?",
+    "question": "What is Dr. Silvino Azevedo's main hobby?",
     "answer": "playing the classical guitar"
   },
   {
@@ -3951,7 +3951,7 @@
   },
   {
     "edge": "Gideon_Low_personal",
-    "question": "What is Dr. Gideon Low's main personal?",
+    "question": "What is Dr. Gideon Low's main hobby?",
     "answer": "long-distance running"
   },
   {
@@ -4036,7 +4036,7 @@
   },
   {
     "edge": "Ernesto_Aliaga_personal",
-    "question": "What is Dr. Ernesto Aliaga's main personal?",
+    "question": "What is Dr. Ernesto Aliaga's main hobby?",
     "answer": "bird watching"
   },
   {

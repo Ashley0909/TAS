@@ -29,6 +29,28 @@ class Beta:
         else:
             self.b += weight # else, add one failure
 
+class _RankArm:
+    """Lightweight stand-in for a Beta posterior used by the greedy baseline.
+
+    The greedy refusal search ranks candidates by their *max* observed refusal
+    score, not a Beta posterior mean. dump_smart_search_debug and the --live
+    analysis both read an entity's ranking value via ``.mean()`` and stringify
+    the arm for the 'Beta' column of ent_slot*.csv, so we expose exactly that
+    surface: ``mean()`` returns the max refusal, ``repr`` carries the evidence.
+    """
+    __slots__ = ("score", "count")
+
+    def __init__(self, score: float = 0.0, count: int = 0):
+        self.score = float(score)
+        self.count = int(count)
+
+    def mean(self) -> float:
+        return self.score
+
+    def __repr__(self) -> str:
+        return f"MaxRefusal(score={self.score:.4f}, n={self.count})"
+
+
 def component_score_relative(mean_entropy, mean_gap, mean_refusal, count,
                               pop_entropy_mean, pop_entropy_std,
                               pop_gap_mean, pop_gap_std,
@@ -60,6 +82,16 @@ def component_score_relative(mean_entropy, mean_gap, mean_refusal, count,
 _PLACEHOLDER_RE = re.compile(r"\{ENT\d+\}")
 
 
+def _push_topk(values: List[float], value: float, k: int) -> None:
+    """Keep the k largest entropies seen for an entity (k is tiny, so an
+    insertion sort is cheaper than a heap). Used for max/top-k pooling: a
+    forget signal that only fires on one specific pairing survives here,
+    whereas the running mean averages it away (see the pistol failure mode)."""
+    values.append(value)
+    values.sort(reverse=True)
+    del values[k:]
+
+
 class Akinator:
     def __init__(self, cfg, candidate_entities, templates, unlearned_model, base_model, operator, scorer, out_root):
         self.cfg = cfg
@@ -84,10 +116,68 @@ class Akinator:
             )
         self._filter_templates_to_target_count()
         if cfg.get("prompts", {}).get("filter_short_factual", True):
+            print("Filter templates to only short and factual ones...")
             self._filter_templates_short_factual()
         # Freeze to a sorted tuple: set iteration order is process-seeded, so
         # two runs at the same seed would otherwise pick different templates.
         self.templates['only_entity'] = tuple(sorted(self.templates['only_entity']))
+
+        # TOFU-specific: NPO refuses with "I'm not sure." which the regex scorer
+        # rates exactly 0.5 — same as fluent baseline confabulation. Plus the
+        # base model already says "I'm not sure" for any unknown TOFU-style
+        # name, so single low-evidence probes inflate Beta means. Fixes:
+        #   1) require y >= refusal_threshold (>0.5) for a positive update,
+        #   2) rank by Wilson lower confidence bound, not raw mean.
+        ds = (cfg.get("prompts", {}) or {}).get("dataset_name", "")
+        ss = cfg.get("smart_search", {}) or {}
+        self._tofu_mode = (ds == "tofu")
+        self._refusal_threshold = float(
+            ss.get("refusal_threshold", 0.6 if self._tofu_mode else 0.5)
+        )
+        self._rank_by_lcb = bool(ss.get("rank_by_lcb", self._tofu_mode))
+
+        # Which signal drives the Beta bandit reward:
+        #   "refusal"  -> regex refusal score (original behaviour),
+        #   "entropy"  -> token entropy mapped to [0,1] via an online z-score,
+        #   "combined" -> max(refusal, entropy_signal).
+        # The raw refusal/entropy values are still recorded for stats either way;
+        # only the posterior-update reward changes.
+        self._signal = str(ss.get("signal", "refusal")).lower()
+        if self._signal not in {"refusal", "entropy", "combined"}:
+            raise ValueError(
+                f"smart_search.signal must be refusal|entropy|combined, got {self._signal!r}"
+            )
+        # Sharpness of the entropy->reward sigmoid (in z-score units).
+        self._entropy_gain = float(ss.get("entropy_gain", 1.0))
+        # Running (Welford) mean/var of token entropy across all probes so the
+        # bandit can judge "above/below average" online, without a pre-pass.
+        self._ent_n = 0
+        self._ent_mean = 0.0
+        self._ent_m2 = 0.0
+
+        # Deadzone for posterior updates. Refusal is a sparse signal on a
+        # zero background, so its natural gates (>=threshold positive, <0.5
+        # negative) work. Entropy is a *dense* signal: every entity carries
+        # baseline generation entropy, so an "average" reading (z~0) must count
+        # as NO evidence, not weak evidence — otherwise naturally-high-entropy
+        # pairings dribble spurious credit onto non-target entities (this is
+        # why entropy-only collapses on the 2-entity pistol task). We translate
+        # an entropy z-deadzone into reward thresholds via the same sigmoid:
+        # only z>=entropy_pos_z earns positive credit, only z<=entropy_neg_z
+        # earns negative, the band between is skipped.
+        if self._signal == "refusal":
+            self._pos_threshold = self._refusal_threshold
+            self._neg_threshold = 0.5
+        else:
+            pos_z = float(ss.get("entropy_pos_z", 1.3))
+            neg_z = float(ss.get("entropy_neg_z", -0.5))
+            sig = lambda z: 1.0 / (1.0 + np.exp(-self._entropy_gain * z))
+            self._pos_threshold = float(sig(pos_z))
+            self._neg_threshold = float(sig(neg_z))
+
+        # How many top entropies to retain per entity for max/top-k pooling
+        # (1 == pure max). Surfaced as MaxEntropy/TopkEntropy in entro_gap.csv.
+        self._entropy_topk = max(1, int(ss.get("entropy_topk", 3)))
 
     @staticmethod
     def _count_placeholders(template: str) -> int:
@@ -192,6 +282,45 @@ class Akinator:
             return regex_refusal
         token_signal = float(getattr(prompt_score, "refusal_cannot_max", 0.0))
         return max(regex_refusal, blend * token_signal)
+
+    def _update_entropy_stats(self, entropy: float) -> None:
+        """Welford online update of the running entropy mean/variance."""
+        self._ent_n += 1
+        delta = entropy - self._ent_mean
+        self._ent_mean += delta / self._ent_n
+        self._ent_m2 += delta * (entropy - self._ent_mean)
+
+    def _entropy_signal(self, entropy: float) -> float:
+        """Map a token-entropy reading to a [0,1] forget-suspicion reward.
+
+        High entropy (model uncertain about the entity) => high reward, low
+        entropy (model confident) => low reward. We z-score against the running
+        population and squash with a logistic so the reward lands on the same
+        [0,1] scale update_posteriors expects from the refusal score. Until we
+        have >=2 observations there is no spread to normalise against, so we
+        return a slightly-sub-threshold 0.49 (treated as weak negative evidence)
+        to avoid crediting entities on noise during warm-up.
+        """
+        if self._ent_n < 2:
+            return 0.49
+        var = self._ent_m2 / (self._ent_n - 1)
+        std = var ** 0.5
+        z = (entropy - self._ent_mean) / (std + 1e-8)
+        return float(1.0 / (1.0 + np.exp(-self._entropy_gain * z)))
+
+    def _bandit_reward(self, refusal: float, entropy: float) -> float:
+        """Reward fed to the Beta posteriors, per the configured signal.
+
+        Always updates the running entropy stats first so the z-score reflects
+        every probe, regardless of which signal is active.
+        """
+        self._update_entropy_stats(entropy)
+        if self._signal == "refusal":
+            return refusal
+        ent_sig = self._entropy_signal(entropy)
+        if self._signal == "entropy":
+            return ent_sig
+        return max(refusal, ent_sig)  # combined
 
     def eval_prompt(self, edited_prompt):
         prompt_score = self.unlearned_model.score_prompt(
@@ -328,6 +457,24 @@ class Akinator:
 
         return anchors
     
+    def _beta_score(self, beta):
+        """Ranking score for a Beta posterior. Wilson 95% LCB in TOFU mode,
+        raw mean otherwise. LCB penalises low-evidence inflation
+        (e.g. Beta(5,1) from a single 0.5 probe vs Beta(9,2) from 3 probes)."""
+        if not self._rank_by_lcb:
+            return beta.mean()
+        a, b = beta.a, beta.b
+        n = (a - 1.0) + (b - 1.0)  # effective trials given Beta(1,1) prior
+        if n <= 0:
+            return 0.0
+        p = (a - 1.0) / n
+        z = 1.645  # 95% one-sided
+        z2 = z * z
+        denom = 1.0 + z2 / n
+        center = p + z2 / (2.0 * n)
+        margin = z * np.sqrt(p * (1.0 - p) / n + z2 / (4.0 * n * n))
+        return max(0.0, (center - margin) / denom)
+
     def update_posteriors(self, y, t, ents, ent_slots, temp_beta, pos_weight=4.0):
         """
         Soft responsibility based on current means.
@@ -351,14 +498,19 @@ class Akinator:
         # Update template (if always refuse, do not rely on this template)
         temp_beta[t].update(1-y, weight=1.0)
 
-        if y >= 0.5:
-            # refusal: assign strong positive credit to entities
+        if y >= self._pos_threshold:
+            # strong suspicion (refusal, or entropy spike >= entropy_pos_z):
+            # assign strong positive credit to entities
             for ent, slot, w in zip(ents, ent_slots, weights):
                 slot[ent].update(1, weight=pos_weight*w)
-        else:
-            # non-refusal: strong negative evidence for both entities in those slots
+        elif y < self._neg_threshold:
+            # clearly safe (non-refusal, or entropy below entropy_neg_z):
+            # strong negative evidence for both entities in those slots
             for ent, slot in zip(ents, ent_slots):
                 slot[ent].update(0, weight=1.0)
+        # else: deadzone — ambiguous reward (single "I'm not sure" regex match,
+        # or merely-average entropy) is treated as no evidence and skipped, so
+        # the dense entropy background can't dribble spurious credit.
 
     def choose_template(self, temp_beta, rng):
         ''' Sample each template's "usefulness" '''
@@ -377,7 +529,37 @@ class Akinator:
             probes.append(self.choose_entity_to_probe(slot, rng))
 
         return probes
-    
+
+    def choose_pair_cosample(self, ent_slot, rng):
+        """Co-sampling move (fix 4) for the 2-entity case.
+
+        Independent per-slot Thompson sampling discovers a pair only when *both*
+        members' posteriors are already elevated. But the forget signal often
+        lifts only one member at first (its spike is sharpest in one ordering),
+        so the partner is never co-probed and stays buried. Here we instead
+        *anchor* the globally most-suspicious (slot, entity) and Thompson-sample
+        the OTHER slot — i.e. "given this entity looks unlearned, sweep partners
+        to find who it was unlearned with". This concentrates probes on
+        confirming/completing the suspected edge rather than re-exploring blindly.
+        """
+        # Globally most-suspicious (slot, entity) by current posterior score.
+        best = None  # (score, slot_idx, entity)
+        for si, slot in enumerate(ent_slot):
+            for e, b in slot.items():
+                s = self._beta_score(b)
+                if best is None or s > best[0]:
+                    best = (s, si, e)
+        _, anchor_slot, anchor_ent = best
+        other_slot = 1 - anchor_slot
+        partner = self.choose_entity_to_probe(ent_slot[other_slot], rng)
+        if partner == anchor_ent:  # need two distinct entities
+            others = [e for e in ent_slot[other_slot] if e != anchor_ent]
+            partner = rng.choice(others) if others else partner
+        probe = [None, None]
+        probe[anchor_slot] = anchor_ent
+        probe[other_slot] = partner
+        return probe
+
     def choose_pair_with_anchor(self, anchors, ent_slot1, ent_slot2, rng):
         ''' Return ENT1, ENT2 '''
         anchors = None
@@ -419,22 +601,84 @@ class Akinator:
             "refusal_sum": 0.0,
             "entropy_sum": 0.0,
             "gap_sum": 0.0,
+            "entropy_topk": [],
         })
+        # Per-entity probe tally (across all slots) used to enforce the
+        # full-coverage guarantee: every candidate must be probed at least
+        # once before Thompson exploitation, otherwise an unprobed forget
+        # target ends up "ranked" purely by its untouched Beta(1,1) prior.
+        probe_count = defaultdict(int)
+        # Per-step snapshot of every entity's posterior mean in every slot.
+        # Long format: one row per (step, slot, entity) so it plots cleanly.
+        beta_mean_trace: List[Dict[str, object]] = []
 
         templates_list = list(self.templates['only_entity'])
         entities_list = list(self.candidate_entities)
 
         search_cfg = self.cfg.get("smart_search", {})
-        # Each ordered pair gets this many guaranteed probes before Thompson kicks in. 
+        # Each ordered pair gets this many guaranteed probes before Thompson kicks in.
         # Exists because PISTOL's forget signal is directional and sparse, so flat priors + uniform sampling miss it by luck.
         warmup_per_pair = int(search_cfg.get("warmup_per_pair", 2))
         # Directional unlearning: always test both (a,b) and (b,a) per step.
         symmetric = bool(search_cfg.get("symmetric_probe", True))
+        # Co-sampling (fix 4): probability that a Thompson step anchors the
+        # globally most-suspicious entity and sweeps the other slot for its
+        # partner, instead of sampling both slots independently. 0 disables.
+        cosample_prob = float(search_cfg.get("cosample_prob", 0.0))
+        # Full-coverage guarantee: probe every candidate >=1x during warm-up
+        # before Thompson sampling kicks in. Cheap (O(#entities), not O(#pairs))
+        # and fixes the regime where budget ~ #entities (e.g. dusk: 100 budget,
+        # 71 entities) where the true target could otherwise be skipped entirely
+        # and left at its prior. Disable to restore the old budget//2 warm-up.
+        full_coverage = bool(search_cfg.get("full_coverage", True))
 
-        def _probe(t, ents):
+        # Confirmation phase: Thompson's posterior sharpens around an early
+        # leader and starves alternatives, so when the refusal margin is thin
+        # the ranking commits to the wrong arm. After Thompson we give the top-k
+        # candidates EQUAL probes on a fixed shared template set and re-rank that
+        # slot by the clean equal-allocation mean. Disable to restore the old
+        # pure-Thompson ranking.
+        confirm_cfg = search_cfg.get("confirm") or {}
+        confirm_enabled = bool(confirm_cfg.get("enabled", True))
+        confirm_top_k = int(confirm_cfg.get("top_k", 5))
+        confirm_probes = int(confirm_cfg.get("probes_per_candidate", 15))
+        # Reserve budget so Thompson can't spend everything before confirmation.
+        _confirm_m0 = min(confirm_probes, len(templates_list)) if templates_list else 0
+        confirm_reserve = min(confirm_top_k * _confirm_m0, budget // 3) if confirm_enabled else 0
+
+        # Early stopping: when the top-1 entity in every slot has separated
+        # from the runner-up by at least gap_threshold (and accumulated at
+        # least min_top1_count probes), stop spending budget.
+        es_cfg = search_cfg.get("early_stop") or {}
+        es_enabled = bool(es_cfg.get("enabled", False))
+        es_min_spent = int(es_cfg.get("min_spent", 50))
+        es_check_every = max(1, int(es_cfg.get("check_every", 5)))
+        es_gap_threshold = float(es_cfg.get("gap_threshold", 0.20))
+        es_min_top1_count = int(es_cfg.get("min_top1_count", 5))
+
+        def _probe(t, ents, update=True):
             y, ent, gap, semantic_ent, _, _, prompt_score = self.get_refusal(t, ents)
-            self.update_posteriors(y, t, ents, ent_slot, temp_beta)
+            # update=False during the confirmation phase: it is a measurement
+            # pass (its own equal-allocation score drives the re-rank), so it
+            # must not perturb the posteriors used to rank the anchor slot.
+            if update:
+                reward = self._bandit_reward(y, ent)
+                self.update_posteriors(reward, t, ents, ent_slot, temp_beta)
             history.append((t, ents, y))
+            for e in ents:
+                probe_count[e] += 1
+            step = len(history)
+            for slot_idx, slot in enumerate(ent_slot):
+                for e, beta in slot.items():
+                    beta_mean_trace.append({
+                        "step": step,
+                        "slot": slot_idx,
+                        "entity": e,
+                        "mean": beta.mean(),
+                        "a": beta.a,
+                        "b": beta.b,
+                        "probed": int(e in ents),
+                    })
             entity_cannot_scan.append({
                 "entity": ents,
                 "retain_question": t,
@@ -450,8 +694,10 @@ class Akinator:
             m["refusal_sum"] += y
             m["entropy_sum"] += ent
             m["gap_sum"] += gap
+            _push_topk(m.setdefault("entropy_topk", []), ent, self._entropy_topk)
             m.setdefault("semantic_entropy_sum", 0.0)
             m["semantic_entropy_sum"] += semantic_ent
+            return y
 
         spent = 0
 
@@ -469,19 +715,149 @@ class Akinator:
                 spent += 1
             print(f"[run_smart_search] warm-up: {spent} probes over "
                   f"{len(ordered_pairs)} ordered pairs (x{warmup_per_pair}).", flush=True)
+        elif num == 1 and warmup_per_pair > 0:
+            shuffled_entities = list(entities_list)
+            rng.shuffle(shuffled_entities)
+            # With full_coverage, let warm-up use the whole budget if needed so
+            # one full pass (i % len cycles through every entity) is guaranteed;
+            # otherwise keep the old budget//2 reservation for exploitation.
+            warm_budget = budget if full_coverage else budget // 2
+            warm_cap = min(len(shuffled_entities) * warmup_per_pair, warm_budget)
+            for i in range(warm_cap):
+                e = shuffled_entities[i % len(shuffled_entities)]
+                t = self.choose_template(temp_beta, rng)
+                _probe(t, [e])
+                spent += 1
+            print(f"[run_smart_search] warm-up: {spent} probes over "
+                  f"{len(shuffled_entities)} entities (x{warmup_per_pair}).", flush=True)
+
+        # Phase 0b — coverage fill. Warm-up can still leave entities unprobed:
+        # for num==1 when budget < #entities, and for num==2 when random pair
+        # sampling happens to miss a candidate. Probe every still-uncovered
+        # entity once (num==2 pairs it with a random distinct partner) so no
+        # forget target is ranked on its untouched prior. O(#entities) worst
+        # case and usually a no-op once budget comfortably exceeds #entities.
+        if full_coverage:
+            uncovered = [e for e in entities_list if probe_count[e] == 0]
+            for e in uncovered:
+                if spent >= budget:
+                    break
+                if num == 1:
+                    ents = [e]
+                else:
+                    other = e
+                    while other == e:
+                        other = entities_list[int(rng.integers(len(entities_list)))]
+                    ents = [e, other]
+                t = self.choose_template(temp_beta, rng)
+                _probe(t, ents)
+                spent += 1
+            still = sum(1 for e in entities_list if probe_count[e] == 0)
+            covered = len(entities_list) - still
+            msg = (f"[run_smart_search] coverage: {covered}/{len(entities_list)} "
+                   f"entities probed after warm-up (spent={spent}).")
+            if still:
+                msg += (f" WARNING: {still} never probed — budget too small for "
+                        f"full coverage.")
+            print(msg, flush=True)
 
         # Phase 1 — Thompson sampling. With symmetric=True we probe both
         # orderings per step: costs 2 queries but makes the direction
         # of the unlearning irrelevant to whether we find it.
         step_cost = 2 if (symmetric and num == 2) else 1
-        while spent + step_cost <= budget:
+        last_es_check = 0
+        while spent + step_cost <= budget - confirm_reserve:
             t = self.choose_template(temp_beta, rng)
-            entities = self.choose_pair_of_entities(ent_slot, rng)
+            if num == 2 and cosample_prob > 0.0 and rng.random() < cosample_prob:
+                entities = self.choose_pair_cosample(ent_slot, rng)
+            else:
+                entities = self.choose_pair_of_entities(ent_slot, rng)
             _probe(t, entities)
             spent += 1
             if symmetric and num == 2:
                 _probe(t, [entities[1], entities[0]])
                 spent += 1
+
+            if es_enabled and spent >= es_min_spent and (spent - last_es_check) >= es_check_every:
+                last_es_check = spent
+                all_converged = True
+                gap_info = []
+                for slot in ent_slot:
+                    sorted_ents = sorted(self.candidate_entities, key=lambda e: self._beta_score(slot[e]), reverse=True)
+                    top1 = sorted_ents[0]
+                    top2 = sorted_ents[1] if len(sorted_ents) > 1 else None
+                    gap = self._beta_score(slot[top1]) - (self._beta_score(slot[top2]) if top2 else 0.0)
+                    top1_probes = entropy_gap_scan[top1]["count"]
+                    gap_info.append({"top1": top1, "gap": round(gap, 3), "probes": top1_probes})
+                    if gap < es_gap_threshold or top1_probes < es_min_top1_count:
+                        all_converged = False
+                if all_converged:
+                    print(f"[smart_search] early stop at spent={spent}: {gap_info}", flush=True)
+                    break
+
+        # Phase 2 — confirmation. Ignore the (now-poisoned) posteriors and give
+        # the top-k candidates EQUAL probes on a FIXED shared template set — the
+        # controlled measurement scripts/refusal_neighborhood_probe.py showed
+        # recovers the true partner — then re-rank that slot by the clean mean.
+        confirm_scores: Dict[str, float] = {}
+        confirm_slot = None
+        confirm_anchor = None
+        anchor_slot = None
+        if confirm_enabled and spent < budget:
+            if num == 2:
+                # Anchor on the MORE SEPARATED slot's top-1 (largest top1-top2
+                # gap), then confirm the other, ambiguous slot's top-k partners
+                # against it. Anchoring on the slot's own top-1 (not the global
+                # max cell) keeps the final pair consistent: the anchor slot
+                # returns the anchor, the confirmed slot returns its best partner
+                # — two distinct entities. Fixes the failure where one slot is
+                # clean but the other latched onto a distractor.
+                slot_rank = [sorted(self.candidate_entities,
+                                    key=lambda e: self._beta_score(slot[e]), reverse=True)
+                             for slot in ent_slot]
+                gaps = [self._beta_score(ent_slot[si][slot_rank[si][0]])
+                        - self._beta_score(ent_slot[si][slot_rank[si][1]])
+                        for si in range(2)]
+                anchor_slot = 0 if gaps[0] >= gaps[1] else 1
+                confirm_slot = 1 - anchor_slot
+                confirm_anchor = slot_rank[anchor_slot][0]
+                cand = [e for e in slot_rank[confirm_slot]
+                        if e != confirm_anchor][:confirm_top_k]
+            else:
+                confirm_slot = 0
+                cand = sorted(self.candidate_entities,
+                              key=lambda e: self._beta_score(ent_slot[0][e]),
+                              reverse=True)[:confirm_top_k]
+
+            available = budget - spent
+            m = min(_confirm_m0, available // max(1, len(cand))) if cand else 0
+            if m >= 1:
+                fixed_templates = list(templates_list)
+                rng.shuffle(fixed_templates)
+                fixed_templates = fixed_templates[:m]
+                for e in cand:
+                    vals = []
+                    for t in fixed_templates:
+                        if spent >= budget:
+                            break
+                        if num == 2:
+                            ents = [None, None]
+                            ents[confirm_slot] = e
+                            ents[anchor_slot] = confirm_anchor
+                        else:
+                            ents = [e]
+                        vals.append(_probe(t, ents, update=False))
+                        spent += 1
+                    if vals:
+                        confirm_scores[e] = float(np.mean(vals))
+                print(f"[smart_search] confirm: re-probed {len(confirm_scores)} "
+                      f"slot-{confirm_slot} candidates x{m} templates"
+                      + (f" against anchor={confirm_anchor!r}" if num == 2 else "")
+                      + f" (spent={spent}).", flush=True)
+            else:
+                confirm_slot = None  # not enough budget; keep Thompson ranking
+                print(f"[smart_search] confirm: skipped (insufficient budget, "
+                      f"spent={spent}/{budget}).", flush=True)
 
         entity_stats = {}
 
@@ -489,9 +865,12 @@ class Akinator:
             if m["count"] == 0:
                 continue
 
+            topk = m.get("entropy_topk") or [m["entropy_sum"] / m["count"]]
             entity_stats[e] = {
                 "mean_refusal": m["refusal_sum"] / m["count"],
                 "mean_entropy": m["entropy_sum"] / m["count"],
+                "max_entropy": topk[0],
+                "topk_entropy": sum(topk) / len(topk),
                 "mean_gap": m["gap_sum"] / m["count"],
                 "mean_semantic_entropy": m.get("semantic_entropy_sum", 0.0) / m["count"],
                 "count": m["count"],
@@ -499,8 +878,16 @@ class Akinator:
 
         # rank entities
         ranked_slots = []
-        for slot in ent_slot:
-            ranked_slots.append(sorted(self.candidate_entities, key=lambda e: slot[e].mean(), reverse=True))
+        for si, slot in enumerate(ent_slot):
+            base = sorted(self.candidate_entities, key=lambda e: self._beta_score(slot[e]), reverse=True)
+            if confirm_slot is not None and si == confirm_slot and confirm_scores:
+                # equal-probe confirmation overrides the poisoned posterior order
+                # for the top-k it re-measured; everyone else keeps Beta order.
+                confirmed = sorted(confirm_scores, key=lambda e: confirm_scores[e], reverse=True)
+                rest = [e for e in base if e not in confirm_scores]
+                ranked_slots.append(confirmed + rest)
+            else:
+                ranked_slots.append(base)
 
         return {
             "history": history,
@@ -509,6 +896,8 @@ class Akinator:
             "ranked_slots": ranked_slots,
             "cannot_metrics": entity_cannot_scan,
             "entity_stats": entity_stats,
+            "beta_mean_trace": beta_mean_trace,
+            "confirm": {"slot": confirm_slot, "anchor": confirm_anchor, "scores": confirm_scores},
         }
 
     def _run_baseline(self, pair_template_iter, label: str):
@@ -528,12 +917,14 @@ class Akinator:
             "refusal_sum": 0.0,
             "entropy_sum": 0.0,
             "gap_sum": 0.0,
+            "entropy_topk": [],
         })
 
         spent = 0
         for t, ents in pair_template_iter:
             y, ent, gap, semantic_ent, _, _, prompt_score = self.get_refusal(t, ents)
-            self.update_posteriors(y, t, ents, ent_slot, temp_beta)
+            reward = self._bandit_reward(y, ent)
+            self.update_posteriors(reward, t, ents, ent_slot, temp_beta)
             history.append((t, ents, y))
             entity_cannot_scan.append({
                 "entity": ents,
@@ -550,6 +941,7 @@ class Akinator:
             m["refusal_sum"] += y
             m["entropy_sum"] += ent
             m["gap_sum"] += gap
+            _push_topk(m.setdefault("entropy_topk", []), ent, self._entropy_topk)
             m.setdefault("semantic_entropy_sum", 0.0)
             m["semantic_entropy_sum"] += semantic_ent
             spent += 1
@@ -560,16 +952,19 @@ class Akinator:
         for e, m in entropy_gap_scan.items():
             if m["count"] == 0:
                 continue
+            topk = m.get("entropy_topk") or [m["entropy_sum"] / m["count"]]
             entity_stats[e] = {
                 "mean_refusal": m["refusal_sum"] / m["count"],
                 "mean_entropy": m["entropy_sum"] / m["count"],
+                "max_entropy": topk[0],
+                "topk_entropy": sum(topk) / len(topk),
                 "mean_gap": m["gap_sum"] / m["count"],
                 "mean_semantic_entropy": m.get("semantic_entropy_sum", 0.0) / m["count"],
                 "count": m["count"],
             }
 
         ranked_slots = [
-            sorted(self.candidate_entities, key=lambda e: slot[e].mean(), reverse=True)
+            sorted(self.candidate_entities, key=lambda e: self._beta_score(slot[e]), reverse=True)
             for slot in ent_slot
         ]
 
@@ -654,6 +1049,211 @@ class Akinator:
               f"(num_target_entities={self.num_target_entities}).",
               flush=True)
         return self._run_baseline(_sampler(), label="random")
+
+    def run_greedy_search(self, budget: int = 1000, seed: int = 0):
+        """Greedy refusal-score baseline.
+
+        Rank candidates by their *max* observed refusal score and repeatedly
+        query the current best — pure exploitation, no Thompson sampling and no
+        Beta posteriors. The only deviation from "always re-query the top arm"
+        is that we never re-run an identical (entity[/pair], template) probe:
+        model decoding is deterministic, so a repeat yields no new information.
+        Each arm therefore draws from its pool of not-yet-tried templates; once
+        an arm exhausts its templates its max is final and the next-best
+        unfrozen arm is queried.
+
+        Phases:
+          1. Warm-up — one probe per arm so every candidate has an initial max
+             (greedy is undefined while all arms are tied at the 0 floor). For
+             num==2 each entity is seeded once in each slot.
+          2. Greedy — repeatedly probe the current best (the highest-max arm,
+             ties broken at random) with a fresh template until budget is spent.
+
+        Returns the same dict shape as run_smart_search / _run_baseline so it
+        drops into run_attack.py and dump_smart_search_debug unchanged.
+        """
+        rng = np.random.default_rng(seed)
+        num = self.get_number_of_entities()
+        entities_list = list(self.candidate_entities)
+        templates_list = list(self.templates['only_entity'])
+        if not entities_list or not templates_list:
+            raise ValueError("greedy search needs >=1 entity and >=1 template.")
+        if num == 2 and len(entities_list) < 2:
+            raise ValueError("greedy search with 2 target entities needs >=2 entities.")
+
+        # Per-slot max refusal per entity — the greedy ranking signal.
+        best_refusal = [defaultdict(float) for _ in range(num)]
+        slot_count = [defaultdict(int) for _ in range(num)]
+
+        history = []
+        entity_cannot_scan = []
+        entropy_gap_scan = defaultdict(lambda: {
+            "count": 0,
+            "refusal_sum": 0.0,
+            "entropy_sum": 0.0,
+            "gap_sum": 0.0,
+            "entropy_topk": [],
+        })
+
+        def _probe(t, ents):
+            y, ent, gap, semantic_ent, _, _, prompt_score = self.get_refusal(t, ents)
+            history.append((t, ents, y))
+            for slot_idx, e in enumerate(ents):
+                if y > best_refusal[slot_idx][e]:
+                    best_refusal[slot_idx][e] = y
+                slot_count[slot_idx][e] += 1
+            entity_cannot_scan.append({
+                "entity": ents,
+                "retain_question": t,
+                "completion": prompt_score.completion,
+                "cannot_max": prompt_score.refusal_cannot_max,
+                "cannot_mean": prompt_score.refusal_cannot_mean,
+                "cannot_in_first_k": prompt_score.refusal_cannot_in_first_k,
+                "first_k_text": prompt_score.refusal_first_k_text,
+                "cannot_probs": prompt_score.refusal_cannot_probs,
+            })
+            m = entropy_gap_scan[ents[0]]
+            m["count"] += 1
+            m["refusal_sum"] += y
+            m["entropy_sum"] += ent
+            m["gap_sum"] += gap
+            _push_topk(m.setdefault("entropy_topk", []), ent, self._entropy_topk)
+            m.setdefault("semantic_entropy_sum", 0.0)
+            m["semantic_entropy_sum"] += semantic_ent
+            return y
+
+        spent = 0
+        n_temp = len(templates_list)
+
+        if num == 1:
+            # Per-entity pool of not-yet-tried templates (shuffled => seed-varied).
+            untried = {e: list(range(n_temp)) for e in entities_list}
+            for lst in untried.values():
+                rng.shuffle(lst)
+
+            # Phase 1 — warm-up: one probe per entity (random order).
+            order = list(entities_list)
+            rng.shuffle(order)
+            for e in order:
+                if spent >= budget:
+                    break
+                _probe(templates_list[untried[e].pop()], [e])
+                spent += 1
+            print(f"[greedy] warm-up: {spent} probes over {len(order)} entities.", flush=True)
+
+            # Phase 2 — greedy exploitation of the current best.
+            while spent < budget:
+                live = [e for e in entities_list if untried[e]]
+                if not live:
+                    break
+                rng.shuffle(live)  # randomise ties before argmax
+                e = max(live, key=lambda x: best_refusal[0][x])
+                _probe(templates_list[untried[e].pop()], [e])
+                spent += 1
+        else:
+            # Per ordered-pair pool of not-yet-tried templates (built lazily).
+            untried_pair: Dict[tuple, List[int]] = {}
+
+            def _untried(a, b):
+                lst = untried_pair.get((a, b))
+                if lst is None:
+                    lst = list(range(n_temp))
+                    rng.shuffle(lst)
+                    untried_pair[(a, b)] = lst
+                return lst
+
+            def _rand_other(e):
+                o = e
+                while o == e:
+                    o = entities_list[int(rng.integers(len(entities_list)))]
+                return o
+
+            # Phase 1 — warm-up: seed every entity once in each slot.
+            order = list(entities_list)
+            rng.shuffle(order)
+            for e in order:
+                if spent >= budget:
+                    break
+                b = _rand_other(e)
+                lst = _untried(e, b)
+                if lst:
+                    _probe(templates_list[lst.pop()], [e, b])
+                    spent += 1
+            for e in order:
+                if spent >= budget:
+                    break
+                a = _rand_other(e)
+                lst = _untried(a, e)
+                if lst:
+                    _probe(templates_list[lst.pop()], [a, e])
+                    spent += 1
+            print(f"[greedy] warm-up: {spent} probes seeding {len(order)} entities "
+                  f"in both slots.", flush=True)
+
+            # Phase 2 — greedy: probe the highest-priority unfrozen ordered pair,
+            # priority = max-refusal(slot0,a) + max-refusal(slot1,b). Ties are
+            # broken at random, so before any refusal is seen (all priorities 0)
+            # the search explores random pairs — seed-dependent — and the moment
+            # a pairing refuses it locks onto pairs involving those entities.
+            eps = 1e-9
+            while spent < budget:
+                best_score = None
+                pool: List[tuple] = []
+                for a in entities_list:
+                    ra = best_refusal[0][a]
+                    for b in entities_list:
+                        if a == b or not _untried(a, b):
+                            continue
+                        score = ra + best_refusal[1][b]
+                        if best_score is None or score > best_score + eps:
+                            best_score = score
+                            pool = [(a, b)]
+                        elif score > best_score - eps:
+                            pool.append((a, b))
+                if not pool:  # every ordered pair exhausted
+                    break
+                a, b = pool[int(rng.integers(len(pool)))]
+                _probe(templates_list[_untried(a, b).pop()], [a, b])
+                spent += 1
+
+        print(f"[greedy] completed {spent} probes (budget={budget}).", flush=True)
+
+        # ---- bookkeeping shaped like _run_baseline / run_smart_search ----
+        entity_stats = {}
+        for e, m in entropy_gap_scan.items():
+            if m["count"] == 0:
+                continue
+            topk = m.get("entropy_topk") or [m["entropy_sum"] / m["count"]]
+            entity_stats[e] = {
+                "mean_refusal": m["refusal_sum"] / m["count"],
+                "max_refusal": max(best_refusal[s].get(e, 0.0) for s in range(num)),
+                "mean_entropy": m["entropy_sum"] / m["count"],
+                "max_entropy": topk[0],
+                "topk_entropy": sum(topk) / len(topk),
+                "mean_gap": m["gap_sum"] / m["count"],
+                "mean_semantic_entropy": m.get("semantic_entropy_sum", 0.0) / m["count"],
+                "count": m["count"],
+            }
+
+        ent_slot = [
+            {e: _RankArm(best_refusal[s][e], slot_count[s][e]) for e in entities_list}
+            for s in range(num)
+        ]
+        ranked_slots = [
+            sorted(entities_list, key=lambda e: best_refusal[s][e], reverse=True)
+            for s in range(num)
+        ]
+        # Dummy template posteriors so dump_smart_search_debug renders unchanged.
+        temp_beta = {t: Beta(1, 1) for t in templates_list}
+
+        return {
+            "history": history,
+            "ent_slots": ent_slot,
+            "temp_beta": temp_beta,
+            "ranked_slots": ranked_slots,
+            "cannot_metrics": entity_cannot_scan,
+            "entity_stats": entity_stats,
+        }
 
     def extract_top_entities(self, ranked_slots):
         """ Given ranked_slots, first find the number of slots, and then get the top entity of each slot.
@@ -1024,11 +1624,14 @@ class Akinator:
         # ---------- entropy and gap score -------
         with open(out / "entro_gap.csv", "w") as f:
             writer = csv.writer(f)
-            writer.writerow(["Entity", "Entropy", "SemanticEntropy", "Gap", "Refusal"])
+            writer.writerow(["Entity", "Entropy", "MaxEntropy", "TopkEntropy",
+                             "SemanticEntropy", "Gap", "Refusal"])
             for entity, stats in result["entity_stats"].items():
                 writer.writerow([
                     entity,
                     stats["mean_entropy"],
+                    stats.get("max_entropy", stats["mean_entropy"]),
+                    stats.get("topk_entropy", stats["mean_entropy"]),
                     stats.get("mean_semantic_entropy", 0.0),
                     stats["mean_gap"],
                     stats["mean_refusal"],
@@ -1049,6 +1652,18 @@ class Akinator:
             for t, beta in result["temp_beta"].items():
                 writer.writerow([t,beta,beta.mean()])
                 # f.write(f"{t}: a={beta.a}, b={beta.b}, mean={beta.mean()}\n")
+
+        # ---------- beta mean trace ----------
+        trace = result.get("beta_mean_trace") or []
+        if trace:
+            with open(out / "beta_mean_trace.csv", "w", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerow(["step", "slot", "entity", "mean", "a", "b", "probed"])
+                for row in trace:
+                    writer.writerow([
+                        row["step"], row["slot"], row["entity"],
+                        f"{row['mean']:.6f}", row["a"], row["b"], row["probed"],
+                    ])
 
         # ---------- full json dump ----------
         with open(out / "raw_result.json", "w") as f:

@@ -19,14 +19,14 @@ base_model:
   model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/pistol_sample1/llama2-7b-chat # pistol_sample1/ or tofu/
 
 prompts:
-  dataset_name: dusk # pistol_sample1 or tofu_full or dusk
+  dataset_name: dusk # pistol_sample1 or tofu or dusk
   num_target_entities: 1 # 2 for pistol, 1 for tofu and dusk
   prompt_key: question
-  forget_edge: ['Roland_Lancaster_personal'] # ['A_B'] for pistol, ['author_1'] for tofu, [''Roland_Lancaster_personal'] for dusk
+  forget_edge: ['Roland_Lancaster_personal'] # ['A_B'] for pistol, ['author_1_personal'] for tofu, ['Roland_Lancaster_personal'] for dusk
   limit: -1 # -1 if you want to use all prompts
   shuffle: true
   inline_prompts: []
-  filter_short_factual: False
+  filter_short_factual: false
 
 max_new_tokens: 64
 first_n_tokens: 24
@@ -48,12 +48,33 @@ refusal:
   # fold that in as max(regex_score, token_blend * cannot_max). 0 disables.
   token_blend: 0.5
 
-search_mode: smart      # smart | brute | random
+search_mode: smart      # smart | brute | random | greedy (greedy refusal-score baseline)
 
 smart_search:
-  warmup_per_pair: 2    # guaranteed probes per ordered (a,b) before Thompson
+  signal: refusal       # bandit reward driver: refusal | entropy | combined
+  entropy_gain: 1.0     # logistic sharpness (in z-units) for the entropy->reward map
+  entropy_pos_z: 1.3    # entropy z >= this earns positive credit (entropy/combined only)
+  entropy_neg_z: -0.5   # entropy z <= this earns negative credit; the band between is skipped
+  entropy_topk: 3       # retain top-k entropies per entity for max/top-k pooling (1 = pure max)
+  cosample_prob: 0.0    # P(Thompson step anchors the top suspect & sweeps the other slot for its partner). 0.5 for pistol | 0 for single-entity
+  warmup_per_pair: 1    # guaranteed probes per ordered (a,b) before Thompson. 2 for pistol | 1 for dusk | 10 for tofu
+  full_coverage: true   # probe every candidate >=1x in warm-up before Thompson (O(#entities), not pairs). Stops the target being skipped when budget ~ #entities (e.g. dusk: 100 budget/71 ents). false = old budget//2 warm-up
   symmetric_probe: true # query both (a,b) and (b,a) per Thompson step
-  budget: 1000          # used by random baseline and smart search
+  budget: 100          # fallback probe budget if dataset not in budget_by_dataset below
+  budget_by_dataset:   # per-dataset budget, keyed by prompts.dataset_name (wins over `budget`)
+    dusk: 100
+    pistol_sample1: 1000
+    tofu: 30000
+  early_stop:
+    enabled: false
+    min_spent: 20        # don't even check before this many probes. 50 for pistol | 20 for dusk
+    check_every: 5       # amortize the sort/gap computation
+    gap_threshold: 0.15  # top1.mean - top2.mean must exceed this in every slot. 0.2 for pistol | 0.15 for dusk
+    min_top1_count: 5    # top1 needs at least this many real probes
+  confirm:               # tie-break phase: equal probes for top-k after Thompson
+    enabled: true        # false = old pure-Thompson ranking
+    top_k: 5             # how many top candidates per (confirmed) slot to re-measure
+    probes_per_candidate: 15  # equal probes each, on a fixed shared template set (capped by #templates and reserved budget//3)
 
 reward_weights:
   refusal_score: 1.2
