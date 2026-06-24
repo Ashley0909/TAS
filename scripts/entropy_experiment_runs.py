@@ -44,6 +44,11 @@ DATASET_CFG = {
         "warmup_per_pair": 2,
         "use_embeddings": "false",
         "cosample_prob": 0.5,  # fix 4: partner-discovery for the pair task
+        # The forget signal is directional + template-sparse, so Thompson often
+        # finds nothing (all posteriors flat) and ranks noise. Fall back to an
+        # exhaustive anchor x partner sweep in confirm. Scoped to pistol; dusk
+        # (single-entity) doesn't need it.
+        "confirm_exhaustive": True,
     },
 }
 # NOTE: budget is intentionally NOT set here. run_attack.py resolves it from

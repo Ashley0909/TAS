@@ -25,10 +25,10 @@
 # eval_summary.csv produced by eval_pipeline.ipynb).
 
 # Config rule: Can use comma to separate values (e.g. NPO,DPO to run both).
-: "${EXP_MODES:=smart}"                 # random / brute / smart / smart_fast / greedy / blank = all 5
+: "${EXP_MODES:=smart_fast}"                 # random / brute / smart / smart_fast / greedy / blank = all 5
 : "${EXP_DATASETS:=pistol}"             # pistol / dusk / blank = both
-: "${EXP_UNLEARNINGS:=LUNAR}"             # NPO / DPO / LUNAR / blank = all
-: "${EXP_MODELS:=llama2-7b-chat}"       # llama2-7b-chat / llama3-8b-instruct / gemma-7b-it / blank = all
+: "${EXP_UNLEARNINGS:=DPO}"             # NPO / DPO / LUNAR / blank = all
+: "${EXP_MODELS:=llama3-8b-instruct}"       # llama2-7b-chat / llama3-8b-instruct / gemma-7b-it / blank = all
 : "${EXP_SEEDS:=}"                      # 0 / 1 / 2 / blank = all (brute is deterministic: use 0)
 
 source /nfs-share/ahta3/workspace/LUNAR/.venv/bin/activate
@@ -64,21 +64,21 @@ fi
 # (final flushes) won't be captured — fine for inspecting logs alongside results.
 DEST=$(grep -oP 'output_dir=\K[^ ]+' <<<"${RUNS[$SLURM_ARRAY_TASK_ID]}")
 OUT_FILE="${SLURM_JOB_NAME}-${SLURM_JOB_ID}.out"
-if [ -n "$DEST" ] && [ -f "$OUT_FILE" ]; then
-    mkdir -p "$DEST"
-    cp "$OUT_FILE" "$DEST/"
-    echo "Copied $OUT_FILE -> $DEST/"
-fi
+# if [ -n "$DEST" ] && [ -f "$OUT_FILE" ]; then
+#     mkdir -p "$DEST"
+#     cp "$OUT_FILE" "$DEST/"
+#     echo "Copied $OUT_FILE -> $DEST/"
+# fi
 
 # Refresh grand table
-# srun python scripts/search_metrics_table.py
+srun python scripts/search_metrics_table.py
 
 # Check unlearning model quality
-srun python scripts/refusal_neighborhood_probe.py \
-  --model_family llama2-7b-chat \
-  --model_path /nfs-share/ahta3/workspace/LUNAR/unlearn_results/completions/lunar/llama2-7b-chat/pistol_sample1/model \
-  --dataset pistol_sample1 --forget_edge A_B \
-  --templates 12 --out debug_search/refusal_probe/lunar_llama2_pistol.csv
+# srun python scripts/refusal_neighborhood_probe.py \
+#   --model_family gemma-7b-it \
+#   --model_path /nfs-share/ahta3/workspace/PISTOL/models_forget/gemma-7b-it_forget_DUSK/dpo_20epochs_LoRA32_lr5e-05 \
+#   --dataset dusk --forget_edge Roland_Lancaster_personal --num_target_entities 1 \
+#   --templates 12 --out debug_search/refusal_probe/dpo_gemma_dusk.csv
 
 # Example: run every mode on dusk for all unlearnings/models/seeds (216/2 = 108 cells):
 #   EXP_MODES= EXP_DATASETS=dusk EXP_UNLEARNINGS= python scripts/tas_experiment_runs.py --count

@@ -12,8 +12,8 @@ functions from `greedy_metrics_table`, so the numbers stay in lockstep with the
 greedy report and `eval_pipeline.ipynb`).
 
 Output mirrors `eval_summary_table.md`: one section per search mode (smart /
-random), each with a "Per model" table and an "Averaged over all models" table,
-plus a faithful per-run dump at the end.
+smart_fast / random), each with a "Per model" table and an "Averaged over all
+models" table, plus a faithful per-run dump at the end.
 
 Columns:
     Dataset | [Model] | Search mode | Exact ↑ | MRR ↑ | Prompt recall ↑ |
@@ -29,7 +29,7 @@ No GPU / model required — pure post-hoc scoring of saved CSV/JSON.
 
 Usage:
     python scripts/search_metrics_table.py \
-        --roots debug_search/smart_search debug_search/random_search \
+        --roots debug_search/smart_search debug_search/smart_fast_search debug_search/random_search \
         --out debug_search/search_metrics_table.md
 """
 from __future__ import annotations
@@ -132,7 +132,7 @@ def _table(rows_iter, lead_cols, lead_seps, extra_cols=None, extra_seps=None):
 
 def render(df_all: pd.DataFrame, brute_cost: dict) -> str:
     bc = ", ".join(f"{k}={int(v)}" for k, v in sorted(brute_cost.items())) or "n/a"
-    modes = [m for m in ["smart", "random"] if m in df_all["search_mode"].unique()]
+    modes = [m for m in ["smart", "smart_fast", "random"] if m in df_all["search_mode"].unique()]
     modes += [m for m in sorted(df_all["search_mode"].unique()) if m not in modes]
 
     out = ["# Seeded search-mode metrics — from the results tree\n",
@@ -199,6 +199,13 @@ def render(df_all: pd.DataFrame, brute_cost: dict) -> str:
                 cells.append(f"{v:.3f}")
             else:
                 cells.append(str(v))
+        # Flag smart / smart_fast runs that missed the top-1 target
+        # (exact_match != 1): <mark> every non-empty cell so the whole row reads
+        # as highlighted.
+        if (str(r.get("search_mode")) in ("smart", "smart_fast")
+                and not pd.isna(r.get("exact_match"))
+                and int(r["exact_match"]) != 1):
+            cells = [f"<mark>{c}</mark>" if c != "" else c for c in cells]
         out.append("| " + " | ".join(cells) + " |")
     out.append("")
     return "\n".join(out) + "\n"
@@ -207,7 +214,9 @@ def render(df_all: pd.DataFrame, brute_cost: dict) -> str:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--roots", nargs="+",
-                    default=["debug_search/smart_search", "debug_search/random_search"])
+                    default=["debug_search/smart_search",
+                             "debug_search/smart_fast_search",
+                             "debug_search/random_search"])
     ap.add_argument("--brute-root", default="debug_search/brute_force_search")
     ap.add_argument("--out", default="debug_search/search_metrics_table.md")
     args = ap.parse_args()

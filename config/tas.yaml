@@ -62,9 +62,19 @@ smart_search:
   symmetric_probe: true # query both (a,b) and (b,a) per Thompson step
   budget: 100          # fallback probe budget if dataset not in budget_by_dataset below
   budget_by_dataset:   # per-dataset budget, keyed by prompts.dataset_name (wins over `budget`)
-    dusk: 100
+    dusk: 1000
     pistol_sample1: 1000
     tofu: 30000
+  phase_alloc:           # fractional budget caps per phase (of the resolved budget).
+    # Warm-up and confirm are HARD caps; Thompson gets the remainder AND absorbs
+    # any warm-up/confirm underspend, so its fraction is a floor, not a cap. This
+    # replaces the old fixed costs (warm-up = #entities, confirm = top_k*templates)
+    # that consumed nearly the whole budget and starved Thompson when budget ~
+    # #entities (the dusk-at-100 failure). Tune freely to experiment:
+    #   old single-entity behaviour ≈ warmup: 0.0, confirm: 0.0 (all Thompson).
+    warmup: 0.2          # cap on warm-up + coverage-fill spend
+    confirm: 0.1         # cap reserved for the confirm phase
+    thompson: 0.7        # informational: the intended remainder (1 - warmup - confirm)
   early_stop:
     enabled: false
     min_spent: 20        # don't even check before this many probes. 50 for pistol | 20 for dusk
@@ -75,6 +85,17 @@ smart_search:
     enabled: true        # false = old pure-Thompson ranking
     top_k: 5             # how many top candidates per (confirmed) slot to re-measure
     probes_per_candidate: 15  # equal probes each, on a fixed shared template set (capped by #templates and reserved budget//3)
+    # Exhaustive fallback for sparse-directional signals (e.g. pistol). When no
+    # slot's top posterior mean clears flat_threshold, Thompson never saw the
+    # pair, so instead of confirming its noise top-k, sweep `exhaustive_anchors`
+    # candidate anchors (ranked by largest sub-threshold refusal observed)
+    # against ALL partners in both orderings. Reserves up to budget//2; gated on
+    # flatness so it's a no-op when Thompson converges. Enable per-run for pistol
+    # via smart_search.confirm.exhaustive_if_flat=true.
+    exhaustive_if_flat: false
+    exhaustive_anchors: 3            # candidate anchors to sweep when flat
+    exhaustive_probes_per_candidate: 4  # templates per (anchor,partner,ordering) cell
+    flat_threshold: 0.5             # max slot-top posterior mean below this => flat
 
 reward_weights:
   refusal_score: 1.2

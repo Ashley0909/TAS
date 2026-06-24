@@ -57,22 +57,28 @@ from TAS.metrics import RefusalScorer
 from TAS.perturbations import EntitySwapOp
 
 
-def detect_forget_pair(dataset, forget_edges, dataset_name):
-    """The two entities that appear in the forget-edge questions."""
+def detect_forget_entities(dataset, forget_edges, dataset_name, k=2):
+    """The `k` entities that appear most in the forget-edge questions.
+
+    k=2 for pair datasets (pistol), k=1 for single-entity datasets (dusk/tofu).
+    """
     forget_qs = [d for d in dataset if d["edge"] in forget_edges]
     if not forget_qs:
         raise SystemExit(f"No questions with edge in {forget_edges}.")
     ents = get_all_entities(dataset_name, forget_qs, fast=False)
-    # Rank by frequency across the forget questions so we keep the real pair.
+    # Rank by frequency across the forget questions so we keep the real target(s).
     counter = Counter()
     for q in forget_qs:
         for e in ents:
             if e in q["question"]:
                 counter[e] += 1
-    pair = [e for e, _ in counter.most_common(2)]
-    if len(pair) < 2:
-        raise SystemExit(f"Could not find 2 forget entities; got {pair}.")
-    return pair
+    found = [e for e, _ in counter.most_common(k)]
+    if len(found) < k:
+        raise SystemExit(
+            f"Expected {k} forget entit{'y' if k == 1 else 'ies'} but found "
+            f"{found}. If this is a single-entity dataset (dusk/tofu), pass "
+            f"--num_target_entities 1.")
+    return found
 
 
 def blended_refusal(scorer, prompt_score, token_blend):
@@ -94,6 +100,10 @@ def main():
                     help="Edge id(s) marking the forget set.")
     ap.add_argument("--anchor", default=None,
                     help="Force the anchored entity (default: probe both forget entities).")
+    ap.add_argument("--num_target_entities", type=int, default=None,
+                    help="1 for single-entity datasets (dusk/tofu), 2 for pairs "
+                         "(pistol). Default: read prompts.num_target_entities from "
+                         "--config.")
     ap.add_argument("--templates", type=int, default=12,
                     help="Number of only-entity templates in the fixed probe set (<=0 = all).")
     ap.add_argument("--token_blend", type=float, default=None,
@@ -117,13 +127,18 @@ def main():
     with open(data_path) as f:
         dataset = json.load(f)
 
-    forget_pair = detect_forget_pair(dataset, set(args.forget_edge), args.dataset)
-    print(f"[probe] forget pair = {forget_pair}")
+    num_target = (args.num_target_entities if args.num_target_entities is not None
+                  else int(cfg.get("prompts", {}).get("num_target_entities", 2)))
+    if num_target not in (1, 2):
+        raise SystemExit(f"--num_target_entities must be 1 or 2, got {num_target}.")
+    forget_entities = detect_forget_entities(dataset, set(args.forget_edge),
+                                             args.dataset, k=num_target)
+    print(f"[probe] forget {'entity' if num_target == 1 else 'pair'} = {forget_entities}")
 
     retain_qs = [d for d in dataset if d["edge"] not in set(args.forget_edge)]
     candidate_entities = get_all_entities(args.dataset, retain_qs)
-    # Ensure both forget entities are sweepable partners even if filtered out of retain.
-    for e in forget_pair:
+    # Ensure the forget entit(ies) are sweepable even if filtered out of retain.
+    for e in forget_entities:
         if e not in candidate_entities:
             candidate_entities.append(e)
 
@@ -131,14 +146,11 @@ def main():
     if args.templates and args.templates > 0 and args.templates < len(templates):
         idx = rng.choice(len(templates), size=args.templates, replace=False)
         templates = [templates[i] for i in sorted(idx)]
-    print(f"[probe] fixed probe set: {len(templates)} templates x "
-          f"{len(candidate_entities)} partners x 2 orderings per anchor")
 
     model = ProbeModel(model_family=args.model_family, model_path=args.model_path, device=device)
     scorer = RefusalScorer(use_embeddings=use_embeddings)
     op = EntitySwapOp()
 
-    anchors = [args.anchor] if args.anchor else list(forget_pair)
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     rows = []
 
@@ -148,8 +160,62 @@ def main():
         blend, regex = blended_refusal(scorer, ps, token_blend)
         return blend, regex, ps.completion
 
+    # ---- Single-entity mode (dusk/tofu): no partner slot, so the question is
+    # simply "does the forget entity refuse more than the rest of the population?"
+    # Sweep every candidate over the fixed templates and compare the target's
+    # refusal to the background of all other entities. ----
+    if num_target == 1:
+        target = forget_entities[0]
+        print(f"[probe] single-entity sweep: {len(templates)} templates x "
+              f"{len(candidate_entities)} entities (target = {target!r})")
+        per_entity = defaultdict(list)
+        for entity in candidate_entities:
+            for t in templates:
+                edited = op.apply_with_entity(t, entity)
+                blend, regex, completion = probe(edited)
+                per_entity[entity].append(blend)
+                rows.append({
+                    "entity": entity, "template": t,
+                    "refusal_blended": round(blend, 4),
+                    "refusal_regex": round(regex, 4),
+                    "completion": completion[:80],
+                })
+        means = {e: float(np.mean(v)) for e, v in per_entity.items()}
+        rates = {e: float(np.mean([x >= args.refused_threshold for x in v]))
+                 for e, v in per_entity.items()}
+        ranked = sorted(means, key=lambda e: -means[e])
+        bg_vals = [means[e] for e in means if e != target]
+        bg_mean, bg_std = float(np.mean(bg_vals)), float(np.std(bg_vals))
+        tgt_mean = means.get(target, float("nan"))
+        z = (tgt_mean - bg_mean) / (bg_std + 1e-8)
+        tgt_rank = ranked.index(target) + 1 if target in ranked else -1
+        print(f"\n===== target = {target!r} =====")
+        print(f"  background refusal: mean={bg_mean:.3f} std={bg_std:.3f}  "
+              f"(over {len(bg_vals)} other entities)")
+        print(f"  target refusal: mean={tgt_mean:.3f}  rate={rates.get(target, 0):.0%}")
+        print(f"  separation: gap={tgt_mean - bg_mean:+.3f}  z={z:+.2f}  "
+              f"target rank={tgt_rank}/{len(ranked)}")
+        verdict = ("REFUSES (attackable)" if z >= 2.0 and tgt_rank == 1
+                   else "WEAK / AMBIGUOUS" if z >= 1.0
+                   else "NO REFUSAL SIGNAL (not attackable — checkpoint may not "
+                        "refuse this entity)")
+        print(f"  VERDICT: {verdict}")
+        print(f"  top-5 entities by refusal: " +
+              ", ".join(f"{e}={means[e]:.2f}" + ("*" if e == target else "")
+                        for e in ranked[:5]))
+        with open(args.out, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+            w.writeheader()
+            w.writerows(rows)
+        print(f"\n[probe] wrote {len(rows)} probes -> {args.out}")
+        return
+
+    # ---- Pair mode (pistol): anchor each forget entity, sweep partners. ----
+    print(f"[probe] fixed probe set: {len(templates)} templates x "
+          f"{len(candidate_entities)} partners x 2 orderings per anchor")
+    anchors = [args.anchor] if args.anchor else list(forget_entities)
     for anchor in anchors:
-        true_partner = next((e for e in forget_pair if e != anchor), None)
+        true_partner = next((e for e in forget_entities if e != anchor), None)
         per_partner = defaultdict(list)   # partner -> [blended refusal per probe]
         for partner in candidate_entities:
             if partner == anchor:

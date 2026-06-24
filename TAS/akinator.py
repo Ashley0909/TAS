@@ -608,6 +608,10 @@ class Akinator:
         # once before Thompson exploitation, otherwise an unprobed forget
         # target ends up "ranked" purely by its untouched Beta(1,1) prior.
         probe_count = defaultdict(int)
+        # Largest refusal score ever observed on a probe containing each entity,
+        # including sub-threshold hits the posterior update discards. Used to seed
+        # the exhaustive-confirm anchor set when posteriors stay flat.
+        obs_refusal_max = defaultdict(float)
         # Per-step snapshot of every entity's posterior mean in every slot.
         # Long format: one row per (step, slot, entity) so it plots cleanly.
         beta_mean_trace: List[Dict[str, object]] = []
@@ -632,6 +636,18 @@ class Akinator:
         # and left at its prior. Disable to restore the old budget//2 warm-up.
         full_coverage = bool(search_cfg.get("full_coverage", True))
 
+        # Fractional phase budget caps (of the resolved budget). Warm-up and
+        # confirm are HARD caps; Thompson gets the remainder and also absorbs
+        # any warm-up/confirm underspend, so its fraction is a floor not a cap.
+        # Replaces the old fixed costs (warm-up = #entities, confirm =
+        # top_k*templates) that ate nearly the whole budget and starved Thompson
+        # when budget ~ #entities (the dusk-at-100 failure). Set warmup=confirm=0
+        # to recover the old single-entity "all Thompson" behaviour.
+        alloc_cfg = search_cfg.get("phase_alloc") or {}
+        warmup_frac = float(alloc_cfg.get("warmup", 0.3))
+        confirm_frac = float(alloc_cfg.get("confirm", 0.2))
+        warmup_cap = int(round(budget * warmup_frac))
+
         # Confirmation phase: Thompson's posterior sharpens around an early
         # leader and starves alternatives, so when the refusal margin is thin
         # the ranking commits to the wrong arm. After Thompson we give the top-k
@@ -642,9 +658,39 @@ class Akinator:
         confirm_enabled = bool(confirm_cfg.get("enabled", True))
         confirm_top_k = int(confirm_cfg.get("top_k", 5))
         confirm_probes = int(confirm_cfg.get("probes_per_candidate", 15))
+        # Exhaustive fallback (off by default). When Thompson finds NO real
+        # signal — no slot's top posterior mean clears `flat_threshold`, the
+        # sparse-directional PISTOL failure mode where every posterior is still
+        # at its Beta(1,1) prior — the top-k ranking is just inverse-probe-count
+        # noise and the true partner is as likely buried as surfaced. Confirming
+        # Thompson's top-k then can't help (it never saw the pair). Instead sweep
+        # a few candidate anchors (ranked by the largest sub-threshold refusal
+        # actually observed, real signal the posterior-update threshold discards)
+        # against ALL partners in BOTH orderings, and keep the globally strongest
+        # (slot0, slot1) cell — scripts/refusal_neighborhood_probe in miniature.
+        # Gated on flatness so datasets where Thompson converges are untouched.
+        confirm_exhaustive = bool(confirm_cfg.get("exhaustive_if_flat", False))
+        confirm_ex_anchors = int(confirm_cfg.get("exhaustive_anchors", 3))
+        confirm_ex_probes = int(confirm_cfg.get("exhaustive_probes_per_candidate", 4))
+        confirm_flat_threshold = float(confirm_cfg.get("flat_threshold", 0.5))
         # Reserve budget so Thompson can't spend everything before confirmation.
         _confirm_m0 = min(confirm_probes, len(templates_list)) if templates_list else 0
-        confirm_reserve = min(confirm_top_k * _confirm_m0, budget // 3) if confirm_enabled else 0
+        _confirm_ex_m0 = min(confirm_ex_probes, len(templates_list)) if templates_list else 0
+        if not confirm_enabled:
+            confirm_reserve = 0
+        elif confirm_exhaustive and num == 2:
+            # Room for the worst case: anchors x (#partners) x templates x 2
+            # orderings, capped at budget//2 so exploration isn't fully starved.
+            _ex_need = confirm_ex_anchors * max(0, len(entities_list) - 1) * _confirm_ex_m0 * 2
+            confirm_reserve = min(max(confirm_top_k * _confirm_m0, _ex_need), budget // 2)
+        else:
+            confirm_reserve = min(confirm_top_k * _confirm_m0,
+                                  int(round(budget * confirm_frac)))
+        print(f"[run_smart_search] budget={budget} phase caps: "
+              f"warm-up<={warmup_cap} ({warmup_frac:.0%}), "
+              f"confirm_reserve={confirm_reserve} ({confirm_frac:.0%}), "
+              f"thompson>={max(0, budget - warmup_cap - confirm_reserve)}.",
+              flush=True)
 
         # Early stopping: when the top-1 entity in every slot has separated
         # from the runner-up by at least gap_threshold (and accumulated at
@@ -667,6 +713,8 @@ class Akinator:
             history.append((t, ents, y))
             for e in ents:
                 probe_count[e] += 1
+                if y > obs_refusal_max[e]:
+                    obs_refusal_max[e] = y
             step = len(history)
             for slot_idx, slot in enumerate(ent_slot):
                 for e, beta in slot.items():
@@ -707,7 +755,7 @@ class Akinator:
         if num == 2 and warmup_per_pair > 0:
             ordered_pairs = [(a, b) for a in entities_list for b in entities_list if a != b]
             rng.shuffle(ordered_pairs)
-            warm_cap = min(len(ordered_pairs) * warmup_per_pair, budget // 2)
+            warm_cap = min(len(ordered_pairs) * warmup_per_pair, warmup_cap)
             for i in range(warm_cap):
                 a, b = ordered_pairs[i % len(ordered_pairs)]
                 t = templates_list[int(rng.integers(len(templates_list)))]
@@ -718,11 +766,11 @@ class Akinator:
         elif num == 1 and warmup_per_pair > 0:
             shuffled_entities = list(entities_list)
             rng.shuffle(shuffled_entities)
-            # With full_coverage, let warm-up use the whole budget if needed so
-            # one full pass (i % len cycles through every entity) is guaranteed;
-            # otherwise keep the old budget//2 reservation for exploitation.
-            warm_budget = budget if full_coverage else budget // 2
-            warm_cap = min(len(shuffled_entities) * warmup_per_pair, warm_budget)
+            # Warm-up spend is bounded by the warm-up fractional cap
+            # (phase_alloc.warmup) so it can't consume the whole small budget and
+            # starve Thompson — the dusk-at-100 failure. full_coverage still
+            # controls whether the coverage-fill pass below runs (also capped).
+            warm_cap = min(len(shuffled_entities) * warmup_per_pair, warmup_cap)
             for i in range(warm_cap):
                 e = shuffled_entities[i % len(shuffled_entities)]
                 t = self.choose_template(temp_beta, rng)
@@ -740,7 +788,7 @@ class Akinator:
         if full_coverage:
             uncovered = [e for e in entities_list if probe_count[e] == 0]
             for e in uncovered:
-                if spent >= budget:
+                if spent >= warmup_cap:
                     break
                 if num == 1:
                     ents = [e]
@@ -757,8 +805,9 @@ class Akinator:
             msg = (f"[run_smart_search] coverage: {covered}/{len(entities_list)} "
                    f"entities probed after warm-up (spent={spent}).")
             if still:
-                msg += (f" WARNING: {still} never probed — budget too small for "
-                        f"full coverage.")
+                msg += (f" WARNING: {still} never probed — warm-up cap "
+                        f"({warmup_cap}) too small for full coverage; raise "
+                        f"phase_alloc.warmup or the budget.")
             print(msg, flush=True)
 
         # Phase 1 — Thompson sampling. With symmetric=True we probe both
@@ -803,7 +852,90 @@ class Akinator:
         confirm_slot = None
         confirm_anchor = None
         anchor_slot = None
-        if confirm_enabled and spent < budget:
+        exhaustive_pair = None
+
+        # Flat = Thompson/warm-up never found a real, repeated refusal: no slot's
+        # top posterior mean clears the threshold (pure noise sits near 1/(1+b);
+        # an occasional spurious refusal can't push a mean past ~0.5). Then the
+        # top-k ranking is inverse-probe-count noise, so confirming it is useless.
+        slot_top_mean = max((max(b.mean() for b in slot.values()) for slot in ent_slot),
+                            default=0.0)
+        use_exhaustive = (confirm_enabled and confirm_exhaustive and num == 2
+                          and spent < budget and slot_top_mean < confirm_flat_threshold)
+
+        if use_exhaustive:
+            # Anchor set: entities with the largest sub-threshold refusal seen
+            # during search (real signal the update threshold threw away), ties
+            # broken by slot-0 posterior order so we still pick *something* when
+            # nothing ever refused. Sweep each anchor against ALL partners in
+            # BOTH orderings on a shared template set; keep the strongest cell.
+            base0 = sorted(self.candidate_entities,
+                           key=lambda e: self._beta_score(ent_slot[0][e]), reverse=True)
+            base_pos = {e: i for i, e in enumerate(base0)}
+            anchors = sorted(entities_list,
+                             key=lambda e: (obs_refusal_max[e], -base_pos[e]),
+                             reverse=True)[:max(1, confirm_ex_anchors)]
+            fixed_templates = list(templates_list)
+            rng.shuffle(fixed_templates)
+            fixed_templates = fixed_templates[:_confirm_ex_m0]
+            best = None  # (score, slot0_ent, slot1_ent)
+            n_cells = 0
+            # Per-slot best refusal each entity reaches during the sweep, so the
+            # result can be reflected back into ent_slot*.csv (see below).
+            sweep_score = [defaultdict(lambda: (0.0, 0)) for _ in range(num)]
+            for anchor in anchors:
+                if spent >= budget:
+                    break
+                for partner in entities_list:
+                    if partner == anchor:
+                        continue
+                    if spent >= budget:
+                        break
+                    for s0, s1 in ((anchor, partner), (partner, anchor)):
+                        if spent >= budget:
+                            break
+                        vals = []
+                        for t in fixed_templates:
+                            if spent >= budget:
+                                break
+                            vals.append(_probe(t, [s0, s1], update=False))
+                            spent += 1
+                        if vals:
+                            sc = float(np.mean(vals))
+                            n_cells += 1
+                            for si, ent in ((0, s0), (1, s1)):
+                                prev, cnt = sweep_score[si][ent]
+                                sweep_score[si][ent] = (max(prev, sc), cnt + 1)
+                            if best is None or sc > best[0]:
+                                best = (sc, s0, s1)
+            # Only trust the sweep if its strongest cell is a REAL refusal, not
+            # the ~1e-8 token-blend noise floor (refusal scores are never exactly
+            # 0, so a `> 0.0` guard would always fire and let noise override a
+            # correct Thompson ranking — the DPO/llama3/pistol failure). Require
+            # the best cell to clear the same flat bar used to trigger the sweep.
+            if best is not None and best[0] >= confirm_flat_threshold:
+                # Reflect the sweep in the dumped posteriors. ent_slot*.csv reads
+                # each arm's .mean(); the sweep used update=False so the Beta
+                # priors are still flat (a=1) even though we DID find the pair.
+                # Swap each swept entity's arm for a _RankArm carrying its best
+                # sweep refusal so the CSV (and ranked_slots tail) reflect it.
+                # Done only on accept so a rejected (flat) sweep leaves Thompson's
+                # posteriors intact.
+                for si in range(num):
+                    for e, (score, cnt) in sweep_score[si].items():
+                        ent_slot[si][e] = _RankArm(score=score, count=cnt)
+                exhaustive_pair = (best[1], best[2])
+                print(f"[smart_search] confirm(exhaustive): swept {len(anchors)} "
+                      f"anchors x partners x{len(fixed_templates)} templates "
+                      f"({n_cells} cells), best pair=({best[1]!r}, {best[2]!r}) "
+                      f"score={best[0]:.3f} (spent={spent}).", flush=True)
+            else:
+                _bs = best[0] if best is not None else 0.0
+                print(f"[smart_search] confirm(exhaustive): no real refusal cell "
+                      f"(best={_bs:.3f} < flat_threshold={confirm_flat_threshold}, "
+                      f"{n_cells} cells, spent={spent}); keeping Thompson order.",
+                      flush=True)
+        elif confirm_enabled and spent < budget:
             if num == 2:
                 # Anchor on the MORE SEPARATED slot's top-1 (largest top1-top2
                 # gap), then confirm the other, ambiguous slot's top-k partners
@@ -880,7 +1012,12 @@ class Akinator:
         ranked_slots = []
         for si, slot in enumerate(ent_slot):
             base = sorted(self.candidate_entities, key=lambda e: self._beta_score(slot[e]), reverse=True)
-            if confirm_slot is not None and si == confirm_slot and confirm_scores:
+            if exhaustive_pair is not None:
+                # Exhaustive confirm found the strongest (slot0, slot1) cell
+                # directly: float its entity to the top of each slot.
+                lead = exhaustive_pair[si]
+                ranked_slots.append([lead] + [e for e in base if e != lead])
+            elif confirm_slot is not None and si == confirm_slot and confirm_scores:
                 # equal-probe confirmation overrides the poisoned posterior order
                 # for the top-k it re-measured; everyone else keeps Beta order.
                 confirmed = sorted(confirm_scores, key=lambda e: confirm_scores[e], reverse=True)
@@ -897,7 +1034,8 @@ class Akinator:
             "cannot_metrics": entity_cannot_scan,
             "entity_stats": entity_stats,
             "beta_mean_trace": beta_mean_trace,
-            "confirm": {"slot": confirm_slot, "anchor": confirm_anchor, "scores": confirm_scores},
+            "confirm": {"slot": confirm_slot, "anchor": confirm_anchor,
+                        "scores": confirm_scores, "exhaustive_pair": exhaustive_pair},
         }
 
     def _run_baseline(self, pair_template_iter, label: str):

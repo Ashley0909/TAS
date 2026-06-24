@@ -102,6 +102,8 @@ def build_runs(modes=None, datasets=None, unlearnings=None, models=None, seeds=N
                                 f"smart_search.warmup_per_pair={dc['warmup_per_pair']}",
                                 f"smart_search.cosample_prob={dc.get('cosample_prob', 0.0)}",
                             ]
+                            if dc.get("confirm_exhaustive"):
+                                ov.append("smart_search.confirm.exhaustive_if_flat=true")
                         if mc["early_stop"]:
                             ov.append("smart_search.early_stop.enabled=true")
                         runs.append(" ".join(ov))
