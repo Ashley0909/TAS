@@ -5,3 +5,5 @@ outputs/
 output_logs/
 plans&notebooks/
 debug_search/
+*.out
+scripts/__pycache__/

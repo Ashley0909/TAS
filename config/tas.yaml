@@ -64,7 +64,7 @@ smart_search:
   budget_by_dataset:   # per-dataset budget, keyed by prompts.dataset_name (wins over `budget`)
     dusk: 1000
     pistol_sample1: 1000
-    tofu: 30000
+    tofu: 5000 #30000
   phase_alloc:           # fractional budget caps per phase (of the resolved budget).
     # Warm-up and confirm are HARD caps; Thompson gets the remainder AND absorbs
     # any warm-up/confirm underspend, so its fraction is a floor, not a cap. This

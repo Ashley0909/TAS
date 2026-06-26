@@ -82,7 +82,10 @@ def build_runs(modes=None, datasets=None, unlearnings=None, models=None, seeds=N
             dc = DATASET_CFG[ds]
             for unl in unlearnings:
                 for model in models:
-                    mp = model_path(unl, ds, model)
+                    try:
+                        mp = model_path(unl, ds, model)
+                    except (KeyError, ValueError):
+                        continue  # no checkpoint for this (unl, ds, model) — e.g. LUNAR×tofu
                     for seed in seeds:
                         out = f"debug_search/{mc['root']}/seed{seed}/{unl}/{ds}/{model}"
                         ov = [
@@ -94,7 +97,7 @@ def build_runs(modes=None, datasets=None, unlearnings=None, models=None, seeds=N
                             f"prompts.dataset_name={dc['dataset_name']}",
                             f"prompts.num_target_entities={dc['num_target_entities']}",
                             f"prompts.forget_edge={dc['forget_edge']}",
-                            f"refusal.use_embeddings={dc['use_embeddings']}",
+                            f"refusal.use_embeddings={dc.get('use_embeddings', 'false')}",
                             "save_csvs=true",
                         ]
                         if mc["smart"]:

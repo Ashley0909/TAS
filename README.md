@@ -1,8 +1,10 @@
 # What was Forgotten? Black-Box Discovery of Hidden Forget Targets in Unlearned LLMs (TAS)
 
-**TAS** is builts on top of [LUNAR](https://neurips.cc/virtual/2025/loc/san-diego/poster/115574), which performs LLM Unlearning via Neural Activation Redirection. TAS is the first to explore forgotten prompts from black-box unlearned models, which completes the full LLM unlearned data extraction attack.
+<img src="research_gap.png" alt="Alt text" width="50%">
 
-![Alt text](research_gap.png)
+## Welcome!
+
+**TAS** is builts on top of [LUNAR](https://neurips.cc/virtual/2025/loc/san-diego/poster/115574), which performs LLM Unlearning via Neural Activation Redirection. TAS is the first to explore forgotten prompts from black-box unlearned models, which completes the full LLM unlearned data extraction attack.
 
 
 ## 🚀 Quickstart -- Create environment
@@ -22,7 +24,6 @@
 
 > We recommend **PyTorch ≥ 2.2** with GPU acceleration. For CUDA wheels, follow the official PyTorch guide.
 
----
 
 ## 📚 Datasets
 
@@ -36,8 +37,6 @@ Place your unlearning datasets under:
         ...
 
 Make sure the JSON schema matches what `src/dataset_utils.py` expects.
-
----
 
 ## ▶️ Run Targeted Active Search (TAS)
 
@@ -71,45 +70,53 @@ The main code structure is in `TAS`:
 │   ├── rl_explorer.py
 │   └── run.py
 ```
----
 
 ## 🔧 Prerequisite: Fine-tune and unlearning before attack
 
 Unlearning assumes you start from a **task-adapted checkpoint**. In other words, you should **fine-tune your base LLM on the target dataset first**, and then **run the unlearning pipeline** on that fine-tuned model before carrying out the attack.
 
-### 1) Fine-tune the model
+### 1) Finetuning
 We recommend using the PISTOL repo for reproducible fine-tuning and data prep:
 
-- Repo: https://github.com/bill-shen-BS/PISTOL
+- Repo: https://github.com/Ashley0909/TAS-PISTOL
 - Output: a fine-tuned model directory (e.g., `.../models_finetune/<dataset>/<model_family>`)
 
-> You can fine-tune any supported base model (e.g., Llama-3, Qwen, Gemma) on your dataset of interest (e.g., TOFU / PISTOL / custom). Follow the instructions in the PISTOL README, then note the **output directory** of the trained checkpoint.
-◊
-### 2) Point this repo to your fine-tuned checkpoint to unlearn via LUNAR
-`run_lunar.py` is used to unlearn fine-tuned models via LUNAR. Update your `config/forget.yaml` (or CLI overrides) so that `model_path` points to the **fine-tuned** directory:
+This repository is an extension of https://github.com/bill-shen-BS/PISTOL which we used to finetune models on more extended datasets.
 
-```yaml
-# config/forget.yaml
-model_family: llama3-8b-instruct
-# base_model_path is optional/documentational; the real weights come from model_path:
-model_path: /path/to/models_finetune/<dataset>/<model_family>
-```
+> You can fine-tune any supported base model (e.g., Llama-3, Qwen, Gemma) on your dataset of interest (e.g., TOFU / PISTOL / custom). Change the model family, dataset, and their paths in `config.yaml`, then run
 
-and run:
+    sbatch run_finetune.sh
+
+### 2) Unlearning
+
+#### DPO and NPO Unlearning
+We implemented two baselines in `TAS-PISTOL` for comparison.
+
+Because each baseline and dataset have different configurations, We put all of the configs in the .sh file, so just need to uncomment the desired command to run. However, you still need to change the dataset name on `config.yaml` before running:
+
+    sbatch run_unlearn.sh
+
+Ran files will be in:
+
+- `models_forget/${model_family}_AB/...` for pistol_sample1 dataset;
+- `models_forget/${model_family}_DUSK/...` for dusk dataset;
+
+#### LUNAR Unlearning
+LUNAR implementation is in this repository, developed by Bill and his team. Update your `config/forget.yaml` including modelfamily, dataset, their paths, and forget edge before running:
 
     python run_lunar.py num_epochs=5 lr=5e-3 save_unlearned_model=false
+or
 
-**Suggested `config/forget.yaml` highlights**
-- `model_family`, `model_path`, `base_model_path`
-- `data_name`, `forget_edge: ["A_B"]`, `edge_tag: A_B`
-- `layer_modified: [22]`, `coeff_list: [2.0]`, `positions: -1`
-- `num_epochs`, `lr`, `batch_size`, `num_workers`, `seed`
-- `save_unlearned_model`, `save_unlearned_model_path`
-- `save_path` for evaluation logs
+    sbatch run_unlearn.sh
 
-We implemented DPO and NPO in PISTOL repository, but the implementation should be straightforward.
+Resulting files are in:
 
-### 3) Attack unlearned model 
-Update your `config/forget.yaml` to the correct model path and model family and run:
+- `unlearn_results/completion/lunar/${model_family}/model`
+
+## Now, to run TAS 
+Make sure to update `config/forget.yaml` to point to the correct model path and model family and run:
 
     python run_attack.py
+or
+
+    sbatch run_tas.sh

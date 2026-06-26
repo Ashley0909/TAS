@@ -25,7 +25,7 @@ LUNAR = "/nfs-share/ahta3/workspace/LUNAR/unlearn_results/completions/lunar"
 
 MODELS = ["llama2-7b-chat", "llama3-8b-instruct", "gemma-7b-it"]
 UNLEARNINGS = ["LUNAR", "NPO", "DPO"]
-DATASETS = ["dusk", "pistol"]
+DATASETS = ["dusk", "pistol", "tofu"]
 SIGNALS = ["refusal", "entropy", "combined"]
 
 # Per-dataset search settings (mirrors the comments in config/tas.yaml).
@@ -50,6 +50,13 @@ DATASET_CFG = {
         # (single-entity) doesn't need it.
         "confirm_exhaustive": True,
     },
+    "tofu": {
+        "dataset_name": "tofu",
+        "num_target_entities": 1,
+        "forget_edge": "['author_1_personal']",
+        "warmup_per_pair": 10,
+        "use_embeddings": "true",
+    },
 }
 # NOTE: budget is intentionally NOT set here. run_attack.py resolves it from
 # config/tas.yaml `smart_search.budget_by_dataset[dataset_name]`, so the budget
@@ -61,10 +68,21 @@ DATASET_CFG = {
 def model_path(unl, ds, model):
     if unl == "LUNAR":
         ds_folder = "dusk" if ds == "dusk" else "pistol_sample1"
+        if ds == "tofu":
+            ds_folder = "tofu_full"
+            # No LUNAR tofu checkpoint exists (only NPO/DPO were trained for
+            # tofu). build_runs skips this combo; raise so it's never used.
+            # raise ValueError("No LUNAR checkpoint for tofu; tofu is NPO/DPO only.")
         return f"{LUNAR}/{model}/{ds_folder}/model"
     if ds == "dusk":
         method = unl.lower()  # dpo | npo
         return f"{PISTOL}/{model}_forget_DUSK/{method}_20epochs_LoRA32_lr5e-05"
+    if ds == "tofu":
+        # NPO/DPO tofu: {method}_{ep}epochs_LoRA32_lr5e-05 (both methods share the
+        # same epoch count per model: 40 for llama2, 20 for llama3/gemma).
+        method = unl.lower()  # dpo | npo
+        ep = {"llama2-7b-chat": 40, "llama3-8b-instruct": 20, "gemma-7b-it": 20}[model]
+        return f"{PISTOL}/{model}_forget_TOFU/{method}_{ep}epochs_LoRA32_lr5e-05"
     # pistol DPO/NPO — explicit (epochs/LoRA differ per model)
     return {
         ("DPO", "llama2-7b-chat"): f"{PISTOL}/llama2-7b-chat_forget_AB/dpo_40epochs_LoRA32_lr5e-05",
@@ -86,7 +104,10 @@ def build_runs(datasets=None, unlearnings=None, models=None, signals=None):
         dc = DATASET_CFG[ds]
         for unl in unlearnings:
             for model in models:
-                mp = model_path(unl, ds, model)
+                try:
+                    mp = model_path(unl, ds, model)
+                except (KeyError, ValueError):
+                    continue  # no checkpoint for this (unl, ds, model) — e.g. LUNAR×tofu
                 for signal in signals:
                     out = f"debug_search/entropy_exp/{signal}/{unl}/{ds}/{model}"
                     ov = [
@@ -100,7 +121,7 @@ def build_runs(datasets=None, unlearnings=None, models=None, signals=None):
                         f"prompts.dataset_name={dc['dataset_name']}",
                         f"prompts.num_target_entities={dc['num_target_entities']}",
                         f"prompts.forget_edge={dc['forget_edge']}",
-                        f"refusal.use_embeddings={dc['use_embeddings']}",
+                        f"refusal.use_embeddings={dc.get('use_embeddings', 'false')}",
                         "save_csvs=true",
                     ]
                     runs.append(" ".join(ov))

@@ -7,7 +7,7 @@
 #SBATCH --tasks-per-node=1
 #SBATCH --output=%x-%j.out
 #SBATCH --time=11:59:00
-#SBATCH --array=0
+#SBATCH --array=0-2
 
 #
 # TAS search experiment — one structured grid over five search modes:
@@ -18,16 +18,16 @@
 #
 # To size the array, count the cells your filters select:
 #   python scripts/tas_experiment_runs.py --modes smart --datasets pistol \
-#       --unlearnings NPO,DPO --count
+#       --unlearnings NPO,DPO --models llama2-7b-chat --count
 # then set #SBATCH --array=0-<count-1> above (defaults below select 18 cells).
 #
 # After tasks finish, aggregate with scripts/eval_summary_table.py (reads
 # eval_summary.csv produced by eval_pipeline.ipynb).
 
 # Config rule: Can use comma to separate values (e.g. NPO,DPO to run both).
-: "${EXP_MODES:=smart_fast}"                 # random / brute / smart / smart_fast / greedy / blank = all 5
-: "${EXP_DATASETS:=pistol}"             # pistol / dusk / blank = both
-: "${EXP_UNLEARNINGS:=DPO}"             # NPO / DPO / LUNAR / blank = all
+: "${EXP_MODES:=smart}"                 # random / brute / smart / smart_fast / greedy / blank = all 5
+: "${EXP_DATASETS:=tofu}"             # pistol / dusk / tofu / blank = both
+: "${EXP_UNLEARNINGS:=LUNAR}"             # NPO / DPO / LUNAR / blank = all
 : "${EXP_MODELS:=llama3-8b-instruct}"       # llama2-7b-chat / llama3-8b-instruct / gemma-7b-it / blank = all
 : "${EXP_SEEDS:=}"                      # 0 / 1 / 2 / blank = all (brute is deterministic: use 0)
 
@@ -47,8 +47,8 @@ GEN_ARGS=""
 
 mapfile -t RUNS < <(python scripts/tas_experiment_runs.py $GEN_ARGS)
 
-# echo "Task ${SLURM_ARRAY_TASK_ID}/${#RUNS[@]}: ${RUNS[$SLURM_ARRAY_TASK_ID]}"
-# srun python -u -m run_attack --config config/tas.yaml ${RUNS[$SLURM_ARRAY_TASK_ID]}
+echo "Task ${SLURM_ARRAY_TASK_ID}/${#RUNS[@]}: ${RUNS[$SLURM_ARRAY_TASK_ID]}"
+srun python -u -m run_attack --config config/tas.yaml ${RUNS[$SLURM_ARRAY_TASK_ID]}
 
 # Greedy baseline: regenerate the aggregate metrics table.
 # Array tasks finish out of order, so we rebuild after every greedy task from
@@ -64,14 +64,14 @@ fi
 # (final flushes) won't be captured — fine for inspecting logs alongside results.
 DEST=$(grep -oP 'output_dir=\K[^ ]+' <<<"${RUNS[$SLURM_ARRAY_TASK_ID]}")
 OUT_FILE="${SLURM_JOB_NAME}-${SLURM_JOB_ID}.out"
-# if [ -n "$DEST" ] && [ -f "$OUT_FILE" ]; then
-#     mkdir -p "$DEST"
-#     cp "$OUT_FILE" "$DEST/"
-#     echo "Copied $OUT_FILE -> $DEST/"
-# fi
+if [ -n "$DEST" ] && [ -f "$OUT_FILE" ]; then
+    mkdir -p "$DEST"
+    cp "$OUT_FILE" "$DEST/"
+    echo "Copied $OUT_FILE -> $DEST/"
+fi
 
 # Refresh grand table
-srun python scripts/search_metrics_table.py
+# srun python scripts/search_metrics_table.py
 
 # Check unlearning model quality
 # srun python scripts/refusal_neighborhood_probe.py \

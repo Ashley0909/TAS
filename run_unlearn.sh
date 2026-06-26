@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH -c 8
-#SBATCH -p ampere
+#SBATCH -p hopper
+#SBATCH -w ruapehu
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=test_unl
 #SBATCH --tasks-per-node=1

@@ -225,6 +225,9 @@ def discover_runs(root: Path):
 # ---------------------------------------------------------------------------
 HEAD_BASE = ["Exact ↑", "MRR ↑", "Prompt recall ↑", "Prompt precision ↑",
              "Queries ↓", "Cost (%) ↓", "Hit rate ↑", "First hit ↓"]
+# Columns for the faithful per-run dump (mirrors scripts/search_metrics_table.py).
+RAW_COLS = ["method", "dataset", "model", "seed",
+            "exact_match", "mrr", "recall", "precision", "queries", "first_hit"]
 
 
 def _agg(sub: pd.DataFrame) -> dict:
@@ -311,6 +314,30 @@ def render(df: pd.DataFrame, mode_label: str) -> str:
     for ds, sub in df.groupby("dataset"):
         a = _agg(sub)
         out.append("| " + " | ".join([ds, mode_label] + [a[h] for h in HEAD_BASE]) + " |")
+    out.append("")
+
+    # ---- Faithful per-run dump (mirrors scripts/search_metrics_table.py) ----
+    out.append("## Raw rows (faithful dump of every scored run)\n")
+    out.append(f"All {len(df)} runs (search mode = {mode_label}), key columns "
+               "(`first_hit` blank ⇒ target never probed). Rows whose "
+               "`exact_match` ≠ 1 are highlighted.\n")
+    cols = [c for c in RAW_COLS if c in df.columns]
+    out.append("| " + " | ".join(cols) + " |")
+    out.append("|" + "|".join("---" for _ in cols) + "|")
+    dump = df.sort_values(["dataset", "model", "method", "seed"])
+    for _, r in dump.iterrows():
+        cells = []
+        for c in cols:
+            v = r[c]
+            if c == "first_hit":
+                cells.append("" if pd.isna(v) else f"{int(v)}")
+            elif c in ("queries", "exact_match"):
+                cells.append(f"{int(v)}")
+            elif isinstance(v, float):
+                cells.append(f"{v:.3f}")
+            else:
+                cells.append(str(v))
+        out.append("| " + " | ".join(cells) + " |")
     out.append("")
     return "\n".join(out) + "\n"
 
