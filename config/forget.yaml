@@ -1,8 +1,8 @@
 # -----------------------------
 # Model
 # -----------------------------
-model_family: gemma-7b-it # llama3-8b-instruct | llama2-7b-chat | gemma-7b-it
-base_model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/tofu/gemma-7b-it # llama2-7b-chat | llama3-8b-instruct | gemma-7b-it
+model_family: llama3-8b-instruct # llama3-8b-instruct | llama2-7b-chat | gemma-7b-it
+base_model_path: /nfs-share/ahta3/workspace/PISTOL/models_finetune/tofu/llama3-8b-instruct # llama2-7b-chat | llama3-8b-instruct | gemma-7b-it
 
 # (You can need to switch the finetuned model.)
 model_path: ${base_model_path}
@@ -17,8 +17,8 @@ different_retain_set_path: dataset/unlearning/factual_data.json # this is the pa
 # -----------------------------
 # Unlearning knobs
 # -----------------------------
-layer_modified: [22] # need to be list # [22] for llama2 | [16] for llama3 | [18] for gemma
-coeff_list: [+2.0] # need to be list
+layer_modified: [16] # [22] for llama2 | [16] for llama3 and gemma
+coeff_list: [+4.0]
 use_harmful: true
 use_unverified: false
 num_epochs: 20

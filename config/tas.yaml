@@ -3,6 +3,20 @@ device: auto
 output_dir: debug_search/
 save_csvs: true
 
+# Live Beta-posterior trajectory streaming to Weights & Biases. Off by default;
+# when enabled, run_smart_search logs the per-slot top-k posterior summary
+# (top1/top2 ranking score, the gap between them, and the top-1 mean) at every
+# probe, so the convergence is visible live. Requires `pip install wandb` and
+# a logged-in account (`wandb login`); if wandb is missing it is skipped.
+wandb:
+  enabled: true
+  project: tas
+  entity: null        # wandb team/user; null = your default
+  run_name: null      # null = wandb auto-name
+  group: null         # optional run group, e.g. by dataset
+  log_every: 1        # log the trajectory every Nth probe
+  top_k: 3            # report the top-k ranked entities per slot
+
 unlearned_model:
   model_family: llama3-8b-instruct # llama2-7b-chat | llama3-8b-instruct | gemma-7b-it
   # model_path: unlearn_results/completions/lunar/gemma-7b-it/pistol_sample1/model                                    # LUNAR: pistol_sample1/ or tofu_full/

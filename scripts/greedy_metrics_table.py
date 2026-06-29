@@ -22,9 +22,10 @@ Columns (matching the paper's table):
   * Prompt recall    = |discovered ∩ forget| / |forget prompts|.
   * Prompt precision = |discovered ∩ forget| / |discovered prompts|.
   * Queries          = number of model queries (len of search history).
-  * Cost (%)         = queries / budget(dataset) * 100, where budget(dataset)
-                       is the per-dataset search budget (dusk=100, pistol=1000,
-                       tofu=30000) from config/tas.yaml smart_search.budget_by_dataset.
+  * Cost (%)         = queries / brute_cost(dataset) * 100, where brute_cost is
+                       the brute-force full-enumeration cost (dusk=1988,
+                       pistol=18216, tofu=656958) so brute = 100% and figures are
+                       comparable to search_metrics_table.
   * First hit        = query index at which the true target was first probed,
                        averaged over runs that located it (count shown as k/n).
 
@@ -51,9 +52,11 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 ROOT = Path(__file__).resolve().parents[1]
 REFUSAL_THRESHOLD = 0.5      # cliff.refusal_threshold from config/tas.yaml
-# Per-dataset search budget (config/tas.yaml smart_search.budget_by_dataset),
-# used as the denominator for Cost (%).
-BUDGET_BY_DATASET = {"dusk": 100, "pistol": 1000, "tofu": 30000}
+# Brute-force full-enumeration cost per dataset, used as the denominator for
+# Cost (%) so brute = 100% and figures are comparable to search_metrics_table.
+# dusk/pistol come from their brute_force_search trees; TOFU's brute run is too
+# expensive to enumerate, so we use its theoretical cost (|entities|×|templates|).
+BUDGET_BY_DATASET = {"dusk": 1988, "pistol": 18216, "tofu": 656958}
 # A (dataset, model) cell is "Finished" once all 9 runs are present:
 # 3 unlearning methods (LUNAR/NPO/DPO) × 3 seeds.
 EXPECTED_RUNS_PER_MODEL = 9
@@ -267,8 +270,8 @@ def render(df: pd.DataFrame, mode_label: str) -> str:
            f"Search mode = **{mode_label}**. Averages taken over the unlearning "
            f"method (NPO/DPO/LUNAR) and seeds. Metric definitions match "
            f"`eval_pipeline.ipynb` (smart-search eval), so figures are directly "
-           f"comparable. Cost (%) = queries / per-dataset budget × 100 "
-           f"({', '.join(f'{k}={v}' for k, v in BUDGET_BY_DATASET.items() if k != 'tofu')}). "
+           f"comparable. Cost (%) = queries / brute-force enumeration cost × 100 "
+           f"(brute = 100%; {', '.join(f'{k}={v}' for k, v in BUDGET_BY_DATASET.items())}). "
            f"Hit rate = fraction of runs that ever probe the true target "
            f"(coverage; k/n shown). First hit ↓ = mean query index of the first "
            f"target probe, **budget-censored**: runs that never find the target "

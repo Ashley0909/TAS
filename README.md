@@ -1,6 +1,6 @@
 # What was Forgotten? Black-Box Discovery of Hidden Forget Targets in Unlearned LLMs (TAS)
 
-<img src="research_gap.png" alt="Alt text" width="50%">
+<img src="research_gap.png" alt="Alt text" width="70%">
 
 ## Welcome!
 

@@ -17,8 +17,7 @@
 # Results land in debug_search/<mode_root>/seed<S>/<unl>/<dataset>/<model>/.
 #
 # To size the array, count the cells your filters select:
-#   python scripts/tas_experiment_runs.py --modes smart --datasets pistol \
-#       --unlearnings NPO,DPO --models llama2-7b-chat --count
+#   python scripts/tas_experiment_runs.py --modes smart --datasets pistol --unlearnings NPO,DPO --models llama2-7b-chat --count
 # then set #SBATCH --array=0-<count-1> above (defaults below select 18 cells).
 #
 # After tasks finish, aggregate with scripts/eval_summary_table.py (reads
@@ -26,8 +25,8 @@
 
 # Config rule: Can use comma to separate values (e.g. NPO,DPO to run both).
 : "${EXP_MODES:=smart}"                 # random / brute / smart / smart_fast / greedy / blank = all 5
-: "${EXP_DATASETS:=tofu}"             # pistol / dusk / tofu / blank = both
-: "${EXP_UNLEARNINGS:=LUNAR}"             # NPO / DPO / LUNAR / blank = all
+: "${EXP_DATASETS:=tofu}"               # pistol / dusk / tofu / blank = both
+: "${EXP_UNLEARNINGS:=NPO}"             # NPO / DPO / LUNAR / blank = all
 : "${EXP_MODELS:=llama3-8b-instruct}"       # llama2-7b-chat / llama3-8b-instruct / gemma-7b-it / blank = all
 : "${EXP_SEEDS:=}"                      # 0 / 1 / 2 / blank = all (brute is deterministic: use 0)
 
@@ -71,7 +70,7 @@ if [ -n "$DEST" ] && [ -f "$OUT_FILE" ]; then
 fi
 
 # Refresh grand table
-# srun python scripts/search_metrics_table.py
+srun python scripts/search_metrics_table.py
 
 # Check unlearning model quality
 # srun python scripts/refusal_neighborhood_probe.py \

@@ -18,7 +18,9 @@ Search mode = **greedy**. Averages taken over the unlearning method (NPO/DPO/LUN
 | pistol | gemma-7b-it | greedy | 0.333 | 0.743 | 0.301 | 0.192 | 1000 | 100.0 | 0.889 (8/9) | 193.9 (1c) | Yes |
 | pistol | llama2-7b-chat | greedy | 0.111 | 0.718 | 0.105 | 0.094 | 1000 | 100.0 | 0.889 (8/9) | 206.1 (1c) | Yes |
 | pistol | llama3-8b-instruct | greedy | 0.444 | 0.692 | 0.333 | 0.323 | 1000 | 100.0 | 0.778 (7/9) | 355.2 (2c) | Yes |
+| tofu | gemma-7b-it | greedy | 0.333 | 0.392 | 0.095 | 0.000 | 5000 | 16.7 | 1.000 (3/3) | 122.0 | No |
 | tofu | llama2-7b-chat | greedy | 0.333 | 0.344 | 0.095 | 0.000 | 5000 | 16.7 | 1.000 (3/3) | 71.7 | No |
+| tofu | llama3-8b-instruct | greedy | 0.333 | 0.403 | 0.095 | 0.000 | 5000 | 16.7 | 1.000 (3/3) | 95.3 | No |
 
 ## Averaged over all models
 
@@ -26,11 +28,11 @@ Search mode = **greedy**. Averages taken over the unlearning method (NPO/DPO/LUN
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|
 | dusk | greedy | 0.407 | 0.561 | 0.343 | 0.331 | 1000 | 1000.0 | 1.000 (27/27) | 56.3 |
 | pistol | greedy | 0.296 | 0.718 | 0.246 | 0.203 | 1000 | 100.0 | 0.852 (23/27) | 251.7 (4c) |
-| tofu | greedy | 0.333 | 0.344 | 0.095 | 0.000 | 5000 | 16.7 | 1.000 (3/3) | 71.7 |
+| tofu | greedy | 0.333 | 0.380 | 0.095 | 0.000 | 5000 | 16.7 | 1.000 (9/9) | 96.3 |
 
 ## Raw rows (faithful dump of every scored run)
 
-All 57 runs (search mode = greedy), key columns (`first_hit` blank ⇒ target never probed). Rows whose `exact_match` ≠ 1 are highlighted.
+All 63 runs (search mode = greedy), key columns (`first_hit` blank ⇒ target never probed). Rows whose `exact_match` ≠ 1 are highlighted.
 
 | method | dataset | model | seed | exact_match | mrr | recall | precision | queries | first_hit |
 |---|---|---|---|---|---|---|---|---|---|
@@ -88,7 +90,13 @@ All 57 runs (search mode = greedy), key columns (`first_hit` blank ⇒ target ne
 | NPO | pistol | llama3-8b-instruct | seed0 | 0 | 0.600 | 0.000 | 0.000 | 1000 | 45 |
 | NPO | pistol | llama3-8b-instruct | seed1 | 0 | 0.536 | 0.000 | 0.000 | 1000 |  |
 | NPO | pistol | llama3-8b-instruct | seed2 | 0 | 0.267 | 0.000 | 0.000 | 1000 | 42 |
+| LUNAR | tofu | gemma-7b-it | seed0 | 0 | 0.167 | 0.000 | 0.000 | 5000 | 96 |
+| LUNAR | tofu | gemma-7b-it | seed1 | 0 | 0.008 | 0.000 | 0.000 | 5000 | 200 |
+| LUNAR | tofu | gemma-7b-it | seed2 | 1 | 1.000 | 0.286 | 0.001 | 5000 | 70 |
 | LUNAR | tofu | llama2-7b-chat | seed0 | 0 | 0.006 | 0.000 | 0.000 | 5000 | 19 |
 | LUNAR | tofu | llama2-7b-chat | seed1 | 0 | 0.027 | 0.000 | 0.000 | 5000 | 11 |
 | LUNAR | tofu | llama2-7b-chat | seed2 | 1 | 1.000 | 0.286 | 0.001 | 5000 | 185 |
+| LUNAR | tofu | llama3-8b-instruct | seed0 | 0 | 0.167 | 0.000 | 0.000 | 5000 | 22 |
+| LUNAR | tofu | llama3-8b-instruct | seed1 | 1 | 1.000 | 0.286 | 0.001 | 5000 | 201 |
+| LUNAR | tofu | llama3-8b-instruct | seed2 | 0 | 0.042 | 0.000 | 0.000 | 5000 | 63 |
 

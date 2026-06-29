@@ -6,4 +6,5 @@ output_logs/
 plans&notebooks/
 debug_search/
 *.out
-scripts/__pycache__/
+scripts/__pycache__/wandb/
+wandb/

@@ -586,13 +586,102 @@ class Akinator:
         
     def get_number_of_entities(self):
         return self.num_target_entities
-        
+
+    def _init_wandb(self, budget):
+        """Optionally start a Weights & Biases run for the live Beta-posterior
+        trajectory. Controlled by cfg['wandb'] (enabled: false by default). The
+        soft import keeps runs where wandb is uninstalled, or logging disabled,
+        completely unaffected — _log_trajectory/_finish_wandb become no-ops."""
+        self._wandb = None
+        self._wandb_run = None
+        wb_cfg = self.cfg.get("wandb", {}) or {}
+        if not bool(wb_cfg.get("enabled", False)):
+            return
+        try:
+            import wandb
+        except ImportError:
+            print("[wandb] enabled in config but wandb is not installed "
+                  "(`pip install wandb`); skipping live logging.", flush=True)
+            return
+        ds_name = (self.cfg.get("prompts", {}) or {}).get("dataset_name", "")
+        run = wandb.init(
+            project=wb_cfg.get("project", "lunar-tas"),
+            entity=wb_cfg.get("entity") or None,
+            name=wb_cfg.get("run_name") or None,
+            group=wb_cfg.get("group") or None,
+            config={
+                "dataset_name": ds_name,
+                "budget": budget,
+                "search_mode": str(self.cfg.get("search_mode", "smart")),
+                "signal": self._signal,
+                "num_target_entities": self.num_target_entities,
+            },
+            reinit=True,
+        )
+        self._wandb = wandb
+        self._wandb_run = run
+        # Log the trajectory every Nth probe (1 = every probe) and report the
+        # top-k ranked entities per slot.
+        self._wandb_log_every = max(1, int(wb_cfg.get("log_every", 1)))
+        self._wandb_top_k = max(2, int(wb_cfg.get("top_k", 3)))
+        print(f"[wandb] live trajectory -> {run.url}", flush=True)
+
+    @staticmethod
+    def _wandb_key(name):
+        """Sanitize an entity name for use as a wandb metric key: '/' starts a
+        new panel section in wandb, so collapse it (and other separators) to '_'
+        keeping the name itself readable as the chart-line label."""
+        return re.sub(r"[/\s]+", "_", str(name))
+
+    def _log_trajectory(self, step, ent_slot):
+        """Stream the per-slot top-k Beta posterior summary at probe `step`.
+        No-op unless a wandb run is active and `step` is on the log cadence.
+        Ranks by _beta_score (the same value the final ranking and early-stop
+        use) so the live gap matches the convergence the search acts on.
+
+        Two families of series per slot:
+          * slot{i}/top1_score, top2_score, gap, top1_mean — stable aggregate
+            convergence lines (always present, don't change identity).
+          * slot{i}/ent/<entity-name> — one line PER top-k entity, keyed by its
+            real name so the wandb legend shows which entity each line is. Only
+            the current top-k are logged each step, so the chart stays to ~k
+            named lines (a line gaps out when its entity drops out of the top-k).
+        The current leader's name per slot also goes to the run summary."""
+        if self._wandb is None or step % self._wandb_log_every != 0:
+            return
+        log = {"probes_spent": step}
+        summary = {}
+        for slot_idx, slot in enumerate(ent_slot):
+            ranked = sorted(self.candidate_entities,
+                            key=lambda e: self._beta_score(slot[e]), reverse=True)
+            topk = ranked[:self._wandb_top_k]
+            top1 = topk[0]
+            top2 = topk[1] if len(topk) > 1 else None
+            s1 = self._beta_score(slot[top1])
+            s2 = self._beta_score(slot[top2]) if top2 else 0.0
+            log[f"slot{slot_idx}/top1_score"] = s1
+            log[f"slot{slot_idx}/top2_score"] = s2
+            log[f"slot{slot_idx}/gap"] = s1 - s2
+            log[f"slot{slot_idx}/top1_mean"] = slot[top1].mean()
+            # Name-keyed lines so the legend carries the entity names.
+            for e in topk:
+                log[f"slot{slot_idx}/ent/{self._wandb_key(e)}"] = self._beta_score(slot[e])
+            summary[f"slot{slot_idx}/top1_entity"] = top1
+        self._wandb.log(log, step=step)
+        self._wandb_run.summary.update(summary)
+
+    def _finish_wandb(self):
+        if getattr(self, "_wandb", None) is not None:
+            self._wandb.finish()
+            self._wandb = None
+
     def run_smart_search(self, budget=1000, seed=0):
         rng = np.random.default_rng(seed)
 
         num = self.get_number_of_entities()
 
         ent_slot, temp_beta = self.init_betas(num)
+        self._init_wandb(budget)
 
         history = []
         entity_cannot_scan = []
@@ -727,6 +816,7 @@ class Akinator:
                         "b": beta.b,
                         "probed": int(e in ents),
                     })
+            self._log_trajectory(step, ent_slot)
             entity_cannot_scan.append({
                 "entity": ents,
                 "retain_question": t,
@@ -1026,6 +1116,7 @@ class Akinator:
             else:
                 ranked_slots.append(base)
 
+        self._finish_wandb()
         return {
             "history": history,
             "ent_slots": ent_slot,

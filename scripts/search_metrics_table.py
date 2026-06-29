@@ -22,6 +22,8 @@ Columns:
   * Cost (%) = queries / brute-force enumeration cost(dataset) × 100, taken from
     the brute_force_search tree (dusk≈1988, pistol≈18216) so figures line up
     with eval_summary_table.md (brute = 100%). Pass --brute-root to relocate.
+    TOFU's brute run is too expensive to enumerate, so its cost falls back to
+    the theoretical THEORETICAL_BRUTE_COST (tofu=656958).
   * First hit ↓ = mean query index of the first true-target probe, censored at
     each run's own query count for misses; `(Nc)` flags censored runs.
 
@@ -49,13 +51,32 @@ HEAD_BASE = ["Exact ↑", "MRR ↑", "Prompt recall ↑", "Prompt precision ↑"
              "Queries ↓", "Cost (%) ↓", "Hit rate ↑", "First hit ↓"]
 RAW_COLS = ["search_mode", "method", "dataset", "model", "seed",
             "exact_match", "mrr", "recall", "precision", "queries", "first_hit"]
-# How many runs make a (dataset, model) cell complete: 3 methods × 3 seeds.
+# How many runs make a (dataset, model) cell complete. Seeded modes run
+# 3 methods × 3 seeds; brute force is single-seed (3 methods × 1 seed).
 EXPECTED_RUNS_PER_MODEL = 9
+EXPECTED_RUNS_BRUTE = 3
+
+# Theoretical full-enumeration cost for datasets whose brute_force_search was
+# never run (too expensive). Used as a fallback denominator for Cost (%) when
+# the brute tree has no entry for the dataset. TOFU = |entities| × |templates|.
+THEORETICAL_BRUTE_COST = {"tofu": 656958}
 
 
 def mode_label(root: Path) -> str:
-    """debug_search/smart_search -> 'smart', random_search -> 'random'."""
+    """debug_search/smart_search -> 'smart', random_search -> 'random',
+    brute_force_search -> 'brute_force'."""
     return root.name.replace("_search", "")
+
+
+def expected_runs(mode: str) -> int:
+    """Per (dataset, model) run count that marks a cell 'Finished'."""
+    return EXPECTED_RUNS_BRUTE if mode == "brute_force" else EXPECTED_RUNS_PER_MODEL
+
+
+def discover_any(root: Path) -> pd.DataFrame:
+    """Seeded trees (seed<S>/...) via greedy's discover_runs; the flat,
+    single-seed brute tree (<method>/<dataset>/<model>/) via _discover_flat."""
+    return g.discover_runs(root) if _is_seeded(root) else _discover_flat(root)
 
 
 def brute_cost_by_dataset(brute_root: Path) -> dict:
@@ -132,15 +153,19 @@ def _table(rows_iter, lead_cols, lead_seps, extra_cols=None, extra_seps=None):
 
 def render(df_all: pd.DataFrame, brute_cost: dict) -> str:
     bc = ", ".join(f"{k}={int(v)}" for k, v in sorted(brute_cost.items())) or "n/a"
-    modes = [m for m in ["smart", "smart_fast", "random"] if m in df_all["search_mode"].unique()]
+    modes = [m for m in ["smart", "smart_fast", "random", "brute_force"]
+             if m in df_all["search_mode"].unique()]
     modes += [m for m in sorted(df_all["search_mode"].unique()) if m not in modes]
 
     out = ["# Seeded search-mode metrics — from the results tree\n",
-           "Scored directly off the seeded `smart_search` / `random_search` "
-           "trees (`seed<S>/<method>/<dataset>/<model>/`) with the **same metric "
+           "Scored directly off the seeded `smart_search` / `smart_fast_search` / "
+           "`random_search` trees (`seed<S>/<method>/<dataset>/<model>/`) and the "
+           "single-seed `brute_force_search` tree "
+           "(`<method>/<dataset>/<model>/`) with the **same metric "
            "definitions as the greedy report** (`scripts/greedy_metrics_table.py`, "
            "matching `eval_pipeline.ipynb`). Aggregated tables average over the "
-           "unlearning method (NPO/DPO/LUNAR) and seeds 0/1/2.\n",
+           "unlearning method (NPO/DPO/LUNAR) and seeds 0/1/2; brute force is "
+           "exhaustive so it is run once per (method, dataset, model).\n",
            "## Metric definitions\n",
            "- **Exact ↑** — fraction of runs whose **rank-1** predicted entity "
            "tuple exactly equals the ground-truth forget target (all-or-nothing "
@@ -167,8 +192,9 @@ def render(df_all: pd.DataFrame, brute_cost: dict) -> str:
             continue
         out.append(f"## {mode}\n")
         out.append("### Per model\n")
+        exp = expected_runs(mode)
         rows = (([ds, model, mode], _agg(grp, brute_cost),
-                 ["Yes" if len(grp) >= EXPECTED_RUNS_PER_MODEL else "No"])
+                 ["Yes" if len(grp) >= exp else "No"])
                 for (ds, model), grp in sub.groupby(["dataset", "model"]))
         out += _table(rows, ["Dataset", "Model", "Search mode"],
                       ["---", "---", "---"], ["Finished"], ["--:"])
@@ -224,13 +250,16 @@ def main():
     # Build the forget-prompt sets the greedy scorer expects.
     g.FORGET_SETS = {n: g.load_dataset_split(n) for n in g.DATASET_FILES}
 
+    # Present every seeded root plus the (single-seed) brute tree as its own
+    # mode; the brute tree doubles as the cost denominator below.
+    roots = list(dict.fromkeys(args.roots + [args.brute_root]))
     frames = []
-    for root_str in args.roots:
+    for root_str in roots:
         root = Path(root_str)
         if not root.exists():
             print(f"[skip] {root} not found")
             continue
-        df = g.discover_runs(root)
+        df = discover_any(root)
         if df.empty:
             print(f"[skip] no runs under {root}")
             continue
@@ -241,6 +270,9 @@ def main():
 
     df_all = pd.concat(frames, ignore_index=True)
     brute_cost = brute_cost_by_dataset(Path(args.brute_root))
+    # Fall back to the theoretical enumeration cost for datasets with no brute run.
+    for ds, c in THEORETICAL_BRUTE_COST.items():
+        brute_cost.setdefault(ds, float(c))
 
     md = render(df_all, brute_cost)
     Path(args.out).write_text(md)

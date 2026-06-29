@@ -54,8 +54,8 @@ DATASET_CFG = {
         "dataset_name": "tofu",
         "num_target_entities": 1,
         "forget_edge": "['author_1_personal']",
-        "warmup_per_pair": 10,
-        "use_embeddings": "true",
+        "warmup_per_pair": 1,
+        "use_embeddings": "false",
     },
 }
 # NOTE: budget is intentionally NOT set here. run_attack.py resolves it from
@@ -69,7 +69,7 @@ def model_path(unl, ds, model):
     if unl == "LUNAR":
         ds_folder = "dusk" if ds == "dusk" else "pistol_sample1"
         if ds == "tofu":
-            ds_folder = "tofu_full"
+            ds_folder = "tofu"
             # No LUNAR tofu checkpoint exists (only NPO/DPO were trained for
             # tofu). build_runs skips this combo; raise so it's never used.
             # raise ValueError("No LUNAR checkpoint for tofu; tofu is NPO/DPO only.")
